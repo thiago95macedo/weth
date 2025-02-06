@@ -1,12 +1,11 @@
-# Security Policy
+# Política de Segurança
 
-## Supported Versions
+## Versões Suportadas
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 14.0    | :white_check_mark: |
+| Versão | Suportada         |
+| ------ | ----------------- |
+| 14.0   | :white_check_mark:|
 
-## Reporting a Vulnerability
+## Reportando uma Vulnerabilidade
 
-
-## Important note
+## Nota Importante
