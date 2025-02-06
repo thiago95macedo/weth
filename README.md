@@ -1,8 +1,8 @@
-# Weth
+# WETH
 
-Weth é um conjunto de aplicativos empresariais baseados na web e de código aberto.
+WETH é um conjunto de aplicativos empresariais baseados na web e de código aberto.
 
-## Principais Aplicativos do Weth
+## Principais Aplicativos do WETH
 
 - **CRM**
 - **Criador de Sites**
@@ -15,7 +15,7 @@ Weth é um conjunto de aplicativos empresariais baseados na web e de código abe
 - **Marketing**
 - **Manufatura**
 
-Os aplicativos do Weth podem ser usados de forma independente, mas também se integram perfeitamente, oferecendo um ERP completo de código aberto quando você instala vários aplicativos.
+Os aplicativos do WETH podem ser usados de forma independente, mas também se integram perfeitamente, oferecendo um ERP completo.
 
 
-[Weth Sistems](https://www.odoo.com)
+[WETH Systems](https://www.weth.com.br)
