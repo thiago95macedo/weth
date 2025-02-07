@@ -1,0 +1,15 @@
+[Unit]
+Description= - Weth Server (v25.0)
+Requires=postgresql.service
+After=network.target postgresql.service
+ 
+[Service]
+Type=simple
+SyslogIdentifier=weth
+PermissionsStartOnly=true
+User=weth
+ExecStart=/home/weth/venv/bin/python3 /home/weth/weth-server/weth-bin -c /home/weth/weth-server/weth-server.conf
+StandardOutput=journal+console
+ 
+[Install]
+WantedBy=multi-user.target
