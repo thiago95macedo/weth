@@ -4,7 +4,7 @@
 
 | Versão | Suportada         |
 | ------ | ----------------- |
-| 14.0   | :white_check_mark:|
+| 25.0   | :white_check_mark:|
 
 ## Reportando uma Vulnerabilidade
 
