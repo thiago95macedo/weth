@@ -1,3 +1,4 @@
+### core ###
 Babel==2.9.1
 chardet==3.0.4
 decorator==4.3.0
@@ -28,12 +29,32 @@ pytz
 pyusb==1.0.2
 qrcode==6.1
 reportlab==3.5.55
-requests==2.25.1
+requests==2.28.2
 urllib3==1.26.5
-zeep==3.2.0
+zeep==4.2.1
 python-stdnum==1.8
 vobject==0.9.6.1
 Werkzeug==2.0.2
 XlsxWriter==1.1.2
 xlwt==1.3.*
 xlrd==1.2.0
+### l10n-brasil ###
+brazilcep
+brazilfiscalreport
+email-validator
+erpbrasil.assinatura>=1.7.0
+erpbrasil.base>=2.3.0
+erpbrasil.edoc.pdf
+erpbrasil.edoc>=2.5.2
+erpbrasil.transmissao>=1.1.0
+nfelib<=2.0.7
+nfselib.barueri
+nfselib.ginfes
+nfselib.paulistana
+num2words
+phonenumbers
+pyyaml
+satcomum
+unidecode
+workalendar
+

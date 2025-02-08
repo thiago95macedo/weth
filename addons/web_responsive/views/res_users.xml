@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Modifica a view para adicionar o campo 'chatter_position' após o campo 'email' -->
+    <record id="view_users_form_simple_modif" model="ir.ui.view">
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form_simple_modif"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='email']" position="after">
+                <field name="chatter_position" readonly="0"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Modifica a view para adicionar o campo 'chatter_position' após o campo 'action_id' -->
+    <record id="view_users_form_chatter_pos" model="ir.ui.view">
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='action_id']" position="after">
+                <field name="chatter_position" readonly="0"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
