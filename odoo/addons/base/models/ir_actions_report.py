@@ -21,7 +21,7 @@ import json
 
 from lxml import etree
 from contextlib import closing
-from distutils.version import LooseVersion
+from packaging.version import parse as parse_version
 from PyPDF2 import PdfFileWriter, PdfFileReader, utils
 from collections import OrderedDict
 from collections.abc import Iterable
@@ -70,14 +70,13 @@ else:
     match = re.search(b'([0-9.]+)', out)
     if match:
         version = match.group(0).decode('ascii')
-        if LooseVersion(version) < LooseVersion('0.12.0'):
+        if parse_version(version) < parse_version('0.12.0'):  # Substitui LooseVersion
             _logger.info('Upgrade Wkhtmltopdf to (at least) 0.12.0')
             wkhtmltopdf_state = 'upgrade'
         else:
             wkhtmltopdf_state = 'ok'
-        if LooseVersion(version) >= LooseVersion('0.12.2'):
+        if parse_version(version) >= parse_version('0.12.2'):  # Substitui LooseVersion
             wkhtmltopdf_dpi_zoom_ratio = True
-
         if config['workers'] == 1:
             _logger.info('You need to start Odoo with at least two workers to print a pdf version of the reports.')
             wkhtmltopdf_state = 'workers'
