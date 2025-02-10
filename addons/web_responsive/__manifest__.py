@@ -3,12 +3,10 @@
     "summary": "Responsive web client, community-supported",
     "version": "14.0.1.2.2",
     "category": "Website",
-    "author": "LasLabs, Tecnativa, Odoo Community Association (OCA)",
     "license": "LGPL-3",
     "installable": True,
+    "auto_install": True,
     "depends": ["web", "mail"],
-    "development_status": "Production/Stable",
-    "maintainers": ["Yajo", "Tardo"],
     "data": ["views/assets.xml", "views/res_users.xml", "views/web.xml"],
     "qweb": [
         "static/src/xml/apps.xml",
