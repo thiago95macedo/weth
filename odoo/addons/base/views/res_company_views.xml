@@ -30,7 +30,7 @@
                                     </div>
                                     <field name="phone" class="o_force_ltr"/>
                                     <field name="email"/>
-                                    <field name="website" string="Website" widget="url" placeholder="e.g. https://www.odoo.com"/>
+                                    <field name="website" string="Website" widget="url" placeholder="e.g. https://www.weth.com.br"/>
                                 </group>
                                 <group>
                                     <field name="vat"/>

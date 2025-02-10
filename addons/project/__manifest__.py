@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.1',
-    'website': 'https://www.odoo.com/page/project-management',
+    'website': 'https://www.weth.com.br/page/project-management',
     'category': 'Services/Project',
     'sequence': 45,
     'summary': 'Organize and plan your projects',

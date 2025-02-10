@@ -407,7 +407,7 @@ msgstr ""
 msgid ""
 "Create a beautiful and professional eCommerce on your website with Odoo. \n"
 "\n"
-"Find out more at https://www.odoo.com/page/e-commerce"
+"Find out more at https://www.weth.com.br/page/e-commerce"
 msgstr ""
 
 #. module: website_slides
@@ -1144,7 +1144,7 @@ msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with "
 "Odoo Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.weth.com.br/page/sign"
 msgstr ""
 
 #. module: website_slides

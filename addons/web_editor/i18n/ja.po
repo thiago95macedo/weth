@@ -2415,14 +2415,14 @@ msgstr "除外"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.weth.com.br/logo.png"
+msgstr "https://www.weth.com.br/logo.png"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #, python-format
-msgid "https://www.odoo.com/mydocument"
+msgid "https://www.weth.com.br/mydocument"
 msgstr ""
 
 #. module: web_editor

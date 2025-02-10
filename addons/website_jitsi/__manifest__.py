@@ -7,7 +7,7 @@
     'category': 'Hidden',
     'version': '1.0',
     "summary": "Create Jitsi room on website.",
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     "description": "Create Jitsi room on website.",
     "depends": [
         "website"

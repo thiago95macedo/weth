@@ -279,7 +279,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.weth.com.br?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Odoo</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -3291,8 +3291,8 @@ msgstr "例.製品の価格つけ"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
-msgstr "例. https://www.odoo.com"
+msgid "e.g. https://www.weth.com.br"
+msgstr "例. https://www.weth.com.br"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_count

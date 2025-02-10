@@ -7,7 +7,7 @@
     'description': "",
     'version': '2.2',
     'sequence': 60,
-    'website': 'https://www.odoo.com/page/mailing',
+    'website': 'https://www.weth.com.br/page/mailing',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'contacts',

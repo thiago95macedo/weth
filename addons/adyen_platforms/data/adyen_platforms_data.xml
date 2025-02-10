@@ -8,7 +8,7 @@
 
         <record model="ir.config_parameter" id="adyen_platforms_onboarding_url">
             <field name="key">adyen_platforms.onboarding_url</field>
-            <field name="value">https://www.odoo.com/odoo_adyen/</field>
+            <field name="value">https://www.weth.com.br/odoo_adyen/</field>
         </record>
 
         <record id="adyen_sync_cron" model="ir.cron">

@@ -25,7 +25,7 @@ class TestMassMailCommon(MassMailCommon, TestMailCommon):
             'subject': 'MailingSubject',
             'preview': 'Hi ${object.name} :)',
             'body_html': """<div><p>Hello ${object.name}</p>,
-% set url = "www.odoo.com"
+% set url = "www.weth.com.br"
 % set httpurl = "https://www.odoo.eu"
 <span>Website0: <a id="url0" href="https://www.odoo.tz/my/${object.name}">https://www.odoo.tz/my/${object.name}</a></span>
 <span>Website1: <a id="url1" href="https://www.odoo.be">https://www.odoo.be</a></span>

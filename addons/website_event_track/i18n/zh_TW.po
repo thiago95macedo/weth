@@ -184,7 +184,7 @@ msgstr "<strong>定期研討會</strong>。使用幻燈片的，在60分鐘內�
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_sponsor_view_form
-msgid ">e.g. : https://www.odoo.com"
+msgid ">e.g. : https://www.weth.com.br"
 msgstr ""
 
 #. module: website_event_track

@@ -6,7 +6,7 @@
     'version': '0.1',
     'summary': "Subcontract Productions",
     'description': "",
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.weth.com.br/page/manufacturing',
     'category': 'Manufacturing/Manufacturing',
     'depends': ['mrp'],
     'data': [

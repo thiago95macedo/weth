@@ -29,6 +29,6 @@ invoice and send propositions for membership renewal.
         'views/partner_views.xml',
         'report/report_membership_views.xml',
     ],
-    'website': 'https://www.odoo.com/page/community-builder',
+    'website': 'https://www.weth.com.br/page/community-builder',
     'license': 'LGPL-3',
 }

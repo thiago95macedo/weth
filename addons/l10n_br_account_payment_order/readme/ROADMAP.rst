@@ -4,7 +4,7 @@
 
 * Mapear e incluir os códigos dos bancos de cada CNAB 240 / 400, aqui devido a quantidade de possibilidades se trata de um "roadmap" constante onde contamos com PRs de outros Contribuidores que irão implementar um caso que ainda não esteja cadastrado e assim aumentar o banco de conhecimento, apesar do código permitir que o cadastro seja feito na tela nesses casos.
 
-* Processo de "Antecipação do Título junto ao Banco" ou "Venda do Título junto a Factoring" ver as alterações feitas na v14 https://www.odoo.com/pt_BR/forum/ajuda-1/v14-change-in-payment-behavior-how-do-the-suspense-and-outstanding-payment-accounts-change-the-journal-entries-posted-177592 .
+* Processo de "Antecipação do Título junto ao Banco" ou "Venda do Título junto a Factoring" ver as alterações feitas na v14 https://www.weth.com.br/pt_BR/forum/ajuda-1/v14-change-in-payment-behavior-how-do-the-suspense-and-outstanding-payment-accounts-change-the-journal-entries-posted-177592 .
 
 * CNAB de Pagamento, verificar a integração com o PR https://github.com/OCA/l10n-brazil/pull/972 e a possibilidade de multiplos modos de pagamento na mesma Ordem de Pagamento https://github.com/odoo-brazil/l10n-brazil/pull/112
 

@@ -7,7 +7,7 @@
     'category': 'Marketing/Events',
     'sequence': 140,
     'summary': 'Publish events, sell tickets',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': "",
     'depends': [
         'event',

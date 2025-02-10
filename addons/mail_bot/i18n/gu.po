@@ -98,7 +98,7 @@ msgstr ""
 #, python-format
 msgid ""
 "I'm just a bot... :( You can check <a "
-"href=\"https://www.odoo.com/page/docs\">our documentation</a>) for more "
+"href=\"https://www.weth.com.br/page/docs\">our documentation</a>) for more "
 "information!"
 msgstr ""
 

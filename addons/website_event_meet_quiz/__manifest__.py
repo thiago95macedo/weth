@@ -8,7 +8,7 @@
     'sequence': 1007,
     'version': '1.0',
     'summary': 'Quiz and Meet on community route',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': "",
     'depends': [
         'website_event_meet',

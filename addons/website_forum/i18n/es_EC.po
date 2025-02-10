@@ -3167,8 +3167,8 @@ msgstr "publicación duplicada"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.odoo.com"
-msgstr "ej. https://www.odoo.com"
+msgid "e.g. https://www.weth.com.br"
+msgstr "ej. https://www.weth.com.br"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.faq

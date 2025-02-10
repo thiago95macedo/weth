@@ -37,7 +37,7 @@ class MockLinkTracker(common.BaseCase):
 
         self.assertLinkShortenedHtml(
             message.body,
-            ('url0', 'http://www.odoo.com',  True),
+            ('url0', 'http://www.weth.com.br',  True),
             {'utm_campaign': self.utm_c.name, 'utm_medium': self.utm_m.name}
         )
         """
@@ -57,7 +57,7 @@ class MockLinkTracker(common.BaseCase):
 
         self.assertLinkShortenedText(
             message.body,
-            ('http://www.odoo.com',  True),
+            ('http://www.weth.com.br',  True),
             {'utm_campaign': self.utm_c.name, 'utm_medium': self.utm_m.name}
         )
         """

@@ -340,8 +340,8 @@ msgstr "Copy text \t https://apps.twitter.com/app/new"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.view_website_config_settings
-msgid "https://www.odoo.com"
-msgstr "https://www.odoo.com"
+msgid "https://www.weth.com.br"
+msgstr "https://www.weth.com.br"
 
 #. module: website_twitter
 #: model:ir.model,name:website_twitter.model_website_config_settings

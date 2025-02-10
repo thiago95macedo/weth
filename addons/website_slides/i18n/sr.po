@@ -543,14 +543,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.weth.com.br/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover Odoo MRP: https://www.weth.com.br/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.weth.com.br/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -869,7 +869,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.weth.com.br/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -1391,7 +1391,7 @@ msgstr ""
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.weth.com.br/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1609,7 +1609,7 @@ msgstr ""
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover Odoo Inventory: https://www.weth.com.br/page/warehouse"
 msgstr ""
 
 #. module: website_slides

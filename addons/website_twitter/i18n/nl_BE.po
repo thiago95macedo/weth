@@ -341,7 +341,7 @@ msgstr ""
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.view_website_config_settings
-msgid "https://www.odoo.com"
+msgid "https://www.weth.com.br"
 msgstr ""
 
 #. module: website_twitter

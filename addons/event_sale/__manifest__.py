@@ -4,7 +4,7 @@
     'name': 'Events Sales',
     'version': '1.2',
     'category': 'Marketing/Events',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': """
 Creating registration with sales orders.
 ========================================

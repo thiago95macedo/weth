@@ -19,7 +19,7 @@ Lots of reporting on time and employee tracking are provided.
 It is completely integrated with the cost accounting module. It allows you to set
 up a management by affair.
     """,
-    'website': 'https://www.odoo.com/page/timesheet-mobile-app',
+    'website': 'https://www.weth.com.br/page/timesheet-mobile-app',
     'depends': ['hr', 'analytic', 'project', 'uom'],
     'data': [
         'security/hr_timesheet_security.xml',

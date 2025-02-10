@@ -5,7 +5,7 @@
     'name': 'Website Events CRM',
     'version': '1.0',
     'category': 'Website/Website',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': "Allow per-order lead creation mode",
     'depends': ['event_crm', 'website_event'],
     'data': [

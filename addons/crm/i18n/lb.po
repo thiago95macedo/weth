@@ -2696,7 +2696,7 @@ msgstr ""
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
-msgid "e.g. https://www.odoo.com"
+msgid "e.g. https://www.weth.com.br"
 msgstr ""
 
 #. module: crm

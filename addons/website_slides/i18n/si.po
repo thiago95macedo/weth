@@ -5346,7 +5346,7 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
+msgid "e.g. https://www.weth.com.br"
 msgstr ""
 
 #. module: website_slides

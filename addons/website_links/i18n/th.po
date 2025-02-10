@@ -357,8 +357,8 @@ msgstr "เช่น Search Engine, Website page, .."
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/contactus"
-msgstr "เช่น  https://www.odoo.com/contactus"
+msgid "e.g. https://www.weth.com.br/contactus"
+msgstr "เช่น  https://www.weth.com.br/contactus"
 
 #. module: website_links
 #. openerp-web

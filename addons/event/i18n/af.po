@@ -1981,7 +1981,7 @@ msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
-msgid "https://www.odoo.com/services/technical-training"
+msgid "https://www.weth.com.br/services/technical-training"
 msgstr ""
 
 #. module: event

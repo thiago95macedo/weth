@@ -350,8 +350,8 @@ msgstr "напр., поисковый движок, страница сайта�
 
 #. module: website_links
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/contactus"
-msgstr "например, https://www.odoo.com/contactus"
+msgid "e.g. https://www.weth.com.br/contactus"
+msgstr "например, https://www.weth.com.br/contactus"
 
 #. module: website_links
 #. openerp-web

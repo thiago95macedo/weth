@@ -8,7 +8,7 @@
     'sequence': 5,
     'summary': 'Turn emails received in your Outlook mailbox into leads and log their content as internal notes.',
     'description': "Turn emails received in your Outlook mailbox into leads and log their content as internal notes.",
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.weth.com.br/page/crm',
     'depends': [
         'web',
         'crm',

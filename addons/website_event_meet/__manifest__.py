@@ -8,7 +8,7 @@
     'sequence': 1002,
     'version': '1.0',
     'summary': 'Event: meeting and chat rooms',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': "",
     'depends': [
         'website_event',

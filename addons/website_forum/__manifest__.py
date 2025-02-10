@@ -10,7 +10,7 @@
     'description': """
 Ask questions, get answers, no distractions
         """,
-    'website': 'https://www.odoo.com/page/community-builder',
+    'website': 'https://www.weth.com.br/page/community-builder',
     'depends': [
         'auth_signup',
         'website_mail',

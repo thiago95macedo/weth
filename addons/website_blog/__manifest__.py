@@ -5,7 +5,7 @@
     'name': 'Blogs',
     'category': 'Website/Website',
     'sequence': 200,
-    'website': 'https://www.odoo.com/page/blog-engine',
+    'website': 'https://www.weth.com.br/page/blog-engine',
     'summary': 'Publish blog posts, announces, news',
     'version': '1.0',
     'description': "",

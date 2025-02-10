@@ -5518,8 +5518,8 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. https://www.odoo.com"
-msgstr "contoh https://www.odoo.com"
+msgid "e.g. https://www.weth.com.br"
+msgstr "contoh https://www.weth.com.br"
 
 #. module: website_slides
 #: model:ir.ui.menu,name:website_slides.website_slides_menu_root

@@ -15,7 +15,7 @@ answers of question and according to that survey is done. Partners are also
 sent mails with personal token for the invitation of the survey.
     """,
     'summary': 'Create surveys and analyze answers',
-    'website': 'https://www.odoo.com/page/survey',
+    'website': 'https://www.weth.com.br/page/survey',
     'depends': [
         'auth_signup',
         'http_routing',

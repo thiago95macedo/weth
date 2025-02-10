@@ -21,7 +21,7 @@ msgstr ""
 #, python-format
 msgid ""
 "<p>An unknown error occured. Please contact our <a "
-"href=\"https://www.odoo.com/help\" target=\"new\">support</a> for further "
+"href=\"https://www.weth.com.br/help\" target=\"new\">support</a> for further "
 "assistance.</p>"
 msgstr ""
 

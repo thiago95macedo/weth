@@ -239,8 +239,8 @@ msgstr ""
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_sponsor_view_form
-msgid ">e.g. : https://www.odoo.com"
-msgstr ">par ex. : https://www.odoo.com"
+msgid ">e.g. : https://www.weth.com.br"
+msgstr ">par ex. : https://www.weth.com.br"
 
 #. module: website_event_track
 #: model_terms:event.sponsor,website_description:website_event_track.event_7_sponsor_2

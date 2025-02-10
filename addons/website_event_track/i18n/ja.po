@@ -205,8 +205,8 @@ msgstr "<strong>定期的な話し合い</strong>。これらは、60分のス�
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_sponsor_view_form
-msgid ">e.g. : https://www.odoo.com"
-msgstr ">例. : https://www.odoo.com"
+msgid ">e.g. : https://www.weth.com.br"
+msgstr ">例. : https://www.weth.com.br"
 
 #. module: website_event_track
 #: model_terms:event.sponsor,website_description:website_event_track.event_7_sponsor_2

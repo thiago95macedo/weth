@@ -8,7 +8,7 @@
     'sequence': 1006,
     'version': '1.0',
     'summary': 'Support live tracks: streaming, participation, youtube',
-    'website': 'https://www.odoo.com/page/events',
+    'website': 'https://www.weth.com.br/page/events',
     'description': "",
     'depends': [
         'website_event_track',
