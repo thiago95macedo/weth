@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from datetime import timedelta
 
 from odoo.addons.stock.tests.common import TestStockCommon

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from collections import Counter
 
 from odoo.modules import get_modules, get_resource_path

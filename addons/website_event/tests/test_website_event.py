@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo.addons.website.tests.test_base_url import TestUrlCommon
 from odoo.tests import tagged
 

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from .common import KARMA, TestForumCommon
 from odoo.exceptions import UserError, AccessError
 from odoo.tools import mute_logger

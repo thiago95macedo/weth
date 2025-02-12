@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from io import StringIO
 from unittest.mock import patch
 from odoo.tests import common, tagged

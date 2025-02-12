@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo.addons.sms.tests import common as sms_common
 from odoo.addons.test_mail.tests.test_performance import BaseMailPerformance
 from odoo.tests.common import users, warmup

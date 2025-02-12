@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 import operator as py_operator
 from ast import literal_eval
 from collections import defaultdict

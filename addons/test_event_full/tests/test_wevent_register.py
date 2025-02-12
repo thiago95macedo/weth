@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo import tests
 from odoo.addons.test_event_full.tests.common import TestWEventCommon
 from odoo.tests.common import HOST

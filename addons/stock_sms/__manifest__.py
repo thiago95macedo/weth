@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 {
     'name': "Stock - SMS",
     'summary': 'Send text messages when final stock move',

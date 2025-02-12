@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 """
 Web_editor-context rendering needs to add some metadata to rendered and allow to edit fields,
 as well as render a few fields differently.

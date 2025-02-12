@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 {
     'name': "Fix register payment wizard with 'payment' module",
     'category': 'Hidden',

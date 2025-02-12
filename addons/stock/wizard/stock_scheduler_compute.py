@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 #
 # Order Point Method:
 #    - Order if the virtual stock of today is below the min of the defined order point

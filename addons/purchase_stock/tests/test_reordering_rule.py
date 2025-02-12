@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from datetime import datetime as dt
 from datetime import timedelta as td
 from freezegun import freeze_time

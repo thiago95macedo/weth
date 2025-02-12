@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 import werkzeug
 from werkzeug import urls
 from werkzeug.exceptions import NotFound, Forbidden

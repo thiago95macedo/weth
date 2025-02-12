@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 # Updating mako environement in order to be able to use slug
 try:
     from odoo.addons.mail.models.mail_render_mixin import jinja_template_env, jinja_safe_template_env

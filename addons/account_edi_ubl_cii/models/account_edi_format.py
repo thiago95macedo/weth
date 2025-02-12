@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo import models, fields, _
 from odoo.tools import str2bool
 from odoo.addons.account_edi_ubl_cii.models.account_edi_common import COUNTRY_EAS

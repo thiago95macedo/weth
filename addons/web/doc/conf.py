@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'OpenERP Web Developers Documentation'
-copyright = u'2012, OpenERP s.a.'
+copyright = u'2012, WETH Tecnologia da Informação Ltda.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -194,7 +194,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'openerp-web-doc.tex', u'OpenERP Web Developers Documentation',
-   u'OpenERP s.a.', 'manual'),
+   u'WETH Tecnologia da Informação Ltda.', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -224,7 +224,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'openerp-web-doc', u'OpenERP Web Developers Documentation',
-     [u'OpenERP s.a.'], 1)
+     [u'WETH Tecnologia da Informação Ltda.'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -238,7 +238,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'OpenERPWebDocumentation', u'OpenERP Web Developers Documentation',
-   u'OpenERP s.a.', 'OpenERPWebDocumentation', 'Developers documentation for the openerp-web project.',
+   u'WETH Tecnologia da Informação Ltda.', 'OpenERPWebDocumentation', 'Developers documentation for the openerp-web project.',
    'Miscellaneous'),
 ]
 

@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo.addons.account.controllers.portal import PortalAccount
 from odoo.http import request
 

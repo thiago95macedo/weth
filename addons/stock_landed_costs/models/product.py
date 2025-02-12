@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo import fields, models
 from odoo.addons.stock_landed_costs.models.stock_landed_cost import SPLIT_METHOD
 from odoo.exceptions import UserError

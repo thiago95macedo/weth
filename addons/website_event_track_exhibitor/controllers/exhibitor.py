@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from ast import literal_eval
 from random import randint, sample
 from werkzeug.exceptions import NotFound, Forbidden

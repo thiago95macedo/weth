@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 import odoo
 from odoo import api, fields, models, tools, SUPERUSER_ID, _
 from odoo.exceptions import MissingError, UserError, ValidationError, AccessError

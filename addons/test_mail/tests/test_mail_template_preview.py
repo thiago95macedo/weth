@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo.addons.test_mail.tests.common import TestMailCommon, TestRecipients
 from odoo.tests import tagged, users
 from odoo.tests.common import Form

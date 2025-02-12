@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from math import ceil
 from odoo import api, fields, models
 from datetime import datetime

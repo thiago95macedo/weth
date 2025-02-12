@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-
 from odoo import tools
 from odoo.addons.base.tests import test_mail_examples
 from odoo.tests import tagged
