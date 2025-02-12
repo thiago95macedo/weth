@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Questions on Events',
     'description': 'Questions on Events',

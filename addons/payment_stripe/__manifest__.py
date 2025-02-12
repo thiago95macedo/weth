@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Stripe Payment Acquirer',
     'category': 'Accounting/Payment Acquirers',

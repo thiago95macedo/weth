@@ -66,7 +66,7 @@
                             </div>
                         </div>
                     </nav>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                     <t t-if="not event.is_done">
                         <span>This room is not open right now!</span><br />
                         Join us here on the

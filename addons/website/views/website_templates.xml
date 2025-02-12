@@ -2049,7 +2049,7 @@
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher" role="status">
-                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">×</button>
+                   <button type="button" class="close" data-dismiss="alert" aria-label="Fechar">×</button>
                    <p>
                      Note: To hide this page, uncheck it from the top Customize menu.
                    </p>
@@ -2109,7 +2109,7 @@
 <template id="default_css">
     <style type="text/css">
         div#wrap div &gt; h1{
-            color: #875A7B;
+            color: #003C7D;
         }
     </style>
 </template>
@@ -2223,7 +2223,7 @@
                     <div class="modal-content">
                         <header class="modal-header">
                             <h4 class="modal-title">Reset templates</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                         </header>
                         <main class="modal-body">
                             <div class="form-group row mb0">

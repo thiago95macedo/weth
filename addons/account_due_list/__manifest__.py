@@ -1,8 +1,6 @@
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
-
 {
     "name": "Payments Due list",
-    "version": "14.0.1.2.0",
+    "version": "25.0.1.2.0",
     "category": "Generic Modules/Payment",
     "development_status": "Production/Stable",
     "author": "Odoo Community Association (OCA)",

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from lxml import objectify
 
 from odoo.addons.payment.tests.common import PaymentAcquirerCommon

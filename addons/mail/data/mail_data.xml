@@ -60,7 +60,7 @@
     <tbody><tr>
     <td valign="center">
         <table cellspacing="0" cellpadding="0" border="0"><tr>
-            <td t-if="has_button_access" style="padding: 8px 12px; border-radius: 3px; background-color: #875A7B;">
+            <td t-if="has_button_access" style="padding: 8px 12px; border-radius: 3px; background-color: #003C7D;">
                 <a t-att-href="button_access['url']" class="button-a button-a-primary"
                     style="font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400;">
                     <t t-esc="button_access['title']"/>
@@ -69,7 +69,7 @@
             <td t-if="actions">
                 <t t-foreach="actions" t-as="action">
                     |
-                    <a t-att-href="action['url']" style="color: #875A7B; text-decoration:none !important;">
+                    <a t-att-href="action['url']" style="color: #003C7D; text-decoration:none !important;">
                         <t t-esc="action['title']"/>
                     </a>
                 </t>
@@ -101,13 +101,13 @@
     Sent
     <span t-if="company.name">
     by
-    <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #875A7B;">
+    <a t-if="website_url" t-att-href="website_url" style="text-decoration:none; color: #003C7D;">
         <span t-esc="company.name"/>
     </a>
     <span t-if="not website_url" t-esc="company.name"/>
     </span>
     using
-    <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #875A7B;">Odoo</a>.
+    <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="text-decoration:none; color: #003C7D;">Odoo</a>.
 </p>
 </div>
         </template>
@@ -119,7 +119,7 @@
     <!-- HEADER -->
     <tr>
         <td align="center" style="min-width: 590px;">
-            <table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
+            <table width="590" border="0" cellpadding="0" bgcolor="#003C7D" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
                 <tr><td valign="middle">
                     <span style="font-size:20px; color:white; font-weight: bold;">
                         <t t-esc="message.record_name"/>
@@ -143,7 +143,7 @@
     <!-- FOOTER -->
     <tr>
         <td align="center" style="min-width: 590px;">
-            <table width="590" border="0" cellpadding="0" bgcolor="#875A7B" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
+            <table width="590" border="0" cellpadding="0" bgcolor="#003C7D" style="min-width: 590px; background-color: rgb(135,90,123); padding: 20px; border-collapse:separate;">
                 <tr><td valign="middle" align="left" style="color: #fff; padding-top: 10px; padding-bottom: 10px; font-size: 12px;">
                     <t t-esc="company.name"/><br/>
                     <t t-esc="company.phone"/>
@@ -221,7 +221,7 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px;">
-        Powered by <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
+        Powered by <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="color: #003C7D;">Odoo</a>
 </td></tr>
 </table>
         </template>
@@ -268,7 +268,7 @@
             <t t-raw="message.body"/>
             <div t-if="is_online and not record._context.get('proforma')" style="margin: 32px 0px 32px 0px; text-align: center;">
                 <a t-att-href="access_url"
-                    style="background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
+                    style="background-color: #003C7D; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;">
                     <t t-esc="access_name"/>
                 </a>
             </div>
@@ -306,7 +306,7 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px; padding: 8px; font-size:11px;">
-    Powered by <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Odoo</a>
+    Powered by <a target="_blank" href="https://www.weth.com.br?utm_source=db&amp;utm_medium=email" style="color: #003C7D;">Odoo</a>
 </td></tr>
 </table>
         </template>
@@ -318,7 +318,7 @@
     <span style="margin-top: 8px;">You have been assigned to the <t t-esc="model_description or 'document'"/> <t t-esc="object.display_name"/>.</span>
 </p>
 <p style="margin-top: 24px; margin-bottom: 16px;">
-    <a t-att-href="access_link" t-att-data-oe-model="object._name" t-att-data-oe-id="object.id" style="background-color:#875A7B; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px;">
+    <a t-att-href="access_link" t-att-data-oe-model="object._name" t-att-data-oe-id="object.id" style="background-color:#003C7D; padding: 10px; text-decoration: none; color: #fff; border-radius: 5px;">
             View <t t-esc="model_description or 'document'"/>
     </a>
 </p>
@@ -352,7 +352,7 @@
     to close for <span t-field="activity.date_deadline"/>.<br />
     <p style="margin: 16px 0px 16px 0px;">
         <a t-att-href="access_link" t-att-data-oe-model="activity.res_model" t-att-data-oe-id="activity.res_id"
-            style="background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
+            style="background-color:#003C7D; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;">
             View <t t-esc="model_description or 'document'"/>
         </a>
     </p>

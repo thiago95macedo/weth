@@ -6,7 +6,7 @@
                 <div class="modal-content">
                     <header class="modal-header" t-if="window_title">
                         <h3 class="modal-title"><t t-esc="window_title"/></h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                     </header>
                     <main class="modal-body">
                         <form role="form" t-att-id="id">

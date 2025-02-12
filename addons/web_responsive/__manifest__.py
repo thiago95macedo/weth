@@ -1,7 +1,7 @@
 {
     "name": "Web Responsive",
     "summary": "Responsive web client, community-supported",
-    "version": "14.0.1.2.2",
+    "version": "25.0.1.2.2",
     "category": "Website",
     "license": "LGPL-3",
     "installable": True,

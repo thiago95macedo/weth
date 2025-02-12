@@ -7,7 +7,7 @@
         <t t-set="closeButton">
             <button type="button"
                     class="close o_notification_close"
-                    data-dismiss="toast" aria-label="Close">
+                    data-dismiss="toast" aria-label="Fechar">
                 <span class="d-inline" aria-hidden="true">×</span>
             </button>
         </t>

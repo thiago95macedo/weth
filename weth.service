@@ -1,5 +1,5 @@
 [Unit]
-Description= - Weth Server (v25.0)
+Description= - WETH Server (v25.0)
 Requires=postgresql.service
 After=network.target postgresql.service
 

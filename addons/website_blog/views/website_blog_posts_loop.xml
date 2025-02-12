@@ -17,7 +17,7 @@ according to the enabled options.
 
         <div groups="website.group_website_designer" t-if="state_info and (state_info['published'] > 0 and state_info['unpublished'] > 0)">
             <div class="bg-200 py-2 mb-4 alert alert-dismissable">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">&#215;</button>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Fechar">&#215;</button>
                 <span class="mr-1">Show:</span>
                 <div class="btn-group btn-group-sm">
                     <a t-attf-class="btn #{state == 'published' and 'btn-success' or 'btn-default bg-white border'}"

@@ -1,7 +1,5 @@
 # Copyright 2020 Akretion (Renato Lima <renato.lima@akretion.com>)
 # Copyright 2020 KMEE (Luis Felipe Mileo <mileo@kmee.com.br>)
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
-
 from odoo import api, fields
 
 from odoo.addons.l10n_br_fiscal.constants.fiscal import (

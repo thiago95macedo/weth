@@ -120,7 +120,7 @@
                 <div class="modal-content">
                     <header class="modal-header">
                         <h4 class="modal-title">World Map</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                     </header>
                     <iframe t-attf-src="/google_map/?width=898&amp;height=485&amp;partner_ids=#{ google_map_partner_ids }&amp;partner_url=/partners/"
                     style="width:898px; height:485px; border:0; padding:0; margin:0;"></iframe>
@@ -274,7 +274,7 @@
                         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
                         <header class="modal-header">
                             <h4 class="modal-title">New Opportunity</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                         </header>
                         <main class="modal-body" id="new-opp-dialog">
                             <div class="form-group">
@@ -433,7 +433,7 @@
                             <input type="hidden" name="lead_id" class="assign_lead_id" t-att-value="lead.id"/>
                             <header class="modal-header">
                                 <h4 class="modal-title">Lead Feedback</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                             </header>
                             <main class="modal-body" id="sign-dialog">
                                 <div class="form-group">
@@ -462,7 +462,7 @@
                             <input type="hidden" name="lead_id" class="assign_lead_id" t-att-value="lead.id"/>
                             <header class="modal-header">
                                 <h4 class="modal-title">Lead Feedback</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                             </header>
                             <main class="modal-body" id="sign-dialog">
                                 <div class="form-group">
@@ -628,7 +628,7 @@
                                         <input type="hidden" name="opportunity_id" class="opportunity_id" t-att-value="opportunity.id"/>
                                         <header class="modal-header">
                                             <h4 class="modal-title">Edit Opportunity</h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                                         </header>
                                         <main class="modal-body" id="sign-dialog">
                                             <div class="form-group">
@@ -732,7 +732,7 @@
                                         <input type="hidden" name="opportunity_id" class="opportunity_id" t-att-value="opportunity.id"/>
                                         <header class="modal-header">
                                             <h4 class="modal-title">Edit Contact</h4>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">×</button>
                                         </header>
                                         <main class="modal-body" id="sign-dialog">
                                             <t t-if="opportunity.partner_name">

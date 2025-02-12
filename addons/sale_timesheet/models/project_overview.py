@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import babel.dates
 from dateutil.relativedelta import relativedelta
 import itertools

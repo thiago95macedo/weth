@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import pprint
 import logging
 from werkzeug import urls, utils

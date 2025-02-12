@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Social Media",
 
@@ -8,7 +7,7 @@
 The purpose of this technical module is to provide a front for
 social media configuration for any other module that might need it.
     """,
-    'author': "Odoo S.A.",
+    'author': "WETH Tecnologia da Informação Ltda.",
     'category': 'Hidden',
     'version': '0.1',
     'depends': ['base'],

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import exceptions, _
 from odoo.http import Controller, request, route
 from odoo.addons.bus.models.bus import dispatch

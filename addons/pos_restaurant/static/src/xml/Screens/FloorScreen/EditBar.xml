@@ -27,7 +27,7 @@
                 <i class="fa fa-tint" role="img" aria-label="Tint" title="Tint"></i>
             </span>
             <div t-if="state.isColorPicker and props.selectedTable" class="color-picker fg-picker">
-                <div  class="close-picker" title="Close" role="img" aria-label="Close" t-on-click.stop="state.isColorPicker = false">
+                <div  class="close-picker" title="Close" role="img" aria-label="Fechar" t-on-click.stop="state.isColorPicker = false">
                     <i class="fa fa-times" />
                 </div>
                 <span class="color tl"  style="background-color:#EB6D6D" role="img" aria-label="Red" title="Red" t-on-click.stop="trigger('set-table-color', '#EB6D6D')" />
@@ -41,7 +41,7 @@
                 <span class="color br"  style="background-color:#4ED2BE" role="img" aria-label="Turquoise" title="Turquoise" t-on-click.stop="trigger('set-table-color', '#4ED2BE')" />
             </div>
             <div t-if="state.isColorPicker and !props.selectedTable" class="color-picker bg-picker">
-                <div  class="close-picker" title="Close" role="img" aria-label="Close" t-on-click.stop="state.isColorPicker = false">
+                <div  class="close-picker" title="Close" role="img" aria-label="Fechar" t-on-click.stop="state.isColorPicker = false">
                     <i class="fa fa-times" />
                 </div>
                 <span class="color tl"  style="background-color:rgb(244, 149, 149)" role="img" aria-label="Red" title="Red" t-on-click.stop="trigger('set-floor-color', 'rgb(244, 149, 149)')" />

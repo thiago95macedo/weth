@@ -1,4 +1,3 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 from odoo.tools import cloc
 from odoo.tests import TransactionCase, tagged
 

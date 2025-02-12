@@ -8,8 +8,6 @@
 # © 2016 ForgeFlow S.L. (http://www.forgeflow.com)
 # © 2018 Ozono Multimedia S.L.L.
 #        (http://www.ozonomultimedia.com)
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
-
 from odoo import api, fields, models
 
 

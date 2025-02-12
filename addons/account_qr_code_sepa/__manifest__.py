@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "account_qr_code_sepa",
 

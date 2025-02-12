@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import _, models
 from odoo.tools import float_repr
 from odoo.tests.common import Form

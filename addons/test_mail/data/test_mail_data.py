@@ -1,7 +1,7 @@
 MAIL_TEMPLATE = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -43,7 +43,7 @@ Content-Transfer-Encoding: quoted-printable
 MAIL_TEMPLATE_EXTRA_HTML = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -86,7 +86,7 @@ Content-Transfer-Encoding: quoted-printable
 
 MAIL_TEMPLATE_PLAINTEXT = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -105,7 +105,7 @@ Sylvie
 MAIL_TEMPLATE_HTML = """Return-Path: {return_path}
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -306,7 +306,7 @@ SGVsbG8gd29ybGQK
 MAIL_MULTIPART_INVALID_ENCODING = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -356,7 +356,7 @@ Q2hhdXNz77+977+9ZSBkZSBCcnV4ZWxsZXM8L2NiYzpTdHJlZXROYW1lPg0KPC9JbnZvaWNlPg0K
 MAIL_MULTIPART_OMITTED_CHARSET = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
 cc: {cc}
-Received: by mail1.openerp.com (Postfix, from userid 10002)
+Received: by mail1.weth.com.br (Postfix, from userid 10002)
     id 5DF9ABFB2A; Fri, 10 Aug 2012 16:16:39 +0200 (CEST)
 From: {email_from}
 Subject: {subject}
@@ -587,7 +587,7 @@ Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment;
  filename="original_msg.eml"
 
-Delivered-To: anon2@gmail1.openerp.com
+Delivered-To: anon2@gmail1.weth.com.br
 Received: by 10.46.1.170 with SMTP id f42csp2379722lji;
         Mon, 5 Mar 2018 01:19:23 -0800 (PST)
 X-Google-Smtp-Source: AG47ELsYTlAcblMxfnaEENQuF+MFoac5Q07wieyw0cybq/qOX4+DmayqoQILkiWT+NiTOcnr/ACO
@@ -661,7 +661,7 @@ Résultat de recherche d'images pour "dessin la princesse au petit pois"
 --
 Soup
 
-Odoo S.A.
+WETH Tecnologia da Informação Ltda.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: http://www.weth.com.br
@@ -684,7 +684,7 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCNAadd3NDM8g9w0P_-g
     <pre class="moz-signature" cols="72">--
 Soup
 
-Odoo S.A.
+WETH Tecnologia da Informação Ltda.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: <a class="moz-txt-link-freetext" href="http://www.weth.com.br">http://www.weth.com.br</a> </pre>
@@ -902,7 +902,7 @@ ication">
                       <tr>
                         <td align=3D"center" style=3D"min-width: 590px;">
                           <table width=3D"590" border=3D"0" cellpadding=3D=
-"0" bgcolor=3D"#875A7B" style=3D"min-width: 590px; background-color: rgb(13=
+"0" bgcolor=3D"#003C7D" style=3D"min-width: 590px; background-color: rgb(13=
 5,90,123); padding: 20px;">
                             <tbody><tr>
                               <td valign=3D"middle">
@@ -954,7 +954,7 @@ cida Grande&quot;, Helvetica, Verdana, Arial, sans-serif">Thank you,</p>
                       <tr>
                         <td align=3D"center" style=3D"min-width: 590px;">
                           <table width=3D"590" border=3D"0" cellpadding=3D=
-"0" bgcolor=3D"#875A7B" style=3D"min-width: 590px; background-color: rgb(13=
+"0" bgcolor=3D"#003C7D" style=3D"min-width: 590px; background-color: rgb(13=
 5,90,123); padding: 20px;">
                             <tbody><tr>
                               <td valign=3D"middle" align=3D"left" style=

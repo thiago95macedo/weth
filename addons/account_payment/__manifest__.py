@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Payment - Account',
     'category': 'Accounting/Accounting',

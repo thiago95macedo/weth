@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import logging
 
 import odoo.release
@@ -38,7 +36,7 @@ def exp_about(extended=False):
     @return string if extended is False else tuple
     """
 
-    info = _('See http://openerp.com')
+    info = _('See http://weth.com.br')
 
     if extended:
         return info, odoo.release.version

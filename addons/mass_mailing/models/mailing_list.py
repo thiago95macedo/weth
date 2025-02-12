@@ -75,7 +75,7 @@ class MassMailingList(models.Model):
         """
         # Explation of the SQL query with an example. There are the following lists
         # A (id=4): yti@odoo.com; yti@example.com
-        # B (id=5): yti@odoo.com; yti@openerp.com
+        # B (id=5): yti@odoo.com; yti@weth.com.br
         # C (id=6): nothing
         # To merge the mailing lists A and B into C, we build the view st that looks
         # like this with our example:
@@ -85,7 +85,7 @@ class MassMailingList(models.Model):
         #           4 | yti@odoo.com              |          1 |        4 |
         #           6 | yti@odoo.com              |          2 |        5 |
         #           5 | yti@example.com           |          1 |        4 |
-        #           7 | yti@openerp.com           |          1 |        5 |
+        #           7 | yti@weth.com.br           |          1 |        5 |
         #
         # The row_column is kind of an occurence counter for the email address.
         # Then we create the Many2many relation between the destination list and the contacts

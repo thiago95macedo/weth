@@ -310,7 +310,7 @@ def load_information_from_description_file(module, mod_path=None):
         # default values for descriptor
         info = {
             'application': False,
-            'author': 'Odoo S.A.',
+            'author': 'WETH Tecnologia da Informação Ltda.',
             'auto_install': False,
             'category': 'Uncategorized',
             'depends': [],

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 {
     'name': 'Transfer Payment Acquirer',
     'category': 'Accounting/Payment Acquirers',

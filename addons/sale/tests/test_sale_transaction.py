@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import tests
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.tools import mute_logger

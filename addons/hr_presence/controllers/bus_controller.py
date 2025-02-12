@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import registry, SUPERUSER_ID
 from odoo.api import Environment
 from odoo.addons.bus.controllers.main import BusController

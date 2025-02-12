@@ -1,6 +1,4 @@
 # Copyright 2019 Akretion - Renato Lima <renato.lima@akretion.com.br>
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
-
 import requests
 
 from odoo import _, api, fields, models

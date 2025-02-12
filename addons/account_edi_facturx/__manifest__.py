@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name' : 'Import/Export invoices with Factur-X',
     'version' : '1.0',

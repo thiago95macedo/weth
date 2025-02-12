@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo.addons.website_sale.controllers.main import WebsiteSale
 from odoo.tests import tagged, HttpCase
 

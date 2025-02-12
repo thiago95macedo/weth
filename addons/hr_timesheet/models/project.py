@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 import re
 from lxml import etree
 from odoo.tools.float_utils import float_compare

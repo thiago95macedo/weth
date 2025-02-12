@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import ipaddress
 
 from odoo import _, SUPERUSER_ID

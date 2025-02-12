@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from decorator import decorator
 import inspect
 import logging

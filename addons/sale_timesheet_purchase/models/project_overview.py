@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import _, models
 from odoo.addons.sale_timesheet.models.project_overview import _to_action_data
 

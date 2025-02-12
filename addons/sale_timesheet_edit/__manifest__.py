@@ -1,4 +1,3 @@
-# TODO: [XBO] merge with sale_timesheet module in master
 {
     'name': 'Sales Timesheet Edit',
     'category': 'Hidden',

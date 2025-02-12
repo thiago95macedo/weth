@@ -6036,7 +6036,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"Cliente Web da Odoo Enterprise.\n"
+"Cliente Web do WETH Enterprise.\n"
 "===========================\n"
 "\n"
 "Este módulo modifica o complemento da web para fornecer design e responsividade da Enterprise. "
@@ -7000,7 +7000,7 @@ msgstr ""
 "\n"
 "Armazenamento: fechamentos automáticos de vendas com cálculo de ambos os totais de período e acumulados (diário, mensal, anual)\n"
 "\n"
-"Acesso ao download do Certificado obrigatório de Conformidade entregue pela Odoo SA (somente para usuários da Odoo Enterprise)\n"
+"Acesso ao download do Certificado obrigatório de Conformidade entregue pela Odoo SA (somente para usuários do WETH Enterprise)\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_pos_cache
@@ -11234,7 +11234,7 @@ msgid "Allow visitors to join public mail channels"
 msgstr "Permitir que os visitantes participem de canais públicos de correio"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_odoo_referral
+#: model:ir.module.module,summary:base.module_weth_referral
 msgid "Allow you to refer your friends to Odoo and get rewards"
 msgstr "Permitem que você indique seus amigos para Odoo e receba recompensas"
 
@@ -23934,7 +23934,7 @@ msgstr ""
 "Exclua-os da seleção para continuar. Ainda é possível recuperar esses PDFs selecionando cada um dos registros afetados individualmente, o que evitará a mesclagem."
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_odoo_referral
+#: model:ir.module.module,shortdesc:base.module_weth_referral
 msgid "Odoo referral program"
 msgstr "Programa de referência Odoo"
 
@@ -27176,8 +27176,8 @@ msgstr "Ver todos os valores possíveis"
 #. module: base
 #: code:addons/common.py:0
 #, python-format
-msgid "See http://openerp.com"
-msgstr "Veja http://openerp.com"
+msgid "See http://weth.com.br"
+msgstr "Veja http://weth.com.br"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_report_paperformat__format

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 OGONE_ERROR_MAP = {
     '0020001001': "Authorization failed, please retry",
     '0020001002': "Authorization failed, please retry",

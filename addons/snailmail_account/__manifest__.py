@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "snailmail_account",
     'description': """

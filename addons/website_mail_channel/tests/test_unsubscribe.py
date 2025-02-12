@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo.tests import common, tagged
 from odoo.tools.misc import mute_logger, ustr
 

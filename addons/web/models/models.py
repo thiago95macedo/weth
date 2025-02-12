@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import babel.dates
 import pytz
 from lxml import etree

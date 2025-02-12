@@ -128,7 +128,7 @@
         To be called with the 'payment_tx_id' value.
         -->
         <div t-if="payment_tx_id and payment_tx_id.state == 'pending'" class="alert alert-warning alert-dismissable" role="status">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">×</button>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Fechar">×</button>
             <span t-if='payment_tx_id.acquirer_id.pending_msg' t-raw="payment_tx_id.acquirer_id.pending_msg"/>
             <span t-if='thanks_msg' t-raw="thanks_msg"/>
             <div t-if="payment_tx_id.acquirer_id.provider == 'transfer' and reference">

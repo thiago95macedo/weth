@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': 'Customer Rating',
     'version': '1.0',

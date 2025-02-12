@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo import api, fields, models, tools
 
 from odoo.modules import get_resource_path

@@ -598,8 +598,8 @@ msgstr "Odoo"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "WETH Tecnologia da Informação Ltda."
+msgstr "WETH Tecnologia da Informação Ltda."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

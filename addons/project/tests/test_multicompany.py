@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from contextlib import contextmanager
 
 from odoo.tests.common import SavepointCase, Form

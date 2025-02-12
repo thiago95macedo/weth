@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name' : 'Import/Export invoices with generic UBL',
     'version' : '1.0',

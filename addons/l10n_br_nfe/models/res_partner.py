@@ -1,6 +1,4 @@
 # Copyright 2019 Akretion (Raphaël Valyi <raphael.valyi@akretion.com>)
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
-
 from erpbrasil.base.fiscal import cnpj_cpf
 from erpbrasil.base.misc import format_zipcode, punctuation_rm
 

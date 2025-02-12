@@ -1,4 +1,3 @@
-
 {
     'name': 'Sales and MRP Management',
     'version': '1.0',

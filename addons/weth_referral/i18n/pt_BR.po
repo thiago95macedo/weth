@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* odoo_referral
+# 	* weth_referral
 # 
 # Translators:
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
@@ -23,9 +23,9 @@ msgstr ""
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#. module: odoo_referral
+#. module: weth_referral
 #. openerp-web
-#: code:addons/odoo_referral/static/src/js/systray.js:0
+#: code:addons/weth_referral/static/src/js/systray.js:0
 #, python-format
 msgid ""
 "A popup window has been blocked. You may need to change your browser "
@@ -34,30 +34,30 @@ msgstr ""
 "Uma janela pop-up foi bloqueada. Pode ser necessário alterar as definições "
 "do navegador para permitir janelas pop-up para esta página."
 
-#. module: odoo_referral
-#: model:ir.model.fields,field_description:odoo_referral.field_res_users__display_name
+#. module: weth_referral
+#: model:ir.model.fields,field_description:weth_referral.field_res_users__display_name
 msgid "Display Name"
 msgstr "Nome exibido"
 
-#. module: odoo_referral
-#: model:ir.model.fields,field_description:odoo_referral.field_res_users__id
+#. module: weth_referral
+#: model:ir.model.fields,field_description:weth_referral.field_res_users__id
 msgid "ID"
 msgstr "ID"
 
-#. module: odoo_referral
-#: model:ir.model.fields,field_description:odoo_referral.field_res_users____last_update
+#. module: weth_referral
+#: model:ir.model.fields,field_description:weth_referral.field_res_users____last_update
 msgid "Last Modified on"
 msgstr "Última modificação em"
 
-#. module: odoo_referral
+#. module: weth_referral
 #. openerp-web
-#: code:addons/odoo_referral/static/src/xml/systray.xml:0
-#: code:addons/odoo_referral/static/src/xml/systray.xml:0
+#: code:addons/weth_referral/static/src/xml/systray.xml:0
+#: code:addons/weth_referral/static/src/xml/systray.xml:0
 #, python-format
 msgid "Odoo Referral Program"
 msgstr "Programa de Indicações Odoo"
 
-#. module: odoo_referral
-#: model:ir.model,name:odoo_referral.model_res_users
+#. module: weth_referral
+#: model:ir.model,name:weth_referral.model_res_users
 msgid "Users"
 msgstr "Usuários"

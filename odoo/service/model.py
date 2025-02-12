@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from contextlib import closing
 from functools import wraps
 import logging

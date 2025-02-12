@@ -1,5 +1,4 @@
 # -*- coding: ascii -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, models
 from odoo.addons.http_routing.models.ir_http import slug, unslug_url

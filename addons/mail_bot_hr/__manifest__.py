@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "mail_bot_hr",
     'summary': """Bridge module between hr and mailbot.""",

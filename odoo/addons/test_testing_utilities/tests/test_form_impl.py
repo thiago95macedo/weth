@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Test for the pseudo-form implementation (odoo.tests.common.Form), which should
 basically be a server-side implementation of form views (though probably not

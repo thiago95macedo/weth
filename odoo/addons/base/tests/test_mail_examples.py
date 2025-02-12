@@ -298,7 +298,7 @@ HOTMAIL_1 = u"""<div>
             we can help you. When would you be available to discuss your project ?<br>
             Best regards,<br>
             <pre>
-                <a href="http://openerp.com" target="_blank">http://openerp.com</a>
+                <a href="http://weth.com.br" target="_blank">http://weth.com.br</a>
                 Belgium: +32.81.81.37.00
                 U.S.: +1 (650) 307-6736
                 India: +91 (79) 40 500 100
@@ -312,7 +312,7 @@ HOTMAIL_1_IN = [u"""<div dir="ltr"><br>
 HOTMAIL_1_OUT = [
     u"""<hr id="stopSpelling" data-o-mail-quote="1">""",
     u"""<pre data-o-mail-quote="1">
-                <a href="http://openerp.com" target="_blank" data-o-mail-quote="1">http://openerp.com</a>
+                <a href="http://weth.com.br" target="_blank" data-o-mail-quote="1">http://weth.com.br</a>
                 Belgium: +32.81.81.37.00
                 U.S.: +1 (650) 307-6736
                 India: +91 (79) 40 500 100
@@ -384,7 +384,7 @@ MSOFFICE_1 = u"""
                         From:
                     </span></b>
                     <span style="font-size:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;">
-                        OpenERP Enterprise [mailto:sales@openerp.com]
+                        OpenERP Enterprise [mailto:sales@weth.com.br]
                         <br><b>Sent:</b> Monday, 11 March, 2013 14:47<br><b>To:</b> Alan Widmer<br><b>Subject:</b> Re: your OpenERP.com registration
                     </span>
                 </p>
@@ -412,7 +412,7 @@ MSOFFICE_1 = u"""
         <pre><p>&nbsp;</p></pre>
         <pre>--<p></p></pre>
         <pre>Nicolas<p></p></pre>
-        <pre><a href="http://openerp.com">http://openerp.com</a><p></p></pre>
+        <pre><a href="http://weth.com.br">http://weth.com.br</a><p></p></pre>
         <pre>Belgium: +32.81.81.37.00<p></p></pre>
         <pre>U.S.: +1 (650) 307-6736<p></p></pre>
         <pre>India: +91 (79) 40 500 100<p></p></pre>
@@ -466,7 +466,7 @@ OpenERP SA
 Chaussée de Namur, 40
 B-1367 Gérompont
 Tel: +32.81.81.37.00
-Web: http://www.openerp.com</pre>"""
+Web: http://www.weth.com.br</pre>"""
 
 BUG_1_IN = [
     u'Hi Migration Team',
@@ -480,7 +480,7 @@ OpenERP SA
 Chaussée de Namur, 40
 B-1367 Gérompont
 Tel: +32.81.81.37.00
-Web: http://www.openerp.com"""]
+Web: http://www.weth.com.br"""]
 
 
 REMOVE_CLASS = u"""

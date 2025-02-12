@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from odoo.tests import tagged
 from odoo.addons.payment.tests.common import PaymentAcquirerCommon
 

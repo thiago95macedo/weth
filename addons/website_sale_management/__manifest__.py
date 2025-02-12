@@ -1,4 +1,3 @@
-# -*- encoding: utf-8 -*-
 {
     'name': 'Website - Sales Management',
     'version': '1.0',

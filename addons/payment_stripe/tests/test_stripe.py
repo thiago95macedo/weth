@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import odoo
 from odoo import fields
 from odoo.exceptions import ValidationError

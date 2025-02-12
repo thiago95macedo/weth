@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 import base64
 
 from odoo.addons.base.tests.common import TransactionCaseWithUserDemo

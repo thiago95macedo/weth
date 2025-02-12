@@ -27,7 +27,7 @@
                     <i class="fa fa-download fa-fw" role="img"/>
                 </div>
                 <div class="o-autogrow"/>
-                <div class="o_AttachmentViewer_headerItem o_AttachmentViewer_headerItemButton o_AttachmentViewer_headerItemButtonClose" t-on-click="_onClickClose" role="button" title="Close (Esc)" aria-label="Close">
+                <div class="o_AttachmentViewer_headerItem o_AttachmentViewer_headerItemButton o_AttachmentViewer_headerItemButtonClose" t-on-click="_onClickClose" role="button" title="Close (Esc)" aria-label="Fechar">
                     <i class="fa fa-fw fa-times" role="img"/>
                 </div>
             </div>

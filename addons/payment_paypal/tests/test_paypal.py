@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import fields
 from odoo.addons.payment.models.payment_acquirer import ValidationError
 from odoo.addons.payment.tests.common import PaymentAcquirerCommon

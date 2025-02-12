@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # py.js documentation build configuration file, created by
 # sphinx-quickstart on Sun Sep  9 19:36:23 2012.

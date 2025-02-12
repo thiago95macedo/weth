@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 
 from odoo.tests.common import SavepointCase, Form
 from odoo.exceptions import ValidationError

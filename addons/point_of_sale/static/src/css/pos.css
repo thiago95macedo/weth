@@ -319,7 +319,7 @@ td {
     margin:0;
     padding:0;
     color: gray;
-    background: #875A7B;
+    background: #003C7D;
     display: flex;
 }
 
@@ -368,7 +368,7 @@ td {
     overflow-x: auto;
 }
 .pos .pos-rightheader > * {
-    border-right: 1px solid #875A7B;
+    border-right: 1px solid #003C7D;
 }
 
 .pos .status-buttons-portal {
@@ -472,8 +472,8 @@ td {
     height: 48px;
     padding-left: 16px;
     padding-right: 16px;
-    border-right: 1px solid #875A7B;
-    border-left: 1px solid #875A7B;
+    border-right: 1px solid #003C7D;
+    border-left: 1px solid #003C7D;
     color: #DDD;
     line-height: 48px;
     text-align: center;
@@ -484,7 +484,7 @@ td {
     -webkit-transition-timing-function: ease-out;
 }
 .pos .pos-rightheader .header-button:last-child{
-    border-left:  1px solid #875A7B;
+    border-left:  1px solid #003C7D;
 }
 .pos .pos-rightheader .header-button:active{
     background: rgba(0,0,0,0.2);

@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from odoo import models, _
 from odoo.addons.account_edi_ubl_cii.models.account_edi_common import COUNTRY_EAS
 

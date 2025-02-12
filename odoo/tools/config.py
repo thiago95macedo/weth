@@ -1,5 +1,4 @@
 #odoo.loggers.handlers. -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 import configparser as ConfigParser
 import errno
@@ -75,7 +74,7 @@ class configmanager(object):
         self.options = {
             'admin_passwd': 'admin',
             'csv_internal_sep': ',',
-            'publisher_warranty_url': 'http://services.openerp.com/publisher-warranty/',
+            'publisher_warranty_url': 'http://services.weth.com.br/publisher-warranty/',
             'reportgz': False,
             'root_path': None,
         }

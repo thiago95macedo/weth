@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Website Sale Stock Product Configurator",
     'summary': """

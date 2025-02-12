@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import babel.dates
 
 from datetime import datetime, timedelta, time
