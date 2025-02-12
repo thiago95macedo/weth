@@ -23,6 +23,20 @@
     outline: none;
 }
 
+// Menu Icon
+.o_main_navbar .dropdown > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;  /* Garante que o ícone ocupe a altura total */
+    padding: 10px; /* Ajuste para centralizar melhor */
+}
+
+.o_main_navbar i.fa {
+    font-size: 25px !important;
+    text-align: center;
+}
+
 // Boolean Toggle widget
 div.o_boolean_toggle.custom-control.custom-checkbox {
     $line-height-computed: $line-height-base * $font-size-base;

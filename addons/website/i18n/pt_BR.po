@@ -710,8 +710,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
-msgid "<i class=\"fa fa-th-large\"/> WEBSITE"
-msgstr "<i class=\"fa fa-th-large\"/> SITE"
+msgid "<i class=\"fa fa-th\"/> WEBSITE"
+msgstr "<i class=\"fa fa-th\"/> SITE"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.list_website_pages
