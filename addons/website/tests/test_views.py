@@ -1449,7 +1449,7 @@ class TestThemeViews(common.TransactionCase):
         self.assertEqual(specific_main_view_children.arch, new_arch, "Second time: View arch should still receive theme updates.")
 
         # 5. Keep User arch changes
-        new_arch = '<xpath expr="//body" position="replace"><span>Odoo</span></xpath>'
+        new_arch = '<xpath expr="//body" position="replace"><span><b>WETH</b></span></xpath>'
         specific_main_view_children.arch = new_arch
         theme_view.name = 'Test Child View modified'
         test_theme_module.with_context(load_all_views=True)._theme_load(website_1)

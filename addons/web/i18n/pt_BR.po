@@ -3244,8 +3244,8 @@ msgstr "Distribuído por %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Distribuído por <span>Odoo</span>"
+msgid "Powered by <span><b>WETH</b></span>"
+msgstr "Distribuído por <span><b>WETH</b></span>"
 
 #. module: web
 #. openerp-web
