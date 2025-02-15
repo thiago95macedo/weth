@@ -1187,8 +1187,8 @@ msgstr "Quantidade de mensagens não lidas"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
-msgid "Odoo"
-msgstr "Odoo"
+msgid "WETH"
+msgstr "WETH"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account

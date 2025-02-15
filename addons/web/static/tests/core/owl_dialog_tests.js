@@ -135,7 +135,7 @@ odoo.define('web.owl_dialog_tests', function (require) {
             assert.doesNotHaveClass(dialog.querySelector('.modal'), 'o_technical_modal');
 
             // Title (default: 'Odoo')
-            assert.strictEqual(dialog.querySelector('h4.modal-title').innerText.trim(), "Odoo" + "The Subtitle",
+            assert.strictEqual(dialog.querySelector('h4.modal-title').innerText.trim(), "WETH" + "The Subtitle",
                 "Title should match with its default text");
             await changeProps('title', "The Title");
             assert.strictEqual(dialog.querySelector('h4.modal-title').innerText.trim(), "The Title" + "The Subtitle",

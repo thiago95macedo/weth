@@ -2837,8 +2837,8 @@ msgstr "Objeto:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "WETH"
+msgstr "WETH"
 
 #. module: web
 #. openerp-web

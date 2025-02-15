@@ -591,8 +591,8 @@ msgstr "Autenticação OAuth"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "WETH"
+msgstr "WETH"
 
 #. module: base_setup
 #. openerp-web

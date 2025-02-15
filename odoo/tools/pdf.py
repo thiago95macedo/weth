@@ -281,8 +281,8 @@ class OdooPdfFileWriter(PdfFileWriter):
 
         # Set odoo as producer
         self.addMetadata({
-            '/Creator': "Odoo",
-            '/Producer': "Odoo",
+            '/Creator': "WETH",
+            '/Producer': "WETH",
         })
         self.is_pdfa = True
 

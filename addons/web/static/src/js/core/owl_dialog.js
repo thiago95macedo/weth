@@ -255,7 +255,7 @@ odoo.define('web.OwlDialog', function (require) {
         size: 'large',
         stopClicks: true,
         technical: true,
-        title: "Odoo",
+        title: "WETH",
     };
     Dialog.props = {
         backdrop: { validate: b => ['static', true, false].includes(b) },
