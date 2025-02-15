@@ -754,11 +754,6 @@ msgid "Display Name"
 msgstr "Nome exibido"
 
 #. module: auth_signup
-#: model_terms:ir.ui.view,arch_db:auth_signup.login
-msgid "Don't have an account?"
-msgstr "Não possui uma conta?"
-
-#. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_res_config_settings__auth_signup_reset_password
 #: model_terms:ir.ui.view,arch_db:auth_signup.res_config_settings_view_form
 msgid "Enable password reset from Login page"
@@ -842,11 +837,6 @@ msgstr "Senhas não idênticas; por favor, redigite."
 #: model:mail.template,subject:auth_signup.mail_template_data_unregistered_users
 msgid "Reminder for unregistered users"
 msgstr "Lembrete para usuários não registrados"
-
-#. module: auth_signup
-#: model_terms:ir.ui.view,arch_db:auth_signup.login
-msgid "Reset Password"
-msgstr "Redefinir Senha"
 
 #. module: auth_signup
 #: code:addons/auth_signup/models/res_users.py:0

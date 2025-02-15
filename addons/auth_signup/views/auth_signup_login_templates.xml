@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-        <template id="auth_signup.login" inherit_id="web.login" name="Sign up - Reset Password">
+        <template id="auth_signup.login" inherit_id="web.login" name="Criar Conta - Redefinir Sernha">
             <xpath expr="//button[@type='submit']" position="after">
                 <div class="justify-content-between mt-2 d-flex small">
-                    <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Don't have an account?</a>
-                    <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Reset Password</a>
+                <!--
+                    <a t-if="signup_enabled" t-attf-href="/web/signup?{{ keep_query() }}">Criar Conta?</a>
+                    <a t-if="reset_password_enabled" t-attf-href="/web/reset_password?{{ keep_query() }}">Redefinir Senha</a>
+                -->
                 </div>
             </xpath>
         </template>
@@ -25,7 +27,7 @@
             </div>
 
             <div class="form-group field-password pt-2">
-                <label for="password">Password</label>
+                <label for="password">Senha</label>
                 <input type="password" name="password" id="password" class="form-control form-control-sm"
                     required="required" t-att-autofocus="'autofocus' if only_passwords else None"/>
             </div>
