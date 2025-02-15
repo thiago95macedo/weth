@@ -50,7 +50,7 @@
                         </p>
                     </div>
                     <footer>
-                        <button string="Cancel" class="btn-primary" special="cancel"/>
+                        <button string="Cancelar" class="btn-primary" special="cancel"/>
                         <button string="Confirm" class="btn-secondary" type="object" name="action_uninstall"/>
                     </footer>
                 </form>

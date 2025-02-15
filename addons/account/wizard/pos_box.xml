@@ -14,7 +14,7 @@
 
                     <footer>
                         <button name="run" string="Take Money In/Out" type="object" class="btn-primary"/>
-                        <button class="btn-secondary" special="cancel" string="Cancel" />
+                        <button class="btn-secondary" special="cancel" string="Cancelar" />
                     </footer>
                 </form>
             </field>

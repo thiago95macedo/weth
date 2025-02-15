@@ -19,7 +19,7 @@
                 </group>
                 <footer>
                     <button string="Send" name="action_send_mail" attrs="{'invisible': [('access_warning', '!=', '')]}" type="object" class="btn-primary"/>
-                    <button string="Cancel" class="btn-default" special="cancel" />
+                    <button string="Cancelar" class="btn-default" special="cancel" />
                 </footer>
             </form>
         </field>

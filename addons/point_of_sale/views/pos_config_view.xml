@@ -63,7 +63,7 @@
                         </div>
                         <div class="o_setting_right_pane">
                           <label for="module_pos_restaurant"/>
-                          <button string="Save" type="object" name="execute" class="oe_highlight" id="btn_use_pos_restaurant" attrs="{'invisible': [('module_pos_restaurant','=',False)]}" />
+                          <button string="Salvar" type="object" name="execute" class="oe_highlight" id="btn_use_pos_restaurant" attrs="{'invisible': [('module_pos_restaurant','=',False)]}" />
                         </div>
                       </div>
                         <div class="col-12 col-lg-6 o_setting_box"
@@ -76,7 +76,7 @@
                                 <div class="text-muted">
                                     Use employee credentials to log in to the PoS session and switch cashier
                                 </div>
-                                <button string="Save" type="object" name="execute" class="oe_highlight" id="btn_use_employees" attrs="{'invisible': [('module_pos_hr','=',False)]}" />
+                                <button string="Salvar" type="object" name="execute" class="oe_highlight" id="btn_use_employees" attrs="{'invisible': [('module_pos_hr','=',False)]}" />
                             </div>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                                 </div>
                                 <div class="content-group " attrs="{'invisible':[('module_pos_discount','=',False)]}">
                                     <div class="mt16" id="btn_use_pos_discount">
-                                        <button string="Save" type="object" name="execute" class="oe_highlight"/>
+                                        <button string="Salvar" type="object" name="execute" class="oe_highlight"/>
                                     </div>
                                 </div>
                             </div>
@@ -352,7 +352,7 @@
                                 </div>
                                 <div class="content-group" attrs="{'invisible': [('module_pos_loyalty', '=', False)]}">
                                     <div class="mt16" id="btn_use_pos_loyalty">
-                                        <button string="Save" type="object" name="execute" class="oe_highlight"/>
+                                        <button string="Salvar" type="object" name="execute" class="oe_highlight"/>
                                     </div>
                                 </div>
                             </div>

@@ -44,7 +44,7 @@
                         <button name="create_invoices" id="create_invoice_open" string="Create and View Invoice" type="object"
                             context="{'open_invoices': True}" class="btn-primary"/>
                         <button name="create_invoices" id="create_invoice" string="Create Invoice" type="object"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
                     </footer>
                 </form>
             </field>

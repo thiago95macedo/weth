@@ -20,7 +20,7 @@
                 <we-button data-display="inline">Inline</we-button>
                 <we-button data-display="below">Below Each Other</we-button>
             </we-select>
-            <we-colorpicker string="Colors" data-apply-to=".progress-bar"
+            <we-colorpicker string="Cores" data-apply-to=".progress-bar"
                 data-select-style="true"
                 data-css-property="background-color"
                 data-color-prefix="bg-"/>

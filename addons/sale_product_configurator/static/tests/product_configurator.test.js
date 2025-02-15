@@ -243,7 +243,7 @@ QUnit.module('Product Configurator', {
                     '</group>' +
                     '<footer>' +
                         '<button string="Add" class="btn-primary o_sale_product_configurator_add disabled"/>' +
-                        '<button string="Cancel" class="btn-secondary" special="cancel"/>' +
+                        '<button string="Cancelar" class="btn-secondary" special="cancel"/>' +
                     '</footer>' +
                 '</form>',
                 mockRPC: function (route) {

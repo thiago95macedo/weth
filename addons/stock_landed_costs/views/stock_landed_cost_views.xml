@@ -10,7 +10,7 @@
                     <field name="stock_valuation_layer_ids" invisible="1"/>
                     <header>
                         <button name="button_validate" string="Validate" states="draft" class="oe_highlight" type="object"/>
-                        <button name="button_cancel" string="Cancel" states="draft" type="object"/>
+                        <button name="button_cancel" string="Cancelar" states="draft" type="object"/>
                         <field name="state" widget="statusbar" statusbar_visible="draft,done"/>
                     </header>
                     <sheet>

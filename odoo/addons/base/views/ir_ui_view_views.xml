@@ -128,7 +128,7 @@
                     </div>
                     <footer>
                         <button string="Reset View" name="reset_view_button" type="object" class="btn-primary" attrs="{'invisible': [('has_diff', '=', False)]}"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel" />
+                        <button string="Cancelar" class="btn-secondary" special="cancel" />
                     </footer>
                 </form>
             </field>

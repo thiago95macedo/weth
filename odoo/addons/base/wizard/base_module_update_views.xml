@@ -19,7 +19,7 @@
                     <footer>
                         <div states="init">
                             <button name="update_module" string="Update" type="object" class="btn-primary"/>
-                            <button special="cancel" string="Cancel" class="btn-secondary"/>
+                            <button special="cancel" string="Cancelar" class="btn-secondary"/>
                         </div>
                         <div states="done">
                             <button name="action_module_open" string="Open Apps" type="object" class="btn-primary"/>

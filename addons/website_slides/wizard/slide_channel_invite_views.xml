@@ -28,7 +28,7 @@
                     </group>
                     <footer>
                         <button string="Send" name="action_invite" type="object" class="btn-primary"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
                     </footer>
                 </form>
             </field>

@@ -10,7 +10,7 @@
                 </p>
                 <footer>
                     <button name="procure_calculation" string="Run Scheduler" type="object" class="btn-primary"/>
-                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                    <button string="Cancelar" class="btn-secondary" special="cancel" />
                 </footer>
             </form>
         </field>

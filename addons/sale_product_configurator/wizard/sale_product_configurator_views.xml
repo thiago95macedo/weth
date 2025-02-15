@@ -23,8 +23,8 @@
                 </group>
                 <footer>
                     <button string="Add" class="btn-primary o_sale_product_configurator_add" special="add"/>
-                    <button string="Save" class="btn-primary o_sale_product_configurator_edit" style="display: none;" special="save"/>
-                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    <button string="Salvar" class="btn-primary o_sale_product_configurator_edit" style="display: none;" special="save"/>
+                    <button string="Cancelar" class="btn-secondary" special="cancel"/>
                 </footer>
             </form>
         </field>

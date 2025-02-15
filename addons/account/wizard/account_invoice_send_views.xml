@@ -66,7 +66,7 @@
                         <button string="Print"
                             attrs="{'invisible': ['|', ('is_print', '=', False), ('is_email', '=', True)]}"
                             name="send_and_print_action" type="object" class="print btn-primary o_mail_send"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel" />
+                        <button string="Cancelar" class="btn-secondary" special="cancel" />
                         <button icon="fa-lg fa-save" type="object" name="save_as_template" string="Save as new template"
                             attrs="{'invisible': ['|', ('composition_mode', '=', 'mass_mail'), ('is_email', '=', False)]}"
                             class="pull-right btn-secondary" help="Save as a new template" />

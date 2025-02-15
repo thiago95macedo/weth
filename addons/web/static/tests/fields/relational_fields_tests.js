@@ -982,7 +982,7 @@ QUnit.module('relational_fields', {
             View: ListView,
             model: 'partner',
             data: this.data,
-            arch: '<tree string="Colors" editable="top">' +
+            arch: '<tree string="Cores" editable="top">' +
                         '<field name="color"/>' +
                 '</tree>',
         });

@@ -98,7 +98,7 @@
                 <footer>
                     <button type="object" name="enable" class="btn btn-primary"
                             string="Enable two-factor authentication"/>
-                    <button string="Cancel" special="cancel"/>
+                    <button string="Cancelar" special="cancel"/>
                 </footer>
             </form>
         </field>
@@ -151,7 +151,7 @@
                                     </group>
                                     <footer>
                                         <button name="remove" string="Revoke" type="object" icon="fa-trash"/>
-                                        <button name="preference_cancel" string="Cancel" special="cancel" class="btn-secondary"/>
+                                        <button name="preference_cancel" string="Cancelar" special="cancel" class="btn-secondary"/>
                                     </footer>
                                 </form>
 

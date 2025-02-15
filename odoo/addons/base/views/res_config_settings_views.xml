@@ -15,7 +15,7 @@
                             </div>
                         </div>
                         <header>
-                            <button string="Save" type="object" name="execute" class="oe_highlight" />
+                            <button string="Salvar" type="object" name="execute" class="oe_highlight" />
                             <button string="Discard" type="object" name="cancel" special="cancel" />
                         </header>
                     </div>

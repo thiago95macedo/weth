@@ -27,7 +27,7 @@
                         tabindex="0"
                     />
                     or
-                    <button string="Cancel" class="oe_link" special="cancel" />
+                    <button string="Cancelar" class="oe_link" special="cancel" />
                 </footer>
             </form>
         </field>

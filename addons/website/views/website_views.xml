@@ -77,7 +77,7 @@
                 <xpath expr="//form" position="inside">
                     <footer>
                         <button name="create_and_redirect_to_theme" type="object" string="Pick a Theme" class="btn btn-primary" icon="fa-paint-brush"/>
-                        <button string="Cancel" class="btn btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn btn-secondary" special="cancel"/>
                     </footer>
                 </xpath>
                 <xpath expr="//notebook" position="replace"/>

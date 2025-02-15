@@ -14,7 +14,7 @@
                     </sheet>
                     <footer>
                         <button name="action_launch" string="Launch Plan" type="object" class="oe_highlight" groups="hr.group_hr_manager"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
                     </footer>
                 </form>
             </field>

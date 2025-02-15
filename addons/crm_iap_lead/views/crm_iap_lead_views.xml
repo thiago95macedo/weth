@@ -89,7 +89,7 @@
                     </group>
                     <footer>
                         <button string="Generate Leads" name="action_submit" type="object" default_focus="1" class="btn-primary" invisible="not context.get('is_modal')"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel" invisible="not context.get('is_modal')"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel" invisible="not context.get('is_modal')"/>
                     </footer>
                 </sheet>
             </form>

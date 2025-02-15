@@ -315,7 +315,7 @@
     <div data-js="Box"
          data-selector=".s_three_columns .row > div, .s_comparisons .row > div"
          data-target=".card">
-        <we-colorpicker string="Colors"
+        <we-colorpicker string="Cores"
             data-select-style="true"
             data-css-property="background-color"
             data-color-prefix="bg-"/>
@@ -601,7 +601,7 @@
                   data-unit="px"
                   data-save-unit="rem"/>
 
-        <we-row string="Colors">
+        <we-row string="Cores">
             <we-colorpicker data-customize-website-color="" data-color="menu"
                             data-with-combinations="true"/>
             <we-colorpicker data-dependencies="header_boxed_opt"
@@ -851,7 +851,7 @@
                        data-img="/website/static/src/img/snippets_options/footer_template_headline.svg"/>
         </we-select>
         <!-- Colors -->
-        <we-colorpicker string="Colors"
+        <we-colorpicker string="Cores"
                         data-customize-website-color="" data-color="footer"
                         data-with-combinations="true"/>
         <we-select string="Slideout Effect" data-variable="footer-effect" data-reload="/">
@@ -919,7 +919,7 @@
     <div data-selector=".o_footer_copyright"
          data-no-check="true"
          groups="website.group_website_designer">
-        <we-colorpicker string="Colors"
+        <we-colorpicker string="Cores"
                         data-customize-website-color="" data-color="copyright"
                         data-with-combinations="true"/>
         <we-select string="Language Selector" data-reload="/">

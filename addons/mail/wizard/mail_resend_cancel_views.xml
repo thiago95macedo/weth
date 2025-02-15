@@ -12,7 +12,7 @@
                 <img src="/mail/static/img/red_envelope.png" alt="Envelope Example"/>
                 <footer>  
                     <button string="Discard delivery failures" name="cancel_resend_action" type="object" class="btn-primary" />
-                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                    <button string="Cancelar" class="btn-secondary" special="cancel" />
                 </footer>
             </form>
         </field>

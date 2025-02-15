@@ -44,8 +44,8 @@ QUnit.module('base_settings_tests', {
                         '</div> ' +
                     '</div> ' +
                     '<header>' +
-                        '<button string="Save" type="object" name="execute" class="oe_highlight" />' +
-                        '<button string="Cancel" type="object" name="cancel" class="oe_link" />' +
+                        '<button string="Salvar" type="object" name="execute" class="oe_highlight" />' +
+                        '<button string="Cancelar" type="object" name="cancel" class="oe_link" />' +
                     '</header>' +
                     '<div class="o_setting_container">' +
                         '<div class="settings_tab"/>'+
@@ -108,8 +108,8 @@ QUnit.module('base_settings_tests', {
                         </div>
                     </div>
                     <header>
-                        <button string="Save" type="object" name="execute" class="oe_highlight" />
-                        <button string="Cancel" type="object" name="cancel" class="oe_link" />
+                        <button string="Salvar" type="object" name="execute" class="oe_highlight" />
+                        <button string="Cancelar" type="object" name="cancel" class="oe_link" />
                     </header>
                     <div class="o_setting_container">
                         <div class="settings_tab" />
@@ -223,8 +223,8 @@ QUnit.module('base_settings_tests', {
         var archs = {
             'project,1,form': '<form string="Settings" js_class="base_settings">' +
                     '<header>' +
-                        '<button string="Save" type="object" name="execute" class="oe_highlight" />' +
-                        '<button string="Cancel" type="object" name="cancel" class="oe_link" />' +
+                        '<button string="Salvar" type="object" name="execute" class="oe_highlight" />' +
+                        '<button string="Cancelar" type="object" name="cancel" class="oe_link" />' +
                     '</header>' +
                     '<div class="app_settings_block" string="CRM" data-key="crm">' +
                         '<div class="row mt16 o_settings_container">'+
@@ -315,8 +315,8 @@ QUnit.module('base_settings_tests', {
                         '</div> ' +
                     '</div> ' +
                     '<header>' +
-                        '<button string="Save" type="object" name="execute" class="oe_highlight" />' +
-                        '<button string="Cancel" type="object" name="cancel" class="oe_link" />' +
+                        '<button string="Salvar" type="object" name="execute" class="oe_highlight" />' +
+                        '<button string="Cancelar" type="object" name="cancel" class="oe_link" />' +
                     '</header>' +
                     '<div class="o_setting_container">' +
                         '<div class="settings_tab"/>'+
@@ -348,7 +348,7 @@ QUnit.module('base_settings_tests', {
             data: this.data,
             arch: '<form string="Settings" class="oe_form_configuration o_base_settings">' +
                     '<header>' +
-                        '<button string="Save" type="object" name="execute" class="oe_highlight" />' +
+                        '<button string="Salvar" type="object" name="execute" class="oe_highlight" />' +
                         '<button string="Discard" type="object" name="cancel" special="cancel" />'+
                     '</header>' +
                     '<div class="o_setting_container">' +
@@ -394,7 +394,7 @@ QUnit.module('base_settings_tests', {
             },
             arch: '<form string="Settings" class="oe_form_configuration o_base_settings">' +
                     '<header>' +
-                        '<button string="Save" type="object" name="execute" class="oe_highlight" />' +
+                        '<button string="Salvar" type="object" name="execute" class="oe_highlight" />' +
                         '<button string="Discard" type="object" name="cancel" special="cancel" />'+
                     '</header>' +
                     '<div class="o_setting_container">' +

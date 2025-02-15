@@ -30,7 +30,7 @@
             <form string="Coupons" create="false" edit="false" delete="false">
                 <header>
                     <button name="action_coupon_sent" type="object" string="Send by Email" class="oe_highlight" attrs="{'invisible': [('state', 'not in', ['new', 'sent'])]}"/>
-                    <button name="action_coupon_cancel" type="object" string="Cancel" class="oe_highlight" attrs="{'invisible': [('state', '!=', 'new')]}"/>
+                    <button name="action_coupon_cancel" type="object" string="Cancelar" class="oe_highlight" attrs="{'invisible': [('state', '!=', 'new')]}"/>
                     <field name="state" widget="statusbar" statusbar_visible="new,sent,used,expired" context="{'state': state}"/>
                 </header>
                 <sheet>

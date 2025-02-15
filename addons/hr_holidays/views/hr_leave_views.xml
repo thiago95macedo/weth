@@ -377,7 +377,7 @@
         <field name="arch" type="xml">
             <xpath expr="//sheet" position="after">
                 <footer>
-                    <button string="Save" special="save" class="oe_highlight" />
+                    <button string="Salvar" special="save" class="oe_highlight" />
                     <button string="Discard" special="cancel" />
                 </footer>
             </xpath>

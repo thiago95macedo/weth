@@ -43,7 +43,7 @@
                 <xpath expr="//sheet" position="after">
                     <footer>
                         <button string="Confirm" class="btn-primary" special="save"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
                     </footer>
                 </xpath>
             </field>
@@ -59,7 +59,7 @@
                     <p>Confirming this will create automatically a journal entry with the difference in the profit/loss account set on the cash journal.</p>
                     <footer>
                         <button string="Confirm" name="validate" type="object" class="btn-primary"/>
-                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                        <button string="Cancelar" class="btn-secondary" special="cancel"/>
                     </footer>
                 </div>
                 </form>

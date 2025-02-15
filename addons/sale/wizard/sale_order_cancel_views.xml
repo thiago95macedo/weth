@@ -12,7 +12,7 @@
                 </div>
                 <footer>
                     <button string="Confirm" name="action_cancel" type="object" class="oe_highlight"/>
-                    <button string="Cancel" class="btn btn-default" special="cancel"/>
+                    <button string="Cancelar" class="btn btn-default" special="cancel"/>
                 </footer>
             </form>
         </field>

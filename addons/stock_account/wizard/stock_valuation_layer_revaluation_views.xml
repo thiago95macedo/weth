@@ -35,7 +35,7 @@
                 </sheet>
                 <footer>
                     <button name="action_validate_revaluation" string="Revalue" type="object" class="btn-primary"/>
-                    <button string="Cancel" class="btn-secondary" special="cancel" />
+                    <button string="Cancelar" class="btn-secondary" special="cancel" />
                 </footer>
             </form>
         </field>

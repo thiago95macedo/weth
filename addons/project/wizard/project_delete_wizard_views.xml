@@ -20,7 +20,7 @@
                     </footer>
                     <footer attrs="{'invisible': [('task_count', '>', 0)]}">
                         <button string="Ok" type="object" name="confirm_delete" class="btn btn-primary" />
-                        <button string="Cancel" special="cancel" />
+                        <button string="Cancelar" special="cancel" />
                     </footer>
                 </form>
             </field>

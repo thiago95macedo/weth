@@ -523,7 +523,7 @@
                 t-attf-href="http://www.weth.com.br?utm_source=db&amp;utm_medium=#{_utm_medium}"
                 class="badge badge-light">
                 <img alt="WETH"
-                        src="/web/static/src/img/odoo_logo_tiny.png"
+                        src="/web/static/src/img/weth_logo_tiny.png"
                         style="height: 1em; vertical-align: baseline;"/>
             </a>
         </t>

@@ -18,7 +18,7 @@
                         </group>
                     </sheet>
                     <footer>
-                        <button name="action_register_departure" string="Save" type="object" class="oe_highlight"/>
+                        <button name="action_register_departure" string="Salvar" type="object" class="oe_highlight"/>
                         <button string="Only Employee" class="btn-secondary" special="cancel"/>
                     </footer>
                 </form>

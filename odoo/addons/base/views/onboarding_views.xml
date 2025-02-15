@@ -153,7 +153,7 @@
             <form position="inside">
                 <footer position="replace">
                     <button name="action_save_onboarding_company_step" class="btn btn-primary" type="object" string="Apply" />
-                    <button special="cancel" string="Cancel" />
+                    <button special="cancel" string="Cancelar" />
                 </footer>
             </form>
         </field>

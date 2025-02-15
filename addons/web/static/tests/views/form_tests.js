@@ -2875,7 +2875,7 @@ QUnit.module('Views', {
             data: this.data,
             arch: '<form string="Partners">' +
                         '<field name="foo"/>' +
-                        '<button string="Save" class="btn-primary" special="save"/>' +
+                        '<button string="Salvar" class="btn-primary" special="save"/>' +
                 '</form>',
             res_id: 1,
             intercepts: {
@@ -9092,7 +9092,7 @@ QUnit.module('Views', {
             model: 'partner',
             data: this.data,
             arch: '<form string="Partners">' +
-                '<button string="Save" class="btn-primary" special="save"/>' +
+                '<button string="Salvar" class="btn-primary" special="save"/>' +
                 '<button class="mybutton">westvleteren</button>' +
               '</form>',
             res_id: 2,

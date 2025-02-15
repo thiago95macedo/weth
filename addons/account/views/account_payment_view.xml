@@ -139,7 +139,7 @@
                         <button name="action_draft" string="Reset To Draft" type="object" class="btn btn-secondary"
                                 attrs="{'invisible': [('state', 'not in', ('posted', 'cancel'))]}"
                                 groups="account.group_account_invoice"/>
-                        <button name="action_cancel" string="Cancel" type="object"
+                        <button name="action_cancel" string="Cancelar" type="object"
                                 attrs="{'invisible': [('state', '!=', 'draft')]}"/>
                         <button name="mark_as_sent" string="Mark as Sent" type="object"
                                 attrs="{'invisible': ['|', '|', ('state', '!=', 'posted'), ('is_move_sent', '=', True), ('payment_method_code', '!=', 'manual')]}"/>

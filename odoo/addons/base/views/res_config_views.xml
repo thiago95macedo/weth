@@ -10,7 +10,7 @@
                     <group name="res_config_contents"/>
                     <footer>
                         <button name="action_next" type="object" string="Apply" class="btn-primary"/>
-                        <button name="action_skip" type="object" special="cancel" string="Cancel" class="btn-secondary"/>
+                        <button name="action_skip" type="object" special="cancel" string="Cancelar" class="btn-secondary"/>
                     </footer>
                 </form>
             </field>
