@@ -1,7 +1,7 @@
 <svg id="Waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 570">
   <defs>
     <linearGradient id="linear-gradient" x1="10389.33" y1="-7.09" x2="10390.32" y2="-7.09" gradientTransform="translate(-14659339.74 3842.12) scale(1411 499.7)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3aadaa"/>
+      <stop offset="0" stop-color="#28A745"/>
       <stop offset="1" stop-color="#7c6576"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="10389.33" y1="-7.27" x2="10390.32" y2="-7.27" gradientTransform="translate(-14659339.74 3868.84) scale(1411 490.78)" xlink:href="#linear-gradient"/>

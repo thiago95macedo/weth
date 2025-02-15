@@ -4,16 +4,16 @@
 	 viewBox="0 0 1400 570" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{opacity:0.13;fill:#3AADAA;enable-background:new    ;}
-	.st2{opacity:0.1;fill:#383E45;enable-background:new    ;}
-	.st3{opacity:0.44;fill:#383E45;enable-background:new    ;}
-	.st4{opacity:0.44;fill:#3AADAA;enable-background:new    ;}
-	.st5{opacity:0.13;fill:#383E45;enable-background:new    ;}
+	.st1{opacity:0.13;fill:#28A745;enable-background:new    ;}
+	.st2{opacity:0.1;fill:#343A40;enable-background:new    ;}
+	.st3{opacity:0.44;fill:#343A40;enable-background:new    ;}
+	.st4{opacity:0.44;fill:#28A745;enable-background:new    ;}
+	.st5{opacity:0.13;fill:#343A40;enable-background:new    ;}
 </style>
 <radialGradient id="SVGID_1_" cx="1517.8101" cy="1258.9148" r="1750.687" gradientTransform="matrix(1 0 0 1 0 -452)" gradientUnits="userSpaceOnUse">
-	<stop  offset="0" style="stop-color:#F6F6F6"/>
-	<stop  offset="0.35" style="stop-color:#3AADAA"/>
-	<stop  offset="0.99" style="stop-color:#383E45"/>
+	<stop  offset="0" style="stop-color:#F8F9FA"/>
+	<stop  offset="0.35" style="stop-color:#28A745"/>
+	<stop  offset="0.99" style="stop-color:#343A40"/>
 </radialGradient>
 <polygon class="st0" points="0,246.6 1400,0 1400,570 0,570 "/>
 <polygon class="st1" points="753.4,570 1118,505.7 1118,416.2 753.4,480.5 "/>

@@ -4,14 +4,14 @@
 	 viewBox="0 0 1400 244.7" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.58;}
-	.st1{fill:none;stroke:#383E45;stroke-width:1.4665;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#383E45;stroke-width:1.3094;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#383E45;stroke-width:1.1523;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#383E45;stroke-width:0.9952;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#383E45;stroke-width:0.838;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#383E45;stroke-width:0.6809;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:#383E45;stroke-width:0.5238;stroke-miterlimit:10;}
-	.st8{fill:none;stroke:#383E45;stroke-width:0.3666;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#343A40;stroke-width:1.4665;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#343A40;stroke-width:1.3094;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#343A40;stroke-width:1.1523;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#343A40;stroke-width:0.9952;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#343A40;stroke-width:0.838;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#343A40;stroke-width:0.6809;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#343A40;stroke-width:0.5238;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#343A40;stroke-width:0.3666;stroke-miterlimit:10;}
 	@media only screen and (max-width: 300px) {
 		.st1{stroke-width:4.3995}
 		.st2{stroke-width:3.9282}

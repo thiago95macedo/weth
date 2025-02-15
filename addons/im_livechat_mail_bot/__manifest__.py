@@ -1,8 +1,8 @@
 {
-    'name': 'OdooBot for livechat',
+    'name': 'WethBot for livechat',
     'version': '1.0',
     'category': 'Productivity/Discuss',
-    'summary': 'Add livechat support for OdooBot',
+    'summary': 'Add livechat support for WethBot',
     'description': "",
     'website': 'https://www.weth.com.br/page/discuss',
     'depends': ['mail_bot', 'im_livechat'],

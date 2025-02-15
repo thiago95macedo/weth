@@ -2,7 +2,7 @@
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:url(#SVGID_2_);}
-	.st2{fill:#3AADAA;}
+	.st2{fill:#28A745;}
 </style>
 <defs>
 	<mask maskUnits="userSpaceOnUse" x="0" y="0" width="1400" height="1400" id="SVGID_3_">
@@ -11,8 +11,8 @@
 	</mask>
 </defs>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="18645.6504" y1="-5838.8398" x2="18645.6504" y2="-6533.2598" gradientTransform="matrix(-1 0 0 1 19345.6504 6388.0703)">
-	<stop offset="0" style="stop-color:#3AADAA;stop-opacity:0"/>
-	<stop offset="1" style="stop-color:#3AADAA"/>
+	<stop offset="0" style="stop-color:#28A745;stop-opacity:0"/>
+	<stop offset="1" style="stop-color:#28A745"/>
 </linearGradient>
 <g style="mask:url(#SVGID_3_)">
 	<rect class="st0" width="1400" height="570"/>

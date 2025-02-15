@@ -1,8 +1,8 @@
 {
-    'name': 'OdooBot',
+    'name': 'WethBot',
     'version': '1.2',
     'category': 'Productivity/Discuss',
-    'summary': 'Add OdooBot in discussions',
+    'summary': 'Add WethBot in discussions',
     'description': "",
     'website': 'https://www.weth.com.br/page/discuss',
     'depends': ['mail'],

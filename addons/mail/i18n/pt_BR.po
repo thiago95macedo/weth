@@ -1060,8 +1060,8 @@ msgstr "Notificação Automática"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of OdooBot"
-msgstr "Avatar do OdooBot"
+msgid "Avatar of WethBot"
+msgstr "Avatar do WethBot"
 
 #. module: mail
 #. openerp-web

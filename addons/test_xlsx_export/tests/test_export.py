@@ -406,6 +406,6 @@ class TestComputedBinaryExport(XlsxCreatorCase):
         export = self.export(values, fields=['binary_field'], params={'groupby': ['create_uid']})
         self.assertExportEqual(export, [
             ['Binary Field'],
-            ['OdooBot (1)'],
+            ['WethBot (1)'],
             ["['computed value']"],
         ])

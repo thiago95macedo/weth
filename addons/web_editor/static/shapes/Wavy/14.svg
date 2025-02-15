@@ -5,7 +5,7 @@
     </clipPath>
     <linearGradient id="linear-gradient" x1="12667.44" y1="-5269.61" x2="12667.44" y2="-4501.1" gradientTransform="translate(13367.44 -4423.62) rotate(180)" gradientUnits="userSpaceOnUse">
       <stop offset="0"/>
-      <stop offset="1" stop-color="#3aadaa"/>
+      <stop offset="1" stop-color="#28A745"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="700" y1="7.37" x2="700" y2="506.48" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient"/>
   </defs>

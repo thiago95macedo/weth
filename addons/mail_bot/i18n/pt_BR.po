@@ -182,8 +182,8 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
-msgid "OdooBot Status"
-msgstr "Status do OdooBot"
+msgid "WethBot Status"
+msgstr "Status do WethBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
@@ -227,10 +227,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write <span class=\"o_odoobot_command\">@OdooBot</span> and select me."
+"Write <span class=\"o_odoobot_command\">@WethBot</span> and select me."
 msgstr ""
 "Desculpa, não estou ouvindo. Para chamar a atenção de alguém, <b>mencione a "
-"pessoa</b>. Escreva <span class=\"o_odoobot_command\">@OdooBot</span> e me "
+"pessoa</b>. Escreva <span class=\"o_odoobot_command\">@WethBot</span> e me "
 "selecione."
 
 #. module: mail_bot
@@ -282,11 +282,11 @@ msgstr "Usuários"
 msgid ""
 "Wow you are a natural!<br/>Ping someone with @username to grab their "
 "attention. <b>Try to ping me using</b> <span "
-"class=\"o_odoobot_command\">@OdooBot</span> in a sentence."
+"class=\"o_odoobot_command\">@WethBot</span> in a sentence."
 msgstr ""
 "Uau, você tem um talento natural para isso!<br/>Mencione alguém com @usuario"
 " para chamar sua atenção. <b>Tente chamar minha atenção utilizando</b> <span"
-" class=\"o_odoobot_command\">@OdooBot</span> em uma frase."
+" class=\"o_odoobot_command\">@WethBot</span> em uma frase."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

@@ -38,11 +38,11 @@ const CSS_UNITS_CONVERSION = {
  * value: color hex code
  */
 const DEFAULT_PALETTE = {
-    '1': '#3AADAA',
-    '2': '#7C6576',
-    '3': '#F6F6F6',
+    '1': '#28A745',
+    '2': '#406b9a',
+    '3': '#F8F9FA',
     '4': '#FFFFFF',
-    '5': '#383E45',
+    '5': '#343A40',
 };
 /**
  * Set of all the data attributes relative to the background images.

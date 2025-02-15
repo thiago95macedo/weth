@@ -53,7 +53,7 @@ class ProductPricelist(models.Model):
         if data.get('company_id') and not data.get('website_id'):
             # l10n modules install will change the company currency, creating a
             # pricelist for that currency. Do not use user's company in that
-            # case as module install are done with OdooBot (company 1)
+            # case as module install are done with WethBot (company 1)
             self = self.with_context(default_company_id=data['company_id'])
         res = super(ProductPricelist, self).create(data)
         self.clear_cache()

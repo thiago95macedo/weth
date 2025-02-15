@@ -11,7 +11,7 @@ User=weth
 ExecStart=/home/weth/venv/bin/python3 /home/weth/weth-server/weth-bin -c /home/weth/weth-server/weth-server.conf
 StandardOutput=journal+console
 Restart=always          # Sempre reiniciar o serviço se ele falhar
-RestartSec=5            # Aguardar 5 segundos antes de reiniciar
+RestartSec=2            # Aguardar 5 segundos antes de reiniciar
 
 [Install]
 WantedBy=multi-user.target

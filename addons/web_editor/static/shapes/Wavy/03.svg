@@ -1,14 +1,14 @@
 <svg id="Waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 1400">
   <defs>
     <linearGradient id="linear-gradient" x1="10519.02" y1="-581.49" x2="10518.92" y2="-582.19" gradientTransform="translate(-18081425.5 463943.89) scale(1719 796.99)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3aadaa"/>
+      <stop offset="0" stop-color="#28A745"/>
       <stop offset="1" stop-color="#7c6576"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="10519.03" y1="-581.94" x2="10518.93" y2="-582.65" gradientTransform="translate(-18081425.5 449715.77) scale(1719 771.86)" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="10519.02" y1="-582.86" x2="10518.92" y2="-583.56" gradientTransform="translate(-18081425.5 423970.22) scale(1719 726.56)" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-4" x1="10519.02" y1="-581.73" x2="10518.92" y2="-582.43" gradientTransform="translate(-18081425.5 456496.12) scale(1719 783.89)" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-5" x1="10519.02" y1="-583.11" x2="10518.93" y2="-583.73" gradientTransform="translate(-18081425.5 419548.87) scale(1719 718.79)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3aadaa"/>
+      <stop offset="0" stop-color="#28A745"/>
       <stop offset="0.82" stop-color="#7c6576"/>
     </linearGradient>
   </defs>

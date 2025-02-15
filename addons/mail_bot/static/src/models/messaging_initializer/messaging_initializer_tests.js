@@ -24,7 +24,7 @@ QUnit.module('messaging_initializer_tests.js', {
 });
 
 
-QUnit.test('OdooBot initialized at init', async function (assert) {
+QUnit.test('WethBot initialized at init', async function (assert) {
     // TODO this test should be completed in combination with
     // implementing _mockMailChannelInitOdooBot task-2300480
     assert.expect(2);
@@ -45,7 +45,7 @@ QUnit.test('OdooBot initialized at init', async function (assert) {
 
     assert.verifySteps(
         ['init_odoobot'],
-        "should have initialized OdooBot at init"
+        "should have initialized WethBot at init"
     );
 });
 

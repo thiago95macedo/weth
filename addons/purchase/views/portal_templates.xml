@@ -250,7 +250,7 @@
                   <th class="text-right d-none d-sm-table-cell">Unit Price</th>
                   <th class="text-right">Quantity</th>
                   <th class="text-right">Scheduled Date</th>
-                  <th class="text-right" style="color:#3aadaa"><strong>Update Dates Here</strong></th>
+                  <th class="text-right" style="color:#28A745"><strong>Update Dates Here</strong></th>
                   <th class="text-right">Subtotal</th>
                 </tr>
               </thead>

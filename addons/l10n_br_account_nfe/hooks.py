@@ -21,7 +21,7 @@ def load_simples_nacional_demo(env, registry):
         "l10n_br_base.empresa_simples_nacional", raise_if_not_found=False
     )
     if company_sn:
-        # Allow all companies for OdooBot user and set default user company
+        # Allow all companies for WethBot user and set default user company
         companies = env["res.company"].search([])
         env.user.company_ids = [(6, 0, companies.ids)]
         env.user.company_id = company_sn

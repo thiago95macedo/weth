@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 -830 1400 1400">
   <defs>
     <linearGradient id="linear-gradient" x1="889.95" y1="141.2" x2="34.92" y2="687.04" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3aadaa" stop-opacity="0"/>
-      <stop offset="1" stop-color="#3aadaa" stop-opacity="0.3"/>
+      <stop offset="0" stop-color="#28A745" stop-opacity="0"/>
+      <stop offset="1" stop-color="#28A745" stop-opacity="0.3"/>
     </linearGradient>
     <linearGradient id="linear-gradient-2" x1="862.72" y1="98.46" x2="7.65" y2="644.32" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="3730.08" y1="-4548.43" x2="4240.01" y2="-4338.01" gradientTransform="translate(-3489.03 4640.18)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#383e45"/>
-      <stop offset="1" stop-color="#3aadaa"/>
+      <stop offset="1" stop-color="#28A745"/>
     </linearGradient>
     <linearGradient id="linear-gradient-4" x1="304.04" y1="390.93" x2="763.65" y2="390.93" gradientTransform="translate(310.11 -231.77) rotate(34.02)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3aadaa" stop-opacity="0"/>
-      <stop offset="1" stop-color="#3aadaa"/>
+      <stop offset="0" stop-color="#28A745" stop-opacity="0"/>
+      <stop offset="1" stop-color="#28A745"/>
     </linearGradient>
     <linearGradient id="linear-gradient-5" x1="3994.17" y1="-4394.83" x2="3586.33" y2="-4239.6" gradientTransform="translate(-3388.18 4705.47)" xlink:href="#linear-gradient-3"/>
     <linearGradient id="linear-gradient-6" x1="4290.76" y1="-4385.98" x2="4124.11" y2="-4322.55" gradientTransform="translate(-3477.64 4481.85)" xlink:href="#linear-gradient-4"/>

@@ -29,7 +29,7 @@ MockServer.include({
      */
     _mockMailChannelInitOdooBot() {
         // TODO implement this mock task-2300480
-        // and improve test "OdooBot initialized after 2 minutes"
+        // and improve test "WethBot initialized after 2 minutes"
     },
 });
 

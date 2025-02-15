@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400">
 <style type="text/css">
-	.st0{fill:none;stroke:#3AADAA;stroke-width:9;stroke-miterlimit:10}
-	.st1{fill:none;stroke:#3AADAA;stroke-width:3;stroke-miterlimit:10}
-	.st2{fill:#3AADAA}
+	.st0{fill:none;stroke:#28A745;stroke-width:9;stroke-miterlimit:10}
+	.st1{fill:none;stroke:#28A745;stroke-width:3;stroke-miterlimit:10}
+	.st2{fill:#28A745}
 	.selector{display:none}
 	@media only screen and (max-width: 300px) {
 		.selector{display:block}

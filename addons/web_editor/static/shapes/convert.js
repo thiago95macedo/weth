@@ -8,11 +8,11 @@ const fs = require('fs');
 const path = require('path');
 
 const palette = {
-    '1': '#3AADAA',
-    '2': '#7C6576',
-    '3': '#F6F6F6',
+    '1': '#28A745',
+    '2': '#406b9a',
+    '3': '#F8F9FA',
     '4': '#FFFFFF',
-    '5': '#383E45',
+    '5': '#343A40',
 };
 
 const positions = ['top', 'left', 'bottom', 'right', 'center', 'stretch'];
