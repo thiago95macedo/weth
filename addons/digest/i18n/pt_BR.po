@@ -37,11 +37,6 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Abrir Relatório</span>
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"odoo_link_text\">Odoo</span>"
-msgstr "<span class=\"odoo_link_text\">Odoo</span>"
-
-#. module: digest
-#: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
 msgid "<span style=\"color: #8f8f8f;\">Unsubscribe</span>"
 msgstr "<span style=\"color: #8f8f8f;\">Cancelar inscrição</span>"
 
