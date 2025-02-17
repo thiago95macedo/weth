@@ -279,7 +279,7 @@
         <div class="oe_structure oe_structure_solo" id="oe_structure_header_default_1">
             <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                 <div class="container">
-                    <a href="/contactus" class="btn btn-primary ml-4">Contact Us</a>
+                    <a href="/contactus" class="btn btn-primary ml-4">Contato</a>
                 </div>
             </section>
         </div>
@@ -355,7 +355,7 @@
         <div class="oe_structure oe_structure_solo" id="oe_structure_header_hamburger_1">
             <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                 <div class="container">
-                    <a href="/contactus" class="btn btn-primary ml-4">Contact Us</a>
+                    <a href="/contactus" class="btn btn-primary ml-4">Contato</a>
                 </div>
             </section>
         </div>
@@ -703,7 +703,7 @@
         <div class="oe_structure oe_structure_solo" id="oe_structure_header_slogan_2">
             <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                 <div class="container">
-                    <a href="/contactus" class="btn btn-primary ml-4">Contact Us</a>
+                    <a href="/contactus" class="btn btn-primary ml-4">Contato</a>
                 </div>
             </section>
         </div>
@@ -775,7 +775,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-8">
                             <small>
-                                <span class="text-muted"><b>Contact us</b></span>
+                                <span class="text-muted"><b>Contato</b></span>
                                 <i class="fa fa-1x fa-fw fa-phone ml-3 mr-2"/><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a>
                                 <i class="fa fa-1x fa-fw fa-envelope ml-3 mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span>
                             </small>
@@ -932,7 +932,7 @@
         <div class="oe_structure oe_structure_solo" id="oe_structure_header_boxed_2">
             <section class="s_text_block" data-snippet="s_text_block" name="Text">
                 <div class="container">
-                     <a href="/contactus" class="btn btn-primary ml-lg-4">Contact Us</a>
+                     <a href="/contactus" class="btn btn-primary ml-lg-4">Contato</a>
                 </div>
             </section>
         </div>
@@ -1049,7 +1049,7 @@
         <div class="oe_structure oe_structure_solo" id="oe_structure_header_image_2">
             <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
                 <div class="container">
-                    <a href="/contactus" class="btn btn-primary mt-3 mt-lg-0 ml-lg-3">Contact Us</a>
+                    <a href="/contactus" class="btn btn-primary mt-3 mt-lg-0 ml-lg-3">Contato</a>
                 </div>
             </section>
         </div>
@@ -1243,7 +1243,7 @@
     </xpath>
     <xpath expr="//ul[@id='top_menu']/t" position="after">
         <li class="o_offcanvas_logo_container order-last navbar-toggler py-4 order-1 mt-auto text-center border-0">
-            <a href="/" class="o_offcanvas_logo text-center">My Website</a>
+            <a href="/" class="o_offcanvas_logo text-center">WETH</a>
         </li>
     </xpath>
 </template>
@@ -1292,7 +1292,7 @@
 
 <template id="option_header_brand_name" inherit_id="website.placeholder_header_brand" name="Header Brand Name" active="False">
     <xpath expr="//*[@id='o_fake_navbar_brand']" position="replace">
-        <a href="/" t-attf-class="navbar-brand #{_link_class}">My Website</a>
+        <a href="/" t-attf-class="navbar-brand #{_link_class}">WETH</a>
     </xpath>
 </template>
 
@@ -1362,7 +1362,7 @@
                                 <li><a href="#">Products</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Legal</a></li>
-                                <li><a href="/contactus">Contact us</a></li>
+                                <li><a href="/contactus">Contato</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-5 pt24 pb24">
@@ -1371,9 +1371,9 @@
                             <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance.</p>
                         </div>
                         <div id="connect" class="col-lg-4 offset-lg-1 pt24 pb24">
-                            <h5 class="mb-3">Connect with us</h5>
+                            <h5 class="mb-3">Fale Conosco!</h5>
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-comment fa-fw mr-2"/><span><a href="/contactus">Contact us</a></span></li>
+                                <li><i class="fa fa-comment fa-fw mr-2"/><span><a href="/contactus">Contato</a></span></li>
                                 <li><i class="fa fa-envelope fa-fw mr-2"/><span><a href="mailto:info@yourcompany.example.com">info@yourcompany.example.com</a></span></li>
                                 <li><i class="fa fa-phone fa-fw mr-2"/><span class="o_force_ltr"><a href="tel:+1 (650) 555-0111">+1 (650) 555-0111</a></span></li>
                             </ul>
@@ -1708,7 +1708,7 @@
                         <div class="col-lg-3 pb24">
                             <ul class="pl-3 mb-0">
                                 <li><a href="/">Home</a></li>
-                                <li><a href="/contactus">Contact us</a></li>
+                                <li><a href="/contactus">Contato</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 pb24">

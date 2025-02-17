@@ -92,7 +92,7 @@ With OpenCorp, you are guaranteed a controlled implementation of an operational 
 
     <record id="base.res_partner_3" model="res.partner">
         <field name="website_short_description">China Export is committed to deliver a complete integrated business solution to fulfill your business requirements and meet your ever changing needs. China Export partners with Odoo to build a feature rich, extensible...</field>
-        <field name="website_description"><![CDATA[China Export is committed to deliver a complete integrated business solution to fulfill your business requirements and meet your ever changing needs. China Export partners with Odoo to build a feature rich, extensible and cost-effective system for small and medium sized businesses. China Export’s commission is to help you build such a system for your company by leveraging a cost-effective open source software (Odoo), our experienced consulting and services to keep your projects on-target and within budget, and an approach to support that ensure high-responsiveness.]]></field>
+        <field name="website_description"><![CDATA[China Export is committed to deliver a complete integrated business solution to fulfill your business requirements and meet your ever changing needs. China Export partners with Odoo to build a feature rich, extensible and cost-effective system for small and medium sized businesses. China Export’s commission is to help you build such a system for your company by leveraging a cost-effective open source software (WETH), our experienced consulting and services to keep your projects on-target and within budget, and an approach to support that ensure high-responsiveness.]]></field>
     </record>
 
     <record id="base.res_partner_2" model="res.partner">
@@ -205,7 +205,7 @@ As Odoo's longest active US partner, we help our clients leverage new methods, c
 Our goal is to help our clients become high-performing, competitive and profitable businesses.
 We leverage robust model that combines:<br/>
 <ul><li>
-Implementations of feature rich, extensible, and cost-effective Open Source software (Odoo) </li>
+Implementations of feature rich, extensible, and cost-effective Open Source software (WETH) </li>
 <li>Experienced consulting services </li>
 <li>Domestic US, near-shore and offshore based resources </li>
 <li>A highly-responsive support model </li>

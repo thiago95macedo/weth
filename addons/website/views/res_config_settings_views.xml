@@ -228,7 +228,7 @@
                                     <label for="has_google_maps"/>
                                     <span class="fa fa-lg fa-globe" title="Values set here are website-specific." groups="website.group_multi_website"/>
                                     <div class="text-muted">
-                                        Use Google Map on your website (<a href="/contactus">Contact Us</a> page, snippets, ...)
+                                        Use Google Map on your website (<a href="/contactus">Contato</a> page, snippets, ...)
                                     </div>
                                     <div class="content-group" attrs="{'invisible': [('has_google_maps', '=', False)]}">
                                         <div class="row mt16">

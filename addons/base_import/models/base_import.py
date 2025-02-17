@@ -141,7 +141,7 @@ class Import(models.TransientModel):
 
             .. attribute:: name (str)
 
-                The field's logical (Odoo) name within the scope of
+                The field's logical (WETH) name within the scope of
                 its parent.
 
             .. attribute:: string (str)

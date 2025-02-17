@@ -12,7 +12,7 @@
                         <div class="o_setting_right_pane">
                             <span class="o_form_label">Contact Form</span>
                             <div class="text-muted" id="msg_contact_form_install_setting">
-                                Add a contact form in the <a href="/contactus">Contact Us</a> page
+                                Add a contact form in the <a href="/contactus">Contato</a> page
                             </div>
                             <div class="row">
                                 <label class="col-lg-3 o_light_label" string="Sales Team" for="crm_default_team_id"/>

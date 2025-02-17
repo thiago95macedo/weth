@@ -114,11 +114,6 @@ msgid "Config Settings"
 msgstr "Definições de Configuração"
 
 #. module: website_crm
-#: model_terms:ir.ui.view,arch_db:website_crm.res_config_settings_view_form
-msgid "Contact Us"
-msgstr "Entre em contato"
-
-#. module: website_crm
 #: model:ir.model.fields,field_description:website_crm.field_res_config_settings__crm_default_team_id
 msgid "Default Sales Team"
 msgstr "Equipe de Vendas Padrão"

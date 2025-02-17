@@ -17,7 +17,7 @@
         </record>
 
         <record id="contactus" model="ir.ui.view">
-            <field name="name">Contact Us</field>
+            <field name="name">Contato</field>
             <field name="type">qweb</field>
             <field name="key">website.contactus</field>
             <field name="arch" type="xml">
@@ -29,7 +29,7 @@
                                     <span class="s_parallax_bg oe_img_bg" style="background-image: url('/web/image/website.s_banner_default_image'); background-position: 50% 0;"/>
                                     <div class="o_we_bg_filter bg-black-50"/>
                                     <div class="container">
-                                        <h1>Contact us</h1>
+                                        <h1>Contato</h1>
                                     </div>
                                 </section>
                             </div>
@@ -51,7 +51,7 @@
                                             </section>
                                         </div>
                                         <div class="text-center my-3" name="mail_button">
-                                            <a role="button" t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary" id="o_contact_mail">Send us an email</a>
+                                            <a role="button" t-attf-href="mailto:{{ res_company.email }}" class="btn btn-primary" id="o_contact_mail">Enviar Mensagem</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 mt-4 mt-lg-0">
@@ -109,8 +109,8 @@
                                             <p>The website will not work properly if you reject or discard those cookies.</p>
                                         </td>
                                         <td>
-                                            session_id (Odoo)<br/>
-                                            fileToken (Odoo)
+                                            session_id (WETH)<br/>
+                                            fileToken (WETH)
                                         </td>
                                     </tr>
                                     <tr>
@@ -122,7 +122,7 @@
                                             <p>Your experience may be degraded if you discard those cookies, but the website will still work.</p>
                                         </td>
                                         <td>
-                                            frontend_lang (Odoo)
+                                            frontend_lang (WETH)
                                         </td>
                                     </tr>
                                     <tr>
@@ -135,10 +135,10 @@
                                             <p>We may not be able to provide the best service to you if you reject those cookies, but the website will work.</p>
                                         </td>
                                         <td>
-                                            im_livechat_previous_operator_pid (Odoo)<br/>
-                                            utm_campaign (Odoo)<br/>
-                                            utm_source (Odoo)<br/>
-                                            utm_medium (Odoo)
+                                            im_livechat_previous_operator_pid (WETH)<br/>
+                                            utm_campaign (WETH)<br/>
+                                            utm_source (WETH)<br/>
+                                            utm_medium (WETH)
                                         </td>
                                     </tr>
                                     <tr>
@@ -220,7 +220,7 @@
             <field name="sequence" type="int">10</field>
         </record>
         <record id="menu_contactus" model="website.menu">
-            <field name="name">Contact us</field>
+            <field name="name">Contato</field>
             <field name="url">/contactus</field>
             <field name="page_id" ref="website.contactus_page"/>
             <field name="parent_id" ref="website.main_menu"/>
@@ -228,7 +228,7 @@
         </record>
 
         <record id="default_website" model="website">
-            <field name="name">My Website</field>
+            <field name="name">WETH</field>
             <field name="domain"></field>
             <field name="company_id" ref="base.main_company"/>
             <field name="user_id" ref="base.public_user"/>
@@ -721,7 +721,7 @@
     <data>
         <!-- Filter for Dynamic Snippet -->
         <record id="dynamic_snippet_country_filter" model="ir.filters">
-            <field name="name">Countries</field>
+            <field name="name">Países</field>
             <field name="model_id">res.country</field>
             <field name="user_id" eval="False" />
         </record>
@@ -778,7 +778,7 @@
             <field name="field_names">name,code,image_url:image,phone_code:char</field>
             <field name="filter_id" ref="website.dynamic_snippet_country_filter"/>
             <field name="limit" eval="16"/>
-            <field name="name">Countries</field>
+            <field name="name">Países</field>
             <field name="website_id" ref="website.default_website"/>
         </record>
         <record id="group_multi_website" model="res.groups">

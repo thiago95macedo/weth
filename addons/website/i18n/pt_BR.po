@@ -1011,7 +1011,7 @@ msgstr "<span class=\"sr-only\">Alternar menu suspenso</span>"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_header_contact_oe_structure_header_contact_1
 msgid ""
-"<span class=\"text-muted\"><b>Contact us</b></span>\n"
+"<span class=\"text-muted\"><b>Contato</b></span>\n"
 "                                <i class=\"fa fa-1x fa-fw fa-phone ml-3 mr-2\"/>"
 msgstr ""
 "<span class=\"text-muted\"><b>Contato</b></span>\n"
@@ -2260,11 +2260,6 @@ msgid "Connect Google Analytics"
 msgstr "Conectar ao Google Analytics"
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.footer_custom
-msgid "Connect with us"
-msgstr "Conecte conosco"
-
-#. module: website
 #: model:ir.model.fields,field_description:website.field_res_config_settings__has_google_search_console
 msgid "Console Google Search"
 msgstr "Console do Google Search"
@@ -2277,36 +2272,10 @@ msgid "Contact"
 msgstr "Contato"
 
 #. module: website
-#: code:addons/website/models/website.py:0
-#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:website.s_banner
-#: model_terms:ir.ui.view,arch_db:website.template_header_boxed_oe_structure_header_boxed_2
-#: model_terms:ir.ui.view,arch_db:website.template_header_default_oe_structure_header_default_1
-#: model_terms:ir.ui.view,arch_db:website.template_header_hamburger_oe_structure_header_hamburger_1
-#: model_terms:ir.ui.view,arch_db:website.template_header_image_oe_structure_header_image_2
-#: model_terms:ir.ui.view,arch_db:website.template_header_slogan_oe_structure_header_slogan_2
-#, python-format
-msgid "Contact Us"
-msgstr "Entre em contato"
-
-#. module: website
 #: code:addons/website/models/website_visitor.py:0
 #, python-format
 msgid "Contact Visitor"
 msgstr "Visitante Contato"
-
-#. module: website
-#: model:website.menu,name:website.menu_contactus
-#: model_terms:ir.ui.view,arch_db:website.contactus
-#: model_terms:ir.ui.view,arch_db:website.footer_custom
-#: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-#: model_terms:ir.ui.view,arch_db:website.s_carousel
-#: model_terms:ir.ui.view,arch_db:website.s_comparisons
-#: model_terms:ir.ui.view,arch_db:website.s_cover
-#: model_terms:ir.ui.view,arch_db:website.template_footer_headline
-#: model_terms:website.page,arch_db:website.contactus_page
-msgid "Contact us"
-msgstr "Entre em contato"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.contactus
@@ -3719,12 +3688,6 @@ msgstr "Tenha acesso a todos os módulos"
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "Get access to all modules and features"
 msgstr "Tenha acesso a todos os módulos e funcionalidades"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.template_footer_links
-#: model_terms:ir.ui.view,arch_db:website.template_footer_minimalist
-msgid "Get in touch"
-msgstr "Entre em contato"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -9209,8 +9172,8 @@ msgstr "site grátis"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Odoo)"
-msgstr "frontend_lang (Odoo)"
+msgid "frontend_lang (WETH)"
+msgstr "frontend_lang (WETH)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9253,15 +9216,15 @@ msgstr "https://www.weth.com.br"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (WETH)<br/>\n"
+"                                            utm_campaign (WETH)<br/>\n"
+"                                            utm_source (WETH)<br/>\n"
+"                                            utm_medium (WETH)"
 msgstr ""
-"im_livechat_previous_operator_pid (Odoo)<br/>\n"
-"                                            utm_campaign (Odoo)<br/>\n"
-"                                            utm_source (Odoo)<br/>\n"
-"                                            utm_medium (Odoo)"
+"im_livechat_previous_operator_pid (WETH)<br/>\n"
+"                                            utm_campaign (WETH)<br/>\n"
+"                                            utm_source (WETH)<br/>\n"
+"                                            utm_medium (WETH)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9399,11 +9362,11 @@ msgstr "separator, divider"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (WETH)<br/>\n"
+"                                            fileToken (WETH)"
 msgstr ""
-"session_id (Odoo)<br/>\n"
-"                                            fileToken (Odoo)"
+"session_id (WETH)<br/>\n"
+"                                            fileToken (WETH)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets

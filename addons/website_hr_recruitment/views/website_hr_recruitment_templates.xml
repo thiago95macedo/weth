@@ -42,7 +42,7 @@
                     <div class="col-lg" id="jobs_grid">
                         <div t-if="not jobs">
                             <div class="text-center text-muted">
-                                <h3 class="css_editable_hidden"><a t-attf-href="/contactus">Contact us</a> for job opportunities.</h3>
+                                <h3 class="css_editable_hidden"><a t-attf-href="/contactus">Contato</a> for job opportunities.</h3>
                                 <h4 groups="hr_recruitment.group_hr_recruitment_manager">
                                     Create new job pages from the <strong><i>+New</i></strong> top-right button.
                                 </h4>

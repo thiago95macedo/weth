@@ -2058,11 +2058,6 @@ msgstr ""
 "Deixe o campo Empresa em branco ou selecione um site dessa empresa."
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr "Comércio Eletrônico de Código Aberto"
-
-#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/tours/website_sale_shop.js:0
 #, python-format
