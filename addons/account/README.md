@@ -1,7 +1,7 @@
 Odoo Accounting
 ---------------
 
-The Odoo <a href="https://www.weth.com.br/page/accounting">Open Source Accounting</a> app allows a better way to
+The WETH <a href="https://www.weth.com.br/page/accounting">Open Source Accounting</a> app allows a better way to
 collaborate with your accountants, your customers and control your suppliers.
 
 Activate features on demand, from integrated analytic accounting to budget,
@@ -57,7 +57,7 @@ Everything you need to grow
 ---------------------------
 
 Manage your assets, track expenses, control budgets, multi-level analytic
-accounting; Odoo has all the features you need to sustain all your business
+accounting; WETH has all the features you need to sustain all your business
 activities.
 
 Scale With Your Organization

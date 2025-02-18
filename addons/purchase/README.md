@@ -39,7 +39,7 @@ Standard Price, Average Price, FIFO
 
 Use the costing method that reflects your business: standard price, average
 price, fifo or lifo. Get your accounting entries and the right inventory
-valuation in real-time; Odoo manages everything for you, transparently.
+valuation in real-time; WETH manages everything for you, transparently.
 
 Import Vendor Pricelists
 --------------------------

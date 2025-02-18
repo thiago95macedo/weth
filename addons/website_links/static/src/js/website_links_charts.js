@@ -163,7 +163,7 @@ publicWidget.registry.websiteLinksCharts = publicWidget.Widget.extend({
             var beginDate;
             for (var i = 0; i < _clicksByDay.length; i++) {
                 // This is a trick to get the date without the local formatting.
-                // We can't simply do .locale("en") because some Odoo languages
+                // We can't simply do .locale("en") because some WETH languages
                 // are not supported by moment.js (eg: Arabic Syria).
                 const date = moment(
                     _clicksByDay[i]["__domain"].find((el) => el.length && el.includes(">="))[2]

@@ -54,12 +54,12 @@ class ProductProduct(models.Model):
         """
         The nfe.40.prod mixin (prod XML tag) cannot be injected in
         the product.product object because the tag includes attributes from the
-        Odoo fiscal document line and because we may have an Nfe with
+        WETH fiscal document line and because we may have an Nfe with
         lines decsriptions instead of full blown products.
         So a part of the mapping is done
         in the fiscal document line:
-        from Odoo -> XML by using related fields/_compute
-        from XML -> Odoo by overriding the product default_get method
+        from WETH -> XML by using related fields/_compute
+        from XML -> WETH by overriding the product default_get method
         """
         values = super().default_get(default_fields)
         parent_dict = self._context.get("parent_dict", {})

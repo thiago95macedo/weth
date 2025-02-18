@@ -374,7 +374,7 @@ ul.auto-toc {
 Um módulo que usa ele é o módulo <cite>l10n_br_nfe</cite> que permite transmitir as NF-e’s.</p>
 <div class="section" id="geracao">
 <h1>Geração</h1>
-<p>O código dos mixins Odoo desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:</p>
+<p>O código dos mixins WETH desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:</p>
 <p><a class="reference external" href="https://github.com/akretion/xsdata-odoo">https://github.com/akretion/xsdata-odoo</a></p>
 <p>Para accessar aos schemas xsd, pode ser mais facil fazer um clone da lib nfelib e gerar
 o codigo dentro da pasta:</p>
@@ -394,16 +394,16 @@ Além disso, temos várias versões da NFe, a 3.1, a 4.0 etc…</p>
 <p>Nisso foi decidido que cada campo tem um prefixo composto do nome do schema
 e de alguns dígitos da versão do esquema. No caso <cite>nfe40_</cite>. A escolha de 2 dígitos permite
 que uma atualização menor do esquema use os mesmos campos (e dados no banco então) e que um simples
-update Odoo (–update=…) consiga resolver a migração. Enquanto que para uma mudança maior
+update WETH (–update=…) consiga resolver a migração. Enquanto que para uma mudança maior
 como de 3.1 para 4.0, seria assumido de usar novos campos e novas tabelas (para os objetos não Odoo)
 e que a lib nfelib iria trabalhar com os campos da versão maior do documento fiscal considerado.</p>
 </div>
 <div class="section" id="casos-das-tags-de-icms-e-icmssn">
 <h1>Casos das tags de ICMS e ICMSSN</h1>
 <p>Para facilitar a validação das tags de ICMS e ICMSSN, o esquema contem tags especificas para cada tipo desses impostos.
-Porem, Depois no Odoo o modelo é diferente com uma class apenas. Se a gente injectasse todos esses mixins de ICMS e ICMSSN na mesma class Odoo
+Porem, Depois no WETH o modelo é diferente com uma class apenas. Se a gente injectasse todos esses mixins de ICMS e ICMSSN na mesma class Odoo
 a gente teria colisão de campos, com campos com o mesmo nome e seleções diferentes… Para evitar esses problemas, filtramos as classes
-desses tags (usando o export XSDATA_SKIP antes de chamar xsdata generate). De qualquer forma, já que o Odoo e o módulo l10n_br_fiscal tem modelos proprios para os impostos
+desses tags (usando o export XSDATA_SKIP antes de chamar xsdata generate). De qualquer forma, já que o WETH e o módulo l10n_br_fiscal tem modelos proprios para os impostos
 temos que assumir que o mapping das tags de impostos nao pode ser tão automatizada.</p>
 <p><strong>Table of contents</strong></p>
 <div class="contents local topic" id="contents">
@@ -442,8 +442,8 @@ If you spotted it first, help us to smash it by providing a detailed and welcome
 <a class="reference external image-reference" href="https://odoo-community.org">
 <img alt="Odoo Community Association" src="https://odoo-community.org/logo.png" />
 </a>
-<p>OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+<p>OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.</p>
 <p>Current <a class="reference external" href="https://odoo-community.org/page/maintainer-role">maintainer</a>:</p>
 <p><a class="reference external image-reference" href="https://github.com/rvalyi"><img alt="rvalyi" src="https://github.com/rvalyi.png?size=40px" /></a></p>

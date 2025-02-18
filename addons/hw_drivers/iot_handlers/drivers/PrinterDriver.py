@@ -153,7 +153,7 @@ class PrinterDriver(Driver):
             self.send_status()
 
     def send_status(self):
-        """ Sends the current status of the printer to the connected Odoo instance.
+        """ Sends the current status of the printer to the connected WETH instance.
         """
         self.data = {
             'value': '',

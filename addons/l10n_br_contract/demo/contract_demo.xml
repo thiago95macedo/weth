@@ -60,7 +60,7 @@
 
     <record id="contract_line_only_service" model="contract.line">
         <field name="contract_id" ref="contract_only_service" />
-        <field name="name">[ODOO_DEV] Customized Odoo Development</field>
+        <field name="name">[ODOO_DEV] Customized WETH Development</field>
         <field name="date_start" eval="(datetime.today().strftime('%Y-%m-%d'))" />
         <field
             name="date_end"
@@ -127,7 +127,7 @@
 
     <record id="contract_line_service" model="contract.line">
         <field name="contract_id" ref="contract_product_service" />
-        <field name="name">[ODOO_DEV] Customized Odoo Development</field>
+        <field name="name">[ODOO_DEV] Customized WETH Development</field>
         <field name="date_start" eval="(datetime.today().strftime('%Y-%m-%d'))" />
         <field
             name="date_end"

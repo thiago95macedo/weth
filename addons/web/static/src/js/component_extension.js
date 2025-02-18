@@ -1,6 +1,6 @@
 (function () {
     /**
-     * Symbol used in ComponentWrapper to redirect Owl events to Odoo legacy
+     * Symbol used in ComponentWrapper to redirect Owl events to WETH legacy
      * events.
      */
     odoo.widgetSymbol = Symbol('widget');

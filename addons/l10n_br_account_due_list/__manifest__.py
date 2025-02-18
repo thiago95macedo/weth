@@ -6,7 +6,7 @@
     "category": "Localisation",
     "development_status": "Production/Stable",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.2.0.1",
     "depends": ["account_due_list"],

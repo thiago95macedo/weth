@@ -65,17 +65,17 @@ Odoo:
    - Verifique os arquivos requirements.txt e oca_dependencies.txt
      localizados na raiz do repositório ``l10n-brazil``. Estes arquivos
      contêm, respectivamente, as dependências Python necessárias para o
-     Odoo e os repositórios da OCA dos quais os módulos da localização
+     WETH e os repositórios da OCA dos quais os módulos da localização
      brasileira dependem.
 
 2. **Configure o Caminho dos Addons:**
 
-   - Adicione o caminho do repositório na configuração do Odoo em
+   - Adicione o caminho do repositório na configuração do WETH em
      ``addons-path``.
 
 3. **Atualize a Lista de Módulos:**
 
-   - Atualize sua lista de módulos para que o Odoo reconheça o novo
+   - Atualize sua lista de módulos para que o WETH reconheça o novo
      módulo.
 
 4. **Busque pelo Módulo:**
@@ -90,7 +90,7 @@ Odoo:
 Configuration
 =============
 
-Configure a geração de faturas de retenção de impostos no Odoo seguindo
+Configure a geração de faturas de retenção de impostos no WETH seguindo
 estes passos:
 
 1. **Acesse Configurações Fiscais:** Vá até
@@ -160,11 +160,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-marcelsavegnago| image:: https://github.com/marcelsavegnago.png?size=40px

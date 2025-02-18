@@ -77,7 +77,7 @@ def get_brcobranca_api_url(env):
                 " Set the URL using one of the these methods:\n\n"
                 "1. Set the environment variable:"
                 " BRCOBRANCA_API_URL=http://boleto_cnab_api:9292\n"
-                "2. Configure the URL in Odoo configuration file:"
+                "2. Configure the URL in WETH configuration file:"
                 " brcobranca_api_url=http://boleto_cnab_api:9292\n"
                 "3. Set the URL in System Parameters:"
                 " brcobranca_api_url=http://boleto_cnab_api:9292\n"

@@ -10,7 +10,7 @@ class Attendee(models.Model):
 
     def _send_mail_to_attendees(self, template_xmlid, force_send=False, ignore_recurrence=False):
         """ Override the super method
-        If not synced with Microsoft Outlook, let Odoo in charge of sending emails
+        If not synced with Microsoft Outlook, let WETH in charge of sending emails
         Otherwise, Microsoft Outlook will send them
         """
         with microsoft_calendar_token(self.env.user.sudo()) as token:

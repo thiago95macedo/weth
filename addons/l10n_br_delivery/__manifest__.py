@@ -4,7 +4,7 @@
 {
     "name": "delivery module Brazilian Localization",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "maintainers": ["renatonlima", "mbcosta"],
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.2.2.1",

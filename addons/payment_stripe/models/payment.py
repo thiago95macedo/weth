@@ -40,7 +40,7 @@ class PaymentAcquirerStripe(models.Model):
     stripe_webhook_secret = fields.Char(
         string='Stripe Webhook Secret', groups='base.group_user',
         help="If you enable webhooks, this secret is used to verify the electronic "
-             "signature of events sent by Stripe to Odoo. Failing to set this field in Odoo "
+             "signature of events sent by Stripe to Odoo. Failing to set this field in WETH "
              "will disable the webhook system for this acquirer entirely.")
     stripe_image_url = fields.Char(
         "Checkout Image URL", groups='base.group_user',
@@ -249,7 +249,7 @@ class PaymentAcquirerStripe(models.Model):
         if not consteq(expected_signature, actual_signature):
             _logger.error(
                 'incorrect webhook signature from Stripe, check if the webhook signature '
-                'in Odoo matches to one in the Stripe dashboard')
+                'in WETH matches to one in the Stripe dashboard')
             raise ValidationError('incorrect webhook signature')
 
         return True

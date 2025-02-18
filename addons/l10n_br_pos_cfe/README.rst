@@ -49,7 +49,7 @@ Esse módulo depende:
 * l10n_br_pos
 
 Alem disso você vi precisar de um IOT BOX, podendo ser o do WETH SA ou o Pywebdriver, com os respectivos drivers para CF-E:
-  - Odoo SA: hw_sat, disponível em github.com/oca/l10n-brazil;
+  - WETH SA: hw_sat, disponível em github.com/oca/l10n-brazil;
   - Pywebdriver disponível em:
     - https://github.com/kmee/pywebdriver/releases
 
@@ -123,11 +123,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-mileo| image:: https://github.com/mileo.png?size=40px

@@ -1928,7 +1928,7 @@
     <!-- Service products -->
     <!-- Customized Development-->
     <record id="customized_development_sale" model="product.product">
-        <field name="name">Customized Odoo Development</field>
+        <field name="name">Customized WETH Development</field>
         <field name="list_price">100.0</field>
         <field name="standard_price">0.0</field>
         <field name="type">service</field>

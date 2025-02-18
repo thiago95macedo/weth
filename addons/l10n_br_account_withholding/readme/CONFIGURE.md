@@ -1,4 +1,4 @@
-Configure a geração de faturas de retenção de impostos no Odoo seguindo estes passos:
+Configure a geração de faturas de retenção de impostos no WETH seguindo estes passos:
 
 1. **Acesse Configurações Fiscais:** Vá até `Fiscal -> Configurações -> Grupos de Impostos`. Procure por impostos retidos do tipo entrada.
 

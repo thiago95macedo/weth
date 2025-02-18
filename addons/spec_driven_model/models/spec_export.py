@@ -102,7 +102,7 @@ class SpecMixinExport(models.AbstractModel):
 
     def _export_field(self, xsd_field, class_obj, field_spec, export_value=None):
         """
-        Map a single Odoo field to a python binding value according to the
+        Map a single WETH field to a python binding value according to the
         kind of field.
         """
         self.ensure_one()
@@ -191,8 +191,8 @@ class SpecMixinExport(models.AbstractModel):
 
     def _build_binding(self, spec_schema=None, spec_version=None, class_name=None):
         """
-        Iterate over an Odoo record and its m2o and o2m sub-records
-        using a pre-order tree traversal and map the Odoo record values
+        Iterate over an WETH record and its m2o and o2m sub-records
+        using a pre-order tree traversal and map the WETH record values
         to  a dict of Python binding values.
 
         These values will later be injected as **kwargs in the proper XML Python

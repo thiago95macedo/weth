@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -38,7 +38,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2045,8 +2045,8 @@ msgstr "Fushia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Obtenha este recurso e muito mais com Odoo Enterprise!"
+msgid "Get this feature and much more with WETH Enterprise!"
+msgstr "Obtenha este recurso e muito mais com WETH Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2876,7 +2876,7 @@ msgstr "Erro Odoo"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
 msgid "Odoo Session Expired"
-msgstr "Sessão do Odoo Expirada"
+msgstr "Sessão do WETH Expirada"
 
 #. module: web
 #. openerp-web
@@ -4714,10 +4714,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Odoo with at least two workers to print a pdf version of "
+"You need to start WETH with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Você precisa iniciar o Odoo com pelo menos dois workers para imprimir uma "
+"Você precisa iniciar o WETH com pelo menos dois workers para imprimir uma "
 "versão em pdf dos relatórios."
 
 #. module: web
@@ -4737,9 +4737,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Odoo session expired. The current page is about to be refreshed."
+msgid "Your WETH session expired. The current page is about to be refreshed."
 msgstr ""
-"Sua sessão Odoo expirou. A página atual está prestes a ser atualizada."
+"Sua sessão WETH expirou. A página atual está prestes a ser atualizada."
 
 #. module: web
 #. openerp-web

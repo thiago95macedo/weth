@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 def pre_init_hook(cr):
     """
     The objective of this hook is to speed up the installation
-    of the module on an existing Odoo instance.
+    of the module on an existing WETH instance.
 
     Without this script, if a database has a few hundred thousand
     journal entries, which is not unlikely, the update will take

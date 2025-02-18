@@ -249,9 +249,9 @@ VALID_AGGREGATE_FUNCTIONS = {
 
 
 class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
-    """Base class for Odoo models.
+    """Base class for WETH models.
 
-    Odoo models are created by inheriting one of the following:
+    WETH models are created by inheriting one of the following:
 
     *   :class:`Model` for regular database-persisted models
 
@@ -6470,9 +6470,9 @@ class RecordCache(MutableMapping):
 AbstractModel = BaseModel
 
 class Model(AbstractModel):
-    """ Main super-class for regular database-persisted Odoo models.
+    """ Main super-class for regular database-persisted WETH models.
 
-    Odoo models are created by inheriting from this class::
+    WETH models are created by inheriting from this class::
 
         class user(Model):
             ...

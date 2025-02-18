@@ -5,7 +5,7 @@ odoo.define('web.ActionManager', function (require) {
  * ActionManager
  *
  * The ActionManager is one of the centrepieces in the WebClient architecture.
- * Its role is to makes sure that Odoo actions are properly started and
+ * Its role is to makes sure that WETH actions are properly started and
  * coordinated.
  */
 
@@ -102,7 +102,7 @@ var ActionManager = Widget.extend({
         return Promise.resolve();
     },
     /**
-     * This is the entry point to execute Odoo actions, given as an ID in
+     * This is the entry point to execute WETH actions, given as an ID in
      * database, an xml ID, a client action tag or an action descriptor.
      *
      * @param {number|string|Object} action the action to execute

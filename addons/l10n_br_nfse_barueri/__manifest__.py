@@ -7,7 +7,7 @@
         NFS-e (Barueri)""",
     "version": "25.0.1.0.3",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "maintainers": ["AndreMarcos", "mileo", "ygcarvalh"],
     "website": "https://github.com/OCA/l10n-brazil",
     "development_status": "Beta",

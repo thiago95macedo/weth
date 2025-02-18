@@ -7,7 +7,7 @@
         NFS-e (Ginfes)""",
     "version": "25.0.1.1.0",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "maintainers": ["gabrielcardoso21", "mileo", "luismalta"],
     "website": "https://github.com/OCA/l10n-brazil",
     "development_status": "Beta",

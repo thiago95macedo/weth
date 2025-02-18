@@ -55,18 +55,18 @@ class CheckAddons(argparse.Action):
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Script for testing the install / uninstall / reinstall cycle of Odoo modules")
+        description="Script for testing the install / uninstall / reinstall cycle of WETH modules")
     parser.add_argument("--database", "-d", type=str, required=True,
         help="The database to test (note: must have only 'base' installed)")
     parser.add_argument("--data-dir", "-D", dest="data_dir", type=str,
-        help="Directory where to store Odoo data"
+        help="Directory where to store WETH data"
     )
     parser.add_argument("--skip", "-s", type=str,
         help="Comma-separated list of modules to skip (they will only be installed)")
     parser.add_argument("--resume-at", "-r", type=str,
         help="Skip modules (only install) up to the specified one in topological order")
     parser.add_argument("--addons-path", "-p", type=str, action=CheckAddons,
-        help="Comma-separated list of paths to directories containing extra Odoo modules")
+        help="Comma-separated list of paths to directories containing extra WETH modules")
     parser.add_argument("--uninstall", "-U", type=str,
         help="Comma-separated list of modules to uninstall/reinstall")
     parser.add_argument("--standalone", type=str,

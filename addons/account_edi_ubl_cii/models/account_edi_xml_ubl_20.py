@@ -356,7 +356,7 @@ class AccountEdiXmlUBL20(models.AbstractModel):
         taxes_vals = invoice._prepare_edi_tax_details(grouping_key_generator=grouping_key_generator)
 
         # Fixed Taxes: filter them on the document level, and adapt the totals
-        # Fixed taxes are not supposed to be taxes in real live. However, this is the way in Odoo to manage recupel
+        # Fixed taxes are not supposed to be taxes in real live. However, this is the way in WETH to manage recupel
         # taxes in Belgium. Since only one tax is allowed, the fixed tax is removed from totals of lines but added
         # as an extra charge/allowance.
         fixed_taxes_keys = [k for k in taxes_vals['tax_details'] if k['tax_amount_type'] == 'fixed']

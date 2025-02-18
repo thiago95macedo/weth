@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -33,7 +33,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -2584,9 +2584,9 @@ msgstr "Obrigado pela inscrição!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Odoo evolves much faster than any other solution."
+msgid "That way, WETH evolves much faster than any other solution."
 msgstr ""
-"Dessa forma, o Odoo evolui muito mais rápido do que qualquer outra solução"
+"Dessa forma, o WETH evolui muito mais rápido do que qualquer outra solução"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2606,20 +2606,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of developers and\n"
+"The open source model of WETH has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"O modelo de código livre do Odoo tem nos permitido alavancar milhares de desenvolvedores e\n"
+"O modelo de código livre do WETH tem nos permitido alavancar milhares de desenvolvedores e\n"
 "especialistas de negócios para construir centenas de aplicativos em poucos anos."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Odoo has allowed us to leverage thousands of "
+"The open source model of WETH has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"O modelo de código livre do Odoo tem nos permitido alavancar milhares de "
+"O modelo de código livre do WETH tem nos permitido alavancar milhares de "
 "desenvolvedores e especialistas de negócios para construir centenas de "
 "aplicativos em poucos anos."
 
@@ -2808,10 +2808,10 @@ msgstr "Upgrade de tema"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Odoo will automatically apply to all\n"
+"Usability improvements made on WETH will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Melhorias de usabilidades feitas no Odoo serão aplicadas automaticamente para todos\n"
+"Melhorias de usabilidades feitas no WETH serão aplicadas automaticamente para todos\n"
 "os nossos aplicativos completamente integrados."
 
 #. module: mass_mailing
@@ -2829,11 +2829,11 @@ msgstr "Use um servidor dedicado para mailings"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Odoo relies on the first "
+"Use a specific mail server in priority. Otherwise WETH relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Usar um servidor de e-mail específico. Ou então o Odoo utiliza o primeiro "
+"Usar um servidor de e-mail específico. Ou então o WETH utiliza o primeiro "
 "servidor de saída de e-mail disponível (baseado na sequência deles) como "
 "ocorre para correspondências normais."
 
@@ -2935,7 +2935,7 @@ msgid ""
 "With strong technical foundations, Odoo's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Com bases técnicas sólidas, a estrutura do Odoo é única.\n"
+"Com bases técnicas sólidas, a estrutura do WETH é única.\n"
 "                                Ela fornece usabilidade de primeira linha que pode ser dimensionada em todos os aplicativos."
 
 #. module: mass_mailing
@@ -2944,7 +2944,7 @@ msgid ""
 "With strong technical foundations, Odoo's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Com bases técnicas sólidas, a estrutura do Odoo é única. Ela fornece "
+"Com bases técnicas sólidas, a estrutura do WETH é única. Ela fornece "
 "<strong>usabilidade de primeira linha que se escala em todos os "
 "apps</strong>."
 
@@ -2980,7 +2980,7 @@ msgstr "Você não está inscrito em nenhuma de nossa listas de correspondência
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Odoo apps."
+"                send emails<br> to any contact saved in other WETH apps."
 msgstr ""
 "Você não precisa importar sua lista de mailing, você pode facilmente\n"
 "enviar e-mails <br> para qualquer contato salvo em outro App do Odoo."
@@ -2989,7 +2989,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Odoo apps."
+"            send emails<br> to any contact saved in other WETH apps."
 msgstr ""
 "Você não precisa importar sua lista de mailing, você pode facilmente\n"
 "enviar e-mails <br> para qualquer contato salvo em outro App do Odoo."

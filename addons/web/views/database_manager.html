@@ -87,7 +87,7 @@
                 <input type="hidden" name="master_pwd" class="form-control" value="admin"/>
             {% else %}
                 <div class="alert alert-warning">
-                    <p>Warning, your Odoo database manager is not protected. To secure it, we have generated the following master password for it:</p>
+                    <p>Warning, your WETH database manager is not protected. To secure it, we have generated the following master password for it:</p>
                     <p style="text-align: center;"><strong class="generated_master_pwd"></strong></p>
                     <p>You can change it below but be sure to remember it, it will be asked for future operations on databases.</p>
                 </div>
@@ -182,7 +182,7 @@
                         <div class="alert alert-danger text-center">The database manager has been disabled by the administrator</div>
                     {% elif insecure and databases %}
                         <div class="alert alert-warning">
-                            Warning, your Odoo database manager is not protected.<br/>
+                            Warning, your WETH database manager is not protected.<br/>
                             Please <a href="#" data-toggle="modal" data-target=".o_database_master">set a master password</a> to secure it.
                         </div>
                     {% endif %}

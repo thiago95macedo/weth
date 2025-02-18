@@ -5,7 +5,7 @@
         <field name="name">Brazilian Fiscal</field>
         <field
             name="description"
-        >Extends Odoo to helps you manage your brazilian fiscal documents, taxes and etc...</field>
+        >Extends WETH to helps you manage your brazilian fiscal documents, taxes and etc...</field>
         <field name="sequence">30</field>
     </record>
 

@@ -86,7 +86,7 @@ class DeliveryCarrier(models.Model):
             'domain': [['name', '=like', 'delivery_%'], ['name', '!=', 'delivery_barcode']],
             'type': 'ir.actions.act_window',
             'help': _('''<p class="o_view_nocontent">
-                    Buy Odoo Enterprise now to get more providers.
+                    Buy WETH Enterprise now to get more providers.
                 </p>'''),
         }
 

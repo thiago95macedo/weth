@@ -46,7 +46,7 @@ var DateTimePicker = function ($, moment) {
         DATA_API_KEY = '.data-api',
         Selector = {
         // /!\ ODOO PATCH: ensure the datetimepickers can be toggled only after
-        // the Odoo lazy loader finished loading all lazy scripts. Another
+        // the WETH lazy loader finished loading all lazy scripts. Another
         // solution could have been to temporarily removing the data-toggle
         // attributes during lazyloading but that would not have been stable as
         // custom code could search for data-toggle elements while the lazy
@@ -497,7 +497,7 @@ var DateTimePicker = function ($, moment) {
         DateTimePicker.prototype._change = function _change(e) {
             var val = $(e.target).val().trim(),
                 parsedDate = val ? this._parseInputDate(val) : null;
-            this._setValue(parsedDate, 0); // Odoo FIX: if a valid date is replaced by an invalid one, lib will crash, see https://github.com/tempusdominus/bootstrap-4/issues/223
+            this._setValue(parsedDate, 0); // WETH FIX: if a valid date is replaced by an invalid one, lib will crash, see https://github.com/tempusdominus/bootstrap-4/issues/223
             e.stopImmediatePropagation();
             return false;
         };

@@ -10,7 +10,7 @@
             Create a new contacts list
           </p><p>
             You don't need to import your contacts lists, you can easily
-            send SMS to any contact saved in other Odoo apps.
+            send SMS to any contact saved in other WETH apps.
           </p>
         </field>
     </record>

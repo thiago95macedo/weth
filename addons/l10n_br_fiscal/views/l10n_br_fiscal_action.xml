@@ -417,7 +417,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new partner in your address book
           </p><p>
-            Odoo helps you easily track all activities related to a partner.
+            WETH helps you easily track all activities related to a partner.
           </p>
         </field>
     </record>
@@ -434,7 +434,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new Fiscal Partner Profile
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal operation.
           </p>
         </field>
@@ -494,7 +494,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new fiscal operation
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal operation.
           </p>
         </field>
@@ -544,7 +544,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new Comment
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal comment.
           </p>
         </field>
@@ -621,7 +621,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new Document
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal operation.
           </p>
         </field>
@@ -641,7 +641,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new Document
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal operation.
           </p>
         </field>
@@ -661,7 +661,7 @@
           <p class="o_view_nocontent_smiling_face">
             Create a new Document
           </p><p>
-            Odoo helps you easily track all activities
+            WETH helps you easily track all activities
             related to a fiscal operation.
           </p>
         </field>

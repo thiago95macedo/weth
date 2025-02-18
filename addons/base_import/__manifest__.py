@@ -18,7 +18,7 @@ Re-implement Odoo's file import system:
   files) which may be simpler to handle in their work flow or from
   their data production sources.
 
-* In a module, so that administrators and users of Odoo who do not
+* In a module, so that administrators and users of WETH who do not
   need or want an online import can avoid it being available to users.
 """,
     'depends': ['web'],

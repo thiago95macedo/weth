@@ -30,14 +30,14 @@ cte spec
 
 Este módulo contem a estrutura de dados do Conhecimento de Transporte Eletrônico (CT-e).
 Este módulo não faz nada sozinho, ele precisaria de um modulo `l10n_br_cte` que mapearia esses mixins
-nos documentos fiscais Odoo de forma semelhante a forma como o módulo `l10n_br_nfe` faz como o módulo `l10n_br_nfe_spec`.
+nos documentos fiscais WETH de forma semelhante a forma como o módulo `l10n_br_nfe` faz como o módulo `l10n_br_nfe_spec`.
 
 Este módulo inclui os principais layouts persistentes do CT-e (Conhecimento de Transporte Eletrônico).
 
 Geração
 ~~~~~~~
 
-O código dos mixins Odoo desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:
+O código dos mixins WETH desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:
 
 https://github.com/akretion/xsdata-odoo
 
@@ -88,11 +88,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-rvalyi| image:: https://github.com/rvalyi.png?size=40px

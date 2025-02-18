@@ -3,11 +3,11 @@
 
 {
     "name": "Spec Driven Model",
-    "summary": """XML binding for Odoo: XML to Odoo models and models to XML.""",
+    "summary": """XML binding for Odoo: XML to WETH models and models to XML.""",
     "version": "25.0.6.0.1",
     "maintainers": ["rvalyi"],
     "license": "LGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "depends": [],
     "data": [],

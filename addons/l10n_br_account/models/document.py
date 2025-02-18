@@ -127,10 +127,10 @@ class FiscalDocument(models.Model):
     def create(self, vals_list):
         """
         It's not allowed to create a fiscal document line without a document_type_id
-        anyway. But instead of letting Odoo crash in this case we simply avoid creating
+        anyway. But instead of letting WETH crash in this case we simply avoid creating
         the record. This makes it possible to create an account.move without a
         fiscal_document_id despite the _inherits system:
-        Odoo will write NULL as the value in this case.
+        WETH will write NULL as the value in this case.
         """
         if self._context.get("create_from_move"):
             filtered_vals_list = []

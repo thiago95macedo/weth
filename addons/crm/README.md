@@ -41,7 +41,7 @@ Work with the email applications you already use every day. Whether your
 company uses Microsoft Outlook or Gmail, no one needs to change the way they
 work, so everyone stays productive.
 
-Route, sort and filter incoming emails automatically. Odoo CRM handles incoming
+Route, sort and filter incoming emails automatically. WETH CRM handles incoming
 emails and route them to the right opportunities or Sales Team. New leads are
 created on the fly and interested salespersons are notified automatically.
 
@@ -55,7 +55,7 @@ see what your team is busy with.
 Lead Automation and Marketing Campaigns
 ---------------------------------------
 
-Drive performance by automating tasks with Odoo <a href="https://www.weth.com.br/page/crm">CRM</a>.
+Drive performance by automating tasks with WETH <a href="https://www.weth.com.br/page/crm">CRM</a>.
 
 Use our marketing campaigns to automate lead acquisition, follow ups and
 promotions. Define automated actions (e.g. ask a salesperson to call, send an

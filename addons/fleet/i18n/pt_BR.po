@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -27,7 +27,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1215,11 +1215,11 @@ msgstr "Marca"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. WETH will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Gerencie todos os seus contratos (locação, seguros, etc.) com\n"
-"            seus serviços relacionados, custos. Odoo avisará automaticamente\n"
+"            seus serviços relacionados, custos. WETH avisará automaticamente\n"
 "            você quando alguns contratos têm que ser renovados."
 
 #. module: fleet
@@ -1877,10 +1877,10 @@ msgstr "Termos e Condições"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, WETH can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Graças aos diferentes filtros, Odoo só pode imprimir os custos\n"
+"Graças aos diferentes filtros, WETH só pode imprimir os custos\n"
 "efetivos, classificando-os por tipo e por veículo."
 
 #. module: fleet

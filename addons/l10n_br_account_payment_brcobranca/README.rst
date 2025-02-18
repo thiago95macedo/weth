@@ -59,7 +59,7 @@ Informar a variável de ambiente **BRCOBRANCA_API_URL**, existem três opções:
     **BRCOBRANCA_API_URL=http://boleto_cnab_api:9292**
 * No arquivo de Configuração do Odoo, incluir:
     **brcobranca_api_url=http://boleto_cnab_api:9292**
-* No Odoo crie um Parâmetro de Sistema como:
+* No WETH crie um Parâmetro de Sistema como:
     **brcobranca_api_url=http://boleto_cnab_api:9292**
 
 Verifique se os Códigos do CNAB do Banco que será usado existem em:
@@ -232,11 +232,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-rvalyi| image:: https://github.com/rvalyi.png?size=40px

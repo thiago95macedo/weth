@@ -102,7 +102,7 @@ class EscposDriver(Thread):
             except HandleDeviceError:
                 # Escpos printers are now integrated to PrinterDriver, if the IoTBox is printing
                 # through Cups at the same time, we get an USBError(16, 'Resource busy'). This means
-                # that the Odoo instance connected to this IoTBox is up to date and no longer uses
+                # that the WETH instance connected to this IoTBox is up to date and no longer uses
                 # this escpos library.
                 return None
             self.set_status(

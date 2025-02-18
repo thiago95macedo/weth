@@ -41,7 +41,7 @@ _logger = logging.getLogger(__name__)
 # A lock occurs when the user wants to print a report having multiple barcode while the server is
 # started in threaded-mode. The reason is that reportlab has to build a cache of the T1 fonts
 # before rendering a barcode (done in a C extension) and this part is not thread safe. We attempt
-# here to init the T1 fonts cache at the start-up of Odoo so that rendering of barcode in multiple
+# here to init the T1 fonts cache at the start-up of WETH so that rendering of barcode in multiple
 # thread does not lock the server.
 try:
     createBarcodeDrawing('Code128', value='foo', format='png', width=100, height=100, humanReadable=1).asString('png')
@@ -53,7 +53,7 @@ def _get_wkhtmltopdf_bin():
     return find_in_path('wkhtmltopdf')
 
 
-# Check the presence of Wkhtmltopdf and return its version at Odoo start-up
+# Check the presence of Wkhtmltopdf and return its version at WETH start-up
 wkhtmltopdf_state = 'install'
 wkhtmltopdf_dpi_zoom_ratio = False
 try:
@@ -76,7 +76,7 @@ else:
         if parse_version(version) >= parse_version('0.12.2'):  # Substitui LooseVersion
             wkhtmltopdf_dpi_zoom_ratio = True
         if config['workers'] == 1:
-            _logger.info('You need to start Odoo with at least two workers to print a pdf version of the reports.')
+            _logger.info('You need to start WETH with at least two workers to print a pdf version of the reports.')
             wkhtmltopdf_state = 'workers'
     else:
         _logger.info('Wkhtmltopdf seems to be broken.')

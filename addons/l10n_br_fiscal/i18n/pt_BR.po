@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* l10n_br_fiscal
 #
@@ -2582,7 +2582,7 @@ msgstr "Encargos Alfandegários"
 #: model:product.product,mdfe30_xProd:l10n_br_fiscal.customized_development_sale
 #: model:product.product,name:l10n_br_fiscal.customized_development_sale
 #: model:product.template,name:l10n_br_fiscal.customized_development_sale_product_template
-msgid "Customized Odoo Development"
+msgid "Customized WETH Development"
 msgstr "Desenvolvimento personalizado de Odoo"
 
 #. module: l10n_br_fiscal
@@ -3212,10 +3212,10 @@ msgstr "Exportação"
 #. module: l10n_br_fiscal
 #: model:ir.module.category,description:l10n_br_fiscal.module_category_l10n_br_fiscal_management
 msgid ""
-"Extends Odoo to helps you manage your brazilian fiscal documents, taxes and "
+"Extends WETH to helps you manage your brazilian fiscal documents, taxes and "
 "etc..."
 msgstr ""
-"Estende a Odoo para ajudar a gerenciar seus documentos fiscais, impostos e "
+"Estende a WETH para ajudar a gerenciar seus documentos fiscais, impostos e "
 "etc..."
 
 #. module: l10n_br_fiscal

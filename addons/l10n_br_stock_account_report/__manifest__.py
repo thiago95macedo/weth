@@ -4,7 +4,7 @@
 {
     "name": "P7 Stock Valuation Report",
     "version": "25.0.1.1.4",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "category": "Reports/QWeb",
     "license": "AGPL-3",
     "depends": [

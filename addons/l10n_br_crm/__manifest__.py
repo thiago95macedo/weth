@@ -6,7 +6,7 @@
     "summary": "Brazilian Localization CRM",
     "category": "Localisation",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "maintainers": ["renatonlima", "rvalyi", "mbcosta"],
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.1.3.0",

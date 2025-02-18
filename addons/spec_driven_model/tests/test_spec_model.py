@@ -35,7 +35,7 @@ class TestSpecModel(SavepointCase, FakeModelLoader):
             (PoXsdMixin, Item, Items, Usaddress, PurchaseOrderType)
         )
 
-        # inject the mixins into existing Odoo models
+        # inject the mixins into existing WETH models
         from .spec_purchase import (
             PurchaseOrder as PurchaseOrder2,
             PurchaseOrderLine,
@@ -104,7 +104,7 @@ class TestSpecModel(SavepointCase, FakeModelLoader):
 
     def test_create_export_import(self):
 
-        # 1st we create an Odoo PO:
+        # 1st we create an WETH PO:
         po = self.env["fake.purchase.order"].create(
             {
                 "name": "PO XSD",
@@ -172,7 +172,7 @@ class TestSpecModel(SavepointCase, FakeModelLoader):
         except ImportError:
             _logger.error(_("xsdata Python lib not installed, skipping XML test!"))
 
-        # 4th we import an Odoo PO from this binding object
+        # 4th we import an WETH PO from this binding object
         # first we will do a dry run import:
         imported_po_dry_run = self.env["fake.purchase.order"].build_from_binding(
             "poxsd", "10", po_binding, dry_run=True

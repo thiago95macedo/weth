@@ -231,7 +231,7 @@ var CrashManager = AbstractService.extend({
             return;
         }
 
-        // Odoo custom exception: UserError, AccessError, ...
+        // WETH custom exception: UserError, AccessError, ...
         if (_.has(this.odooExceptionTitleMap, error.data.name)) {
             error = _.extend({}, error, {
                 data: _.extend({}, error.data, {
@@ -391,7 +391,7 @@ function session_expired(cm) {
         display: function () {
             const notif = {
                 type: _t("Odoo Session Expired"),
-                message: _t("Your Odoo session expired. The current page is about to be refreshed."),
+                message: _t("Your WETH session expired. The current page is about to be refreshed."),
             };
             const options = {
                 buttons: [{

@@ -127,7 +127,7 @@ class CNABFileParser(FileParser):
         # para o status Lançado
 
         #          Valor Recebido diferente do Valor no Odoo
-        # Para que a Fatura/Nota Fiscal no Odoo seja completamente reconciliada
+        # Para que a Fatura/Nota Fiscal no WETH seja completamente reconciliada
         # e o seu status seja alterado de Aberto para Pago é preciso que
         # a soma dos lançamentos(account.move.line) criados sejam iguais ao
         # valor da account_move_line em aberto.
@@ -136,8 +136,8 @@ class CNABFileParser(FileParser):
         # Os valores de Desconto e Abatimento estão sendo adicionados no
         # lançamento referente ao pagamento para que o valor total fique
         # igual, exemplo:
-        #        Odoo               Valores arquivo CNAB
-        #    Valor Odoo   | Valor Recebido | Valor Abatimento |Valor Desconto
+        #        WETH               Valores arquivo CNAB
+        #    Valor WETH   | Valor Recebido | Valor Abatimento |Valor Desconto
         #       100       |     80         |       10         |     10
         #
         # O Valor Recebido a ser lançado será 100.
@@ -154,8 +154,8 @@ class CNABFileParser(FileParser):
         #                   Valor Maior
         # Caso comum onde o devido o valor de Juros Mora/Multa faz com que
         # os valores fiquem diferentes, exemplo:
-        #        Odoo               Valores arquivo CNAB
-        #    Valor Odoo   | Valor Recebido | Juros Mora + Multa*
+        #        WETH               Valores arquivo CNAB
+        #    Valor WETH   | Valor Recebido | Juros Mora + Multa*
         #       100       |     110        |       10
         #
         # O Valor Recebido a ser lançado será 100.
@@ -564,7 +564,7 @@ class CNABFileParser(FileParser):
                 )
 
         # Linha da Fatura a ser reconciliada com o Pagamento em Aberto,
-        # necessário atualizar o Valor Recebido pois o Odoo não
+        # necessário atualizar o Valor Recebido pois o WETH não
         # aceita a conciliação nem com um Valor Menor ou Maior.
         valor_recebido_calculado = (
             valor_recebido + valor_desconto + valor_abatimento

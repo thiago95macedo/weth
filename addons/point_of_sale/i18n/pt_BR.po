@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -46,7 +46,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 08:36+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2214,8 +2214,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "IMPORTANTE: Relatório de Erros do Odoo - Ponto de Venda"
+msgid "IMPORTANT: Bug Report From WETH Point Of Sale"
+msgstr "IMPORTANTE: Relatório de Erros do WETH - Ponto de Venda"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -5404,19 +5404,19 @@ msgstr "Este produto é usado como referência nos recibos dos clientes."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by WETH but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Essa sequencia é criada automaticamente pelo Odoo mas vc pode mudar "
+"Essa sequencia é criada automaticamente pelo WETH mas vc pode mudar "
 "issocustomizando um número de referÊncia para as suas linhas de pedido"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by WETH but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Esta sequência é criada automaticamente pelo Odoo mas você pode alterá-la "
+"Esta sequência é criada automaticamente pelo WETH mas você pode alterá-la "
 "para personalizar os números de referência dos seus pedidos."
 
 #. module: point_of_sale

@@ -41,7 +41,7 @@
                 <tr><td valign="top" style="font-size: 13px;">
                     <div>
                         Dear ${object.name},<br/><br/>
-                        A password reset was requested for the Odoo account linked to this email.
+                        A password reset was requested for the WETH account linked to this email.
                         You may change your password by following this link which will remain valid during 24 hours:<br/>
                         <div style="margin: 16px 0px 16px 0px;">
                             <a href="${object.signup_url}"
@@ -103,7 +103,7 @@
 
         <!-- Email template for new users -->
         <record id="set_password_email" model="mail.template">
-            <field name="name">Auth Signup: Odoo Connection</field>
+            <field name="name">Auth Signup: WETH Connection</field>
             <field name="model_id" ref="base.model_res_users"/>
             <field name="subject">${object.create_uid.name} from ${object.company_id.name} invites you to connect to Odoo</field>
             <field name="email_from">"${object.company_id.name | safe}" &lt;${(object.company_id.email or user.email) | safe}&gt;</field>
@@ -145,7 +145,7 @@
                             </a>
                         </div>
                         % set website_url = object.env['ir.config_parameter'].sudo().get_param('web.base.url')
-                        Your Odoo domain is: <b><a href='${website_url}'>${website_url}</a></b><br />
+                        Your WETH domain is: <b><a href='${website_url}'>${website_url}</a></b><br />
                         Your sign in email is: <b><a href="/web/login?login=${object.email}" target="_blank">${object.email}</a></b><br /><br />
                         Never heard of Odoo? It’s an all-in-one business software loved by 3+ million users. It will considerably improve your experience at work and increase your productivity.
                         <br /><br />
@@ -251,7 +251,7 @@
 
         <!-- Email template for new users that used a signup token -->
         <record id="mail_template_user_signup_account_created" model="mail.template">
-            <field name="name">Auth Signup: Odoo Account Created</field>
+            <field name="name">Auth Signup: WETH Account Created</field>
             <field name="model_id" ref="base.model_res_users"/>
             <field name="subject">Welcome to ${object.company_id.name}!</field>
             <field name="email_from">"${object.company_id.name | safe}" &lt;${(object.company_id.email or user.email) | safe}&gt;</field>

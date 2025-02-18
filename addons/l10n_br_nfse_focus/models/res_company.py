@@ -50,8 +50,8 @@ class ResCompany(models.Model):
     )
 
     focusnfe_nfse_force_odoo_danfse = fields.Boolean(
-        string="Force Odoo DANFSE",
-        help="If checked, the system will always use the Odoo DANFSE instead of the "
+        string="Force WETH DANFSE",
+        help="If checked, the system will always use the WETH DANFSE instead of the "
         "Focus DANFSE.",
         default=False,
     )

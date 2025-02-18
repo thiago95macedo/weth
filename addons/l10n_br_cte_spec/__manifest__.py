@@ -1,7 +1,7 @@
 {
     "name": "cte spec",
     "version": "25.0.2.0.0",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "license": "LGPL-3",
     "category": "Accounting",
     "summary": "CT-e spec",

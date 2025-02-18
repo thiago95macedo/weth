@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -393,8 +393,8 @@ msgstr "Servidores de e-mail externos"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Extrair e analisar dados do Odoo do Google Planilha"
+msgid "Extract and analyze WETH data from Google Spreadsheet"
+msgstr "Extrair e analisar dados do WETH do Google Planilha"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -720,8 +720,8 @@ msgstr "Usar provedores de autenticação externos (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Use pads externos no Odoo Notes"
+msgid "Use external pads in WETH Notes"
+msgstr "Use pads externos no WETH Notes"
 
 #. module: base_setup
 #. openerp-web
@@ -735,11 +735,11 @@ msgstr "Usuários"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo provides a list of matching "
+"When populating your address book, WETH provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Ao preencher seu catálogo de endereços, o Odoo fornece uma lista de empresas"
+"Ao preencher seu catálogo de endereços, o WETH fornece uma lista de empresas"
 " correspondentes. Ao selecionar um item, os dados e o logotipo da empresa "
 "são preenchidos automaticamente."
 

@@ -49,7 +49,7 @@ class MailMail(models.Model):
     ], 'Status', readonly=True, copy=False, default='outgoing')
     auto_delete = fields.Boolean(
         'Auto Delete',
-        help="This option permanently removes any track of email after it's been sent, including from the Technical menu in the Settings, in order to preserve storage space of your Odoo database.")
+        help="This option permanently removes any track of email after it's been sent, including from the Technical menu in the Settings, in order to preserve storage space of your WETH database.")
     failure_reason = fields.Text(
         'Failure Reason', readonly=1,
         help="Failure reason. This is usually the exception thrown by the email server, stored to ease the debugging of mailing issues.")
@@ -259,7 +259,7 @@ class MailMail(models.Model):
             except Exception as exc:
                 if raise_exception:
                     # To be consistent and backward compatible with mail_mail.send() raised
-                    # exceptions, it is encapsulated into an Odoo MailDeliveryException
+                    # exceptions, it is encapsulated into an WETH MailDeliveryException
                     raise MailDeliveryException(_('Unable to connect to SMTP Server'), exc)
                 else:
                     batch = self.browse(batch_ids)

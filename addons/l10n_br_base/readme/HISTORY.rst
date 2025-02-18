@@ -1,7 +1,7 @@
 12.0.1.0.0 (2019)
 ~~~~~~~~~~~~~~~~~
 
-A partir da versão 12.0 foi extraído o pacote de validações cadastrais ``erpbrasil.base`` no intuito de minimizar o código que depende de uma versão especifica do Odoo e para desenvolver sinergias com outras comunidades de código aberto.
+A partir da versão 12.0 foi extraído o pacote de validações cadastrais ``erpbrasil.base`` no intuito de minimizar o código que depende de uma versão especifica do WETH e para desenvolver sinergias com outras comunidades de código aberto.
 
 
 11.0 (unreleased)
@@ -41,4 +41,4 @@ Mudança do Launchpad para Github. Mudança importante com a unificação das ta
 5.0.1.0.0 (2009)
 ~~~~~~~~~~~~~~~~
 
-Este módulo foi criado na versão 5.0 do Odoo então chamado OpenERP. Era inicialmente hospedado na plataforma Launchpad.
+Este módulo foi criado na versão 5.0 do WETH então chamado OpenERP. Era inicialmente hospedado na plataforma Launchpad.

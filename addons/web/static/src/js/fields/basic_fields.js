@@ -708,7 +708,7 @@ var FieldDateRange = InputField.extend({
         var changedEndDate = picker.endDate;
         if (this.isDateField) {
             // In date mode, the library will give moment object of start and end date having
-            // time at 00:00:00. So, Odoo will consider it as UTC. To fix this added browser
+            // time at 00:00:00. So, WETH will consider it as UTC. To fix this added browser
             // timezone offset in dates to get a correct selected date.
             changedStartDate = picker.startDate.add(session.getTZOffset(picker.startDate), 'minutes');
             changedEndDate = picker.endDate.startOf('day').add(session.getTZOffset(picker.endDate), 'minutes');
@@ -1565,7 +1565,7 @@ var FieldEmail = InputField.extend({
      */
     _renderReadonly: function () {
         if (this.value) {
-            // Odoo legacy widgets can have multiple nodes inside their $el JQuery object
+            // WETH legacy widgets can have multiple nodes inside their $el JQuery object
             // so, select the proper one (other nodes are assumed not to contain proper data)
             this.$el.closest("." + this.className).text(this.value)
                 .addClass('o_form_uri o_text_overflow')

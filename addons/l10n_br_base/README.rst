@@ -28,7 +28,7 @@ Brazilian Localization Base
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-Este é o módulo 'raiz' da localização brasileira. Ele traz adaptações nos modelos do módulo ``base`` do Odoo como Parceiros, Empresas e Endereços:
+Este é o módulo 'raiz' da localização brasileira. Ele traz adaptações nos modelos do módulo ``base`` do WETH como Parceiros, Empresas e Endereços:
 
 * Campo CNPJ e CPF com formatação e validação destes campos;
 * Campo de Inscrição Estadual com validação;
@@ -79,7 +79,7 @@ Changelog
 12.0.1.0.0 (2019)
 ~~~~~~~~~~~~~~~~~
 
-A partir da versão 12.0 foi extraído o pacote de validações cadastrais ``erpbrasil.base`` no intuito de minimizar o código que depende de uma versão especifica do Odoo e para desenvolver sinergias com outras comunidades de código aberto.
+A partir da versão 12.0 foi extraído o pacote de validações cadastrais ``erpbrasil.base`` no intuito de minimizar o código que depende de uma versão especifica do WETH e para desenvolver sinergias com outras comunidades de código aberto.
 
 
 11.0 (unreleased)
@@ -119,7 +119,7 @@ Mudança do Launchpad para Github. Mudança importante com a unificação das ta
 5.0.1.0.0 (2009)
 ~~~~~~~~~~~~~~~~
 
-Este módulo foi criado na versão 5.0 do Odoo então chamado OpenERP. Era inicialmente hospedado na plataforma Launchpad.
+Este módulo foi criado na versão 5.0 do WETH então chamado OpenERP. Era inicialmente hospedado na plataforma Launchpad.
 
 Bug Tracker
 ===========
@@ -162,11 +162,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-renatonlima| image:: https://github.com/renatonlima.png?size=40px

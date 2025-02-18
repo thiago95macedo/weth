@@ -83,7 +83,7 @@ PAYLOAD.append(
             "item_lista_servico": "1712",
             "codigo_tributacao_municipio": "171202211",
             "municipio_prestacao_servico": "",
-            "discriminacao": "[ODOO_DEV] Customized Odoo Development",
+            "discriminacao": "[ODOO_DEV] Customized WETH Development",
             "codigo_cnae": False,
             "valor_desconto_incondicionado": 0.0,
             "codigo_municipio": "3505708",

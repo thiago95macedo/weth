@@ -176,7 +176,7 @@ def redirect_with_hash(url, code=303):
     return werkzeug.utils.redirect(url, code)
 
 class WebRequest(object):
-    """ Parent class for all Odoo Web request types, mostly deals with
+    """ Parent class for all WETH Web request types, mostly deals with
     initialization and setup of the request object (the dispatching itself has
     to be handled by the subclasses)
 
@@ -476,7 +476,7 @@ def route(route=None, **kw):
 
         .. versionadded:: 9.0
 
-        Odoo implements token-based `CSRF protection
+        WETH implements token-based `CSRF protection
         <https://en.wikipedia.org/wiki/CSRF>`_.
 
         CSRF protection is enabled by default and applies to *UNSAFE*
@@ -790,7 +790,7 @@ HTTP methods). See
 https://www.weth.com.br/documentation/14.0/developer/reference/http.html#csrf for
 more details.
 
-* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+* if this endpoint is accessed through WETH via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -919,7 +919,7 @@ class EndPoint(object):
 
     # werkzeug will use these EndPoint objects as keys of a dictionary
     # (the RoutingMap._rules_by_endpoint mapping).
-    # When Odoo clears the routing map, new EndPoint objects are created,
+    # When WETH clears the routing map, new EndPoint objects are created,
     # most of them with the same values.
     # The __eq__ and __hash__ magic methods allow older EndPoint objects
     # to be still valid keys of the RoutingMap.
@@ -1556,7 +1556,7 @@ def db_filter(dbs, httprequest=None):
         r = odoo.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
         dbs = [i for i in dbs if re.match(r, i)]
     elif odoo.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Odoo will
+        # In case --db-filter is not provided and --database is passed, WETH will
         # use the value of --database as a comma seperated list of exposed databases.
         exposed_dbs = set(db.strip() for db in odoo.tools.config['db_name'].split(','))
         dbs = sorted(exposed_dbs.intersection(dbs))

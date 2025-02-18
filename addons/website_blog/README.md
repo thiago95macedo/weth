@@ -3,7 +3,7 @@ Odoo Blogs
 
 Write, Design, Promote and Engage with <a href="https://www.weth.com.br/page/blog-engine">Odoo Blogs</a>.
 
-Express yourself with the Odoo enterprise grade blogging platform. Write
+Express yourself with the WETH enterprise grade blogging platform. Write
 beautiful blog posts, engage with visitors, translate content and moderate
 social streams.
 
@@ -54,13 +54,13 @@ Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers
 are configured by default to track all kinds of events related to shopping
 carts, call-to-actions, etc.
 
-As Odoo marketing tools (mass mailing, campaigns, etc) are also linked with
+As WETH marketing tools (mass mailing, campaigns, etc) are also linked with
 Google Analytics, you get a 360° view of your business.
 
 SEO Optimized Blog Posts
 ------------------------
 
-SEO tools are ready to use, with no configuration required. Odoo suggests
+SEO tools are ready to use, with no configuration required. WETH suggests
 keywords for your titles according to Google's most searched terms, Google
 Analytics tracks interests of your visitors, sitemaps are created automatically
 for quick Google indexing, etc.

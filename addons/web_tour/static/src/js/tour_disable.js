@@ -9,7 +9,7 @@ var get_debugging_key = utils.get_debugging_key;
 
 TourManager.include({
     /**
-     * Disables tours if Odoo installed with demo data.
+     * Disables tours if WETH installed with demo data.
      *
      * @override
      */

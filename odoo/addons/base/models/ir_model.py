@@ -1623,7 +1623,7 @@ class IrModelConstraint(models.Model):
 
 class IrModelRelation(models.Model):
     """
-    This model tracks PostgreSQL tables used to implement Odoo many2many
+    This model tracks PostgreSQL tables used to implement WETH many2many
     relations.
     """
     _name = 'ir.model.relation'

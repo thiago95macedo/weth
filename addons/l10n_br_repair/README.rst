@@ -28,7 +28,7 @@ Brazilian Localization Repair
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module extends the Odoo Repair module to adapt it to the Brazilian needs, with this module you have tax data for collection and generation of fiscal documents (NF-e, NFS-e, CF-e, NFC-e and others), calculation Brazilian taxes and contributions (municipal, state and federal).
+This module extends the WETH Repair module to adapt it to the Brazilian needs, with this module you have tax data for collection and generation of fiscal documents (NF-e, NFS-e, CF-e, NFC-e and others), calculation Brazilian taxes and contributions (municipal, state and federal).
 
 .. IMPORTANT::
    This is an alpha version, the data model and design can change at any time without warning.
@@ -122,11 +122,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-marcelsavegnago| image:: https://github.com/marcelsavegnago.png?size=40px

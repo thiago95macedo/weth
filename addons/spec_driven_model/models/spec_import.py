@@ -20,22 +20,22 @@ tz_datetime = re.compile(r".*[-+]0[0-9]:00$")
 class SpecMixinImport(models.AbstractModel):
     _name = "spec.mixin_import"
     _description = """
-    A recursive Odoo object builder that works along with the
+    A recursive WETH object builder that works along with the
     xsdata object builder from the parsed XML.
-    Here we take into account the concrete Odoo objects where the schema
+    Here we take into account the concrete WETH objects where the schema
     mixins where injected and possible matcher or builder overrides.
     """
 
     @api.model
     def build_from_binding(self, spec_schema, spec_version, node, dry_run=False):
         """
-        Build an instance of an Odoo Model from a pre-populated
+        Build an instance of an WETH Model from a pre-populated
         Python binding object. Binding object such as the ones generated using
         xsdata can indeed be automatically populated from an XML file.
-        This build method bridges the gap to build the Odoo object.
+        This build method bridges the gap to build the WETH object.
 
         It uses a pre-order tree traversal of the Python bindings and for each
-        sub-binding (or node) it sees what is the corresponding Odoo model to map.
+        sub-binding (or node) it sees what is the corresponding WETH model to map.
 
         Build can persist the object or just return a new instance
         depending on the dry_run parameter.
@@ -57,7 +57,7 @@ class SpecMixinImport(models.AbstractModel):
     def build_attrs(self, node, path="", defaults_model=None):
         """
         Build a new odoo model instance from a Python binding element or
-        sub-element. Iterates over the binding fields to populate the Odoo fields.
+        sub-element. Iterates over the binding fields to populate the WETH fields.
         """
         vals = {}
         for fname, fspec in node.__dataclass_fields__.items():
@@ -68,7 +68,7 @@ class SpecMixinImport(models.AbstractModel):
     @api.model
     def _build_attr(self, node, fields, vals, path, attr):
         """
-        Build an Odoo field from a binding attribute.
+        Build an WETH field from a binding attribute.
         """
         value = getattr(node, attr[0])
         if value is None or value == []:

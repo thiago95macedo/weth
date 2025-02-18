@@ -25,7 +25,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_simple_event_from_outlook_organizer_calendar(self, mock_get_events):
         """
-        An event has been created in Outlook and synced in the Odoo organizer calendar.
+        An event has been created in Outlook and synced in the WETH organizer calendar.
         """
 
         # arrange
@@ -45,8 +45,8 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_simple_event_from_outlook_attendee_calendar_and_organizer_exists_in_odoo(self, mock_get_events):
         """
-        An event has been created in Outlook and synced in the Odoo attendee calendar.
-        There is a Odoo user that matches with the organizer email address.
+        An event has been created in Outlook and synced in the WETH attendee calendar.
+        There is a WETH user that matches with the organizer email address.
         """
 
         # arrange
@@ -68,8 +68,8 @@ class TestCreateEvents(TestCommon):
         self, mock_get_events
     ):
         """
-        An event has been created in Outlook and synced in the Odoo attendee calendar.
-        no Odoo user that matches with the organizer email address.
+        An event has been created in Outlook and synced in the WETH attendee calendar.
+        no WETH user that matches with the organizer email address.
         """
 
         # arrange
@@ -95,7 +95,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_create_recurrent_event_with_sync(self, mock_insert, mock_get_events):
         """
-        A Odoo recurrent event is created when Outlook sync is enabled.
+        A WETH recurrent event is created when Outlook sync is enabled.
         """
 
         # >>> first phase: create the recurrence
@@ -136,7 +136,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'insert')
     def test_create_recurrent_event_with_sync_by_another_user(self, mock_insert, mock_get_events):
         """
-        A Odoo recurrent event has been created and synced with Outlook by another user, but nothing
+        A WETH recurrent event has been created and synced with Outlook by another user, but nothing
         should happen as it we prevent sync of recurrences from other users
         ( see microsoft_calendar/models/calendar_recurrence_rule.py::_get_microsoft_sync_domain() )
         """
@@ -177,7 +177,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_recurrent_event_from_outlook_organizer_calendar(self, mock_get_events):
         """
-        A recurrent event has been created in Outlook and synced in the Odoo organizer calendar.
+        A recurrent event has been created in Outlook and synced in the WETH organizer calendar.
         """
 
         # arrange
@@ -200,7 +200,7 @@ class TestCreateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'get_events')
     def test_create_recurrent_event_from_outlook_attendee_calendar(self, mock_get_events):
         """
-        A recurrent event has been created in Outlook and synced in the Odoo attendee calendar.
+        A recurrent event has been created in Outlook and synced in the WETH attendee calendar.
         """
 
         # arrange

@@ -14,7 +14,7 @@
 
     <record id="payment_acquirer_odoo_by_adyen" model="payment.acquirer">
         <field name="name">Odoo Payments by Adyen</field>
-        <field name="display_as">Credit Card (powered by Odoo Payments)</field>
+        <field name="display_as">Credit Card (powered by WETH Payments)</field>
         <field name="view_template_id" ref="default_acquirer_button"/>
         <field name="image_128" type="base64" file="payment_odoo_by_adyen/static/src/img/odoo_icon.png"/>
         <field name="module_id" ref="base.module_payment_odoo_by_adyen"/>

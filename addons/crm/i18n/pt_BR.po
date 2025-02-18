@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -37,7 +37,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -211,10 +211,10 @@ msgstr "<span class=\"o_stat_text\"> Leads</span>"
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Odoo opens the first one by "
+"<p>As you don't belong to any Sales Team, WETH opens the first one by "
 "default.</p>"
 msgstr ""
-"<p>Como você não pertence a nenhuma Equipe de Vendas, o Odoo abrirá a "
+"<p>Como você não pertence a nenhuma Equipe de Vendas, o WETH abrirá a "
 "primeira por padrão.</p>"
 
 #. module: crm
@@ -1113,11 +1113,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Odoo autocompletes everything for you: logo, address, "
+"fill in all its data? WETH autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "Você sabia que pode pesquisar uma empresa por nome ou número de IVA para "
-"preencher instantaneamente todos os seus dados? O Odoo preenche tudo "
+"preencher instantaneamente todos os seus dados? O WETH preenche tudo "
 "automaticamente para você: logotipo, endereço, tamanho da empresa, "
 "informações comerciais, contas de mídia social, etc."
 
@@ -1125,12 +1125,12 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Odoo can be turned into a map: "
+" top-right map icon? A lot of screens in WETH can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "Você sabia que pode transformar uma lista de oportunidades em uma "
 "visualização de mapa, usando o ícone do mapa no canto superior direito? "
-"Muitas telas no Odoo podem ser transformadas em um mapa: tarefas, contatos, "
+"Muitas telas no WETH podem ser transformadas em um mapa: tarefas, contatos, "
 "pedidos de entrega, etc."
 
 #. module: crm
@@ -2282,12 +2282,12 @@ msgstr ""
 msgid ""
 "Odoo's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Odoo do the job the score is updated while the "
+"manually, but if you let WETH do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"O mecanismo de inteligência artificial do Odoo prevê a taxa de sucesso de "
+"O mecanismo de inteligência artificial do WETH prevê a taxa de sucesso de "
 "cada oportunidade com base em seu histórico. Você sempre pode atualizar a "
-"taxa de sucesso manualmente, mas se deixar Odoo fazer o trabalho, a "
+"taxa de sucesso manualmente, mas se deixar WETH fazer o trabalho, a "
 "pontuação será atualizada enquanto a oportunidade avança em seu ciclo de "
 "vendas."
 
@@ -3186,8 +3186,8 @@ msgstr "Dica: converta e-mails recebidos em oportunidades"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "Dica: você sabia que Odoo tem mineração de lead embutida?"
+msgid "Tip: Did you know WETH has built-in lead mining?"
+msgstr "Dica: você sabia que WETH tem mineração de lead embutida?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

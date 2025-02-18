@@ -34,9 +34,9 @@
                                         <li>Once connected, and if not already done, complete the Twitter portal access process on <a href="https://developer.twitter.com/portal/" target="new">https://developer.twitter.com/portal/</a></li>
                                         <li>On the <a href="https://developer.twitter.com/portal/" target="new">Twitter Portal</a>, <strong>create a project</strong> with the following information:
                                             <ul>
-                                                <li><strong>Name: </strong> Odoo Twitter Integration</li>
+                                                <li><strong>Name: </strong> WETH Twitter Integration</li>
                                                 <li><strong>Use Case: </strong> Embedding Tweets in a website</li>
-                                                <li><strong>Description: </strong> Odoo Twitter Integration</li>
+                                                <li><strong>Description: </strong> WETH Twitter Integration</li>
                                                 <li><strong>App Name: </strong> choose a unique name</li>
                                             </ul>
                                         </li>

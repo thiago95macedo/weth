@@ -1,4 +1,4 @@
-This module extends the standard Odoo purchase module for Brazil,
+This module extends the standard WETH purchase module for Brazil,
 specially when selling products with NFe's.
 
 It deals with the propagation of the fiscal operation and allow the creation

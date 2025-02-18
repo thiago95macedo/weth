@@ -7,7 +7,7 @@
 Odoo Web core module.
 ========================
 
-This module provides the core of the Odoo Web Client.
+This module provides the core of the WETH Web Client.
         """,
     'depends': ['base'],
     'auto_install': True,

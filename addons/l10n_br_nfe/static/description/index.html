@@ -374,7 +374,7 @@ ul.auto-toc {
 <dl class="docutils">
 <dt>Mais especificamente ele:</dt>
 <dd><ul class="first last simple">
-<li>mapea os campos de NF-e do módulo <tt class="docutils literal">l10n_br_nfe_spec</tt> com os campos Odoo em especial os campos dos módulos <tt class="docutils literal">l10n_br_base</tt> e <tt class="docutils literal">l10n_br_fiscal</tt></li>
+<li>mapea os campos de NF-e do módulo <tt class="docutils literal">l10n_br_nfe_spec</tt> com os campos WETH em especial os campos dos módulos <tt class="docutils literal">l10n_br_base</tt> e <tt class="docutils literal">l10n_br_fiscal</tt></li>
 <li>usa a logica do módulo <tt class="docutils literal">spec_driven_model</tt> para realizar esse mapeamento de forma dinâmica, em especial ele usa o sistema de modelos com várias camadas, ou <tt class="docutils literal">StackedModel</tt>, com os modelos <tt class="docutils literal">l10n_br_fiscal.document</tt>, <tt class="docutils literal">l10n_br_fiscal.document.line</tt> e <tt class="docutils literal">l10n_br_fiscal.document.related</tt> que tem varios niveis hierarquicos de elementos XML que estão sendo denormalizados dentro desses modelos Odoo</li>
 <li>permite a exportação e importação de XML de NF-e</li>
 <li>tem wizards para implementar a comunicação SOAP de NF-e com a SEFAZ (Autorização, Cancelamento, Inutilização…)</li>
@@ -384,7 +384,7 @@ ul.auto-toc {
 <dt>Módulos relacionados:</dt>
 <dd><ul class="first last simple">
 <li>este módulo não depende do módulo <tt class="docutils literal">account</tt> do Odoo. A integração com o financeiro do módulo <tt class="docutils literal">account</tt> é realizada no módulo <tt class="docutils literal">l10n_br_account_nfe</tt> (tags dup e pag em especial)</li>
-<li>existe também o módulo <tt class="docutils literal">l10n_br_delivery_nfe</tt> que faz a integração do módulo <tt class="docutils literal">l10n_br_nfe</tt> com o módulo <tt class="docutils literal">delivery</tt> do Odoo (tags de transportadora e de frete em especial)</li>
+<li>existe também o módulo <tt class="docutils literal">l10n_br_delivery_nfe</tt> que faz a integração do módulo <tt class="docutils literal">l10n_br_nfe</tt> com o módulo <tt class="docutils literal">delivery</tt> do WETH (tags de transportadora e de frete em especial)</li>
 </ul>
 </dd>
 </dl>
@@ -461,8 +461,8 @@ If you spotted it first, help us to smash it by providing a detailed and welcome
 <a class="reference external image-reference" href="https://odoo-community.org">
 <img alt="Odoo Community Association" src="https://odoo-community.org/logo.png" />
 </a>
-<p>OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+<p>OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.</p>
 <p>Current <a class="reference external" href="https://odoo-community.org/page/maintainer-role">maintainers</a>:</p>
 <p><a class="reference external image-reference" href="https://github.com/rvalyi"><img alt="rvalyi" src="https://github.com/rvalyi.png?size=40px" /></a> <a class="reference external image-reference" href="https://github.com/renatonlima"><img alt="renatonlima" src="https://github.com/renatonlima.png?size=40px" /></a></p>

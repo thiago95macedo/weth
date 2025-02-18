@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: WETH Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-02 02:23+0000\n"
 "PO-Revision-Date: 2024-12-21 15:52+0000\n"
@@ -2927,14 +2927,14 @@ msgstr ""
 #~ msgid ""
 #~ "Use this menu to control the invoices to be received from your\n"
 #~ "            vendors. When registering a new bill, set the purchase order\n"
-#~ "            and Odoo will fill the bill automatically according to "
+#~ "            and WETH will fill the bill automatically according to "
 #~ "ordered\n"
 #~ "            or received quantities."
 #~ msgstr ""
 #~ "Use esse menu para controlar as faturas para serem recebidas de seus\n"
 #~ "             fornecedores. Quando registrar uma nova fatura de "
 #~ "fornecedor, defina a ordem de compra\n"
-#~ "             e o Odoo irá preencher a nota automaticamente de acordo com "
+#~ "             e o WETH irá preencher a nota automaticamente de acordo com "
 #~ "o que foi pediro\n"
 #~ "             ou quantidades recebidas."
 

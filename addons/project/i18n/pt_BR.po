@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -38,7 +38,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1240,11 +1240,11 @@ msgstr "Tarefas em Avaliações pelo Cliente"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Odoo creates tasks automatically, and "
+"Customers propose feedbacks by email; WETH creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Os clientes propõem feedbacks por e-mail; O Odoo cria tarefas "
+"Os clientes propõem feedbacks por e-mail; O WETH cria tarefas "
 "automaticamente e você pode se comunicar diretamente na tarefa. Seus "
 "gerentes decidem qual feedback é aceito %s e qual feedback é movido para a "
 "%s coluna. %s"

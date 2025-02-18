@@ -5,7 +5,7 @@
     "summary": "Common EDI fiscal features",
     "category": "Localisation",
     "license": "AGPL-3",
-    "author": "Akretion, KMEE, Odoo Community Association (OCA)",
+    "author": "Akretion, KMEE, WETH Community Association (OCA)",
     "maintainers": ["renatonlima", "rvalyi", "mileo"],
     "website": "https://github.com/OCA/l10n-brazil",
     "development_status": "Beta",

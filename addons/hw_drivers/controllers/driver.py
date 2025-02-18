@@ -75,7 +75,7 @@ class DriverController(http.Controller):
     @http.route('/hw_drivers/box/connect', type='http', auth='none', cors='*', csrf=False, save_session=False)
     def connect_box(self, token):
         """
-        This route is called when we want that a IoT Box will be connected to a Odoo DB
+        This route is called when we want that a IoT Box will be connected to a WETH DB
         token is a base 64 encoded string and have 2 argument separate by |
         1 - url of odoo DB
         2 - token. This token will be compared to the token of Odoo. He have 1 hour lifetime

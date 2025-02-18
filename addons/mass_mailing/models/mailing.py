@@ -113,7 +113,7 @@ class MassMailing(models.Model):
         readonly=False, store=True)
     mail_server_id = fields.Many2one('ir.mail_server', string='Mail Server',
         default=_get_default_mail_server_id,
-        help="Use a specific mail server in priority. Otherwise Odoo relies on the first outgoing mail server available (based on their sequencing) as it does for normal mails.")
+        help="Use a specific mail server in priority. Otherwise WETH relies on the first outgoing mail server available (based on their sequencing) as it does for normal mails.")
     contact_list_ids = fields.Many2many('mailing.list', 'mail_mass_mailing_list_rel', string='Mailing Lists')
     contact_ab_pc = fields.Integer(string='A/B Testing percentage',
         help='Percentage of the contacts that will be mailed. Recipients will be taken randomly.', default=100)

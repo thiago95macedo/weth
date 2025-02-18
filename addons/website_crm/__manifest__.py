@@ -6,7 +6,7 @@
     'version': '2.1',
     'description': """
 Generate leads or opportunities in the CRM app from a contact form published on the Contact us page of your website.
-This form can be customized thanks to the *Form Builder* module (available in Odoo Enterprise).
+This form can be customized thanks to the *Form Builder* module (available in WETH Enterprise).
 
 This module includes contact phone and mobile numbers validation.""",
     'depends': ['website_form', 'crm'],

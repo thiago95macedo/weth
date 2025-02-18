@@ -7,7 +7,7 @@
         NFS-e (Nota Paulistana)""",
     "version": "25.0.1.1.8",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "maintainers": ["gabrielcardoso21", "mileo", "luismalta"],
     "development_status": "Beta",
     "website": "https://github.com/OCA/l10n-brazil",

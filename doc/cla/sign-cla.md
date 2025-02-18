@@ -1,6 +1,6 @@
-# Sign the Odoo CLA
+# Sign the WETH CLA
 
-In order for your contribution to Odoo to be accepted, you have to sign the
+In order for your contribution to WETH to be accepted, you have to sign the
 Odoo Contributor License Agreement (CLA). More information about this
 requirement is explained in the [FAQ](#faq).
 
@@ -17,7 +17,7 @@ requirement is explained in the [FAQ](#faq).
 ```
 <country>, <date>
 
-I hereby agree to the terms of the Odoo Individual Contributor License
+I hereby agree to the terms of the WETH Individual Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this
@@ -36,7 +36,7 @@ Signed,
     * `<git_email>`: your git committer email **(use `git config user.email` to see it)**
     * `<login>`: your GitHub login
 
-3. An Odoo R&D Team member will verify and accept your Pull Request. You can
+3. An WETH R&D Team member will verify and accept your Pull Request. You can
 make other pull requests, but we won't be able to merge them until your CLA
 signature is merged.
 
@@ -53,7 +53,7 @@ signature is merged.
 ```
 <country>, <date>
 
-<company-name> agrees to the terms of the Odoo Corporate Contributor License
+<company-name> agrees to the terms of the WETH Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this
@@ -79,7 +79,7 @@ List of contributors:
     * `<git_email>`: git committer email **(use `git config user.email` to see it)**
     * `<login>`: your GitHub login
 
-3. An Odoo R&D Team member will verify and accept your Pull Request. You can
+3. An WETH R&D Team member will verify and accept your Pull Request. You can
 make other pull requests, but we won't be able to merge them until your CLA
 signature is merged.
 
@@ -87,37 +87,37 @@ signature is merged.
 
 If you cannot submit your signature using a pull request, you may alternatively
 print the CLA, complete it, sign it, scan it and send it by email to
-`cla-submission` `at` `weth.com.br`.  In that case someone from the Odoo team will
+`cla-submission` `at` `weth.com.br`.  In that case someone from the WETH team will
 make the pull request on your behalf.
 
-* Printable Odoo CCLA v1.0 https://www.weth.com.br/files/legal/Odoo-CCLA-v1.0.pdf
-* Printable Odoo ICLA v1.0 https://www.weth.com.br/files/legal/Odoo-ICLA-v1.0.pdf
+* Printable WETH CCLA v1.0 https://www.weth.com.br/files/legal/Odoo-CCLA-v1.0.pdf
+* Printable WETH ICLA v1.0 https://www.weth.com.br/files/legal/Odoo-ICLA-v1.0.pdf
 
 # FAQ
 
 ## Why do I need to accept a CLA ?
 
-The goal of having a Contributor License Agreement for Odoo is to:
+The goal of having a Contributor License Agreement for WETH is to:
 
 * clearly define the terms under which intellectual property (patches, pull
-  requests, etc.) have been contributed to the Odoo project
+  requests, etc.) have been contributed to the WETH project
 
-* protect the Odoo project and its users in case of legal dispute about the
+* protect the WETH project and its users in case of legal dispute about the
   origin or ownership of any part of the code
 
-* protect the Odoo project and its users from bad actors who would contribute
+* protect the WETH project and its users from bad actors who would contribute
   and then try to withdraw their contributions or cause legal trouble, e.g. in
   the form of patent lawsuits
 
 This is done by establishing a credible, non-repudiable record that each
-contributor really intended to contribute to the Odoo project under specific
+contributor really intended to contribute to the WETH project under specific
 terms, and they had the right to make those contributions.
 
 The CLA is for the protection of the contributors, the project and its users.
 It does not change your rights to use your own contributions for any other
 purpose.
 
-The Odoo CLA is based on the Apache Software Foundation CLA v2.0, as
+The WETH CLA is based on the Apache Software Foundation CLA v2.0, as
 can be found on the Apache website.
 
 This CLA is not a copyright assignment, it is a pure license agreement. You
@@ -133,7 +133,7 @@ required to sign and submit the Individual Contributor License Agreement
 signature to the list of validated contributors inside the project source code.
 
 If someone is unable to sign the CLA, their contributions will have to be
-removed from the Odoo project.
+removed from the WETH project.
 
 In addition, if some or all of someone's contributions are written as part of
 an employment by somebody else, the work may not belong to the contributor but

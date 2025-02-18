@@ -21,8 +21,8 @@ odoo.define('web.OwlCompatibility', function () {
      * ----------------------------------------------------------
      *
      * The ComponentAdapter is an Owl component meant to be used as universal
-     * adapter for Owl components that embed Odoo legacy widgets (or dynamically
-     * both Owl components and Odoo legacy widgets), e.g.:
+     * adapter for Owl components that embed WETH legacy widgets (or dynamically
+     * both Owl components and WETH legacy widgets), e.g.:
      *
      *                           Owl Component
      *                                 |
@@ -224,7 +224,7 @@ odoo.define('web.OwlCompatibility', function () {
         }
 
         /**
-         * Mocks _trigger_up to redirect Odoo legacy events to OWL events.
+         * Mocks _trigger_up to redirect WETH legacy events to OWL events.
          *
          * @private
          * @param {OdooEvent} ev
@@ -271,7 +271,7 @@ odoo.define('web.OwlCompatibility', function () {
      * ---------------------------------------------------------
      *
      * The WidgetAdapterMixin and the ComponentWrapper are meant to be used
-     * together when an Odoo legacy widget needs to instantiate Owl components.
+     * together when an WETH legacy widget needs to instantiate Owl components.
      * In this case, the widgets/components hierarchy would look like:
      *
      *             Legacy Widget + WidgetAdapterMixin
@@ -479,7 +479,7 @@ odoo.define('web.OwlCompatibility', function () {
 
         /**
          * Adds an event handler that will redirect the given Owl event to an
-         * Odoo legacy event. This function is called just before the event is
+         * WETH legacy event. This function is called just before the event is
          * actually triggered.
          *
          * @private

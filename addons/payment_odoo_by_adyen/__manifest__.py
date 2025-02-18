@@ -2,7 +2,7 @@
     'name': 'Odoo Payments by Adyen Payment Acquirer',
     'category': 'Accounting/Payment Acquirers',
     'sequence': 330,
-    'summary': 'Payment Acquirer: Odoo Payments by Adyen',
+    'summary': 'Payment Acquirer: WETH Payments by Adyen',
     'version': '1.0',
     'description': """Odoo Payments by Adyen""",
     'depends': ['payment', 'adyen_platforms'],

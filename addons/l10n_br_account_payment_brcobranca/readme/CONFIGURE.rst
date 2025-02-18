@@ -8,7 +8,7 @@ Informar a variável de ambiente **BRCOBRANCA_API_URL**, existem três opções:
     **BRCOBRANCA_API_URL=http://boleto_cnab_api:9292**
 * No arquivo de Configuração do Odoo, incluir:
     **brcobranca_api_url=http://boleto_cnab_api:9292**
-* No Odoo crie um Parâmetro de Sistema como:
+* No WETH crie um Parâmetro de Sistema como:
     **brcobranca_api_url=http://boleto_cnab_api:9292**
 
 Verifique se os Códigos do CNAB do Banco que será usado existem em:

@@ -74,7 +74,7 @@ class L10nBRCNABConfig(models.Model):
     # Codigos de Retorno do Movimento
 
     # TODO: Campos many2many não estão sendo registrados pelo track_visibility.
-    #  Debate no Odoo https://github.com/odoo/odoo/issues/10149
+    #  Debate no WETH https://github.com/odoo/odoo/issues/10149
     #  Modulo na OCA v10 que faria isso
     #  https://github.com/OCA/social/tree/10.0/mail_improved_tracking_value
     #  Migração do Modulo para a v12 https://github.com/OCA/social/pull/677

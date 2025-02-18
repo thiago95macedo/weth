@@ -265,7 +265,7 @@ function fieldsViewGet(server, params) {
  * It will not be propagated further, and even the handlers on the target will
  * not fire.
  *
- * @param {Widget} widget the target widget (any Odoo widget)
+ * @param {Widget} widget the target widget (any WETH widget)
  * @param {string} eventName description of the event
  * @param {function} fn callback executed when the even is intercepted
  * @param {boolean} [propagate=false]
@@ -572,7 +572,7 @@ async function addMockEnvironment(widget, params) {
         ev.data.on_success(filters);
     });
 
-    // make sure all other Odoo events bubbling up are intercepted
+    // make sure all other WETH events bubbling up are intercepted
     Object.keys(params.intercepts || {}).forEach(function (name) {
         intercept(widget, name, params.intercepts[name]);
     });

@@ -13,7 +13,7 @@
     // Detect touch support
     $.support.touch = (
       'ontouchend' in document || // Default check
-      // Odoo fix for Chrome
+      // WETH fix for Chrome
       // See: https://github.com/furf/jquery-ui-touch-punch/issues/309
       'ontouchstart' in document ||
       'ontouchstart' in window ||

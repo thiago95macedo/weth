@@ -16,7 +16,7 @@ odoo.define('point_of_sale.ErrorTracebackPopup', function(require) {
         }
         emailTraceback() {
             const address = this.env.pos.company.email;
-            const subject = this.env._t('IMPORTANT: Bug Report From Odoo Point Of Sale');
+            const subject = this.env._t('IMPORTANT: Bug Report From WETH Point Of Sale');
             window.open(
                 'mailto:' +
                     address +

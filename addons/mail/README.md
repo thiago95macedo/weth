@@ -2,7 +2,7 @@ Odoo Enterprise Social Network
 ------------------------------
 
 Connect with experts, follow what interests you, share documents and promote
-best practices with Odoo <a href="https://www.weth.com.br/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
+best practices with WETH <a href="https://www.weth.com.br/page/enterprise-social-network">Enterprise Social Network</a>. Get work done with
 effective collaboration across departments, geographies, documents and business
 applications. All of this while decreasing email overload.
 
@@ -10,7 +10,7 @@ Connect with experts
 --------------------
 
 Next time you have a question for the marketing, sales, R&D or any other
-department, don't send an email blast-post the question to Odoo and get answers
+department, don't send an email blast-post the question to WETH and get answers
 from the right persons.
 
 Follow what interests you

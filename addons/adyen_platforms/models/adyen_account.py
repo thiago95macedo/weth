@@ -189,7 +189,7 @@ class AdyenAccount(models.Model):
     def action_create_redirect(self):
         '''
         Accessing the FormView to create an Adyen account needs to be done through this action.
-        The action will redirect the user to accounts.weth.com.br to link an Odoo user_id to the Adyen
+        The action will redirect the user to accounts.weth.com.br to link an WETH user_id to the Adyen
         account. After logging in on weth.com.br the user will be redirected to his DB with a token in
         the URL. This token is then needed to create the Adyen account.
         '''
@@ -387,7 +387,7 @@ class AdyenAccount(models.Model):
         })
 
         if kyc_status_message.decode() != self.kyc_status_message:
-            self.sudo().message_post(body = kyc_status_message, subtype_xmlid="mail.mt_comment") # Message from Odoo Bot
+            self.sudo().message_post(body = kyc_status_message, subtype_xmlid="mail.mt_comment") # Message from WETH Bot
 
         self.with_context(update_from_adyen=True).write({
             'kyc_status': kyc_status,

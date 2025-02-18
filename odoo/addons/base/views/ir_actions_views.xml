@@ -331,8 +331,8 @@
                                         <h3>Help with Python expressions</h3>
                                         <p>Various fields may use Python code or Python expressions. The following variables can be used:</p>
                                         <ul>
-                                            <li><code>env</code>: Odoo Environment on which the action is triggered</li>
-                                            <li><code>model</code>: Odoo Model of the record on which the action is triggered; is a void recordset</li>
+                                            <li><code>env</code>: WETH Environment on which the action is triggered</li>
+                                            <li><code>model</code>: WETH Model of the record on which the action is triggered; is a void recordset</li>
                                             <li><code>record</code>: record on which the action is triggered; may be be void</li>
                                             <li><code>records</code>: recordset of all records on which the action is triggered in multi mode; may be void</li>
                                             <li><code>time</code>, <code>datetime</code>, <code>dateutil</code>, <code>timezone</code>: useful Python libraries</li>

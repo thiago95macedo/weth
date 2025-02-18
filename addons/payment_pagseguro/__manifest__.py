@@ -6,7 +6,7 @@
     "summary": """Payment Acquirer: PagSeguro  Implementation""",
     "version": "25.0.1.0.10",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "depends": [
         "sale",  # Used sale order in currency validation

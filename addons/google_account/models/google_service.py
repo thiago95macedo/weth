@@ -65,7 +65,7 @@ class GoogleService(models.AbstractModel):
 
     @api.model
     def _get_authorize_uri(self, from_url, service, scope=False):
-        """ This method return the url needed to allow this instance of Odoo to access to the scope
+        """ This method return the url needed to allow this instance of WETH to access to the scope
             of gmail specified as parameters
         """
         state = {

@@ -144,7 +144,7 @@ $.fn.modal.Constructor.prototype._showElement = function () {
         // resized. Note this could technically be done for all modals and not
         // only the ones with the s_popup_no_backdrop class but that would be
         // useless as allowing content scroll while a modal with that class is
-        // opened is a very specific Odoo behavior.
+        // opened is a very specific WETH behavior.
         $(this._element).on('content_changed.update_scrollbar', this, _updateScrollbar);
         $(window).on('resize.update_scrollbar', this, _updateScrollbar);
 

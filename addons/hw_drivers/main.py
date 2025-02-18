@@ -20,7 +20,7 @@ iot_devices = {}
 class Manager(Thread):
     def send_alldevices(self):
         """
-        This method send IoT Box and devices informations to Odoo database
+        This method send IoT Box and devices informations to WETH database
         """
         server = helpers.get_odoo_server_url()
         if server:

@@ -3,9 +3,9 @@
 
 from odoo import fields, models
 
-# This is a very simplified copy of the Odoo purchase order model
+# This is a very simplified copy of the WETH purchase order model
 # in the real life you would inject your xsd spec models into the
-# models of the real Odoo purchase module.
+# models of the real WETH purchase module.
 
 
 class PurchaseOrder(models.Model):

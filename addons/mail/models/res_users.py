@@ -23,7 +23,7 @@ class Users(models.Model):
         'Notification', required=True, default='email',
         help="Policy on how to handle Chatter notifications:\n"
              "- Handle by Emails: notifications are sent to your email address\n"
-             "- Handle in Odoo: notifications appear in your Odoo Inbox")
+             "- Handle in Odoo: notifications appear in your WETH Inbox")
     # channel-specific: moderation
     is_moderator = fields.Boolean(string='Is moderator', compute='_compute_is_moderator')
     moderation_counter = fields.Integer(string='Moderation count', compute='_compute_moderation_counter')

@@ -11,7 +11,7 @@ from .account_move import InheritsCheckMuteLogger
 # and l10n_br_fiscal.document.line. So they wouldn't get updated
 # by the _inherits system. An alternative would be changing their name
 # in l10n_br_fiscal but that would make the code unreadable and fiscal mixin
-# methods would fail to do what we expect from them in the Odoo objects
+# methods would fail to do what we expect from them in the WETH objects
 # where they are injected.
 # Fields that are related in l10n_br_fiscal.document.line like partner_id or company_id
 # don't need to be written through the account.move.line write.

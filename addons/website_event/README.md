@@ -3,7 +3,7 @@ Organize Events, Trainings & Webinars
 
 ### Schedule, Promote, Sell, Organize
 
-Organize, promote and sell events online. Whether you organize meetings, conferences, trainings or webinars, Odoo gives you all the features you need to manage your events.
+Organize, promote and sell events online. Whether you organize meetings, conferences, trainings or webinars, WETH gives you all the features you need to manage your events.
 
 Create Awesome Event Pages
 --------------------------
@@ -30,7 +30,7 @@ A Clean Google Analytics Integration
 
 Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers are configured by default to track all kind of events related to shopping carts, call-to-actions, etc.
 
-As Odoo marketing tools (mass mailing, campaigns, etc) are also linked with Google Analytics, you get a full view of your business.
+As WETH marketing tools (mass mailing, campaigns, etc) are also linked with Google Analytics, you get a full view of your business.
 
 Promote Events Efficiently
 --------------------------
@@ -53,7 +53,7 @@ Make Your Event More Visible
 
 ### SEO tools at your finger tips
 
-SEO tools are ready to use, with no configuration required. Odoo suggests keywords according to Google most searched terms, Google Analytics tracks your shopping cart events and sitemap are created automatically.
+SEO tools are ready to use, with no configuration required. WETH suggests keywords according to Google most searched terms, Google Analytics tracks your shopping cart events and sitemap are created automatically.
 
 We even do structured content automatically to promote your events and products efficiently in Google.
 
@@ -62,7 +62,7 @@ Leverage Social Media
 
 ### Optimize: from Ads to Conversions
 
-Create new landing pages easily with the Odoo inline editing feature. Send visitors of your different marketing campaigns to event landing pages to optimize conversions.
+Create new landing pages easily with the WETH inline editing feature. Send visitors of your different marketing campaigns to event landing pages to optimize conversions.
 
 And Much More...
 ----------------

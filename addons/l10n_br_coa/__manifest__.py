@@ -8,7 +8,7 @@
         Base do Planos de Contas brasileiros""",
     "version": "25.0.4.1.1",
     "license": "AGPL-3",
-    "author": "Akretion, KMEE, Odoo Community Association (OCA)",
+    "author": "Akretion, KMEE, WETH Community Association (OCA)",
     "maintainers": ["renatonlima", "mileo"],
     "category": "Accounting",
     "website": "https://github.com/OCA/l10n-brazil",

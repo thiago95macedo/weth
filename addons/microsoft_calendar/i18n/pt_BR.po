@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -157,11 +157,11 @@ msgstr "Regra de Recorrência de Evento"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 #, python-format
 msgid ""
-"For a correct synchronization between Odoo and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between WETH and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %s:\n"
 "%s"
 msgstr ""
-"Para uma sincronização correta entre o Odoo e o Outlook Calendar, todos os participantes devem ter um endereço de e-mail. No entanto, alguns eventos não respeitam essa condição. Enquanto os eventos estiverem incorretos, os calendários não serão sincronizados.\n"
+"Para uma sincronização correta entre o WETH e o Outlook Calendar, todos os participantes devem ter um endereço de e-mail. No entanto, alguns eventos não respeitam essa condição. Enquanto os eventos estiverem incorretos, os calendários não serão sincronizados.\n"
 "Atualize os eventos/participantes ou arquive esses eventos %s:\n"
 "%s"
 

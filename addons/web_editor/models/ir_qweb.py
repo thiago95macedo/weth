@@ -2,7 +2,7 @@
 Web_editor-context rendering needs to add some metadata to rendered and allow to edit fields,
 as well as render a few fields differently.
 
-Also, adds methods to convert values back to Odoo models.
+Also, adds methods to convert values back to WETH models.
 """
 
 import ast

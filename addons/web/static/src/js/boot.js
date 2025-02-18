@@ -1,6 +1,6 @@
 /**
  *------------------------------------------------------------------------------
- * Odoo Web Boostrap Code
+ * WETH Web Boostrap Code
  *------------------------------------------------------------------------------
  *
  * Each module can return a promise. In that case, the module is marked as loaded

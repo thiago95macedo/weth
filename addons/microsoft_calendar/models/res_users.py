@@ -88,7 +88,7 @@ class User(models.Model):
         # Microsoft -> Odoo
         synced_events, synced_recurrences = self.env['calendar.event']._sync_microsoft2odoo(events) if events else (self.env['calendar.event'], self.env['calendar.recurrence'])
 
-        # Odoo -> Microsoft
+        # WETH -> Microsoft
         recurrences = self.env['calendar.recurrence']._get_microsoft_records_to_sync(full_sync=full_sync)
         recurrences -= synced_recurrences
         recurrences._sync_odoo2microsoft()

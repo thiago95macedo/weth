@@ -103,7 +103,7 @@ class PosConfig(models.Model):
 
     iface_nfce_via_proxy = fields.Boolean(
         string="NFC-e via IOT",
-        help="""NFC-E can be issued by cloud or IoT, not requiring Odoo server
+        help="""NFC-E can be issued by cloud or IoT, not requiring WETH server
         to be turned on""",
     )
 

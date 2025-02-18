@@ -23,7 +23,7 @@ if records:
                         <div class="col-12 col-lg-6 o_setting_box" id="iap_credits_setting">
                             <div class='o_setting_right_pane'>
                                 <div class="o_form_label">
-                                Odoo IAP
+                                WETH IAP
                                 <a href="https://www.weth.com.br/documentation/14.0/applications/general/in_app_purchase/in_app_purchase.html" title="Documentation" class="o_doc_link" target="_blank"></a>
                                 <a href="https://www.weth.com.br/documentation/14.0/developer/webservices/iap.html" title="Documentation" class="ml-1 o_doc_link" target="_blank"></a>
                                 </div>

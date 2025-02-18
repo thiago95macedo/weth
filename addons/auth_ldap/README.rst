@@ -1,7 +1,7 @@
 Adds support for authentication by LDAP server.
 ===============================================
 This module allows users to login with their LDAP username and password, and
-will automatically create Odoo users for them on the fly.
+will automatically create WETH users for them on the fly.
 
 **Note:** This module only work on servers that have Python's ``python-ldap`` module installed.
 
@@ -26,14 +26,14 @@ manpage: manpage:`ldap.conf(5)`.
 
 Security Considerations:
 ------------------------
-Users' LDAP passwords are never stored in the Odoo database, the LDAP server
+Users' LDAP passwords are never stored in the WETH database, the LDAP server
 is queried whenever a user needs to be authenticated. No duplication of the
 password occurs, and passwords are managed in one place only.
 
 Odoo does not manage password changes in the LDAP, so any change of password
 should be conducted by other means in the LDAP directory directly (for LDAP users).
 
-It is also possible to have local Odoo users in the database along with
+It is also possible to have local WETH users in the database along with
 LDAP-authenticated users (the Administrator account is one obvious example).
 
 Here is how it works:
@@ -43,7 +43,7 @@ Here is how it works:
     * if this authentication fails (for example because the user has no local
       password), the system then attempts to authenticate against LDAP;
 
-As LDAP users have blank passwords by default in the local Odoo database
+As LDAP users have blank passwords by default in the local WETH database
 (which means no access), the first step always fails and the LDAP server is
 queried to do the authentication.
 
@@ -61,6 +61,6 @@ allows pre-setting the default groups and menus of the first-time users.
          assigned as local password for each new LDAP user, effectively setting
          a *master password* for these users (until manually changed). You
          usually do not want this. One easy way to setup a template user is to
-         login once with a valid LDAP user, let Odoo create a blank local
+         login once with a valid LDAP user, let WETH create a blank local
          user with the same login (and a blank password), then rename this new
          user to a username that does not exist in LDAP, and setup its groups

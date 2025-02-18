@@ -6,7 +6,7 @@
     "summary": "Root electronic invoice for service / NFS-e module",
     "version": "25.0.2.1.0",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "maintainers": ["gabrielcardoso21", "mileo", "luismalta", "marcelsavegnago"],
     "website": "https://github.com/OCA/l10n-brazil",
     "external_dependencies": {

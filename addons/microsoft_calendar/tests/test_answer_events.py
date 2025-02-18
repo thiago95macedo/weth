@@ -125,7 +125,7 @@ class TestAnswerEvents(TestCommon):
 
         LIMITATION:
 
-        But, as there is no way to get the iCalUId to identify the corresponding Odoo event,
+        But, as there is no way to get the iCalUId to identify the corresponding WETH event,
         there is no way to update the attendee status to "declined".
         """
 

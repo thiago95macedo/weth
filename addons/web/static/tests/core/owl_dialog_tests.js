@@ -80,7 +80,7 @@ odoo.define('web.owl_dialog_tests', function (require) {
             // Static backdrop click should focus first button
             // => we need to reset that property
             dialog.querySelector('.btn-primary').blur(); // Remove the focus explicitely
-            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for Odoo modal...
+            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for WETH modal...
             assert.notEqual(window.getComputedStyle(dialog.querySelector('.modal')).backgroundColor, 'rgba(0, 0, 0, 0)'); // ... but a non transparent modal
             await testUtils.dom.click(dialog.querySelector('.modal'));
             assert.strictEqual(document.activeElement, dialog.querySelector('.btn-primary'),
@@ -89,7 +89,7 @@ odoo.define('web.owl_dialog_tests', function (require) {
             dialog.querySelector('.btn-primary').blur(); // Remove the focus explicitely
 
             await changeProps('backdrop', false);
-            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for Odoo modal...
+            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for WETH modal...
             assert.strictEqual(window.getComputedStyle(dialog.querySelector('.modal')).backgroundColor, 'rgba(0, 0, 0, 0)');
             await testUtils.dom.click(dialog.querySelector('.modal'));
             assert.notEqual(document.activeElement, dialog.querySelector('.btn-primary'),
@@ -97,7 +97,7 @@ odoo.define('web.owl_dialog_tests', function (require) {
             assert.verifySteps([]); // Ensure not closed
 
             await changeProps('backdrop', true);
-            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for Odoo modal...
+            assert.containsNone(document.body, '.modal-backdrop'); // No backdrop *element* for WETH modal...
             assert.notEqual(window.getComputedStyle(dialog.querySelector('.modal')).backgroundColor, 'rgba(0, 0, 0, 0)'); // ... but a non transparent modal
             await testUtils.dom.click(dialog.querySelector('.modal'));
             assert.notEqual(document.activeElement, dialog.querySelector('.btn-primary'),

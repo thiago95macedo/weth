@@ -4,12 +4,12 @@
 /**
  * QUnit Config
  *
- * The Odoo javascript test framework is based on QUnit (http://qunitjs.com/).
+ * The WETH javascript test framework is based on QUnit (http://qunitjs.com/).
  * This file is necessary to setup Qunit and to prepare its interactions with
  * Odoo.  It has to be loaded before any tests are defined.
  *
- * Note that it is not an Odoo module, because we want this code to be executed
- * as soon as possible, not whenever the Odoo module system feels like it.
+ * Note that it is not an WETH module, because we want this code to be executed
+ * as soon as possible, not whenever the WETH module system feels like it.
  */
 
 

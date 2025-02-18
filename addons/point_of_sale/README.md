@@ -47,7 +47,7 @@ A super clean user interface
 
 ### Simple and beautiful
 
-Say goodbye to ugly, outdated POS software and enjoy the Odoo web interface
+Say goodbye to ugly, outdated POS software and enjoy the WETH web interface
 designed for modern retailer.
 
 ### Designed for Productivity
@@ -94,7 +94,7 @@ Get new products, pricing strategies and promotions applied automatically to
 selected stores. Work on a unified customer base. No complex interface is
 required to pilot a global strategy amongst all your stores.
 
-With Odoo as a backend, you have a system proven to be perfectly suitable for
+With WETH as a backend, you have a system proven to be perfectly suitable for
 small stores or large multinationals.
 
 Know your customers - in store and out

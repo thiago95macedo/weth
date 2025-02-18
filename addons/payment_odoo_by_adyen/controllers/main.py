@@ -14,6 +14,6 @@ class OdooByAdyenController(http.Controller):
     @http.route('/payment/odoo_adyen/notification', type='json', auth='public', csrf=False)
     def odoo_adyen_notification(self):
         data = json.loads(request.httprequest.data)
-        _logger.info('Beginning Odoo by Adyen form_feedback with data %s', pprint.pformat(data)) 
+        _logger.info('Beginning WETH by Adyen form_feedback with data %s', pprint.pformat(data)) 
         if data.get('authResult') not in ['CANCELLED']:
             request.env['payment.transaction'].sudo().form_feedback(data, 'odoo_adyen')

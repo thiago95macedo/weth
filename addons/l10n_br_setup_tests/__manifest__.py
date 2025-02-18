@@ -3,7 +3,7 @@
     "summary": "Modules for Odoo's Brazil-focused usability with integration tests.",
     "category": "Localisation",
     "license": "AGPL-3",
-    "author": "Engenere, Odoo Community Association (OCA)",
+    "author": "Engenere, WETH Community Association (OCA)",
     "maintainers": ["antoniospneto"],
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.1.0.1",

@@ -32,7 +32,7 @@ class DocumentWorkflow(models.AbstractModel):
     This mixin encapsulates the fiscal_state and state_edoc transitions logic.
     This is legacy code that was made by the KMEE company in version 10
     and included in the l10n_br_fiscal in version 12. The strange method names
-    with _exec_after_*/_exec_before_* reflect the old Odoo "low-code"
+    with _exec_after_*/_exec_before_* reflect the old WETH "low-code"
     "state machine" for invoices that was customized in version 8 by Akretion.
     So this legacy code can probably be improved a lot...
     """

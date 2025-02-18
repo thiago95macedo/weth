@@ -5,7 +5,7 @@
         <field name="name">NF-e</field>
         <field
             name="description"
-        >Extends Odoo to helps you manage your brazilian fiscal documents: NF-e</field>
+        >Extends WETH to helps you manage your brazilian fiscal documents: NF-e</field>
         <field name="sequence">30</field>
     </record>
 

@@ -1,6 +1,6 @@
 Italy, 22-04-2021
 
-Digital Domus s.n.c. agrees to the terms of the Odoo Corporate Contributor License
+Digital Domus s.n.c. agrees to the terms of the WETH Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

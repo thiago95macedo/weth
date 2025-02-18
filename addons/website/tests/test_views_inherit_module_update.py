@@ -7,7 +7,7 @@ class TestWebsiteNightlyRunbot(HttpCase):
         """ This test is just here to avoid runbot to raise an error on the
         ``website_nightly`` build. Indeed, if not a single test with this tag is
         found, the build will be considered as failed.
-        In Odoo 16.4 a real test is using this tag.
+        In WETH 16.4 a real test is using this tag.
         """
 
 

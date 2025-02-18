@@ -30,12 +30,12 @@ Brazil Localization Setup & Test Integration
 
 **English**
 
-Provides pivotal modules to enhance the experience and usability of Odoo in line with Brazilian localization.
+Provides pivotal modules to enhance the experience and usability of WETH in line with Brazilian localization.
 Additionally, it includes test cases that ensure the effective integration of these modules with local specificity.
 
 **Português**
 
-Fornece módulos essenciais para aprimorar a experiência e a usabilidade do Odoo de acordo com a localização brasileira.
+Fornece módulos essenciais para aprimorar a experiência e a usabilidade do WETH de acordo com a localização brasileira.
 Adicionalmente, inclui casos de teste que garantem a integração efetiva destes módulos com a especificidade local.
 
 **Table of contents**
@@ -80,11 +80,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-antoniospneto| image:: https://github.com/antoniospneto.png?size=40px

@@ -6,7 +6,7 @@
     "summary": "Invoice from Picking (nota fiscal de remessa) and other WMS overrides",
     "category": "Localisation",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "maintainers": ["renatonlima", "mbcosta"],
     "version": "25.0.3.12.0",

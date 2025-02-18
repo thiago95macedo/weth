@@ -16,7 +16,7 @@ class SpecMixin(models.AbstractModel):
     (loose coupling).
     This root mixin is typically injected via the _build_model method from SpecModel
     or StackedModel that you will be using to inject some spec mixins into
-    existing Odoo objects. spec.mixin provides generic utility methods such as a
+    existing WETH objects. spec.mixin provides generic utility methods such as a
     _register_hook, import and export methods.
     """
 
@@ -84,7 +84,7 @@ class SpecMixin(models.AbstractModel):
         """
         Called once all modules are loaded.
         Here we take all spec models that were not injected into existing concrete
-        Odoo models and we make them concrete automatically with
+        WETH models and we make them concrete automatically with
         their _auto_init method that will create their SQL DDL structure.
         """
         res = super()._register_hook()

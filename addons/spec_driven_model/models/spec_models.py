@@ -108,7 +108,7 @@ class SpecModel(models.Model):
         """
         SpecModel models inherit their fields from XSD generated mixins.
         These mixins can either be made concrete, either be injected into
-        existing concrete Odoo models. In that last case, the comodels of the
+        existing concrete WETH models. In that last case, the comodels of the
         relational fields pointing to such mixins should be remapped to the
         proper concrete models where these mixins are injected.
         """
@@ -201,7 +201,7 @@ class SpecModel(models.Model):
 class StackedModel(SpecModel):
     """
     XML structures are typically deeply nested as this helps xsd
-    validation. However, deeply nested objects in Odoo suck because that would
+    validation. However, deeply nested objects in WETH suck because that would
     mean crazy joins accross many tables and also an endless cascade of form
     popups.
 

@@ -106,7 +106,7 @@ class DocumentSerie(models.Model):
 
     def check_number_in_use(self, document_number):
         """Check if a document with the same number already exists, this can
-        happen in some cases, for example invoices imported in Odoo from another ERP."""
+        happen in some cases, for example invoices imported in WETH from another ERP."""
 
         return (
             self.env["l10n_br_fiscal.document"]

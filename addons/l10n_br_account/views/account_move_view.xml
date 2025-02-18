@@ -335,7 +335,7 @@
             </xpath>
 
             <!-- The next fields are defined in a superficial way in the inherited
-                form that is considered specific for mobile edition by Odoo but not
+                form that is considered specific for mobile edition by WETH but not
                 for us in the Brazilian localization. To make it work properly
                 we had to define some extra attributes just like in the editable tree view:
             -->

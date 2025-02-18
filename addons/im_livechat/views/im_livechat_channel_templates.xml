@@ -132,7 +132,7 @@
         <template id="external_lib" name="Livechat : External Librairies of the Livechat, required to make it work">
             <!-- Momentjs -->
             <script type="text/javascript" src="/web/static/lib/moment/moment.js"></script>
-            <!-- Odoo minimal lib -->
+            <!-- WETH minimal lib -->
             <script type="text/javascript" src="/web/static/lib/underscore/underscore.js"></script>
             <script type="text/javascript" src="/web/static/lib/underscore.string/lib/underscore.string.js"></script>
             <!-- jQuery -->
@@ -142,7 +142,7 @@
             <script type="text/javascript" src="/web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js"></script>
             <!-- Qweb2 lib -->
             <script type="text/javascript" src="/web/static/lib/qweb/qweb2.js"></script>
-            <!-- Odoo JS Framework -->
+            <!-- WETH JS Framework -->
             <script type="text/javascript" src="/web/static/lib/owl/owl.js"></script>
             <script type="text/javascript" src="/web/static/src/js/promise_extension.js"></script>
             <script type="text/javascript" src="/web/static/src/js/boot.js"></script>

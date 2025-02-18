@@ -28,7 +28,7 @@ Brazilian Localization Purchase Stock
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module extends the standard Odoo purchase module for Brazil,
+This module extends the standard WETH purchase module for Brazil,
 specially when selling products with NFe's.
 
 It deals with the propagation of the fiscal operation and allow the creation
@@ -97,11 +97,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-renatonlima| image:: https://github.com/renatonlima.png?size=40px

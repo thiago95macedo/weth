@@ -5,7 +5,7 @@
     "name": "Brazilian Localization Purchase Stock",
     "license": "AGPL-3",
     "category": "Localisation",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "maintainers": ["renatonlima", "mbcosta"],
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.3.2.0",

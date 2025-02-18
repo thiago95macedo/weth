@@ -4,7 +4,7 @@
 {
     "name": "Ponto de venda adaptado a legislação Brasileira",
     "version": "25.0.1.5.3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "license": "AGPL-3",
     "category": "Point Of Sale",

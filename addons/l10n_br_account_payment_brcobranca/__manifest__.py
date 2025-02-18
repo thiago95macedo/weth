@@ -7,7 +7,7 @@
     "summary": "receivable Boletos and CNAB using the BRCobranca lib",
     "version": "25.0.7.0.4",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "maintainers": ["rvalyi", "mbcosta"],
     "website": "https://github.com/OCA/l10n-brazil",
     "depends": [

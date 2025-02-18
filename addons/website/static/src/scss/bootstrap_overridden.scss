@@ -24,7 +24,7 @@ $spacer: 1rem !default; // Need to predefine as used below
 
 // Bootstrap uses $body-bg as default value for multiple variables but also in
 // the creation of CSS rules (not controlled by variables), which is wrong in
-// case of Odoo boxed layouts. In stable versions, this is fixed for default
+// case of WETH boxed layouts. In stable versions, this is fixed for default
 // variable values of critical components only. In 16.0, the problem increased
 // as $body-bg was even more used in BS 5.1.3. That will be fixed entirely in a
 // slightly less stable way: $body-bg will now be the boxed-layout color instead

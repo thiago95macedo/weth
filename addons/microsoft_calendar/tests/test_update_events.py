@@ -22,7 +22,7 @@ class TestUpdateEvents(TestCommon):
         self.create_events_for_tests()
 
     # -------------------------------------------------------------------------------
-    # Update from Odoo to Outlook
+    # Update from WETH to Outlook
     # -------------------------------------------------------------------------------
 
     # ------ Simple event ------
@@ -30,7 +30,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_odoo(self, mock_patch):
         """
-        Update an Odoo event with Outlook sync enabled
+        Update an WETH event with Outlook sync enabled
         """
 
         # arrange
@@ -54,7 +54,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_odoo_attendee_calendar(self, mock_patch):
         """
-        Update an Odoo event from the attendee calendar.
+        Update an WETH event from the attendee calendar.
         """
 
         # arrange
@@ -80,7 +80,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_odoo(self, mock_patch):
         """
-        Update one Odoo event name from a recurrence from the organizer calendar.
+        Update one WETH event name from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -113,7 +113,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_odoo(self, mock_patch):
         """
-        Update one Odoo event start date from a recurrence from the organizer calendar.
+        Update one WETH event start date from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -159,7 +159,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_odoo_with_overlap(self, mock_patch):
         """
-        Update one Odoo event start date from a recurrence from the organizer calendar, in order to
+        Update one WETH event start date from a recurrence from the organizer calendar, in order to
         overlap another existing event.
         """
         # arrange
@@ -181,7 +181,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_odoo_attendee_calendar(self, mock_patch):
         """
-        Update one Odoo event name from a recurrence from the atendee calendar.
+        Update one WETH event name from a recurrence from the atendee calendar.
         """
 
         # arrange
@@ -216,7 +216,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event name and future events from a recurrence from the organizer calendar.
+        Update a WETH event name and future events from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -255,7 +255,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event start date and future events from a recurrence from the organizer calendar.
+        Update a WETH event start date and future events from a recurrence from the organizer calendar.
         """
 
         # When a time-related field is changed, the event does not follow the recurrence scheme anymore.
@@ -331,7 +331,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event start date and future events from a recurrence from the organizer calendar,
+        Update a WETH event start date and future events from a recurrence from the organizer calendar,
         overlapping an existing event.
         """
 
@@ -403,7 +403,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Odoo event name and future events from a recurrence from the attendee calendar.
+        Update a WETH event name and future events from a recurrence from the attendee calendar.
         """
 
         # arrange

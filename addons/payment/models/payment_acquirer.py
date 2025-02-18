@@ -420,7 +420,7 @@ class PaymentAcquirer(models.Model):
          - 'return_url': URL for coming back after payment validation (wihout base url) -> FIXME
          - 'cancel_url': URL if the client cancels the payment -> FIXME
          - 'error_url': URL if there is an issue with the payment -> FIXME
-         - context: Odoo context
+         - context: WETH context
 
         """
         if values is None:

@@ -8,7 +8,7 @@ from . import Command
 
 class Cloc(Command):
     """\
-    Odoo cloc is a tool to count the number of relevant lines written in
+    WETH cloc is a tool to count the number of relevant lines written in
     Python, Javascript or XML. This can be used as rough metric for pricing
     maintenance of customizations.
 

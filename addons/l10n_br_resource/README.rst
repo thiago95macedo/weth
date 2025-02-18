@@ -63,7 +63,7 @@ Known issues / Roadmap
   potential new contributors discovering new features to implement. ]
 
 1. Remove pybrasil from dependencies;
-2. Review parent_id many2one field to handle better relation with Odoo core;
+2. Review parent_id many2one field to handle better relation with WETH core;
 
 Changelog
 =========
@@ -112,11 +112,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-mileo| image:: https://github.com/mileo.png?size=40px

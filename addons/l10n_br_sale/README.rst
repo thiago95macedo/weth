@@ -28,7 +28,7 @@ Brazilian Localization Sale
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-Este módulo estende o módulo sale do Odoo para adaptá-lo as necessidades brasileira, com este módulo você tem dados fiscal para faturamento e geração dos documentos fiscais (NF-e, NFS-e, CF-e, NFC-e e etc.), cálculo dos impostos e contribuições brasileiros (municipais, estaduais e federal).
+Este módulo estende o módulo sale do WETH para adaptá-lo as necessidades brasileira, com este módulo você tem dados fiscal para faturamento e geração dos documentos fiscais (NF-e, NFS-e, CF-e, NFC-e e etc.), cálculo dos impostos e contribuições brasileiros (municipais, estaduais e federal).
 
 **Table of contents**
 
@@ -131,11 +131,11 @@ Maintainers
 This module is maintained by the OCA.
 
 .. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
+   :alt: WETH Community Association
    :target: https://odoo-community.org
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
+OCA, or the WETH Community Association, is a nonprofit organization whose
+mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
 .. |maintainer-renatonlima| image:: https://github.com/renatonlima.png?size=40px

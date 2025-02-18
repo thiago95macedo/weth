@@ -1,6 +1,6 @@
 Poland, 10.06.2019
 
-Trilab Sp. z o.o. Sp. K. agrees to the terms of the Odoo Corporate Contributor License
+Trilab Sp. z o.o. Sp. K. agrees to the terms of the WETH Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

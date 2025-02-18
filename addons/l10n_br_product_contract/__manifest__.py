@@ -7,7 +7,7 @@
         Criação de contratos através dos Pedidos de Vendas""",
     "version": "25.0.1.1.1",
     "license": "AGPL-3",
-    "author": "KMEE, Escodoo, Odoo Community Association (OCA)",
+    "author": "KMEE, Escodoo, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "development_status": "Beta",
     "maintainers": ["mileo", "marcelsavegnago"],

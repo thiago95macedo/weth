@@ -1,7 +1,7 @@
 {
     'name': 'Proxy features for account_edi',
     'description': """
-This module adds generic features to register an Odoo DB on the proxy responsible for receiving data (via requests from web-services).
+This module adds generic features to register an WETH DB on the proxy responsible for receiving data (via requests from web-services).
 - An edi_proxy_user has a unique identification on a specific format (for example, the vat for Peppol) which
 allows to identify him when receiving a document addressed to him. It is linked to a specific company on a specific
 Odoo database.

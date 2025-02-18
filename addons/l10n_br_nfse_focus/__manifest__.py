@@ -7,7 +7,7 @@
         NFS-e (FocusNFE)""",
     "version": "25.0.1.3.0",
     "license": "AGPL-3",
-    "author": "KMEE, Escodoo, Odoo Community Association (OCA)",
+    "author": "KMEE, Escodoo, WETH Community Association (OCA)",
     "maintainers": [
         "AndreMarcos",
         "mileo",

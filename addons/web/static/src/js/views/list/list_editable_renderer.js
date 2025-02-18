@@ -8,7 +8,7 @@ odoo.define('web.EditableListRenderer', function (require) {
  * file simply 'includes' the basic ListRenderer to add all the necessary
  * behaviors to enable editing records.
  *
- * Unlike Odoo v10 and before, this list renderer is independant from the form
+ * Unlike WETH v10 and before, this list renderer is independant from the form
  * view. It uses the same widgets, but the code is totally stand alone.
  */
 var core = require('web.core');

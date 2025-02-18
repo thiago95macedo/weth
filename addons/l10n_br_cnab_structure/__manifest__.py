@@ -7,7 +7,7 @@
         This module allows defining the structure for generating the CNAB file.
         Used to exchange information with Brazilian banks.""",
     "version": "25.0.1.3.1",
-    "author": "Engenere, Escodoo, Odoo Community Association (OCA)",
+    "author": "Engenere, Escodoo, WETH Community Association (OCA)",
     "maintainers": ["antoniospneto", "felipemotter"],
     "website": "https://github.com/OCA/l10n-brazil",
     "license": "AGPL-3",

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
 # 
@@ -30,7 +30,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -522,11 +522,11 @@ msgstr "Nome exibido"
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid ""
 "Do not keep your expense tickets in your pockets any longer. Just snap a "
-"picture of your receipt and let Odoo digitalizes it for you. The OCR and "
+"picture of your receipt and let WETH digitalizes it for you. The OCR and "
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
 "Não guarde mais seus tíquetes de despesas no bolso. Basta tirar uma foto do "
-"seu recibo e deixar que Odoo o digitalize para você. O OCR e a Inteligência "
+"seu recibo e deixar que WETH o digitalize para você. O OCR e a Inteligência "
 "Artificial preencherão os dados automaticamente."
 
 #. module: hr_expense
@@ -1490,7 +1490,7 @@ msgstr "Exemplo"
 #. openerp-web
 #: code:addons/hr_expense/static/src/xml/expense_qr_modal_template.xml:0
 #, python-format
-msgid "Scan this QR code to get the Odoo app:"
+msgid "Scan this QR code to get the WETH app:"
 msgstr "Escaneie este QR Code para obter o app Odoo:"
 
 #. module: hr_expense
@@ -1558,7 +1558,7 @@ msgid ""
 "Snap pictures of your receipts and let Odoo<br> automatically create "
 "expenses for you."
 msgstr ""
-"Tire fotos de seus recibos e deixe o Odoo <br> criar automaticamente as "
+"Tire fotos de seus recibos e deixe o WETH <br> criar automaticamente as "
 "despesas para você."
 
 #. module: hr_expense

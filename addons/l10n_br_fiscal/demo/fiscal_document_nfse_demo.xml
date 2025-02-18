@@ -20,7 +20,7 @@
 
     <record id="demo_nfse_line_same_state_1-1" model="l10n_br_fiscal.document.line">
         <field name="document_id" ref="demo_nfse_same_state" />
-        <field name="name">Customized Odoo Development</field>
+        <field name="name">Customized WETH Development</field>
         <field name="product_id" ref="customized_development_sale" />
         <field name="uom_id" ref="uom.product_uom_unit" />
         <field name="quantity">1</field>

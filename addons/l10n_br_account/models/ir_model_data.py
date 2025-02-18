@@ -10,10 +10,10 @@ class IrModelData(models.Model):
     @api.model
     def _update_xmlids(self, data_list, update=False):
         """
-        Because of the _inherits, Odoo naturally expects XML records
+        Because of the _inherits, WETH naturally expects XML records
         for account.move and account.move.line to have respectively a fiscal_document_id
         and a fiscal_document_line_id. But in l10n_br_account we allow account moves
-        without fiscal documents. This override avoids crashing Odoo here.
+        without fiscal documents. This override avoids crashing WETH here.
         """
         filtered_data_list = filter(
             lambda data: (

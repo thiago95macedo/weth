@@ -8,7 +8,7 @@
     "version": "25.0.2.0.2",
     "development_status": "Beta",
     "license": "AGPL-3",
-    "author": "KMEE, Odoo Community Association (OCA)",
+    "author": "KMEE, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "depends": [
         "website_sale",

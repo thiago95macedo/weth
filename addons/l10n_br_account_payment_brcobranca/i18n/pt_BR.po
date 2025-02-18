@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* l10n_br_account_payment_brcobranca
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2024-05-17 20:38+0000\n"
 "Last-Translator: Rodrigo Macedo <sottomaiormacedotec@users.noreply."
@@ -32,7 +32,7 @@ msgid ""
 "\n"
 "1. Set the environment variable: BRCOBRANCA_API_URL=http://"
 "boleto_cnab_api:9292\n"
-"2. Configure the URL in Odoo configuration file: brcobranca_api_url=http://"
+"2. Configure the URL in WETH configuration file: brcobranca_api_url=http://"
 "boleto_cnab_api:9292\n"
 "3. Set the URL in System Parameters: brcobranca_api_url=http://"
 "boleto_cnab_api:9292\n"
@@ -218,12 +218,12 @@ msgstr "Tipo de importação"
 
 #, python-format
 #~ msgid ""
-#~ "Inform the URL where BRCobranca API are running in Odoo Configuration "
+#~ "Inform the URL where BRCobranca API are running in WETH Configuration "
 #~ "file or if you are using docky in the docker-compose.yml file. Example:\n"
 #~ "BRCOBRANCA_API_URL=http://boleto_cnab_api:9292"
 #~ msgstr ""
 #~ "Informar a URL onde a API BR Cobranca está executando no arquivo de "
-#~ "Configuração Odoo ou , caso esteja usando docky no arquivo docker-compose."
+#~ "Configuração WETH ou , caso esteja usando docky no arquivo docker-compose."
 #~ "yml. Exemplo:\n"
 #~ "BRCOBRANCA_API_URL=http://boleto_cnab_api:9292"
 
@@ -237,11 +237,11 @@ msgstr "Tipo de importação"
 #~ msgstr "Imprimir Boleto"
 
 #~ msgid ""
-#~ "This code is used in the code of the Odoo module that handles this "
+#~ "This code is used in the code of the WETH module that handles this "
 #~ "payment method. Therefore, if you change it, the generation of the "
 #~ "payment file may fail."
 #~ msgstr ""
-#~ "Este código é usado no código do módulo Odoo que lida com este método de "
+#~ "Este código é usado no código do módulo WETH que lida com este método de "
 #~ "pagamento. Portanto, se você alterá-lo, a geração do arquivo de pagamento "
 #~ "pode falhar."
 

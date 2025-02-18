@@ -216,7 +216,7 @@ class IoTboxHomepage(web.Home):
         if server:
             res_payload['server'] = {
                 'url': server,
-                'message': 'Redirect to Odoo Server'
+                'message': 'Redirect to WETH Server'
             }
         else:
             res_payload['server'] = {
@@ -287,8 +287,8 @@ class IoTboxHomepage(web.Home):
     @http.route('/server', type='http', auth='none', website=True)
     def server(self):
         return server_config_template.render({
-            'title': 'IoT -> Odoo server configuration',
-            'breadcrumb': 'Configure Odoo Server',
+            'title': 'IoT -> WETH server configuration',
+            'breadcrumb': 'Configure WETH Server',
             'hostname': subprocess.check_output('hostname').decode('utf-8').strip('\n'),
             'server_status': helpers.get_odoo_server_url() or 'Not configured yet',
             'loading_message': 'Configure Domain Server'
@@ -409,7 +409,7 @@ class IoTboxHomepage(web.Home):
 
     def _get_iot_handler_logger(self, handler_name, handler_folder_name):
         """
-        Get Odoo Iot logger given an IoT handler name
+        Get WETH Iot logger given an IoT handler name
         :param handler_name: name of the IoT handler
         :param handler_folder_name: IoT handler folder name (interfaces or drivers)
         :return: logger if any, False otherwise

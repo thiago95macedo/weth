@@ -5,7 +5,7 @@ Um módulo que usa ele é o módulo `l10n_br_nfe` que permite transmitir as NF-e
 Geração
 ~~~~~~~
 
-O código dos mixins Odoo desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:
+O código dos mixins WETH desse módulo é 100% gerado a partir dos últimos esquemas xsd da Fazenda usando xsdata e essa extensão dele:
 
 https://github.com/akretion/xsdata-odoo
 
@@ -32,7 +32,7 @@ Além disso, temos várias versões da NFe, a 3.1, a 4.0 etc...
 Nisso foi decidido que cada campo tem um prefixo composto do nome do schema
 e de alguns dígitos da versão do esquema. No caso `nfe40_`. A escolha de 2 dígitos permite
 que uma atualização menor do esquema use os mesmos campos (e dados no banco então) e que um simples
-update Odoo (--update=...) consiga resolver a migração. Enquanto que para uma mudança maior
+update WETH (--update=...) consiga resolver a migração. Enquanto que para uma mudança maior
 como de 3.1 para 4.0, seria assumido de usar novos campos e novas tabelas (para os objetos não Odoo)
 e que a lib nfelib iria trabalhar com os campos da versão maior do documento fiscal considerado.
 
@@ -41,7 +41,7 @@ Casos das tags de ICMS e ICMSSN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para facilitar a validação das tags de ICMS e ICMSSN, o esquema contem tags especificas para cada tipo desses impostos.
-Porem, Depois no Odoo o modelo é diferente com uma class apenas. Se a gente injectasse todos esses mixins de ICMS e ICMSSN na mesma class Odoo
+Porem, Depois no WETH o modelo é diferente com uma class apenas. Se a gente injectasse todos esses mixins de ICMS e ICMSSN na mesma class Odoo
 a gente teria colisão de campos, com campos com o mesmo nome e seleções diferentes... Para evitar esses problemas, filtramos as classes
-desses tags (usando o export XSDATA_SKIP antes de chamar xsdata generate). De qualquer forma, já que o Odoo e o módulo l10n_br_fiscal tem modelos proprios para os impostos
+desses tags (usando o export XSDATA_SKIP antes de chamar xsdata generate). De qualquer forma, já que o WETH e o módulo l10n_br_fiscal tem modelos proprios para os impostos
 temos que assumir que o mapping das tags de impostos nao pode ser tão automatizada.

@@ -86,7 +86,7 @@ def check_certificate():
 
 def check_git_branch():
     """
-    Check if the local branch is the same than the connected Odoo DB and
+    Check if the local branch is the same than the connected WETH DB and
     checkout to match it if needed.
     """
     server = get_odoo_server_url()
@@ -234,7 +234,7 @@ def get_wifi_essid():
 
 def load_certificate():
     """
-    Send a request to Odoo with customer db_uuid and enterprise_code to get a true certificate
+    Send a request to WETH with customer db_uuid and enterprise_code to get a true certificate
     """
     db_uuid = read_file_first_line('odoo-db-uuid.conf')
     enterprise_code = read_file_first_line('odoo-enterprise-code.conf')
@@ -283,7 +283,7 @@ def load_certificate():
 
 def download_iot_handlers(auto=True):
     """
-    Get the drivers from the configured Odoo server
+    Get the drivers from the configured WETH server
     """
     server = get_odoo_server_url()
     if server:
@@ -304,7 +304,7 @@ def download_iot_handlers(auto=True):
             _logger.error('A error encountered : %s ' % e)
 
 def compute_iot_handlers_addon_name(handler_kind, handler_file_name):
-    # TODO: replace with `removesuffix` (for Odoo version using an IoT image that use Python >= 3.9)
+    # TODO: replace with `removesuffix` (for WETH version using an IoT image that use Python >= 3.9)
     return "odoo.addons.hw_drivers.iot_handlers.{handler_kind}.{handler_name}".\
         format(handler_kind=handler_kind, handler_name=handler_file_name.replace('.py', ''))
 

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* l10n_br_pos
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: WETH Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-23 14:30+0000\n"
 "PO-Revision-Date: 2024-12-21 15:52+0000\n"
@@ -1960,7 +1960,7 @@ msgstr ""
 #. module: l10n_br_pos
 #: model:ir.model.fields,help:l10n_br_pos.field_pos_config__iface_nfce_via_proxy
 msgid ""
-"NFC-E can be issued by cloud or IoT, not requiring Odoo server\n"
+"NFC-E can be issued by cloud or IoT, not requiring WETH server\n"
 "        to be turned on"
 msgstr ""
 

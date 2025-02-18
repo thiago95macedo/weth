@@ -8,7 +8,7 @@
             <field name="image_1920" type="base64" file="gamification/static/img/badge_good_job-image.png"/>
         </record>
 
-        <!-- Odoo Vendor Certification -->
+        <!-- WETH Vendor Certification -->
         <record model="survey.survey" id="vendor_certification">
             <field name="title">MyCompany Vendor Certification</field>
             <field name="access_token">4ead4bc8-b8f2-4760-a682-1fde8ddb95ac</field>

@@ -11,7 +11,7 @@ dot_atom_text = re.compile(r"^%s+(\.%s+)*$" % (atext, atext))
 
 
 class Alias(models.Model):
-    """A Mail Alias is a mapping of an email address with a given Odoo Document
+    """A Mail Alias is a mapping of an email address with a given WETH Document
        model. It is used by Odoo's mail gateway when processing incoming emails
        sent to the system. If the recipient address (To) of the message matches
        a Mail Alias, the message will be either processed following the rules
@@ -21,7 +21,7 @@ class Alias(models.Model):
 
        This is meant to be used in combination with a catch-all email configuration
        on the company's mail server, so that as soon as a new mail.alias is
-       created, it becomes immediately usable and Odoo will accept email for it.
+       created, it becomes immediately usable and WETH will accept email for it.
      """
     _name = 'mail.alias'
     _description = "Email Aliases"

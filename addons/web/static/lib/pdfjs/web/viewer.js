@@ -253,7 +253,7 @@ function getViewerConfiguration() {
 
 function webViewerLoad() {
   var config = getViewerConfiguration();
-  // Start Odoo patch
+  // Start WETH patch
   // Source https://github.com/mozilla/pdf.js/pull/11246 (Detect Android and iOS)
   const userAgent = (typeof navigator !== 'undefined' && navigator.userAgent) || '';
   const platform = (typeof navigator !== 'undefined' && navigator.platform) || '';
@@ -271,7 +271,7 @@ function webViewerLoad() {
     config.toolbar.print.setAttribute('hidden', 'true');
     config.secondaryToolbar.printButton.setAttribute('hidden', 'true');
   }
-  // End Odoo patch
+  // End WETH patch
   window.PDFViewerApplication = pdfjsWebApp.PDFViewerApplication;
   window.PDFViewerApplicationOptions = pdfjsWebAppOptions.AppOptions;
   var event = document.createEvent('CustomEvent');

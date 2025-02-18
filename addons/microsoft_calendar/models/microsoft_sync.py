@@ -19,7 +19,7 @@ _logger = logging.getLogger(__name__)
 MAX_RECURRENT_EVENT = 720
 
 # API requests are sent to Microsoft Calendar after the current transaction ends.
-# This ensures changes are sent to Microsoft only if they really happened in the Odoo database.
+# This ensures changes are sent to Microsoft only if they really happened in the WETH database.
 # It is particularly important for event creation , otherwise the event might be created
 # twice in Microsoft if the first creation crashed in Odoo.
 def after_commit(func):
@@ -282,7 +282,7 @@ class MicrosoftSync(models.AbstractModel):
 
     def _update_microsoft_recurrence(self, recurrence, events):
         """
-        Update Odoo events from Outlook recurrence and events.
+        Update WETH events from Outlook recurrence and events.
         """
         # get the list of events to update ...
         events_to_update = events.filter(lambda e: e.seriesMasterId == self.ms_organizer_event_id)
@@ -391,7 +391,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_delete(self, user_id, event_id, timeout=TIMEOUT):
         """
-        Once the event has been really removed from the Odoo database, remove it from the Outlook calendar.
+        Once the event has been really removed from the WETH database, remove it from the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' won't exist when this method will be really called due to @after_commit decorator.
@@ -404,7 +404,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_patch(self, user_id, event_id, values, timeout=TIMEOUT):
         """
-        Once the event has been really modified in the Odoo database, modify it in the Outlook calendar.
+        Once the event has been really modified in the WETH database, modify it in the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' may have been modified between the call of '_microsoft_patch' and its execution,
@@ -422,7 +422,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_insert(self, values, timeout=TIMEOUT):
         """
-        Once the event has been really added in the Odoo database, add it in the Outlook calendar.
+        Once the event has been really added in the WETH database, add it in the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' may have been modified between the call of '_microsoft_insert' and its execution,
@@ -457,7 +457,7 @@ class MicrosoftSync(models.AbstractModel):
 
     def _get_microsoft_records_to_sync(self, full_sync=False):
         """
-        Return records that should be synced from Odoo to Microsoft
+        Return records that should be synced from WETH to Microsoft
         :param full_sync: If True, all events attended by the user are returned
         :return: events
         """
@@ -476,9 +476,9 @@ class MicrosoftSync(models.AbstractModel):
         self, microsoft_event: MicrosoftEvent, default_reminders=(), default_values=None, with_ids=False
     ):
         """
-        Implements this method to return a dict of Odoo values corresponding
+        Implements this method to return a dict of WETH values corresponding
         to the Microsoft event given as parameter
-        :return: dict of Odoo formatted values
+        :return: dict of WETH formatted values
         """
         raise NotImplementedError()
 

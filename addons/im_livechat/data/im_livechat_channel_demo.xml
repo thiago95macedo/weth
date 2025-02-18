@@ -125,7 +125,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_1"/>
             <field name="message_type">email</field>
             <field eval="False" name="author_id"/>
-            <field name="body">I was wondering if Odoo has an application to easily manage social media for my business..</field>
+            <field name="body">I was wondering if WETH has an application to easily manage social media for my business..</field>
             <field eval="[(4, ref('im_livechat.im_livechat_mail_channel_data_1'))]" name="channel_ids"/>
             <field eval="DateTime.today() + relativedelta(months=-1, days=-1, minutes=7)" name="date"/>
         </record>
@@ -220,7 +220,7 @@
             <field name="res_id" ref="im_livechat.im_livechat_mail_channel_data_3"/>
             <field name="message_type">email</field>
             <field name="author_id" ref="base.partner_demo"/>
-            <field name="body">Hello Joel Willis, you're at the right place! You can customize Odoo using our Studio application in just a few clicks.</field>
+            <field name="body">Hello Joel Willis, you're at the right place! You can customize WETH using our Studio application in just a few clicks.</field>
             <field eval="[(4, ref('im_livechat.im_livechat_mail_channel_data_3'))]" name="channel_ids"/>
             <field eval="DateTime.today() + relativedelta(months=-2, days=-3, minutes=16)" name="date"/>
         </record>

@@ -40,13 +40,13 @@ Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers
 are configured by default to track all kind of events related to shopping
 carts, call-to-actions, etc.
 
-As Odoo marketing tools (mass mailing, campaigns, etc) are also linked with
+As WETH marketing tools (mass mailing, campaigns, etc) are also linked with
 Google Analytics, you get a complete view of your business.
 
 Target New Markets
 ------------------
 
-Get your website translated in multiple languages with no effort. Odoo proposes
+Get your website translated in multiple languages with no effort. WETH proposes
 and propagates translations automatically across pages.
 
 Our translation "on demand" features allows you to benefit from professional
@@ -66,7 +66,7 @@ Edit any product inline to make your website evolve with your customer need.
 Acquire New Customers
 ---------------------
 
-SEO tools are ready to use, with no configuration required. Odoo suggests
+SEO tools are ready to use, with no configuration required. WETH suggests
 keywords according to Google most searched terms, Google Analytics tracks your
 shopping cart events, sitemap are created automatically for Google indexation,
 etc.
@@ -77,7 +77,7 @@ efficiently in Google.
 Leverage Social Media
 ---------------------
 
-Create new landing pages easily with the Odoo inline editing feature. Send
+Create new landing pages easily with the WETH inline editing feature. Send
 visitors of your different marketing campaigns to specific landing pages to
 optimize conversions.
 

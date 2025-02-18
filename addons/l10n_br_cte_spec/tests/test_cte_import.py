@@ -27,7 +27,7 @@ def build_fake(self, node, create=False):
 def build_attrs_fake(self, node, create_m2o=False):
     """
     Similar to build_attrs from spec_driven_model but simpler: assuming
-    generated abstract mixins are not injected into concrete Odoo models.
+    generated abstract mixins are not injected into concrete WETH models.
     """
     fields = self.fields_get()
     vals = self.default_get(fields.keys())

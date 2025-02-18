@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~13.5\n"
+"Project-Id-Version: WETH Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:23+0000\n"
@@ -49,13 +49,13 @@ msgstr ""
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Description: </strong> Odoo Twitter Integration"
-msgstr "<strong>Descrição:</strong> integração do Odoo e Twitter"
+msgid "<strong>Description: </strong> WETH Twitter Integration"
+msgstr "<strong>Descrição:</strong> integração do WETH e Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Name: </strong> Odoo Twitter Integration"
-msgstr "<strong>Nome:</strong> integração do Odoo e Twitter"
+msgid "<strong>Name: </strong> WETH Twitter Integration"
+msgstr "<strong>Nome:</strong> integração do WETH e Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form

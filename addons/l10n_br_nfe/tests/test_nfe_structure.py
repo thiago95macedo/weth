@@ -21,8 +21,8 @@ class NFeStructure(SavepointCase):
     def get_stacked_tree(cls, klass):
         """
         # > means the content of the m2o is stacked in the parent
-        # - means standard m2o. Eventually followd by the mapped Odoo model
-        # ≡ means o2m. Eventually followd by the mapped Odoo model
+        # - means standard m2o. Eventually followd by the mapped WETH model
+        # ≡ means o2m. Eventually followd by the mapped WETH model
         """
         spec_module = "odoo.addons.l10n_br_nfe_spec.models.v4_0.leiaute_nfe_v4_00"
         spec_prefix = "nfe40"

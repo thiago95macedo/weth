@@ -1,4 +1,4 @@
-"""The Odoo API module defines Odoo Environments and method decorators.
+"""The WETH API module defines WETH Environments and method decorators.
 
 .. todo:: Document this module
 """

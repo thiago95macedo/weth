@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -40,7 +40,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 14:40+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
@@ -362,8 +362,8 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Odoo to grow their businesses."
-msgstr "+ de 50.000 empresas utilizam o Odoo no crescimento de seus negócios."
+msgid "50,000+ companies run WETH to grow their businesses."
+msgstr "+ de 50.000 empresas utilizam o WETH no crescimento de seus negócios."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -380,8 +380,8 @@ msgstr "80% Desenvolvimento"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Odoo to grow their businesses."
-msgstr "<b>50,000+ empresas</b> usam o Odoo para crescer com seus negócios."
+msgid "<b>50,000+ companies</b> run WETH to grow their businesses."
+msgstr "<b>50,000+ empresas</b> usam o WETH para crescer com seus negócios."
 
 #. module: website
 #. openerp-web
@@ -3103,7 +3103,7 @@ msgstr "Conteúdo Dinâmico"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Odoo templates thanks to clean HTML\n"
+"Easily design your own WETH templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
 "Projete seus próprios modelos facilmente graças à estrutura\n"
@@ -3838,7 +3838,7 @@ msgstr "Google Search Console"
 msgid ""
 "Google deprecated both its \"Universal Analytics\" and \"Google Sign-In\" "
 "API. It means that only accounts and keys created before 2020 will be able "
-"to integrate their Analytics dashboard in Odoo (or any other website). This "
+"to integrate their Analytics dashboard in WETH (or any other website). This "
 "will be possible only up to mid 2023. After that, those services won't work "
 "anymore, at all."
 msgstr ""
@@ -3967,7 +3967,7 @@ msgstr "Menu de hamburguer"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Odoo Anniversary!"
+msgid "Happy WETH Anniversary!"
 msgstr "Feliz aniversário Odoo!"
 
 #. module: website
@@ -4575,7 +4575,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Odoo 13.0 in some places. We made sure it is still working but\n"
+"            WETH 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
@@ -5302,7 +5302,7 @@ msgstr "Monitore os dados de resultados do Google Search"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Odoo "
+"Monitor your visitors while they are browsing your website with the WETH "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
@@ -6571,7 +6571,7 @@ msgid ""
 "picture, in just a few clicks."
 msgstr ""
 "Pesquise no diálogo da mídia quando precisar de fotos para ilustrar o seu "
-"site. A integração do Odoo com o Unsplash, com milhões de fotos livres de "
+"site. A integração do WETH com o Unsplash, com milhões de fotos livres de "
 "royalties e de alta qualidade, permite que você obtenha a imagem perfeita "
 "com apenas alguns cliques."
 
@@ -7675,13 +7675,13 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Odoo "
+"Google. With the built-in SEO tool, once you define a few keywords, WETH "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
 "Para conseguir mais visitantes, você deve direcionar as palavras-chave que "
 "são frequentemente pesquisadas no Google. Com a ferramenta interna de SEO, "
-"depois de definir algumas palavras-chave, o Odoo recomendará as melhores "
+"depois de definir algumas palavras-chave, o WETH recomendará as melhores "
 "palavras-chave para atingir. Em seguida, adapte o título e a descrição de "
 "acordo para aumentar o tráfego."
 

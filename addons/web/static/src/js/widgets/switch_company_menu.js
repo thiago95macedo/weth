@@ -2,7 +2,7 @@ odoo.define('web.SwitchCompanyMenu', function(require) {
 "use strict";
 
 /**
- * When Odoo is configured in multi-company mode, users should obviously be able
+ * When WETH is configured in multi-company mode, users should obviously be able
  * to switch their interface from one company to the other.  This is the purpose
  * of this widget, by displaying a dropdown menu in the systray.
  */

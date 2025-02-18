@@ -1,4 +1,4 @@
-Este é o módulo 'raiz' da localização brasileira. Ele traz adaptações nos modelos do módulo ``base`` do Odoo como Parceiros, Empresas e Endereços:
+Este é o módulo 'raiz' da localização brasileira. Ele traz adaptações nos modelos do módulo ``base`` do WETH como Parceiros, Empresas e Endereços:
 
 * Campo CNPJ e CPF com formatação e validação destes campos;
 * Campo de Inscrição Estadual com validação;

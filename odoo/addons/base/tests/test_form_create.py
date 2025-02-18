@@ -4,7 +4,7 @@ from odoo.tests import TransactionCase, tagged, Form
 @tagged('-at_install', 'post_install')
 class TestFormCreate(TransactionCase):
     """
-    Test that the basic Odoo models records can be created on
+    Test that the basic WETH models records can be created on
     the interface.
     """
 

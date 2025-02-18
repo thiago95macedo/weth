@@ -2,7 +2,7 @@ Odoo Website Builder
 --------------------
 
 Get an awesome and <a href="https://www.weth.com.br/page/website-builder">free website</a>,
-easily customizable with the Odoo <a href="https://www.weth.com.br/page/website-builder">website builder</a>.
+easily customizable with the WETH <a href="https://www.weth.com.br/page/website-builder">website builder</a>.
 
 Create enterprise grade website with our super easy builder. Use finely
 designed building blocks and edit everything inline.
@@ -37,7 +37,7 @@ Activate ready-to-use enterprise features in just a click; e-commerce,
 call-to-actions, jobs announces, events, customer references, blogs, etc.
 
 Traditional eCommerce and CMS have poorly designed backends as it's not their
-core focus. With the Odoo integration, you benefit from the best management
+core focus. With the WETH integration, you benefit from the best management
 software to follow-up on your orders, your jobs applicants, your leads, etc.
 
 A Great Mobile Experience
@@ -61,7 +61,7 @@ structured content are created automatically for Google indexation.
 Multi-Languages Made Easy
 -------------------------
 
-Get your website translated in multiple languages with no effort. Odoo proposes
+Get your website translated in multiple languages with no effort. WETH proposes
 and propagates translations automatically across pages, following what you edit
 on the master page.
 
@@ -73,7 +73,7 @@ new pages, themes or building blocks. We use a clean HTML structure, a
 [bootstrap](http://getbootstrap.com/) CSS.
 
 Customize every page on the fly with the integrated template editor. Distribute
-your work easily as an Odoo module.
+your work easily as an WETH module.
 
 Fluid Grid Layouting
 --------------------
@@ -94,7 +94,7 @@ feel of your website.
 Test new color scheme easily; you can change your theme at any time in just a
 click.
 
-Integrated With Odoo Apps
+Integrated With WETH Apps
 -------------------------
 
 ### e-Commerce

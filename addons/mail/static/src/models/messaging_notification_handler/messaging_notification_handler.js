@@ -247,7 +247,7 @@ function factory(dependencies) {
             }
 
             // Message from mailing channel should not make a notification in
-            // Odoo for users with notification "Handled by Email".
+            // WETH for users with notification "Handled by Email".
             // Channel has been marked as read server-side in this case, so
             // it should not display a notification by incrementing the
             // unread counter.

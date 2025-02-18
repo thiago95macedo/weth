@@ -156,7 +156,7 @@ class SpecViewMixin(models.AbstractModel):
             ):
                 continue
 
-            # Odoo expects fields nested in 2 levels of group tags
+            # WETH expects fields nested in 2 levels of group tags
             # but past 2 levels, extra nesting ruins the layout
             if depth == 0 and not wrapper_group:
                 wrapper_group = E.group()
@@ -202,7 +202,7 @@ class SpecViewMixin(models.AbstractModel):
                     field, fields, attrs, view_node, inside_notebook, depth
                 )
 
-            # simple type, o2m or m2o mapped to an Odoo object
+            # simple type, o2m or m2o mapped to an WETH object
             else:
                 self._build_form_simple_type(
                     field,

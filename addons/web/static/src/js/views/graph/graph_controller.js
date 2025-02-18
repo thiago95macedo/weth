@@ -2,7 +2,7 @@ odoo.define('web.GraphController', function (require) {
 "use strict";
 
 /*---------------------------------------------------------
- * Odoo Graph view
+ * WETH Graph view
  *---------------------------------------------------------*/
 
 const AbstractController = require('web.AbstractController');

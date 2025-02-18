@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -616,11 +616,11 @@ msgstr "Explique suas anotações"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Odoo CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the WETH CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Para sites criados com o Odoo CMS, vá para Site & gt; Configuração & gt; "
+"Para sites criados com o WETH CMS, vá para Site & gt; Configuração & gt; "
 "Definições e selecione o canal de Chat ao Vivo de Site que deseja adicionar "
 "ao seu site."
 
@@ -1121,10 +1121,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In WETH for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Os operadores que não mostrarem nenhuma atividade no Odoo por mais de 30 "
+"Os operadores que não mostrarem nenhuma atividade no WETH por mais de 30 "
 "minutos serão considerados como desconectados."
 
 #. module: im_livechat

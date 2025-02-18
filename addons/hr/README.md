@@ -1,7 +1,7 @@
 Odoo Human Resources
 --------------------
 
-With Odoo <a href="https://www.weth.com.br/page/employees">Human Resources</a>,
+With WETH <a href="https://www.weth.com.br/page/employees">Human Resources</a>,
 manage the most important asset in your company: People
 
 Get all your HR operations managed easily: knowledge sharing, recruitments,
@@ -65,7 +65,7 @@ Follow Periodic Appraisals
 --------------------------
 
 Set-up appraisals plans and/or surveys for your employees and watch their
-evolution. Define steps for interviews and Odoo will notify managers or
+evolution. Define steps for interviews and WETH will notify managers or
 subordinates automatically to prepare appraisals. Keep track of the progress of
 your staff periodically.
 

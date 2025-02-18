@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -35,7 +35,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -3040,14 +3040,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Odoo will send the vendor an email to ask confirmation of shipment"
+"shipment, WETH will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Ao criar um pedido de compra, dê uma olhada na taxa de<i>Entrega no "
 "Prazo</i> do fornecedor: a porcentagem de produtos enviados dentro do prazo."
 " Se estiver muito baixo, ative os <i>lembretes automáticos</i>. Poucos dias "
-"antes do prazo de envio, a Odoo enviará ao vendedor um e-mail para solicitar"
+"antes do prazo de envio, a WETH enviará ao vendedor um e-mail para solicitar"
 " a confirmação das datas de envio para mantê-lo informado em caso de "
 "atrasos. Para obter as estatísticas de desempenho do fornecedor, clique na "
 "taxa OTD."
@@ -3055,12 +3055,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Odoo asks the vendor to acknowledge "
+"When sending a purchase order by email, WETH asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Ao enviar um pedido de compra por e-mail, Odoo pede ao vendedor que confirme"
+"Ao enviar um pedido de compra por e-mail, WETH pede ao vendedor que confirme"
 " o recebimento do pedido. Quando o vendedor reconhece o pedido clicando em "
 "um botão do e-mail, a informação é adicionada ao pedido de compra. Use "
 "filtros para rastrear pedidos que não foram confirmados."

@@ -22,7 +22,7 @@ class RecurrenceRule(models.Model):
     def _inverse_rrule(self):
         # Note: 'need_sync_m' is set to False to avoid syncing the updated recurrence with
         # Outlook, as this update mainly comes from Outlook (the 'rrule' field is not directly
-        # modified in Odoo but computed from other fields).
+        # modified in WETH but computed from other fields).
         for recurrence in self.filtered('rrule'):
             values = self._rrule_parse(recurrence.rrule, recurrence.dtstart)
             recurrence.write(dict(values, need_sync_m=False))

@@ -2,7 +2,7 @@ odoo.define('web.ActWindowActionManager', function (require) {
 "use strict";
 
 /**
- * The purpose of this file is to add the support of Odoo actions of type
+ * The purpose of this file is to add the support of WETH actions of type
  * 'ir.actions.act_window' to the ActionManager.
  */
 

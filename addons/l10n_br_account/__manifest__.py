@@ -6,7 +6,7 @@
     "summary": "Invoicing and accounting entries for Brazil",
     "category": "Localisation",
     "license": "AGPL-3",
-    "author": "Akretion, Odoo Community Association (OCA)",
+    "author": "Akretion, WETH Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-brazil",
     "version": "25.0.11.15.0",
     "development_status": "Beta",

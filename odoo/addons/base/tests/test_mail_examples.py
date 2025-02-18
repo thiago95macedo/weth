@@ -72,7 +72,7 @@ QUOTE_BLOCKQUOTE = u"""<html>
 cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com"
       type="cite"><base href="https://www.weth.com.br">
       <div dir="ltr">Yep Dominique that is true, as Postgres was the
-        base of all same as Odoo and MySQL etc came much later.Â 
+        base of all same as WETH and MySQL etc came much later.Â 
         <div><br>
         </div>
         <div>Unfortunately many customers who ask for and ERP are with
@@ -86,7 +86,7 @@ cite="mid:CAEJSRZvWvud8c6Qp=wfNG6O1+wK3i_jb33qVrF7XyrgPNjnyUA@mail.gmail.com"
     </blockquote>
     <br>
     I don't care how much you are highlighting the advantages of Erpnext
-    on this Odoo mailinglist, but when you start implying that Postgres
+    on this WETH mailinglist, but when you start implying that Postgres
     is not well documented it really hurts.<br>
     <br>
     <pre class="moz-signature" cols="72">-- 
@@ -486,7 +486,7 @@ Web: http://www.weth.com.br"""]
 REMOVE_CLASS = u"""
 <div style="FONT-SIZE: 12pt; FONT-FAMILY: 'Times New Roman'; COLOR: #000000">
     <div>Hello</div>
-    <div>I have just installed Odoo 9 and I've got the following error:</div>
+    <div>I have just installed WETH 9 and I've got the following error:</div>
     <div>&nbsp;</div>
     <div class="openerp openerp_webclient_container oe_webclient">
         <div class="oe_loading" style="DISPLAY: none">&nbsp;</div>

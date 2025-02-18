@@ -23,7 +23,7 @@ class PosPaymentMethod(models.Model):
     adyen_terminal_identifier = fields.Char(help='[Terminal model]-[Serial number], for example: P400Plus-123456789', copy=False)
     adyen_test_mode = fields.Boolean(help='Run transactions in the test environment.')
 
-    # Odoo Payments by Adyen
+    # WETH Payments by Adyen
     adyen_account_id = fields.Many2one('adyen.account', related='company_id.adyen_account_id')
     adyen_payout_id = fields.Many2one('adyen.payout', string='Adyen Payout', domain="[('adyen_account_id', '=', adyen_account_id)]")
     adyen_terminal_id = fields.Many2one('adyen.terminal', string='Adyen Terminal', domain="[('adyen_account_id', '=', adyen_account_id)]")

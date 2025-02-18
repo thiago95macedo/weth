@@ -48,7 +48,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_using_instance_id(self):
         """
-        Here, the Odoo event has an uid but the Outlook event has not.
+        Here, the WETH event has an uid but the Outlook event has not.
         """
         # arrange
         event_id = self.simple_event.ms_organizer_event_id
@@ -68,7 +68,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_without_uid_using_instance_id(self):
         """
-        Here, the Odoo event has no uid but the Outlook event has one.
+        Here, the WETH event has no uid but the Outlook event has one.
         """
 
         # arrange
@@ -92,7 +92,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_without_uid_using_instance_id_2(self):
         """
-        Here, both Odoo event and Outlook event have no uid.
+        Here, both WETH event and Outlook event have no uid.
         """
 
         # arrange

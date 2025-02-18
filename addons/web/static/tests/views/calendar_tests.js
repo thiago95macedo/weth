@@ -777,7 +777,7 @@ QUnit.module('Views', {
 
     QUnit.test('week numbering', function (assert) {
         // week number depends on the week start, which depends on the locale
-        // the calendar library uses numbers [0 .. 6], while Odoo uses [1 .. 7]
+        // the calendar library uses numbers [0 .. 6], while WETH uses [1 .. 7]
         // so if the modulo is not done, the week number is incorrect
         assert.expect(1);
         var done = assert.async();

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of WETH Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -46,7 +46,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0\n"
+"Project-Id-Version: WETH Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1860,7 +1860,7 @@ msgstr "Rotas padrões através do armazém"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Odoo creates automatically requests for "
+"Define a minimum stock rule so that WETH creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
 
@@ -1873,14 +1873,14 @@ msgstr "Defina um novo armazém"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. WETH is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Defina seus locais para refletir sua estrutura de armazém e\n"
-"organização. Odoo é capaz de gerenciar locais físicos\n"
+"organização. WETH é capaz de gerenciar locais físicos\n"
 "(armazéns, prateleiras, compartimento etc.), locais dos parceiros (clientes,\n"
 "fornecedores) e locais virtuais que são a contrapartida da\n"
 "as operações de estoque como as ordens de produção\n"
@@ -2315,7 +2315,7 @@ msgstr "Inventário Vazio"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Odoo barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the WETH barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -2348,15 +2348,15 @@ msgstr "Erro"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in WETH moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, WETH will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Toda operação de estoque no Odoo move os produtos de um\n"
+"Toda operação de estoque no WETH move os produtos de um\n"
 "localização para outro. Por exemplo, se você receber produtos\n"
-"de um fornecedor, o Odoo moverá produtos do fornecedor\n"
+"de um fornecedor, o WETH moverá produtos do fornecedor\n"
 "local para o local de estoque. Cada relatório pode ser executado em\n"
 "local físico, parceiro ou virtual."
 
@@ -2939,11 +2939,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will automatically pre-fill the detailed "
+"If this checkbox is ticked, WETH will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Se esta caixa de seleção estiver marcada, o Odoo irá preencher "
+"Se esta caixa de seleção estiver marcada, o WETH irá preencher "
 "automaticamente as operações detalhadas com os produtos, locais e números de"
 " série/lote correspondentes."
 
@@ -7915,21 +7915,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Odoo generates a procurement to bring the forecasted "
+"for this field, WETH generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Quando o estoque virtual é igual ou inferior à Quantidade Mínima "
-"especificada para este campo, o Odoo gera uma aquisição para trazer a "
+"especificada para este campo, o WETH gera uma aquisição para trazer a "
 "quantidade prevista para a quantidade máxima."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, WETH generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Quando o estoque virtual vai abaixo da quantidade mínimo, Odoo gera um "
+"Quando o estoque virtual vai abaixo da quantidade mínimo, WETH gera um "
 "contrato para trazer a quantidade prevista para a quantidade especificada "
 "como quantidade máxima."
 
@@ -8299,10 +8299,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Odoo will process all the quantities."
+"<i>apply</i> WETH will process all the quantities."
 msgstr ""
 "Você não registrou as quantidades <i>concluídas</i> ainda. Clicando em "
-"<i>aplicar</i> o Odoo irá processar todas as quantidades."
+"<i>aplicar</i> o WETH irá processar todas as quantidades."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
