@@ -261,7 +261,7 @@
 <template id="index_sidebar_about_us" inherit_id="website_event.index_sidebar" active="True" customize_show="True" name="About us" priority="20">
     <xpath expr="//div[@id='o_wevent_index_sidebar']" position="inside">
         <div class="o_wevent_sidebar_block">
-            <h6 class="o_wevent_sidebar_title">About us</h6>
+            <h6 class="o_wevent_sidebar_title">Sobre</h6>
             <p>Use this paragrah to write a short text about your events or company.</p>
         </div>
         <div id="oe_structure_website_event_about_us_1" class="oe_structure"/>

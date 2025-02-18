@@ -149,11 +149,6 @@ msgid "A full-time position <br/>Attractive salary package."
 msgstr "Uma posição de tempo integral <br/>Pacote de salário atrativo."
 
 #. module: website_hr_recruitment
-#: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_right_side_bar
-msgid "About us"
-msgstr "Sobre nós"
-
-#. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "Achieve monthly sales objectives"
 msgstr "Alcance de objetivos de vendas mensais"

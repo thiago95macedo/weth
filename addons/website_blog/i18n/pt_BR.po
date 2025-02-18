@@ -344,11 +344,6 @@ msgstr ""
 "Unidos e adquirir um visto na alfândega mexicana na fronteira."
 
 #. module: website_blog
-#: model_terms:ir.ui.view,arch_db:website_blog.sidebar_blog_index
-msgid "About us"
-msgstr "Sobre nós"
-
-#. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_6
 msgid ""
 "Above all, <b>establish a relationship with a reputable telescope shop</b> "

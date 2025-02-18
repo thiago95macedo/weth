@@ -21,7 +21,7 @@ FormEditorRegistry.add('create_customer', {
     }, {
         type: 'char',
         name: 'company_name',
-        string: 'Company Name',
+        string: 'Nome da Empresa',
     }],
 });
 

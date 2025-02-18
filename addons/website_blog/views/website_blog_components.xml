@@ -112,7 +112,7 @@ Options:
     <div id="o_wblog_sidebar" class="w-100">
         <div class="oe_structure" id="oe_structure_blog_sidebar_index_1"/>
         <div class="o_wblog_sidebar_block pb-5">
-            <h6 class="text-uppercase pb-2 mb-4 border-bottom font-weight-bold">About us</h6>
+            <h6 class="text-uppercase pb-2 mb-4 border-bottom font-weight-bold">Sobre</h6>
             <div>
                 <p>Write a small text here to describe your blog or company.</p>
             </div>

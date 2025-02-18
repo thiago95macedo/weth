@@ -212,7 +212,7 @@ class TestSanitizer(BaseCase):
                 [],
                 ['\n--\nAdministrator']
             ), (
-                """<p>This is Sparta!<br/>--<br>Administrator</p>""",
+                """<p>This is Sparta!<br/>--<br>Administrador</p>""",
                 ['This is Sparta!'],
                 []
             ), (
@@ -231,7 +231,7 @@ class TestSanitizer(BaseCase):
     def test_quote_signature(self):
         test_data = [
             (
-                """<div>Hello<pre>--<br />Administrator</pre></div>""",
+                """<div>Hello<pre>--<br />Administrador</pre></div>""",
                 ["<pre data-o-mail-quote=\"1\">--", "<br data-o-mail-quote=\"1\">"],
             )
         ]

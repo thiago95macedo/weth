@@ -303,11 +303,6 @@ msgid "A past event"
 msgstr "Um evento passado"
 
 #. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.index_sidebar_about_us
-msgid "About us"
-msgstr "Sobre nós"
-
-#. module: website_event
 #: model:ir.model.fields,field_description:website_event.field_event_event__menu_register_cta
 #: model:ir.model.fields,field_description:website_event.field_event_type__menu_register_cta
 msgid "Add Register Button"

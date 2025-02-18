@@ -54,7 +54,7 @@ class Company(models.Model):
             new_image.save(stream, format="ICO")
             return base64.b64encode(stream.getvalue())
 
-    name = fields.Char(related='partner_id.name', string='Company Name', required=True, store=True, readonly=False)
+    name = fields.Char(related='partner_id.name', string='Nome da Empresa', required=True, store=True, readonly=False)
     sequence = fields.Integer(help='Used to order Companies in the company switcher', default=10)
     parent_id = fields.Many2one('res.company', string='Parent Company', index=True)
     child_ids = fields.One2many('res.company', 'parent_id', string='Child Companies')

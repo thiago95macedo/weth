@@ -482,7 +482,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_descriptive
 msgid ""
-"<b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
+"<b>Minha Empresa</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San "
 "Francisco CA 94134 <br/>United States"
 msgstr ""
 "<b>Minha Empresa</b><br/>Av. Brasil, Lote 14, Casa 250, Apto. 3400 <br/> Rio"
@@ -1163,13 +1163,6 @@ msgstr ""
 #, python-format
 msgid "API Key"
 msgstr "Chave API"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.footer_custom
-#: model_terms:ir.ui.view,arch_db:website.template_footer_contact
-#: model_terms:ir.ui.view,arch_db:website.template_footer_minimalist
-msgid "About us"
-msgstr "Sobre nós"
 
 #. module: website
 #: code:addons/website/controllers/backend.py:0

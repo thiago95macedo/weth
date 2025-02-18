@@ -1358,7 +1358,7 @@
                             <h5 class="mb-3">Useful Links</h5>
                             <ul class="list-unstyled">
                                 <li><a href="/">Home</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Sobre</a></li>
                                 <li><a href="#">Products</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Legal</a></li>
@@ -1366,7 +1366,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-5 pt24 pb24">
-                            <h5 class="mb-3">About us</h5>
+                            <h5 class="mb-3">Sobre</h5>
                             <p>We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems.
                             <br/><br/>Our products are designed for small to medium size companies willing to optimize their performance.</p>
                         </div>
@@ -1415,7 +1415,7 @@
                             <p>We are a team of passionate people whose goal is to improve everyone's life through disruptive products. We build great products to solve your business problems. Our products are designed for small to medium size companies willing to optimize their performance.</p>
                         </div>
                         <div class="col-lg-3 offset-lg-1">
-                            <p class="text-muted"><b>My Company</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/>United States</p>
+                            <p class="text-muted"><b>Minha Empresa</b><br/>250 Executive Park Blvd, Suite 3400 <br/> San Francisco CA 94134 <br/>United States</p>
                         </div>
                         <div class="col-lg-3">
                             <ul class="list-unstyled mb-2">
@@ -1549,7 +1549,7 @@
                         <div class="col-lg-5 d-flex align-items-center justify-content-center justify-content-lg-start pt16 pb16">
                             <ul class="list-inline mb-0 ml-3">
                                 <li class="list-inline-item"><a href="/">Home</a></li>
-                                <li class="list-inline-item"><a href="#">About us</a></li>
+                                <li class="list-inline-item"><a href="#">Sobre</a></li>
                                 <li class="list-inline-item"><a href="#">Products</a></li>
                                 <li class="list-inline-item"><a href="#">Services</a></li>
                             </ul>
@@ -1632,7 +1632,7 @@
                             <ul class="list-inline mb-0">
                                 <li class="list-inline-item"><a href="/">Home</a></li>
                                 <li class="list-inline-item">•</li>
-                                <li class="list-inline-item"><a href="#">About us</a></li>
+                                <li class="list-inline-item"><a href="#">Sobre</a></li>
                                 <li class="list-inline-item">•</li>
                                 <li class="list-inline-item"><a href="#">Products</a></li>
                                 <li class="list-inline-item">•</li>

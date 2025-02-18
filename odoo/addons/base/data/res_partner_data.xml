@@ -2,7 +2,7 @@
 <odoo>
     <data noupdate="True">
         <record id="main_partner" model="res.partner" context="{'default_is_company': True}">
-            <field name="name">My Company</field>
+            <field name="name">Minha Empresa</field>
             <field name="company_id" eval="None"/>
             <field name="is_company" eval="True"/>
             <field name="street"></field>
@@ -13,21 +13,21 @@
         </record>
 
         <record model="res.partner" id="base.partner_root">
-            <field name="name">System</field>
+            <field name="name">Sistema</field>
             <field name="company_id" ref="main_company"/>
             <field name="email">root@example.com</field>
             <field name="active" eval="False"/>
         </record>
 
         <record model="res.partner" id="base.partner_admin">
-            <field name="name">Administrator</field>
+            <field name="name">Administrador</field>
             <field name="company_id" ref="main_company"/>
             <field name="email">admin@example.com</field>
             <field name="image_1920" type="base64" file="base/static/img/avatar_grey.png"/>
         </record>
 
         <record id="public_partner" model="res.partner">
-            <field name="name">Public user</field>
+            <field name="name">Usuário Público</field>
             <field name="active" eval="False"/>
         </record>
 
