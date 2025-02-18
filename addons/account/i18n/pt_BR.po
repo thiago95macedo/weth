@@ -6,7 +6,7 @@
 # Manel Tinoco <maneltinoco@gmail.com>, 2020
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2020
 # Rogerio Scholz Machado <rogerio.s.machado@gmail.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # Hildeberto Abreu Magalhães <hildeberto@gmail.com>, 2020
 # Eduardo Aparicio <eduardo.caparica@gmail.com>, 2020
 # Lucas Rabelo <lucas.rabelo@nextsolucoes.net.br>, 2020
@@ -41,7 +41,7 @@
 # Raphael Rodrigues <raphael0608@gmail.com>, 2020
 # Pablo Valentini <pablondrina@gmail.com>, 2020
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # renato sabo <renato.sabo@bradootech.com>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2020
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2020
@@ -59,7 +59,7 @@
 # Guilherme Libardi <guilherme.libardig@gmail.com>, 2020
 # Marcelo at JambuTec <marcelo@jambu.com.br>, 2020
 # Frederico Freire Boaventura <fboaventura@live.com>, 2020
-# Liane Cafarate <lic@odoo.com>, 2020
+# Liane Cafarate <lic@weth.com.br>, 2020
 # Luis Felipe Miléo <mileo@kmee.com.br>, 2021
 # Éder Brito <britoederr@gmail.com>, 2021
 # Martin Trigaux, 2022

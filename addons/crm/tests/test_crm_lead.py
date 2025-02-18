@@ -128,7 +128,7 @@ class TestCRMLead(TestCrmCommon):
             'street': 'My street',
             'street2': 'My street',
             'city': 'My city',
-            'zip': 'test@odoo.com',
+            'zip': 'test@weth.com.br',
             'state_id': self.env['res.country.state'].create({
                 'name': 'My state',
                 'country_id': self.country_ref.id,

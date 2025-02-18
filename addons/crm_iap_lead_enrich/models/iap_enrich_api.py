@@ -5,7 +5,7 @@ from odoo.addons.iap.tools import iap_tools
 class IapEnrichAPI(models.AbstractModel):
     _name = 'iap.enrich.api'
     _description = 'IAP Lead Enrichment API'
-    _DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+    _DEFAULT_ENDPOINT = 'https://iap-services.weth.com.br'
 
     @api.model
     def _contact_iap(self, local_endpoint, params):
@@ -26,7 +26,7 @@ class IapEnrichAPI(models.AbstractModel):
           * InsufficientCreditError: {
             "credit": 4.0,
             "service_name": "reveal",
-            "base_url": "https://iap.odoo.com/iap/1/credit",
+            "base_url": "https://iap.weth.com.br/iap/1/credit",
             "message": "You don't have enough credits on your account to use this service."
             }
         """

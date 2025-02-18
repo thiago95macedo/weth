@@ -9,7 +9,7 @@
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Marcos Abreu <marcoos.abreu@gmail.com>, 2020
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2020
-# Caroline Renson <car@odoo.com>, 2020
+# Caroline Renson <car@weth.com.br>, 2020
 # Luiz Carareto Alonso <Luiz.cararetoalonso@gmail.com>, 2020
 # Martin Trigaux, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020

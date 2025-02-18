@@ -116,9 +116,9 @@ class TestEmailParsing(TestMailCommon):
         })
         incoming_bounce = self.format(
             test_mail_data.MAIL_BOUNCE_QP_RFC822_HEADERS,
-            email_from='MAILER-DAEMON@mailserver.odoo.com (Mail Delivery System)',
-            email_to='bounce@xxx.odoo.com',
-            delivered_to='bounce@xxx.odoo.com'
+            email_from='MAILER-DAEMON@mailserver.weth.com.br (Mail Delivery System)',
+            email_to='bounce@xxx.weth.com.br',
+            delivered_to='bounce@xxx.weth.com.br'
         )
 
         msg_dict = {}

@@ -7,13 +7,13 @@
 # Raphael Rodrigues <raphael0608@gmail.com>, 2020
 # Clemilton Clementino <clemylton@hotmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # Peter Leaf <pablleaf@gmail.com>, 2020
 # Caio Leonardo Mendes de Sousa <caleozao@gmail.com>, 2020
 # falexandresilva <falexandresilva@gmail.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Cécile Collart <cco@weth.com.br>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2020

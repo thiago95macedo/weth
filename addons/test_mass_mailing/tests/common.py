@@ -31,7 +31,7 @@ class TestMassMailCommon(MassMailCommon, TestMailCommon):
 <span>External1: <a id="url4" href="https://www.example.com/foo/bar?baz=qux">Youpie</a></span>
 <span>Internal1: <a id="url5" href="/event/dummy-event-0">Internal link</a></span>
 <span>Internal2: <a id="url6" href="/view"/>View link</a></span>
-<span>Email: <a id="url7" href="mailto:test@odoo.com">test@odoo.com</a></span>
+<span>Email: <a id="url7" href="mailto:test@weth.com.br">test@weth.com.br</a></span>
 <p>Stop spam ? <a id="url8" role="button" href="/unsubscribe_from_list">Ok</a></p>
 </div>""",
             'mailing_type': 'mail',

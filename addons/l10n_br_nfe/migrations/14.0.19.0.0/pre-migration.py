@@ -1,4 +1,4 @@
-# Copyright 2024 - TODAY, Escodoo - Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+# Copyright 2024 - TODAY, Escodoo - Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 from openupgradelib import openupgrade
 
 

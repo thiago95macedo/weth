@@ -16,7 +16,7 @@
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2020
 # Martin Trigaux, 2020
 # Mateus Lopes <mateus1@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # Layna Nascimento, 2023
 # Kevilyn Rosa, 2023

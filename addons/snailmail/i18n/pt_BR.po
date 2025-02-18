@@ -766,10 +766,10 @@ msgstr ""
 #, python-format
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
-"<a href=%s target=\"new\">iap.odoo.com</a> to claim your free credits."
+"<a href=%s target=\"new\">iap.weth.com.br</a> to claim your free credits."
 msgstr ""
 "Você não tem uma conta de IAP registrada para este serviço.<br>Acesse <a "
-"href=%s target=\"new\">iap.odoo.com</a> para receber seus créditos "
+"href=%s target=\"new\">iap.weth.com.br</a> para receber seus créditos "
 "gratuitos."
 
 #. module: snailmail

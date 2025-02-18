@@ -96,9 +96,9 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* `Escodoo <https://www.escodoo.com.br>`_:
+* `Escodoo <https://www.escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 * `Akretion <https://akretion.com/pt-BR>`_:
 
@@ -114,7 +114,7 @@ Other credits
 
 The development of this module has been financially supported by:
 
-* Escodoo - https://www.escodoo.com.br
+* Escodoo - https://www.escweth.com.br.br
 
 Maintainers
 ~~~~~~~~~~~

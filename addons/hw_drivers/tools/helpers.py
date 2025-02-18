@@ -128,7 +128,7 @@ def check_image():
     """
     Check if the current image of IoT Box is up to date
     """
-    url = 'https://nightly.odoo.com/master/iotbox/SHA1SUMS.txt'
+    url = 'https://nightly.weth.com.br/master/iotbox/SHA1SUMS.txt'
     urllib3.disable_warnings()
     http = urllib3.PoolManager(cert_reqs='CERT_NONE')
     response = http.request('GET', url)
@@ -258,7 +258,7 @@ def load_certificate():
             headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
         )
     except Exception as e:
-        _logger.exception("An error occurred while trying to reach odoo.com servers.")
+        _logger.exception("An error occurred while trying to reach weth.com.br servers.")
         return "ERR_IOT_HTTPS_LOAD_REQUEST_EXCEPTION\n\n%s" % e
 
     if response.status != 200:

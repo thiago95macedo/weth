@@ -90,7 +90,7 @@ Contributors
 ~~~~~~~~~~~~
 
 * Luis Felipe Mileo <mileo@kmee.com.br>
-* Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+* Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 Other credits
 ~~~~~~~~~~~~~

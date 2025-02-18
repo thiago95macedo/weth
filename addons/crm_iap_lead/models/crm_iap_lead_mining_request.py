@@ -5,7 +5,7 @@ from odoo.addons.iap.tools import iap_tools
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-services.weth.com.br'
 
 MAX_LEAD = 200
 

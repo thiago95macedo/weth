@@ -111,7 +111,7 @@ class TestMassMailing(TestMailFullCommon):
                     ('url5', '%s/event/dummy-event-0' % mailing.get_base_url(), True, {}),
                     # view is not shortened and parsed at sending
                     ('url6', '%s/view' % mailing.get_base_url(), False, {}),
-                    ('url7', 'mailto:test@odoo.com', False, {}),
+                    ('url7', 'mailto:test@weth.com.br', False, {}),
                     # unsubscribe is not shortened and parsed at sending
                     ('url8', '%s/unsubscribe_from_list' % mailing.get_base_url(), False, {}),
                 ]],

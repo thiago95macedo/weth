@@ -6,7 +6,7 @@
 # Rogerio Scholz Machado <rogerio.s.machado@gmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Danilo Rodrigues, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
 # Mateus Pinheiro <smateusbp@gmail.com>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020

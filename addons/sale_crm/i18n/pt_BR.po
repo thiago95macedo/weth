@@ -12,7 +12,7 @@
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Fernando Alencar <fernando@fernandoalencar.com.br>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Éder Brito <britoederr@gmail.com>, 2020
 # a75f12d3d37ea5bf159c4b3e85eb30e7_0fa6927, 2023

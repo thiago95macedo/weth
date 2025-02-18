@@ -17,7 +17,7 @@ class LinkTrackerMock(common.BaseCase):
         def _get_title_from_url(u):
             return "Test_TITLE"
 
-        self.env['ir.config_parameter'].sudo().set_param('web.base.url', 'https://test.odoo.com')
+        self.env['ir.config_parameter'].sudo().set_param('web.base.url', 'https://test.weth.com.br')
 
         link_tracker_title_patch = patch('odoo.addons.link_tracker.models.link_tracker.LinkTracker._get_title_from_url', wraps=_get_title_from_url)
         link_tracker_title_patch.start()
@@ -67,7 +67,7 @@ class TestSMSPost(TestMailFullCommon, LinkTrackerMock):
         link = self.env['link.tracker'].search([('url', '=', link)])
         self.assertIn(link.short_url, new_body)
 
-        link = 'https://test.odoo.com/my/super_page?test[0]=42&toto=áâà#title3'
+        link = 'https://test.weth.com.br/my/super_page?test[0]=42&toto=áâà#title3'
         self.env['link.tracker'].search([('url', '=', link)]).unlink()
         new_body = self.env['mail.render.mixin']._shorten_links_text('Welcome to %s !' % link, self.tracker_values)
         self.assertNotIn(link, new_body)
@@ -84,14 +84,14 @@ class TestSMSPost(TestMailFullCommon, LinkTrackerMock):
         self.assertFalse(new_body)
 
     def test_body_link_shorten_wshort(self):
-        link = 'https://test.odoo.com/r/RAOUL'
+        link = 'https://test.weth.com.br/r/RAOUL'
         self.env['link.tracker'].search([('url', '=', link)]).unlink()
         new_body = self.env['mail.render.mixin']._shorten_links_text('Welcome to %s !' % link, self.tracker_values)
         self.assertIn(link, new_body)
         self.assertFalse(self.env['link.tracker'].search([('url', '=', link)]))
 
     def test_body_link_shorten_wunsubscribe(self):
-        link = 'https://test.odoo.com/sms/3/'
+        link = 'https://test.weth.com.br/sms/3/'
         self.env['link.tracker'].search([('url', '=', link)]).unlink()
         new_body = self.env['mail.render.mixin']._shorten_links_text('Welcome to %s !' % link, self.tracker_values)
         self.assertIn(link, new_body)
@@ -105,28 +105,28 @@ class TestSMSPost(TestMailFullCommon, LinkTrackerMock):
         })
 
         sms_0 = self.env['sms.sms'].create({
-            'body': 'Welcome to https://test.odoo.com',
+            'body': 'Welcome to https://test.weth.com.br',
             'number': '12',
             'mailing_id': mailing.id,
         })
         sms_1 = self.env['sms.sms'].create({
-            'body': 'Welcome to https://test.odoo.com/r/RAOUL',
+            'body': 'Welcome to https://test.weth.com.br/r/RAOUL',
             'number': '12',
         })
         sms_2 = self.env['sms.sms'].create({
-            'body': 'Welcome to https://test.odoo.com/r/RAOUL',
+            'body': 'Welcome to https://test.weth.com.br/r/RAOUL',
             'number': '12', 'mailing_id': mailing.id,
         })
         sms_3 = self.env['sms.sms'].create({
-            'body': 'Welcome to https://test.odoo.com/leodagan/r/RAOUL',
+            'body': 'Welcome to https://test.weth.com.br/leodagan/r/RAOUL',
             'number': '12', 'mailing_id': mailing.id,
         })
 
         res = (sms_0 | sms_1 | sms_2 | sms_3)._update_body_short_links()
-        self.assertEqual(res[sms_0.id], 'Welcome to https://test.odoo.com')
-        self.assertEqual(res[sms_1.id], 'Welcome to https://test.odoo.com/r/RAOUL')
-        self.assertEqual(res[sms_2.id], 'Welcome to https://test.odoo.com/r/RAOUL/s/%s' % sms_2.id)
-        self.assertEqual(res[sms_3.id], 'Welcome to https://test.odoo.com/leodagan/r/RAOUL')
+        self.assertEqual(res[sms_0.id], 'Welcome to https://test.weth.com.br')
+        self.assertEqual(res[sms_1.id], 'Welcome to https://test.weth.com.br/r/RAOUL')
+        self.assertEqual(res[sms_2.id], 'Welcome to https://test.weth.com.br/r/RAOUL/s/%s' % sms_2.id)
+        self.assertEqual(res[sms_3.id], 'Welcome to https://test.weth.com.br/leodagan/r/RAOUL')
 
     def test_sms_send_batch_size(self):
         self.count = 0

@@ -110,9 +110,9 @@ Contributors
   * Luis Felipe Mileo <mileo@kmee.com.br>
   * Michell Stuttgart <michell.stuttgart@kmee.com.br>
 
-* `ESCODOO <https://escodoo.com.br>`_:
+* `ESCODOO <https://escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 * `ENGENERE <https://engenere.one>`_:
 

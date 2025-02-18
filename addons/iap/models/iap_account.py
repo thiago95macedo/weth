@@ -7,7 +7,7 @@ from odoo.addons.iap.tools import iap_tools
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap.weth.com.br'
 
 
 class IapAccount(models.Model):

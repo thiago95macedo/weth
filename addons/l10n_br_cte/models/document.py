@@ -1,5 +1,5 @@
 # Copyright 2023 KMEE INFORMATICA LTDA
-# Copyright 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+# Copyright 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 import base64

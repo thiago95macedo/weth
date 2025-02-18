@@ -38,9 +38,9 @@ odoo.define('partner_autocomplete.tests', function (require) {
 
     var suggestions = [{
         name: "WETH",
-        website: "odoo.com",
-        domain: "odoo.com",
-        logo: "odoo.com/logo.png",
+        website: "weth.com.br",
+        domain: "weth.com.br",
+        logo: "weth.com.br/logo.png",
         vat: "BE0477472701"
     }];
 
@@ -54,7 +54,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             _.each(fieldsToPatch, function (fieldToPatch) {
                 testUtils.mock.patch(fieldToPatch, {
                     _getBase64Image: function (url) {
-                        return Promise.resolve(url === "odoo.com/logo.png" ? "odoobase64" : "");
+                        return Promise.resolve(url === "weth.com.br/logo.png" ? "odoobase64" : "");
                     },
                     _isOnline: function () {
                         return true;
@@ -101,7 +101,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 country_id: 20,
                 state_id: false,
                 partner_gid: 1,
-                website: "odoo.com",
+                website: "weth.com.br",
                 comment: "Comment on Odoo",
                 street: "40 Chaussée de Namur",
                 city: "Ramillies",
@@ -208,7 +208,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 '</form>',
             mockRPC: function (route) {
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "odoo.com/logo.png"
+                    || route === "weth.com.br/logo.png"
                     || route === "data:image/png;base64,odoobase64") { // land here as it is not valid base64 content
                     return Promise.resolve();
                 }
@@ -233,7 +233,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
             await testUtils.dom.click($dropdown.find("a").first());
             $input = form.$(".o_field_partner_autocomplete > input");
             assert.strictEqual($input.val(), "WETH", "Input value should have been updated to \"Odoo\"");
-            assert.strictEqual(form.$("input.o_field_widget").val(), "odoo.com", "website value should have been updated to \"odoo.com\"");
+            assert.strictEqual(form.$("input.o_field_widget").val(), "weth.com.br", "website value should have been updated to \"weth.com.br\"");
 
             _compareResultFields(assert, form, fields, createData);
 
@@ -281,7 +281,7 @@ odoo.define('partner_autocomplete.tests', function (require) {
                 '</form>',
             mockRPC: function (route) {
                 if (route === "/web/static/src/img/placeholder.png"
-                    || route === "odoo.com/logo.png"
+                    || route === "weth.com.br/logo.png"
                     || route === "data:image/png;base64,odoobase64") { // land here as it is not valid base64 content
                     return Promise.resolve();
                 }

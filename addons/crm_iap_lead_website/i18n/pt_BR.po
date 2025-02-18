@@ -13,8 +13,8 @@
 # grazziano <gra.negocia@gmail.com>, 2020
 # Yannick Belot <yannickbh@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # Layna Nascimento, 2023
 # Kevilyn Rosa, 2023

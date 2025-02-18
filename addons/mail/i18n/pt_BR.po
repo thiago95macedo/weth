@@ -10,8 +10,8 @@
 # Guilherme Libardi <guilherme.libardig@gmail.com>, 2020
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2020
 # falexandresilva <falexandresilva@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2020
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2020
@@ -23,14 +23,14 @@
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Lucas Rabelo <lucas.rabelo@nextsolucoes.net.br>, 2020
 # Luis Malta <luiso.malta@gmail.com>, 2020
 # danimaribeiro <danimaribeiro@gmail.com>, 2020
 # Clemilton Clementino <clemylton@hotmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
-# Liane Cafarate <lic@odoo.com>, 2020
+# Liane Cafarate <lic@weth.com.br>, 2020
 # Martin Trigaux, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
 # Mateus Lopes <mateus1@gmail.com>, 2020
@@ -6121,7 +6121,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.weth.com.br>"
 msgstr ""
 "O nome do alias de e-mail, por exemplo, 'empregos', se desejar receber "
 "e-mails enviados a <empregos@suaempresa.com.br>"
@@ -6706,11 +6706,11 @@ msgstr "Usuários neste canal: %(members)s %(dots)s e você"
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.weth.com.br)."
 msgstr ""
 "É necessário usar seu próprio servidor de email para enviar / receber emails"
 " nas versões Community e Enterprise. Usuários on-line já se beneficiam de um"
-" servidor de e-mail pronto para uso (@mycompany.odoo.com)."
+" servidor de e-mail pronto para uso (@mycompany.weth.com.br)."
 
 #. module: mail
 #: code:addons/mail/models/ir_config_parameter.py:0
@@ -7292,8 +7292,8 @@ msgstr "meses"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "minhaempresa.odoo.com"
+msgid "mycompany.weth.com.br"
+msgstr "minhaempresa.weth.com.br"
 
 #. module: mail
 #. openerp-web

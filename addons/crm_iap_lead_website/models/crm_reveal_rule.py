@@ -12,7 +12,7 @@ from odoo.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap-services.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-services.weth.com.br'
 DEFAULT_REVEAL_BATCH_LIMIT = 25
 DEFAULT_REVEAL_MONTH_VALID = 6
 

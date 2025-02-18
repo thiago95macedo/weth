@@ -18,7 +18,7 @@ from odoo.tools.misc import file_open
 from ..models.ir_attachment import SUPPORTED_IMAGE_MIMETYPES
 
 logger = logging.getLogger(__name__)
-DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.odoo.com'
+DEFAULT_LIBRARY_ENDPOINT = 'https://media-api.weth.com.br'
 
 class Web_Editor(http.Controller):
     #------------------------------------------------------

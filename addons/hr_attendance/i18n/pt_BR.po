@@ -12,7 +12,7 @@
 # grazziano <gra.negocia@gmail.com>, 2020
 # Marcos Abreu <marcoos.abreu@gmail.com>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021

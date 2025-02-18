@@ -107,9 +107,9 @@ Contributors
   * Felipe Zago Rodrigues <felipe.zago@kmee.com.br>
   * Ygor Carvalho <ygor.carvalho@kmee.com.br>
 
-* `ESCODOO <https://escodoo.com.br>`_:
+* `ESCODOO <https://escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 * `AKRETION <https://akretion.com/pt-BR/>`_:
 

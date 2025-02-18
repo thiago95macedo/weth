@@ -1,4 +1,4 @@
-# Copyright (C) 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+# Copyright (C) 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 
 CTE_VERSIONS = [("4.00", "4.00")]

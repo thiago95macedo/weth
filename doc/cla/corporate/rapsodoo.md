@@ -8,18 +8,18 @@ declaration.
 
 Signed,
 
-Filippo Iovine filippo.iovine@rapsodoo.com https://github.com/ioFilippo
+Filippo Iovine filippo.iovine@rapsweth.com.br https://github.com/ioFilippo
 
 List of contributors:
 
-Filippo Iovine filippo.iovine@rapsodoo.com https://github.com/ioFilippo
-Lucio Valente lucio.valente@rapsodoo.com https://github.com/luciovalente
-Mario Pitingolo mario.pitingolo@rapsodoo.com https://github.com/Pits79
-Simone Papandrea simone.papandrea@rapsodoo.com https://github.com/SI3P
-Davide Fella davide.fella@rapsodoo.com https://github.com/davidefella
-Angel Corpuz angel.corpuz@rapsodoo.com https://github.com/acorpuz
-Tony Masci tony.masci@rapsodoo.com https://github.com/TonyMasciI
-Andrea Patusso andrea.patusso@rapsodoo.com https://github.com/AndreaPatusso
-Valentina Maltese valentina.maltese@rapsodoo.com https://github.com/ValentinaMal
-Tommaso Bellelli tommaso.bellelli@rapsodoo.com https://github.com/tommasobellelli
-Saydigital info@rapsodoo.com https://github.com/saydigital
+Filippo Iovine filippo.iovine@rapsweth.com.br https://github.com/ioFilippo
+Lucio Valente lucio.valente@rapsweth.com.br https://github.com/luciovalente
+Mario Pitingolo mario.pitingolo@rapsweth.com.br https://github.com/Pits79
+Simone Papandrea simone.papandrea@rapsweth.com.br https://github.com/SI3P
+Davide Fella davide.fella@rapsweth.com.br https://github.com/davidefella
+Angel Corpuz angel.corpuz@rapsweth.com.br https://github.com/acorpuz
+Tony Masci tony.masci@rapsweth.com.br https://github.com/TonyMasciI
+Andrea Patusso andrea.patusso@rapsweth.com.br https://github.com/AndreaPatusso
+Valentina Maltese valentina.maltese@rapsweth.com.br https://github.com/ValentinaMal
+Tommaso Bellelli tommaso.bellelli@rapsweth.com.br https://github.com/tommasobellelli
+Saydigital info@rapsweth.com.br https://github.com/saydigital

@@ -1,5 +1,5 @@
 # Copyright 2023 - TODAY, KMEE INFORMATICA LTDA
-# Copyright 2023 - TODAY, Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+# Copyright 2023 - TODAY, Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo import fields, models

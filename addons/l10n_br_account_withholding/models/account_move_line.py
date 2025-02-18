@@ -1,4 +1,4 @@
-# Copyright 2024 Marcel Savegnago - Escodoo (https://www.escodoo.com.br)
+# Copyright 2024 Marcel Savegnago - Escodoo (https://www.escweth.com.br.br)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import _, fields, models

@@ -15,7 +15,7 @@
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Lucas Rabelo <lucas.rabelo@nextsolucoes.net.br>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # Kevilyn Rosa, 2023

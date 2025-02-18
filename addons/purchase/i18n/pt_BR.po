@@ -12,7 +12,7 @@
 # Peter Leaf <pablleaf@gmail.com>, 2020
 # Adriel Kotviski <kotviski@gmail.com>, 2020
 # falexandresilva <falexandresilva@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # renato sabo <renato.sabo@bradootech.com>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020

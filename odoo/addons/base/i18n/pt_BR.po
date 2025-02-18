@@ -14,9 +14,9 @@
 # Adriel Kotviski <kotviski@gmail.com>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
 # Thiago Alves Cavalcante <thiagoalcav@gmail.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@weth.com.br>, 2020
 # guisantos23 <guisantos23@yahoo.com.br>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2020
@@ -30,10 +30,10 @@
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # renato sabo <renato.sabo@bradootech.com>, 2020
-# Liane Cafarate <lic@odoo.com>, 2020
+# Liane Cafarate <lic@weth.com.br>, 2020
 # Luis Felipe Miléo <mileo@kmee.com.br>, 2020
 # Martin Trigaux, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # Rafael H L Moretti <rafael.moretti@gmail.com>, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
@@ -3120,7 +3120,7 @@ msgid ""
 "\n"
 "Legal\n"
 "-----\n"
-"**The use of pos_blackbox_be sources is only certified on odoo.com SaaS platform\n"
+"**The use of pos_blackbox_be sources is only certified on weth.com.br SaaS platform\n"
 "for version 13.0.** Contact Odoo SA before installing pos_blackbox_be module.\n"
 "\n"
 "An obfuscated and certified version of the pos_blackbox_be may be provided on\n"
@@ -3140,7 +3140,7 @@ msgstr ""
 "\n"
 "Legal\n"
 "-----\n"
-"**The use of pos_blackbox_be sources is only certified on odoo.com SaaS platform\n"
+"**The use of pos_blackbox_be sources is only certified on weth.com.br SaaS platform\n"
 "for version 13.0.** Contact Odoo SA before installing pos_blackbox_be module.\n"
 "\n"
 "An obfuscated and certified version of the pos_blackbox_be may be provided on\n"

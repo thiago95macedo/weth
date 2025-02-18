@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Olivier Dony odo@odoo.com https://github.com/odony
+Olivier Dony odo@weth.com.br https://github.com/odony

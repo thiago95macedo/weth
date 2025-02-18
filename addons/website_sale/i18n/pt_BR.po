@@ -6,8 +6,8 @@
 # Rui Andrada <shingonoide@gmail.com>, 2020
 # Emanuel Martins <emanuel.breno@gmail.com>, 2020
 # Hélio Dias de Brito Teixeira <helio.dbt@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # nle_odoo, 2020
 # mariana rodrigues <mariana12v@gmail.com>, 2020
@@ -21,9 +21,9 @@
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2020
 # Danilo Rodrigues, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@weth.com.br>, 2020
 # Mateus Pinheiro <smateusbp@gmail.com>, 2020
-# Caroline Renson <car@odoo.com>, 2020
+# Caroline Renson <car@weth.com.br>, 2020
 # Luiz Carareto Alonso <Luiz.cararetoalonso@gmail.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020

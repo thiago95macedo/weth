@@ -1,5 +1,5 @@
 # Copyright 2018 Akretion - www.akretion.com.br - Magno Costa <magno.costa@akretion.com
-# Copyright 2020 - TODAY, Marcel Savegnago - Escodoo - https://www.escodoo.com.br
+# Copyright 2020 - TODAY, Marcel Savegnago - Escodoo - https://www.escweth.com.br.br
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 from odoo.tests.common import SavepointCase

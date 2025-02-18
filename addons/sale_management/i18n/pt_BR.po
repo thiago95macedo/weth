@@ -19,7 +19,7 @@
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Mateus Pinheiro <smateusbp@gmail.com>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020

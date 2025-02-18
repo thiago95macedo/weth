@@ -1,5 +1,5 @@
 # Copyright 2023 - TODAY Akretion - Raphael Valyi <raphael.valyi@akretion.com>
-# Copyright 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+# Copyright 2024 - TODAY, Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 from odoo import fields

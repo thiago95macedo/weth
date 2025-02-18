@@ -10,9 +10,9 @@
   * Renan Hiroki Bastos <hirokibastos@gmail.com>
   * Felipe Zago Rodrigues <felipe.zago@kmee.com.br>
 
-* `ESCODOO <https://escodoo.com.br>`_:
+* `ESCODOO <https://escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 * `ENGENERE <https://engenere.one>`_:
 

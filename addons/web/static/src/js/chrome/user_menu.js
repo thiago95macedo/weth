@@ -70,7 +70,7 @@ var UserMenu = Widget.extend({
                     })
                     .guardedCatch(function (result, ev){
                         ev.preventDefault();
-                        framework.redirect('https://accounts.odoo.com/account');
+                        framework.redirect('https://accounts.weth.com.br/account');
                     });
             },
         });

@@ -15,7 +15,7 @@
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020

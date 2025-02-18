@@ -3,7 +3,7 @@
 # 	* fleet
 # 
 # Translators:
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # danimaribeiro <danimaribeiro@gmail.com>, 2020
 # Emanuel Martins <emanuel.breno@gmail.com>, 2020

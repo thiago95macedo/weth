@@ -12,7 +12,7 @@
 # Marina Jacques <marinajacques@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
-# Liane Cafarate <lic@odoo.com>, 2020
+# Liane Cafarate <lic@weth.com.br>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # Maitê Dietze, 2023
 # 
@@ -149,8 +149,8 @@ msgstr "Login com Google"
 
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_openerp
-msgid "Log in with Odoo.com"
-msgstr "Login com Odoo.com"
+msgid "Log in with WETH.com.br"
+msgstr "Login com WETH.com.br"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body

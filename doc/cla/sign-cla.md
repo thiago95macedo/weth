@@ -87,7 +87,7 @@ signature is merged.
 
 If you cannot submit your signature using a pull request, you may alternatively
 print the CLA, complete it, sign it, scan it and send it by email to
-`cla-submission` `at` `odoo.com`.  In that case someone from the Odoo team will
+`cla-submission` `at` `weth.com.br`.  In that case someone from the Odoo team will
 make the pull request on your behalf.
 
 * Printable Odoo CCLA v1.0 https://www.weth.com.br/files/legal/Odoo-CCLA-v1.0.pdf

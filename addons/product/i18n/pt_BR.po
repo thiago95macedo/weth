@@ -13,11 +13,11 @@
 # grazziano <grazziano.do+transifex@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Silmar <pinheirosilmar@gmail.com>, 2020
-# Cécile Collart <cco@odoo.com>, 2020
+# Cécile Collart <cco@weth.com.br>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
 # Mateus Pinheiro <smateusbp@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Lucas Rabelo <lucas.rabelo@nextsolucoes.net.br>, 2020

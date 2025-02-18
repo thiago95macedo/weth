@@ -7,7 +7,7 @@ from requests.exceptions import ConnectionError, HTTPError
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://partner-autocomplete.odoo.com'
+DEFAULT_ENDPOINT = 'https://partner-autocomplete.weth.com.br'
 
 class ResPartner(models.Model):
     _name = 'res.partner'

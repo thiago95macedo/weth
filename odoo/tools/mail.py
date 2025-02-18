@@ -692,8 +692,8 @@ def encapsulate_email(old_email, new_email):
 
     e.g.
     * Old From: "Admin" <admin@gmail.com>
-    * New From: notifications@odoo.com
-    * Output: "Admin" <notifications@odoo.com>
+    * New From: notifications@weth.com.br
+    * Output: "Admin" <notifications@weth.com.br>
     """
     old_email_split = getaddresses([old_email])
     if not old_email_split or not old_email_split[0]:

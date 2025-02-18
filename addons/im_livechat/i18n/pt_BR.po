@@ -8,7 +8,7 @@
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020

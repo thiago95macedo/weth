@@ -19,7 +19,7 @@
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Luciano Giacomazzi <lucianogiacomazzi@gmail.com>, 2020
-# Kevin Harrings <kha@odoo.com>, 2020
+# Kevin Harrings <kha@weth.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021
 # Kevilyn Rosa, 2023

@@ -90,9 +90,9 @@ Contributors
 
   * Renato Lima <renato.lima@akretion.com.br>
 
-* `Escodoo <https://www.escodoo.com.br>`_:
+* `Escodoo <https://www.escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 Maintainers
 ~~~~~~~~~~~

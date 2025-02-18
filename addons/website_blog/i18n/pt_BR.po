@@ -16,14 +16,14 @@
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Fernando Colus <fcolus1@gmail.com>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # danimaribeiro <danimaribeiro@gmail.com>, 2020
 # Marcel Savegnago <marcel.savegnago@gmail.com>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatica@protonmail.com>, 2020
 # grazziano <grazziano.do+transifex@gmail.com>, 2020
 # Éder Brito <britoederr@gmail.com>, 2021

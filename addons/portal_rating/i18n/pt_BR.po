@@ -11,7 +11,7 @@
 # grazziano <gra.negocia@gmail.com>, 2020
 # Ademílson F. Tonato <apraqueisso@gmail.com>, 2020
 # André Augusto Firmino Cordeiro <a.cordeito@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020
 # Éder Brito <britoederr@gmail.com>, 2020
 # 

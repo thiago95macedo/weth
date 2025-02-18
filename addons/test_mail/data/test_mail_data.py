@@ -418,7 +418,7 @@ Received: by mail.example.com (Postfix, from userid 10002)
     id E8166BFACB; Fri, 23 Aug 2013 13:18:02 +0200 (CEST)
 From: "Bruce Wayne" <bruce@wayneenterprises.com>
 Subject: test
-Message-ID: <c0c20fdd-a38e-b296-865b-d9232bf30ce5@odoo.com>
+Message-ID: <c0c20fdd-a38e-b296-865b-d9232bf30ce5@weth.com.br>
 Date: Mon, 26 Aug 2019 16:55:09 +0200
 MIME-Version: 1.0
 Content-Type: multipart/mixed;
@@ -557,13 +557,13 @@ AAAAACwAAAAAAgACAAAEA3DJFQA7
 MAIL_EML_ATTACHMENT = """Subject: Re: test attac
 From: {email_from}
 To: {to}
-References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@odoo.com>
-Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@odoo.com>
+References: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@weth.com.br>
+Message-ID: <cb7eaf62-58dc-2017-148c-305d0c78892f@weth.com.br>
 Date: Wed, 14 Mar 2018 14:26:58 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
 MIME-Version: 1.0
-In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@odoo.com>
+In-Reply-To: <f3b9f8f8-28fa-2543-cab2-7aa68f679ebb@weth.com.br>
 Content-Type: multipart/mixed;
  boundary="------------A6B5FD5F68F4D73ECD739009"
 Content-Language: en-US
@@ -612,33 +612,33 @@ ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc
          7wXuo/gpYe6E2cPuS2opei8AzjEhYTNzlYXTPvaoxCCTTjfGTaPv22TeRDehuIXngSEl
          Nmmw==
 ARC-Authentication-Results: i=1; mx.google.com;
-       dkim=pass header.i=@odoo.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@odoo.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@odoo.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=odoo.com
-Return-Path: <soup@odoo.com>
-Received: from mail2.odoo.com (mail2.odoo.com. [149.202.180.44])
+       dkim=pass header.i=@weth.com.br header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@weth.com.br designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@weth.com.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=weth.com.br
+Return-Path: <soup@weth.com.br>
+Received: from mail2.weth.com.br (mail2.weth.com.br. [149.202.180.44])
         by mx.google.com with ESMTPS id y4si4279200wmy.148.2018.03.05.01.19.22
         (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
         Mon, 05 Mar 2018 01:19:23 -0800 (PST)
-Received-SPF: pass (google.com: domain of soup@odoo.com designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
+Received-SPF: pass (google.com: domain of soup@weth.com.br designates 149.202.180.44 as permitted sender) client-ip=149.202.180.44;
 Authentication-Results: mx.google.com;
-       dkim=pass header.i=@odoo.com header.s=mail header.b=MCzhjB9b;
-       spf=pass (google.com: domain of soup@odoo.com designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@odoo.com;
-       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=odoo.com
+       dkim=pass header.i=@weth.com.br header.s=mail header.b=MCzhjB9b;
+       spf=pass (google.com: domain of soup@weth.com.br designates 149.202.180.44 as permitted sender) smtp.mailfrom=soup@weth.com.br;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=weth.com.br
 Received: from [10.10.31.24] (unknown [91.183.114.50])
 	(Authenticated sender: soup)
-	by mail2.odoo.com (Postfix) with ESMTPSA id 7B571A4085
-	for <what@odoo.com>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
-DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=odoo.com; s=mail;
+	by mail2.weth.com.br (Postfix) with ESMTPSA id 7B571A4085
+	for <what@weth.com.br>; Mon,  5 Mar 2018 10:19:21 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=weth.com.br; s=mail;
 	t=1520241562; bh=L2r7Sp/vjogIdM1k8H9zDGDjnhKolsTTLLjndnFC4Jc=;
 	h=To:From:Subject:Date:From;
 	b=MCzhjB9bnsrJ3uKjq+GjujFxmtrq3fc7Vv7Vg2C72EPKnkxgqy6yPjWKtXbBlaiT3
 	 YjKI24aiSQlOeOPQiqFgiDzeqqemNDp+CRuhoYz1Vbz+ESRaHtkWRLb7ZjvohS2k7e
 	 RTq7tUxY2nUL2YrNHV7DFYtJVBwiTuyLP6eAiJdE=
-To: what@odoo.com
-From: Soup <soup@odoo.com>
+To: what@weth.com.br
+From: Soup <soup@weth.com.br>
 Subject: =?UTF-8?Q?Soupe_du_jour_:_Pois_cass=c3=a9s?=
-Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@odoo.com>
+Message-ID: <a05d8334-7b7c-df68-c96a-4a88ed19f31b@weth.com.br>
 Date: Mon, 5 Mar 2018 10:19:21 +0100
 User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101
  Thunderbird/52.6.0
@@ -649,7 +649,7 @@ Content-Language: en-US
 X-Spam-Status: No, score=-1.2 required=5.0 tests=ALL_TRUSTED,BAYES_00,
 	HTML_IMAGE_ONLY_08,HTML_MESSAGE,T_REMOTE_IMAGE autolearn=no
 	autolearn_force=no version=3.4.0
-X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.odoo.com
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on mail2.weth.com.br
 
 This is a multi-part message in MIME format.
 --------------1F2D18B1129FC2F0B9EECF50
@@ -1114,7 +1114,7 @@ OyI+T2RvbzwvYT4uCjwvcD4KPC9kaXY+CiAgICAgICAg
 
 
 MAIL_BOUNCE_QP_RFC822_HEADERS = """\
-Received: by mailserver.odoo.com (Postfix)
+Received: by mailserver.weth.com.br (Postfix)
         id EA0B917B8E4; Tue, 29 Feb 2023 11:11:11 +0100 (CET)
 From: {email_from} 
 Subject: Undelivered Mail Returned to Sender
@@ -1122,13 +1122,13 @@ To: {email_to}
 Auto-Submitted: auto-replied
 MIME-Version: 1.0
 Content-Type: multipart/report; report-type=delivery-status;
-        boundary="DFFDC17AA03.1673346179/mailserver.odoo.com"
-Message-Id: <40230110102259.EA0B917B8E4@mailserver.odoo.com>
+        boundary="DFFDC17AA03.1673346179/mailserver.weth.com.br"
+Message-Id: <40230110102259.EA0B917B8E4@mailserver.weth.com.br>
 Content-Transfer-Encoding: 7bit
 Delivered-To: {delivered_to}
 Return-Path: <>
 
---DFFDC17AA03.1673346179/mailserver.odoo.com
+--DFFDC17AA03.1673346179/mailserver.weth.com.br
 Content-Description: Notification
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
@@ -1142,13 +1142,13 @@ be delivered to one or more recipients.
 ply to
     RCPT TO command)
 
---DFFDC17AA03.1673346179/mailserver.odoo.com
+--DFFDC17AA03.1673346179/mailserver.weth.com.br
 Content-Description: Delivery report
 Content-Type: message/delivery-status
 
-Reporting-MTA: dns; mailserver.odoo.com
+Reporting-MTA: dns; mailserver.weth.com.br
 X-Postfix-Queue-ID: DFFDC17AA03
-X-Postfix-Sender: rfc822; bounce@xxx.odoo.com
+X-Postfix-Sender: rfc822; bounce@xxx.weth.com.br
 Arrival-Date: Tue, 29 Feb 2023 10:10:10 +0100 (CET)
 
 Final-Recipient: rfc822; rdesfrdgtfdrfesd@outlook.com
@@ -1159,15 +1159,15 @@ Remote-MTA: dns; outlook-com.olc.protection.outlook.com
 Diagnostic-Code: smtp; 550 5.5.0 Requested action not taken: mailbox
     unavailable (S2017062302).
 
---DFFDC17AA03.1673346179/mailserver.odoo.com
+--DFFDC17AA03.1673346179/mailserver.weth.com.br
 Content-Description: Undelivered Message Headers
 Content-Type: text/rfc822-headers
 Content-Transfer-Encoding: quoted-printable
 
-Return-Path: <bounce@xxx.odoo.com>
-Received: from eupp00.odoo.com (00.72.79.34.bc.googleusercontent.com [34.=
+Return-Path: <bounce@xxx.weth.com.br>
+Received: from eupp00.weth.com.br (00.72.79.34.bc.googleusercontent.com [34.=
 79.72.00])
-        by mailserver.odoo.com (Postfix) with ESMTPS id DFFDC17AA03;
+        by mailserver.weth.com.br (Postfix) with ESMTPS id DFFDC17AA03;
         Tue, 10 Jan 2023 11:22:57 +0100 (CET)
 DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Dsimple/simple; d=3Dxxx.be;
         s=3Dodoo; t=3D1673346178;
@@ -1179,11 +1179,11 @@ DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Dsimple/simple; d=3Dxxx.be;
 Message-Id: <368396033905967.1673346177.695352554321289-openerp-11-sale.o=
 rder@eupp00>
 references: <792105153140463.1673746527.352018594741821-openerp-11-sale.o=
-rder@xxx.odoo.com> <368396033905967.1673346177.695352554321289-openerp-11=
+rder@xxx.weth.com.br> <368396033905967.1673346177.695352554321289-openerp-11=
 -sale.order@eupp00>
 Subject: Thi is a SO (Ref SO/11)
-From: info@xxx.odoo.com
-Reply-To: "SO/11" <catchall@xxx.odoo.com=
+From: info@xxx.weth.com.br
+Reply-To: "SO/11" <catchall@xxx.weth.com.br=
 >
 To: "rdesfrdgtfdrfesd@outlook.com" <rdesfrdgtfdrfesd@outlook.com>
 Date: Tue, 29 Feb 2023 06:09:06 -0000
@@ -1192,7 +1192,7 @@ MIME-Version: 1.0
 Content-Type: multipart/mixed; boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
 =3D=3D=3D=3D=3D5706316606908750110=3D=3D"
 
---DFFDC17AA03.1673346179/mailserver.odoo.com--
+--DFFDC17AA03.1673346179/mailserver.weth.com.br--
 
 """
 

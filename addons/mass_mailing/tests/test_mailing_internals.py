@@ -293,7 +293,7 @@ Website1: <a id="url1" href="https://www.odoo.be">https://www.odoo.be</a>
 Website2: <a id="url2" href="https://${url}">https://${url}</a>
 Website3: <a id="url3" href="${httpurl}">${httpurl}</a>
 External1: <a id="url4" href="https://www.example.com/foo/bar?baz=qux">Youpie</a>
-Email: <a id="url5" href="mailto:test@odoo.com">test@odoo.com</a></div>""",
+Email: <a id="url5" href="mailto:test@weth.com.br">test@weth.com.br</a></div>""",
             'mailing_model_id': self.env['ir.model']._get('mailing.list').id,
             'reply_to_mode': 'email',
             'reply_to': self.email_reply_to,
@@ -320,7 +320,7 @@ Email: <a id="url5" href="mailto:test@odoo.com">test@odoo.com</a></div>""",
                               ('url2', 'https://www.weth.com.br', True),
                               ('url3', 'https://www.odoo.eu', True),
                               ('url4', 'https://www.example.com/foo/bar?baz=qux', True),
-                              ('url5', 'mailto:test@odoo.com', False)]:
+                              ('url5', 'mailto:test@weth.com.br', False)]:
                 # TDE FIXME: why going to mail message id ? mail.body_html seems to fail, check
                 link_params = {'utm_medium': 'Email', 'utm_source': mailing.name}
                 if link_info[0] == 'url4':

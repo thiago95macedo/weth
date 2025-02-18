@@ -16,12 +16,12 @@
 # Ramiro Pereira de Magalhães <ramiro.p.magalhaes@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # mariana rodrigues <mariana12v@gmail.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Adriel Kotviski <kotviski@gmail.com>, 2020
 # falexandresilva <falexandresilva@gmail.com>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
 # Fernando Alencar <fernando@fernandoalencar.com.br>, 2020
-# Keli Brugalli <kbr@odoo.com>, 2020
+# Keli Brugalli <kbr@weth.com.br>, 2020
 # Maurício Liell <mauricio@liell.com.br>, 2020
 # André Carvalho <and2carvalho@gmail.com>, 2020
 # Vanderlei P. Romera <vanderleiromera@gmail.com>, 2020

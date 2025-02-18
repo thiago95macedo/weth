@@ -11,7 +11,7 @@ from odoo.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 
-DEFAULT_ENDPOINT = 'https://iap.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap.weth.com.br'
 
 
 # We need to mock iap_jsonrpc during tests as we don't want to perform real calls to RPC endpoints

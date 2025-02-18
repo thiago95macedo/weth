@@ -5,7 +5,7 @@ Based on the Apache Software Foundation Individual Contributor License Agreement
 Thank you for your interest in an WETH Tecnologia da Informação Ltda. (the "Project Leads" ) open source  project.  In order to clarify the intellectual property license granted with Contributions from any person or entity, the Odoo Project Leads must have a Contributor License Agreement (the "Agreement") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of the Project, its users, and the Odoo Project Leads; it does not change your rights to use your own Contributions for any other purpose.  If you have not already done so, please complete and sign the Agreement by:
 
 * following the electronic procedure to complete, sign and submit the ICLA at https://www.weth.com.br/sign-cla
-* or scanning and emailing the signed Agreement to cla-submission@odoo.com
+* or scanning and emailing the signed Agreement to cla-submission@weth.com.br
 
 **Please read this document carefully before signing and keep a copy for your records.**
 

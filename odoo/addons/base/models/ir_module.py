@@ -860,7 +860,7 @@ class Module(models.Model):
 
     @api.model
     def get_apps_server(self):
-        return tools.config.get('apps_server', 'https://apps.odoo.com/apps')
+        return tools.config.get('apps_server', 'https://apps.weth.com.br/apps')
 
     def _update_dependencies(self, depends=None, auto_install_requirements=()):
         existing = set(dep.name for dep in self.dependencies_id)

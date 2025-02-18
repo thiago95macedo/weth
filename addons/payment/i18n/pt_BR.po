@@ -9,7 +9,7 @@
 # Fábio Novais <fabionovais@aptu.com.br>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Diego Bittencourt <diegomb86@gmail.com>, 2020
-# Caroline Renson <car@odoo.com>, 2020
+# Caroline Renson <car@weth.com.br>, 2020
 # PopSolutions Cooperativa Digital <popsolutions.co@gmail.com>, 2020
 # Rodrigo de Almeida Sottomaior Macedo <sottomaiormacedotec@gmail.com>, 2020
 # danimaribeiro <danimaribeiro@gmail.com>, 2020

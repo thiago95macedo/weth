@@ -16,7 +16,7 @@
 # Silmar <pinheirosilmar@gmail.com>, 2020
 # Marcelo Costa <marcelo@comdesk.com.br>, 2020
 # Lauro de Lima <lauro@ciclix.com>, 2020
-# Fernanda Marques <fem@odoo.com>, 2020
+# Fernanda Marques <fem@weth.com.br>, 2020
 # Luiz Fernando <lfpsgs@outlook.com>, 2020
 # Luis Malta <luiso.malta@gmail.com>, 2020
 # Mateus Lopes <mateus1@gmail.com>, 2020

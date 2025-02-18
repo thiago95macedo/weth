@@ -9,9 +9,9 @@
   * Luis Felipe Mileo <mileo@kmee.com.br>
   * Luis Otavio Malta Conceição <luis.malta@kmee.com.br>
 
-* `Escodoo <https://www.escodoo.com.br>`_:
+* `Escodoo <https://www.escweth.com.br.br>`_:
 
-  * Marcel Savegnago <marcel.savegnago@escodoo.com.br>
+  * Marcel Savegnago <marcel.savegnago@escweth.com.br.br>
 
 * `Engenere <https://engenere.one>`_:
 

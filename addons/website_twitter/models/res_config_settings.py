@@ -76,6 +76,6 @@ class ResConfigSettings(models.TransientModel):
         res = super(ResConfigSettings, self).get_values()
         Params = self.env['ir.config_parameter'].sudo()
         res.update({
-            'twitter_server_uri': '%s/' % Params.get_param('web.base.url', default='http://yourcompany.odoo.com'),
+            'twitter_server_uri': '%s/' % Params.get_param('web.base.url', default='http://yourcompany.weth.com.br'),
         })
         return res

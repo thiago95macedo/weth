@@ -112,7 +112,7 @@ var SmsWidget = FieldTextEmojis.extend({
      */
     _renderIAPButton: function () {
         return $('<a>', {
-            'href': 'https://iap-services.odoo.com/iap/sms/pricing',
+            'href': 'https://iap-services.weth.com.br/iap/sms/pricing',
             'target': '_blank',
             'title': _t('SMS Pricing'),
             'aria-label': _t('SMS Pricing'),
