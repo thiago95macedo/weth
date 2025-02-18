@@ -7,7 +7,7 @@
       <feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.0995137675 0"/>
     </filter>
     <linearGradient id="linearGradient-3" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#00A09D"/>
+      <stop offset="0%" stop-color="#28A745"/>
       <stop offset="100%" stop-color="#00E2FF"/>
     </linearGradient>
   </defs>

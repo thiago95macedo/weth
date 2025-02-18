@@ -2,11 +2,11 @@
   <defs>
     <linearGradient id="linearGradient-1" x1="0%" x2="100%" y1="33.944%" y2="66.056%">
       <stop offset="0%" stop-color="#00E2FF"/>
-      <stop offset="100%" stop-color="#00A09D"/>
+      <stop offset="100%" stop-color="#28A745"/>
     </linearGradient>
     <linearGradient id="linearGradient-2" x1="0%" x2="100%" y1="31.569%" y2="68.431%">
       <stop offset="0%" stop-color="#00E2FF"/>
-      <stop offset="100%" stop-color="#00A09D"/>
+      <stop offset="100%" stop-color="#28A745"/>
     </linearGradient>
     <path id="path-3" d="M20 12v1H4v-1h16zm-6-3v1H4V9h10zm6-3v1H4V6h16z"/>
     <filter id="filter-4" width="106.2%" height="128.6%" x="-3.1%" y="-7.1%" filterUnits="objectBoundingBox">

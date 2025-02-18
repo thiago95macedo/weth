@@ -2,7 +2,7 @@
 <svg width="234px" height="50px" viewBox="0 0 234 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <linearGradient x1="0%" y1="47.717%" x2="100%" y2="52.283%" id="linearGradient-1">
-            <stop stop-color="#00A09D" offset="0%"></stop>
+            <stop stop-color="#28A745" offset="0%"></stop>
             <stop stop-color="#00E2FF" offset="100%"></stop>
         </linearGradient>
     </defs>

@@ -2,14 +2,14 @@
   <defs>
     <linearGradient id="linearGradient-1" x1="27.778%" x2="72.222%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#00E2FF"/>
-      <stop offset="100%" stop-color="#00A09D"/>
+      <stop offset="100%" stop-color="#28A745"/>
     </linearGradient>
     <linearGradient id="linearGradient-2" x1="27.778%" x2="72.222%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#00A09D"/>
+      <stop offset="0%" stop-color="#28A745"/>
       <stop offset="100%" stop-color="#00E2FF"/>
     </linearGradient>
     <linearGradient id="linearGradient-3" x1="50%" x2="50%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#00A09D"/>
+      <stop offset="0%" stop-color="#28A745"/>
       <stop offset="100%" stop-color="#00E2FF"/>
     </linearGradient>
     <path id="path-4" d="M27 50.429V52H13v-1.571h14zm-1.556-4.715v1.572h-9.333v-1.572h9.333zM27 41v1.571H13V41h14z"/>

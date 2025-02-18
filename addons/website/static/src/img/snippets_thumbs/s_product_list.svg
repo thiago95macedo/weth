@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="60" viewBox="0 0 82 60">
   <defs>
     <linearGradient id="linearGradient-1" x1="50%" x2="50%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#00A09D"/>
+      <stop offset="0%" stop-color="#28A745"/>
       <stop offset="100%" stop-color="#00E2FF"/>
     </linearGradient>
     <polygon id="path-2" points="0 10.447 6.5 13.16 6.5 5.5 0 3"/>
