@@ -13,7 +13,7 @@ announces, customer references, call-to-actions, etc.
 Edit Anything Inline
 --------------------
 
-Create beautiful websites with no technical knowledge. Odoo's unique *'edit
+Create beautiful websites with no technical knowledge. WETH's unique *'edit
 inline'* approach makes website creation surprisingly easy. No more complex
 backend; just click anywhere to change any content.
 
@@ -23,7 +23,7 @@ blog title?" Just click and change. What you see is what you get. Really.
 Awesome. Astonishingly Beautiful.
 ---------------------------------
 
-Odoo's building blocks allow to design modern websites that are not possible
+WETH's building blocks allow to design modern websites that are not possible
 with traditional WYSIWYG page editors.
 
 Whether it's for products descriptions, blogs or static pages, you don't need

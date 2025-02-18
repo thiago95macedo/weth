@@ -1,6 +1,6 @@
 {
     "name": "Brazil Localization Setup & Test Integration",
-    "summary": "Modules for Odoo's Brazil-focused usability with integration tests.",
+    "summary": "Modules for WETH's Brazil-focused usability with integration tests.",
     "category": "Localisation",
     "license": "AGPL-3",
     "author": "Engenere, WETH Community Association (OCA)",

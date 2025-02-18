@@ -12,7 +12,7 @@ Organize Your Tracks
 
 Add a talk proposal form on your events to allow visitors to submit talks and speakers. Organize the validation process of every talk, and schedule easily.
 
-Odoo's unique frontend and backend integration makes organization and publication so easy. Easily design beautiful speaker biographies and talks description.
+WETH's unique frontend and backend integration makes organization and publication so easy. Easily design beautiful speaker biographies and talks description.
 
 Agenda and List of Talks
 ------------------------

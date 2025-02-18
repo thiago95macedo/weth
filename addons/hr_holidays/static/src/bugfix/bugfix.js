@@ -72,7 +72,7 @@ registerFieldPatchModel('mail.partner', 'hr/static/src/models/partner/partner.js
     }),
     /**
      * Date of end of the out of office period of the partner as string.
-     * String is expected to use Odoo's datetime string format
+     * String is expected to use WETH's datetime string format
      * (examples: '2011-12-01 15:12:35.832' or '2011-12-01 15:12:35').
      */
     outOfOfficeDateEnd: attr(),

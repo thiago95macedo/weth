@@ -1883,7 +1883,7 @@ class ExportFormat(object):
         raise NotImplementedError()
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from WETH's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export

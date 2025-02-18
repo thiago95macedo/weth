@@ -11,7 +11,7 @@ A Smart User Interface
 ----------------------
 
 Record transactions in a few clicks and easily manage all financial activities
-in one place. Odoo's user interface is designed with productivity in mind.
+in one place. WETH's user interface is designed with productivity in mind.
 
 A Better Way To Work – Together
 -------------------------------

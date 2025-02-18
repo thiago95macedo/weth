@@ -82,11 +82,11 @@ msgstr "Roteamento HTTP"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>WETH's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_odoobot_command\">:)</span>"
 msgstr ""
-"Olá,<br/>O chat Odoo's ajuda na colaboração eficiente de funcionários. Estou"
+"Olá,<br/>O chat WETH's ajuda na colaboração eficiente de funcionários. Estou"
 " aqui para ajudá-lo a descobrir esses recursos.<br/><b>Tente me enviar um "
 "emoji</b> <span class=\"o_odoobot_command\">:)</span>"
 

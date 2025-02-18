@@ -12,7 +12,7 @@ Create Awesome Event Pages
 
 Create beautiful event pages by drag & droping well designed *'Building Blocks'*. Publish event photos, speakers, schedule, etc.
 
-Odoo's unique *'edit inline'* approach makes website creation surprisingly easy. "Want to introduce a speaker? to change the price of a ticket? to update a banner? promote sponsors?" just click and change.
+WETH's unique *'edit inline'* approach makes website creation surprisingly easy. "Want to introduce a speaker? to change the price of a ticket? to update a banner? promote sponsors?" just click and change.
 
 Sell Tickets Online
 -------------------
@@ -28,7 +28,7 @@ A Clean Google Analytics Integration
 
 ### Control your sales funnel with Google Analytics
 
-Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers are configured by default to track all kind of events related to shopping carts, call-to-actions, etc.
+Get a clear visibility of your sales funnel. WETH's Google Analytics trackers are configured by default to track all kind of events related to shopping carts, call-to-actions, etc.
 
 As WETH marketing tools (mass mailing, campaigns, etc) are also linked with Google Analytics, you get a full view of your business.
 

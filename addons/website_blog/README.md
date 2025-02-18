@@ -50,7 +50,7 @@ visitors to share your best blog posts easily.
 Google Analytics Integration
 ----------------------------
 
-Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers
+Get a clear visibility of your sales funnel. WETH's Google Analytics trackers
 are configured by default to track all kinds of events related to shopping
 carts, call-to-actions, etc.
 
@@ -87,5 +87,5 @@ layout of the site, editors approve content and authors write that content.
 This lets you organize your publishing process according to your needs.
 
 Other access rights are related to business objects (products, people, events,
-etc) and directly following Odoo's standard access rights management, so you do
+etc) and directly following WETH's standard access rights management, so you do
 not have to configure things twice.

@@ -13,7 +13,7 @@ customizable and super easy.
 Create Awesome Product Pages
 ----------------------------
 
-Odoo's unique *'edit inline'* and building blocks approach makes product pages
+WETH's unique *'edit inline'* and building blocks approach makes product pages
 creation surprisingly easy. "Want to change the price of a product? or put it
 in bold? Want to add a banner for a specific product?" just click and change.
 What you see is what you get. Really.
@@ -27,7 +27,7 @@ Increase Your Revenue Per Order
 The built-in cross-selling feature helps you offer extra products related to
 what the shopper put in his cart. (e.g. accessories)
 
-Odoo's upselling algorythm allows you to show visitors similar but more
+WETH's upselling algorythm allows you to show visitors similar but more
 expensive products than the one in view, with incentives.
 
 The inline editing feature allows you to easily change a price, launch a
@@ -36,7 +36,7 @@ promotion or fine tune the description of a product, in a just a click.
 A Clean Google Analytics Integration
 ------------------------------------
 
-Get a clear visibility of your sales funnel. Odoo's Google Analytics trackers
+Get a clear visibility of your sales funnel. WETH's Google Analytics trackers
 are configured by default to track all kind of events related to shopping
 carts, call-to-actions, etc.
 

@@ -44,7 +44,7 @@
             <field name="tip_description" type="html">
 <div>
     <p class="tip_title">Tip: Opportunity win rate is predicted with AI</p>
-    <p class="tip_content">Odoo's artificial intelligence engine predicts the success rate of each opportunity based on your history. You can always update the success rate manually, but if you let WETH do the job the score is updated while the opportunity moves forward in your sales cycle.</p>
+    <p class="tip_content">WETH's artificial intelligence engine predicts the success rate of each opportunity based on your history. You can always update the success rate manually, but if you let WETH do the job the score is updated while the opportunity moves forward in your sales cycle.</p>
     <img src="/crm/static/src/img/probability-rate.gif" class="illustration_border" />
 </div>
             </field>

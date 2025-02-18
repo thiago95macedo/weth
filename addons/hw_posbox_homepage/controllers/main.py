@@ -151,7 +151,7 @@ class IoTboxHomepage(web.Home):
                 interfaces_list.append(interface)
 
         return handler_list_template.render({
-            'title': "Odoo's IoT Box - Handlers list",
+            'title': "WETH's IoT Box - Handlers list",
             'breadcrumb': 'Handlers list',
             'drivers_list': drivers_list,
             'interfaces_list': interfaces_list,
@@ -173,7 +173,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/list_credential', type='http', auth='none', website=True)
     def list_credential(self):
         return list_credential_template.render({
-            'title': "Odoo's IoT Box - List credential",
+            'title': "WETH's IoT Box - List credential",
             'breadcrumb': 'List credential',
             'db_uuid': helpers.read_file_first_line('odoo-db-uuid.conf'),
             'enterprise_code': helpers.read_file_first_line('odoo-enterprise-code.conf'),
@@ -344,7 +344,7 @@ class IoTboxHomepage(web.Home):
         if flashToVersion:
             flashToVersion = '%s.%s' % (flashToVersion.get('major', ''), flashToVersion.get('minor', ''))
         return upgrade_page_template.render({
-            'title': "Odoo's IoTBox - Software Upgrade",
+            'title': "WETH's IoTBox - Software Upgrade",
             'breadcrumb': 'IoT Box Software Upgrade',
             'loading_message': 'Updating IoT box',
             'commit': commit,
@@ -420,7 +420,7 @@ class IoTboxHomepage(web.Home):
 
     def _update_logger_level(self, logger_name, new_level, available_log_levels, handler_folder=False):
         """
-        Update (if necessary) Odoo's configuration and logger to the given logger_name to the given level.
+        Update (if necessary) WETH's configuration and logger to the given logger_name to the given level.
         The responsibility of saving the config file is not managed here.
         :param logger_name: name of the logging logger to change level
         :param new_level: new log level to set for this logger

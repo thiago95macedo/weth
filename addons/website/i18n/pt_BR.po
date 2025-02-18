@@ -1963,7 +1963,7 @@ msgstr "Alterar Ícones"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Odoo's catalog of\n"
+"Change theme in a few clicks, and browse through WETH's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
 "Altere o tema em poucos cliques, e navegue pelo catálogo de\n"
@@ -6566,7 +6566,7 @@ msgstr "Pesquisar Visitante"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Odoo's integration with Unsplash, featuring millions of royalty "
+"website. WETH's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""

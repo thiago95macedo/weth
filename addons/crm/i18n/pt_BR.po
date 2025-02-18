@@ -2280,7 +2280,7 @@ msgstr ""
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Odoo's artificial intelligence engine predicts the success rate of each "
+"WETH's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
 "manually, but if you let WETH do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
