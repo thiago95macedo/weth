@@ -18,12 +18,12 @@ class Users(models.Model):
     _description = 'Users'
 
     notification_type = fields.Selection([
-        ('email', 'Handle by Emails'),
-        ('inbox', 'Handle in Odoo')],
-        'Notification', required=True, default='email',
-        help="Policy on how to handle Chatter notifications:\n"
-             "- Handle by Emails: notifications are sent to your email address\n"
-             "- Handle in Odoo: notifications appear in your WETH Inbox")
+        ('email', 'Por E-mails'),
+        ('inbox', '`Por Sistema`')],
+        'Notification', required=True, default='inbox',
+        help="Política para lidar com notificações do Chatter:\n"
+             "- Lidar por E-mails: as notificações são enviadas para o seu endereço de e-mail\n"
+             "- Lidar no Odoo: as notificações aparecem na sua Caixa de Entrada do WETH")
     # channel-specific: moderation
     is_moderator = fields.Boolean(string='Is moderator', compute='_compute_is_moderator')
     moderation_counter = fields.Integer(string='Moderation count', compute='_compute_moderation_counter')

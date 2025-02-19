@@ -2741,11 +2741,6 @@ msgid "Handle by Emails"
 msgstr "Tratamento por E-mails"
 
 #. module: mail
-#: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Odoo"
-msgstr "Tratamento no Odoo"
-
-#. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
 msgid "Has Cancel"
 msgstr "Tem Cancelamento"
@@ -4937,17 +4932,6 @@ msgstr "Espere enquanto o arquivo está carregando"
 #, python-format
 msgid "Please wait..."
 msgstr "Aguarde..."
-
-#. module: mail
-#: model:ir.model.fields,help:mail.field_res_users__notification_type
-msgid ""
-"Policy on how to handle Chatter notifications:\n"
-"- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Odoo: notifications appear in your WETH Inbox"
-msgstr ""
-"Política sobre como lidar com notificações do Chatter:\n"
-" - Tratamento por e-mail: as notificações são enviadas para o seu endereço de e-mail\n"
-" - Tratamento no Odoo: as notificações aparecem na sua caixa de entrada do Odoo"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
