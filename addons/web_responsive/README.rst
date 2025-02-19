@@ -17,7 +17,7 @@ Web Responsive
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fweb-lightgray.png?logo=github
-    :target: https://github.com/OCA/web/tree/14.0/web_responsive
+    :target: https://github.com/OCA/web/tree/25.0/web_responsive
     :alt: OCA/web
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/web-14-0/web-14-0-web_responsive
@@ -42,9 +42,9 @@ Features for all devices:
 
 * Increase the size of the labels in extra large screens
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/label_size_small.png
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/label_size_small.png
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/label_size_large.png
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/label_size_large.png
 
 Features for mobile:
 
@@ -73,7 +73,7 @@ Features for mobile:
 
 * Search panel is hidden on small screens.
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/search_panel.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/search_panel.gif
 
 Features for computers:
 
@@ -98,37 +98,37 @@ Features for computers:
 
 * Sticky chatter topbar
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/chatter_topbar.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/chatter_topbar.gif
 
 * AppMenu waits for action finished to show the view
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/appmenu.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/appmenu.gif
 
 * Sticky header & footer in list view
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/listview.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/listview.gif
 
 * Sticky statusbar in form view
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/formview.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/formview.gif
 
 * Followers and send button is displayed on mobile. Avatar is hidden.
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/chatter.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/chatter.gif
 
 * When the chatter is configured on the side part, the document viewer fills that
   part for side-by-side reading instead of full screen. You can still put it on full
   width preview clicking on the new maximize button.
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/document_viewer.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/document_viewer.gif
 
 * Bigger checkboxes in list view
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/big_checkboxes.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/big_checkboxes.gif
 
 * Scrollable dropdowns
 
-  .. image:: https://raw.githubusercontent.com/OCA/web/14.0/web_responsive/static/img/dropdown_scroll.gif
+  .. image:: https://raw.githubusercontent.com/OCA/web/25.0/web_responsive/static/img/dropdown_scroll.gif
 
 **Table of contents**
 
@@ -210,6 +210,6 @@ Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-Yajo| |maintainer-Tardo| 
 
-This module is part of the `OCA/web <https://github.com/OCA/web/tree/14.0/web_responsive>`_ project on GitHub.
+This module is part of the `OCA/web <https://github.com/OCA/web/tree/25.0/web_responsive>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

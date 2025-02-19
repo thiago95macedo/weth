@@ -17,7 +17,7 @@ L10n Br Portal
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_portal
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_portal
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_portal
@@ -50,7 +50,7 @@ Usage
 
 To use this module, you need go to portal and edit your contact info:
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_portal/static/description/screenshot1.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_portal/static/description/screenshot1.png
    :alt: campos
    :width: 800 px
 
@@ -90,6 +90,6 @@ OCA, or the WETH Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_portal>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_portal>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

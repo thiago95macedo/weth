@@ -112,7 +112,7 @@ class StockInvoiceOnshipping(models.TransientModel):
         if fiscal_vals["partner_id"] != values["partner_id"]:
             values["partner_shipping_id"] = fiscal_vals["partner_id"]
             # Necessário para manter o Partner mapeado pelo metodo
-            # https://github.com/OCA/account-invoicing/blob/14.0/
+            # https://github.com/OCA/account-invoicing/blob/25.0/
             # stock_picking_invoicing/models/stock_picking.py#L38
             fiscal_vals["partner_id"] = values["partner_id"]
 
@@ -173,7 +173,7 @@ class StockInvoiceOnshipping(models.TransientModel):
 
         # Apesar do metodo _get_taxes retornar os Impostos corretamente
         # ao rodar o _simulate_line_onchange
-        # https://github.com/OCA/account-invoicing/blob/14.0/
+        # https://github.com/OCA/account-invoicing/blob/25.0/
         # stock_picking_invoicing/wizards/stock_invoice_onshipping.py#L415
         # o valor acaba sendo alterado
         # TODO: Analisar se isso é um problema da Localização e se existe

@@ -201,8 +201,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.template_header_hamburger_oe_structure_header_hamburger_3
 #: model_terms:ir.ui.view,arch_db:website.template_header_sidebar_oe_structure_header_sidebar_1
 #: model_terms:ir.ui.view,arch_db:website.template_header_vertical_oe_structure_header_vertical_2
-msgid "+1 (650) 555-0111"
-msgstr "+1 (650) 555-0111"
+msgid "+55 (92) 99200-4157"
+msgstr "+55 (92) 99200-4157"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
@@ -8145,8 +8145,8 @@ msgstr "Usado quando vários sites têm o mesmo domínio."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.footer_custom
-msgid "Useful Links"
-msgstr "Links úteis"
+msgid "Links Úteis"
+msgstr "Links Úteis"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_numbers
@@ -9233,19 +9233,8 @@ msgstr "no canto superior direito para começar a projetar."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_links
-msgid "info@yourcompany.com"
+msgid "contato@weth.com.br"
 msgstr "info@suaempresa.com"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.footer_custom
-#: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-#: model_terms:ir.ui.view,arch_db:website.template_footer_centered
-#: model_terms:ir.ui.view,arch_db:website.template_footer_headline
-#: model_terms:ir.ui.view,arch_db:website.template_header_contact_oe_structure_header_contact_1
-#: model_terms:ir.ui.view,arch_db:website.template_header_hamburger_oe_structure_header_hamburger_3
-#: model_terms:ir.ui.view,arch_db:website.template_header_sidebar_oe_structure_header_sidebar_1
-msgid "info@yourcompany.example.com"
-msgstr "info@suaempresa.exemplo.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info

@@ -12,7 +12,7 @@
             <field name="zip">97401</field>
             <field name="country_id" ref="us"/>
             <field name="tz">Europe/Brussels</field>
-            <field name="email">mark.brown23@example.com</field>
+            <field name="email">mark.brown23@weth.com.br</field>
             <field name="phone">(441)-695-2334</field>
         </record>
 
@@ -24,9 +24,9 @@
             <field name="zip">94134</field>
             <field name='country_id' ref='base.us'/>
             <field name='state_id' ref='state_us_5'/>
-            <field name="phone">+1 (650) 555-0111 </field>
-            <field name="email">info@yourcompany.example.com</field>
-            <field name="website">www.example.com</field>
+            <field name="phone">+55 (92) 99200-4157 </field>
+            <field name="email">info@weth.com.br</field>
+            <field name="website">www.weth.com.br</field>
         </record>
 
         <record id="user_demo" model="res.users">
@@ -40,7 +40,7 @@
         </record>
 
         <record model="res.partner" id="base.partner_root">
-            <field name="email">root@yourcompany.example.com</field>
+            <field name="email">root@weth.com.br</field>
             <field name="tz">Europe/Brussels</field>
         </record>
 
@@ -53,7 +53,7 @@
             <field name='country_id' ref='base.us'/>
             <field name='state_id' ref='state_us_39'/>
             <field name="phone">+1 555-555-5555</field>
-            <field name="email">admin@yourcompany.example.com</field>
+            <field name="email">admin@weth.com.br</field>
             <field name="tz">Europe/Brussels</field>
             <field name="image_1920" type="base64" file="base/static/img/partner_root-image.jpg"/>
         </record>
@@ -62,7 +62,7 @@
         <!-- Portal : partner and user -->
         <record id="partner_demo_portal" model="res.partner">
             <field name="name">Joel Willis</field>
-            <field name="email">joel.willis63@example.com</field>
+            <field name="email">joel.willis63@weth.com.br</field>
             <field name="street">858 Lynn Street</field>
             <field name="city">Bayonne</field>
             <field model="res.country.state" name="state_id" search="[('code','ilike','NJ')]"/>

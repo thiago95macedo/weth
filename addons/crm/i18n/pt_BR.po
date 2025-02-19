@@ -3048,7 +3048,7 @@ msgid ""
 "<jobs@example.weth.com.br>"
 msgstr ""
 "O nome do alias de e-mail, por exemplo, 'empregos', se desejar receber "
-"e-mails enviados a <empregos@suaempresa.com.br>"
+"e-mails enviados a <empregos@weth.com.br>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name

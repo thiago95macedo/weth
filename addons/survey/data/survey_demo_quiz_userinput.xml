@@ -3,37 +3,37 @@
     <record id="survey_demo_quiz_answer_1" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.partner_demo"/>
-        <field name="email">mark.brown23@example.com</field>
+        <field name="email">mark.brown23@weth.com.br</field>
         <field name="state">done</field>
     </record>
     <record id="survey_demo_quiz_answer_2" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.partner_admin"/>
-        <field name="email">admin@yourcompany.example.com</field>
+        <field name="email">admin@weth.com.br</field>
         <field name="state">done</field>
     </record>
     <record id="survey_demo_quiz_answer_3" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.partner_demo_portal"/>
-        <field name="email">joel.willis63@example.com</field>
+        <field name="email">joel.willis63@weth.com.br</field>
         <field name="state">done</field>
     </record>
     <record id="survey_demo_quiz_answer_4" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.res_partner_address_15"/>
-        <field name="email">brandon.freeman55@example.com</field>
+        <field name="email">brandon.freeman55@weth.com.br</field>
         <field name="state">done</field>
     </record>
     <record id="survey_demo_quiz_answer_5" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.res_partner_address_28"/>
-        <field name="email">colleen.diaz83@example.com</field>
+        <field name="email">colleen.diaz83@weth.com.br</field>
         <field name="state">in_progress</field>
     </record>
     <record id="survey_demo_quiz_answer_6" model="survey.user_input">
         <field name="survey_id" ref="survey.survey_demo_quiz"/>
         <field name="partner_id" ref="base.res_partner_address_34"/>
-        <field name="email">travis.mendoza24@example.com</field>
+        <field name="email">travis.mendoza24@weth.com.br</field>
         <field name="state">new</field>
     </record>
 
@@ -42,7 +42,7 @@
     	<field name="user_input_id" ref="survey_demo_quiz_answer_1"/>
     	<field name="question_id" ref="survey_demo_quiz_p1_q1"/>
         <field name="answer_type">char_box</field>
-    	<field name="value_char_box">mark.brown23@example.com</field>
+    	<field name="value_char_box">mark.brown23@weth.com.br</field>
     </record>
     <record id="survey_demo_quiz_answer_1_p1_q2_l1" model="survey.user_input.line">
     	<field name="user_input_id" ref="survey_demo_quiz_answer_1"/>
@@ -211,7 +211,7 @@
     	<field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
     	<field name="question_id" ref="survey_demo_quiz_p1_q1"/>
         <field name="answer_type">char_box</field>
-    	<field name="value_char_box">admin@yourcompany.example.com</field>
+    	<field name="value_char_box">admin@weth.com.br</field>
     </record>
     <record id="survey_demo_quiz_answer_2_p1_q2_l1" model="survey.user_input.line">
     	<field name="user_input_id" ref="survey_demo_quiz_answer_2"/>
@@ -371,7 +371,7 @@
     	<field name="user_input_id" ref="survey_demo_quiz_answer_3"/>
     	<field name="question_id" ref="survey_demo_quiz_p1_q1"/>
         <field name="answer_type">char_box</field>
-    	<field name="value_char_box">joel.willis63@example.com</field>
+    	<field name="value_char_box">joel.willis63@weth.com.br</field>
     </record>
     <record id="survey_demo_quiz_answer_3_p1_q2_l1" model="survey.user_input.line">
     	<field name="user_input_id" ref="survey_demo_quiz_answer_3"/>

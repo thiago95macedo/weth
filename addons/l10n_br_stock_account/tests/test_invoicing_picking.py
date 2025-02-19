@@ -249,7 +249,7 @@ class InvoicingPickingTest(TestBrPickingInvoicingCommon):
         #  ( contato com o campo Type definido como delivery) deve criar a
         #  Fatura com o mesmo partner do Picking?
         #  Isso acontece porque o metodo _get_picking_key considera o partner
-        #  do picking https://github.com/OCA/account-invoicing/blob/14.0/
+        #  do picking https://github.com/OCA/account-invoicing/blob/25.0/
         #  stock_picking_invoicing/wizards/stock_invoice_onshipping.py#L316
         #  é preciso avaliar se deve ser alterado na localização ou mesmo
         #  no modulo stock_picking_invoicing

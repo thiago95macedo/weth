@@ -17,7 +17,7 @@ Brazilian Payment Order
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_account_payment_order
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_account_payment_order
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_account_payment_order
@@ -34,9 +34,9 @@ O módulo implementa a parte comum da infra-estrutura necessária para o uso do 
 
 - **Configuração CNAB** - onde serão salvas as informações específicas de cada caso como Convênio, Código do Beneficiário, Modalidade, Percentual de Multa, códigos de Instrução do Movimento de Liquidação de Alteração de Vencimento e etc.
 
-- **Modo de Pagamento** - localiza o módulo `account_payment_mode <https://github.com/OCA/bank-payment/tree/14.0/account_payment_mode>`_ para associar o **Diário Contábil** referente a **Conta Bancária** do CNAB e informar a **Configuração do CNAB** que será usada, assim ao informar o Modo de Pagamento em um Pedido de Venda, Compras ou Faturamento o programa identifica como sendo um caso CNAB.
+- **Modo de Pagamento** - localiza o módulo `account_payment_mode <https://github.com/OCA/bank-payment/tree/25.0/account_payment_mode>`_ para associar o **Diário Contábil** referente a **Conta Bancária** do CNAB e informar a **Configuração do CNAB** que será usada, assim ao informar o Modo de Pagamento em um Pedido de Venda, Compras ou Faturamento o programa identifica como sendo um caso CNAB.
 
-- **Ordem de Pagamento** - localiza o módulo `account_payment_order <https://github.com/OCA/bank-payment/tree/14.0/account_payment_order>`_ que usa a **Ordem de Pagamento**, débito ou crédito, para registrar as **Instruções de Movimento** e onde será criado o **Arquivo CNAB Remessa**.
+- **Ordem de Pagamento** - localiza o módulo `account_payment_order <https://github.com/OCA/bank-payment/tree/25.0/account_payment_order>`_ que usa a **Ordem de Pagamento**, débito ou crédito, para registrar as **Instruções de Movimento** e onde será criado o **Arquivo CNAB Remessa**.
 
 - **Registro do LOG de Eventos** - ao importar um arquivo de retorno CNAB.
 
@@ -116,7 +116,7 @@ A partir disso sempre que for informado o **Modo de Pagamento** tanto em um Pedi
 
 Verifique as permissões de acesso dos usuários que vão utilizar o CNAB, existe o **Usuário** e o **Gerente** CNAB.
 
-**IMPORTANTE:** Como o CNAB envolve dinheiro e o caixa da empresa a segurança e a rastreablidade são fundamentais e como as configurações especificas de cada CNAB estão na **Configuração CNAB/l10n_br_cnab.config** foi incluído nele o objeto **mail.thread** que registra alterações feitas em campos importantes, porém campos **many2many** não estão sendo registrados pelo **track_visibility** (ver detalhes aqui l10n_br_account_payment_order/models/l10n_br_cnab_config.py#L75), e um campo específico e importante que armazena os **Códigos de Retorno do CNAB** que devem gerar **Baixa/Liquidação** é desse tipo, portanto as alterações referentes a esse campo não estão sendo registradas. No repositorio https://github.com/OCA/social/tree/14.0 da OCA existe um modulo para corrigir isso o https://github.com/OCA/social/tree/14.0/mail_improved_tracking_value , por isso considere e é RECOMENDADO incluir esse modulo na implementação para corrigir esse problema. A inclusão da dependencia desse modulo aqui está pendente de aprovação.
+**IMPORTANTE:** Como o CNAB envolve dinheiro e o caixa da empresa a segurança e a rastreablidade são fundamentais e como as configurações especificas de cada CNAB estão na **Configuração CNAB/l10n_br_cnab.config** foi incluído nele o objeto **mail.thread** que registra alterações feitas em campos importantes, porém campos **many2many** não estão sendo registrados pelo **track_visibility** (ver detalhes aqui l10n_br_account_payment_order/models/l10n_br_cnab_config.py#L75), e um campo específico e importante que armazena os **Códigos de Retorno do CNAB** que devem gerar **Baixa/Liquidação** é desse tipo, portanto as alterações referentes a esse campo não estão sendo registradas. No repositorio https://github.com/OCA/social/tree/25.0 da OCA existe um modulo para corrigir isso o https://github.com/OCA/social/tree/25.0/mail_improved_tracking_value , por isso considere e é RECOMENDADO incluir esse modulo na implementação para corrigir esse problema. A inclusão da dependencia desse modulo aqui está pendente de aprovação.
 
 Usage
 =====
@@ -136,13 +136,13 @@ Known issues / Roadmap
 
 * CNAB de Pagamento, verificar a integração com o PR https://github.com/OCA/l10n-brazil/pull/972 e a possibilidade de multiplos modos de pagamento na mesma Ordem de Pagamento https://github.com/odoo-brazil/l10n-brazil/pull/112
 
-* Verificar a possibilidade na v14 de remoção do ondele='restrict' no campo "move_line_id" e o campo "related" "ml_maturity_date" do account.payment.line no modulo dependente https://github.com/OCA/bank-payment/blob/14.0/account_payment_order/models/account_payment_line.py#L39 para permitir o processo de Cancelamento de uma Fatura quando existe uma Ordem de Pagamento já confirmada/gerada/enviada( detalhes l10n_br_account_payment_order/models/account_payment_line.py#L130 )
+* Verificar a possibilidade na v14 de remoção do ondele='restrict' no campo "move_line_id" e o campo "related" "ml_maturity_date" do account.payment.line no modulo dependente https://github.com/OCA/bank-payment/blob/25.0/account_payment_order/models/account_payment_line.py#L39 para permitir o processo de Cancelamento de uma Fatura quando existe uma Ordem de Pagamento já confirmada/gerada/enviada( detalhes l10n_br_account_payment_order/models/account_payment_line.py#L130 )
 
 * Funcionalidade de Agrupar Por/Group By não funciona em campos do tipo Many2Many, aparentemente isso foi resolvido na v15(verfificar na migração), isso é usado nos objetos referentes aos Codigos CNAB de Instrução e Retorno.
 
 * Confirmar se existem Bancos que usam os mesmos conjuntos de Codigos CNAB de Instrução e Retorno para caso não existir remover o many2many do Banco e deixar apenas o many2one.
 
-* Verificar a possibilidade de usar o objeto account.payment no caso CNAB e o modulo https://github.com/OCA/bank-payment/tree/14.0/account_payment_order_return para tratar o LOG de Retorno do CNAB, RFC https://github.com/OCA/l10n-brazil/issues/2272 .
+* Verificar a possibilidade de usar o objeto account.payment no caso CNAB e o modulo https://github.com/OCA/bank-payment/tree/25.0/account_payment_order_return para tratar o LOG de Retorno do CNAB, RFC https://github.com/OCA/l10n-brazil/issues/2272 .
 
 Changelog
 =========
@@ -285,6 +285,6 @@ Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-mbcosta| 
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_account_payment_order>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_account_payment_order>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

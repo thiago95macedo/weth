@@ -42,8 +42,8 @@
         <field name="country_id" ref="base.de"/>
         <field name="phone">+49 30 12345678</field>
         <field name="mobile">+49 30 87654321</field>
-        <field name="email">flower@example.com</field>
-        <field name="website">www.flower.example.com</field>
+        <field name="email">flower@weth.com.br</field>
+        <field name="website">www.flower.weth.com.br</field>
     </record>
     <record id="res_partner_event_2" model="res.partner">
         <field name="name">OpenWood</field>
@@ -55,8 +55,8 @@
         <field name="country_id" ref="base.be"/>
         <field name="phone">+32 987 65 43 21</field>
         <field name="mobile">+32 987 65 43 21</field>
-        <field name="email">wow@example.com</field>
-        <field name="website">www.openwood.example.com</field>
+        <field name="email">wow@weth.com.br</field>
+        <field name="website">www.openwood.weth.com.br</field>
     </record>
     <record id="res_partner_event_3" model="res.partner">
         <field name="name">Tree Dealers SP</field>
@@ -68,8 +68,8 @@
         <field name="country_id" ref="base.ca"/>
         <field name="phone">+1 418 123 4567</field>
         <field name="mobile">+1 418 765 4321</field>
-        <field name="email">tree@example.com</field>
-        <field name="website">www.tree.example.com</field>
+        <field name="email">tree@weth.com.br</field>
+        <field name="website">www.tree.weth.com.br</field>
     </record>
     <record id="res_partner_event_4" model="res.partner">
         <field name="name">Shangai Pterocarpus Furniture Co., Ltd.</field>
@@ -81,8 +81,8 @@
         <field name="country_id" ref="base.cn"/>
         <field name="phone">+86 21 1234 5678</field>
         <field name="mobile">+86 21 8765 4321</field>
-        <field name="email">ptero@example.com</field>
-        <field name="website">www.pterocarpus.example.com</field>
+        <field name="email">ptero@weth.com.br</field>
+        <field name="website">www.pterocarpus.weth.com.br</field>
     </record>
 
 </data></odoo>

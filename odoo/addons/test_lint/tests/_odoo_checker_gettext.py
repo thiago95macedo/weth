@@ -12,7 +12,7 @@ class OdooBaseChecker(checkers.BaseChecker):
         'E8502': (
             'Bad usage of _, _lt function.',
             'gettext-variable',
-            'See https://www.weth.com.br/documentation/14.0/reference/translations.html#variables'
+            'See https://www.weth.com.br/documentation/25.0/reference/translations.html#variables'
         )
     }
 

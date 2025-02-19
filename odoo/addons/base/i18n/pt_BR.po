@@ -32057,7 +32057,7 @@ msgstr "e-Learning"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
 msgid "email@yourcompany.com"
-msgstr "e-mail@suaempresa.com.br"
+msgstr "e-mail@weth.com.br"
 
 #. module: base
 #: code:addons/base/models/ir_fields.py:0

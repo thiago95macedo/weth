@@ -28,37 +28,37 @@
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type3"/>
         <field name="partner_id" ref="base.res_partner_1"/>
-        <field name="url">http://www.wood-corner.example.com</field>
+        <field name="url">http://www.wood-corner.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_1" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type3"/>
         <field name="partner_id" ref="base.res_partner_2"/>
-        <field name="url">http://www.deco-addict.example.com</field>
+        <field name="url">http://www.deco-addict.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_2" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type1"/>
         <field name="partner_id" ref="base.res_partner_3"/>
-        <field name="url">http://www.gemini-furniture.example.com</field>
+        <field name="url">http://www.gemini-furniture.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_3" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type2"/>
         <field name="partner_id" ref="base.res_partner_4"/>
-        <field name="url">http://www.ready-mat.example.com</field>
+        <field name="url">http://www.ready-mat.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_4" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type1"/>
         <field name="partner_id" ref="base.res_partner_10"/>
-        <field name="url">http://www.the-jackson-group.example.com</field>
+        <field name="url">http://www.the-jackson-group.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_5" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>
         <field name="sponsor_type_id" ref="event_sponsor_type1"/>
         <field name="partner_id" ref="base.res_partner_12"/>
-        <field name="url">http://www.azure-interior.example.com</field>
+        <field name="url">http://www.azure-interior.weth.com.br</field>
     </record>
     <record id="event_7_sponsor_6" model="event.sponsor">
         <field name="event_id" ref="event.event_7"/>

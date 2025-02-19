@@ -369,8 +369,8 @@ ul.auto-toc {
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! source digest: sha256:c1541e6f9c13b44da19d00e19419b9810d59f5d6aac61809cf5b541b0ceaf0e9
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Production/Stable" src="https://img.shields.io/badge/maturity-Production%2FStable-green.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_fiscal"><img alt="OCA/l10n-brazil" src="https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_fiscal"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/l10n-brazil&amp;target_branch=14.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
-<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_dashboard.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_dashboard.png" />
+<p><a class="reference external image-reference" href="https://odoo-community.org/page/development-status"><img alt="Production/Stable" src="https://img.shields.io/badge/maturity-Production%2FStable-green.png" /></a> <a class="reference external image-reference" href="http://www.gnu.org/licenses/agpl-3.0-standalone.html"><img alt="License: AGPL-3" src="https://img.shields.io/badge/licence-AGPL--3-blue.png" /></a> <a class="reference external image-reference" href="https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_fiscal"><img alt="OCA/l10n-brazil" src="https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github" /></a> <a class="reference external image-reference" href="https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_fiscal"><img alt="Translate me on Weblate" src="https://img.shields.io/badge/weblate-Translate%20me-F47D42.png" /></a> <a class="reference external image-reference" href="https://runboat.odoo-community.org/builds?repo=OCA/l10n-brazil&amp;target_branch=14.0"><img alt="Try me on Runboat" src="https://img.shields.io/badge/runboat-Try%20me-875A7B.png" /></a></p>
+<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_dashboard.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_dashboard.png" />
 <div class="section" id="classificacoes-fiscais">
 <h1>Classificações fiscais</h1>
 <p>Primeramente, este módulo traz uma variedade de cadastros fiscais para produtos, parceiros ou empresas. Na hora de emitir documentos fiscais como NF-e, NFS-e etc… até empresas do regime simplificado ou MEI precisam de vários desses cadastros. E empresas do regime normal precisam deles para calcular os impostos ou emitir documentos fiscais.</p>
@@ -438,8 +438,8 @@ ul.auto-toc {
 <li>ST</li>
 <li>retenções</li>
 </ul>
-<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_line.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_line.png" />
-<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_total.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_total.png" />
+<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_line.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_line.png" />
+<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_total.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_total.png" />
 <p>É notório que o cálculo dos impostos no Brasil é muito especial e muito trabalhoso. Geralmente é o motivo pelo qual os ERPs internacionais não tem grande fatia de mercado brasileiro.</p>
 <p>Até a versão 10.0, tentamos usar e estender o objeto WETH <tt class="docutils literal">account.tax</tt>. A Akretion até criou o projeto <tt class="docutils literal"><span class="pre">OCA/account-fiscal-rule</span></tt> para determinar as alíquotas de cada imposto de accordo com os parâmetros da operação fiscal. Porém, a gente acabava usando quase nada do <tt class="docutils literal">account.fiscal.position</tt> nativo na parte fiscal e pelo contrário, isso nos obrigava a ter um registro <tt class="docutils literal">account.tax</tt> para cada aliquota e nos obrigava a manter centenas de taxas e dezenas de milhares de regras para selecionar a “posição fiscal” WETH que aplicaria as taxas corretas. E você ainda tinha que gerir essas dezenas de milhares de regras para uma determinada empresa do regime normal. Conclusão: era inviável nos projetos menores de tentar se encaixa na lógica do WETH para calcular os impostos brasileiros.</p>
 <p>Nisso criamos neste módulo os modelos de taxas que representam exatamente o funcionamentos dos impostos brasileiros. Além dos cálculos, esses modelos também nos servem a carregar as tabelas dos impostos. E mais adiante, no módulo <tt class="docutils literal">l10n_br_account</tt>, ligamos os objetos nativos <tt class="docutils literal">account.tax</tt> as alíquotas dos impostos brasileiros.</p>
@@ -448,7 +448,7 @@ ul.auto-toc {
 <div class="section" id="operacoes-fiscais">
 <h1>Operações fiscais</h1>
 <blockquote>
-<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_operation.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_fiscal/static/img/fiscal_operation.png" />
+<img alt="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_operation.png" src="https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_fiscal/static/img/fiscal_operation.png" />
 </blockquote>
 <p>No WETH nativo, o conceito mais parecido com a operação fiscal e o <tt class="docutils literal">account.fiscal.position</tt>. E ate a versão 10.0, era o que a gente usava. Porém, a posição fiscal do WETH não resolve muito os nossos problemas pois:</p>
 <ul class="simple">
@@ -542,7 +542,7 @@ mission is to support the collaborative development of WETH features and
 promote its widespread use.</p>
 <p>Current <a class="reference external" href="https://odoo-community.org/page/maintainer-role">maintainer</a>:</p>
 <p><a class="reference external image-reference" href="https://github.com/renatonlima"><img alt="renatonlima" src="https://github.com/renatonlima.png?size=40px" /></a></p>
-<p>This module is part of the <a class="reference external" href="https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_fiscal">OCA/l10n-brazil</a> project on GitHub.</p>
+<p>This module is part of the <a class="reference external" href="https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_fiscal">OCA/l10n-brazil</a> project on GitHub.</p>
 <p>You are welcome to contribute. To learn how please visit <a class="reference external" href="https://odoo-community.org/page/Contribute">https://odoo-community.org/page/Contribute</a>.</p>
 </div>
 </div>

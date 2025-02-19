@@ -17,7 +17,7 @@ Payment PagSeguro
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/payment_pagseguro
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/payment_pagseguro
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-payment_pagseguro
@@ -61,21 +61,21 @@ This module will require registering in eCommerce PagSeguro https://acesso.pagse
 To configure your API keys go to Invoicing -> Configuration -> Payment Acquirers -> PagSeguro.
 Then insert your token on the credentials page, as shown below:
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/payment_pagseguro/static/description/payment_acquirer_01.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/payment_pagseguro/static/description/payment_acquirer_01.png
     :alt: Payment acquirer pagseguro
     :width: 600 px
 
 Under the configuration page, select your payment journal.
 On the upper right corner buttons you can publish on your website and change the environment.
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/payment_pagseguro/static/description/payment_acquirer_02.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/payment_pagseguro/static/description/payment_acquirer_02.png
     :alt: Payment acquirer pagseguro
     :width: 600 px
 
 The credential Token and can only be acquired via the PagSeguro user account.
 On your account, go to "Venda Online" > "Integrações". Then, click on "Gerar Token".
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/payment_pagseguro/static/description/pagseguro_website.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/payment_pagseguro/static/description/pagseguro_website.png
     :alt: Payment acquirer pagseguro
     :width: 600 px
 
@@ -90,7 +90,7 @@ After the configuration, you can go to the website module, and buy a product
 in your website shop by selecting the Pagseguro payment method and adding your
 credit card information. Then, click on the pay now button.
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/payment_pagseguro/static/description/pagseguro_buy.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/payment_pagseguro/static/description/pagseguro_buy.png
     :alt: Payment acquirer pagseguro
     :width: 600 px
 
@@ -146,6 +146,6 @@ OCA, or the WETH Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/payment_pagseguro>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/payment_pagseguro>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

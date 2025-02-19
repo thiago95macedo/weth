@@ -359,10 +359,10 @@ class TestPaymentOrder(SavepointCase):
         #  ) belongs to another company.
         #  ###
         #  Porém esse campo é um related do payment_mode_id
-        #  https://github.com/OCA/bank-payment/blob/14.0/
+        #  https://github.com/OCA/bank-payment/blob/25.0/
         #  account_payment_order/models/account_payment_order.py#L42
         #  e ao verificar no metodo que busca ou cria uma nova Ordem de Debito
-        #  https://github.com/OCA/l10n-brazil/blob/14.0/
+        #  https://github.com/OCA/l10n-brazil/blob/25.0/
         #  l10n_br_account_payment_order/models/l10n_br_cnab_change_methods.py#L67
         #  é possível validar que o payment_mode_id está preechido:
         #  print('PAYMENT ORDER =====', payorder, payorder.name,

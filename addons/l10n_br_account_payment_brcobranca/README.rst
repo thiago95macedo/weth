@@ -17,7 +17,7 @@ Boletos e CNAB de cobrança
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_account_payment_brcobranca
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_account_payment_brcobranca
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_account_payment_brcobranca
@@ -66,7 +66,7 @@ Verifique se os Códigos do CNAB do Banco que será usado existem em:
 
 **Faturamento > Configurações > Administração > Códigos CNAB**
 
-Caso seja preciso criar por favor considere fazer um PR acrescentando os Códigos em l10n_br_account_payment_order/data/cnab_codes/banco_X_cnab_Y_Z.xml assim em próximas implementações já não será preciso cadastra-los ajudando também na construção desse banco de conhecimento, você pode ver os casos que já existem hoje no módulo `l10n_br_account_payment_order <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_account_payment_order>`_.
+Caso seja preciso criar por favor considere fazer um PR acrescentando os Códigos em l10n_br_account_payment_order/data/cnab_codes/banco_X_cnab_Y_Z.xml assim em próximas implementações já não será preciso cadastra-los ajudando também na construção desse banco de conhecimento, você pode ver os casos que já existem hoje no módulo `l10n_br_account_payment_order <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_account_payment_order>`_.
 
 Crie uma **Configuração CNAB**, é onde serão armazenadas as informações específicas de cada caso como a Carteira, Convênio, Código do Benificiário, Códigos de Instrução e Retorno do Movimento, etc, em:
 
@@ -92,7 +92,7 @@ Crie um **Modo de Pagamento** ou use um existente em:
 
 Informe o **Diário Contábil** referente ao Banco e a **Configuração CNAB** que deverá ser utilizada, no campo **Diário de Banco Fixo** informar o Diário Contábil da Conta Bancária e se for o caso, e é recomendado, marcar a opção **Adicionar automaticamente ao validar a fatura** para não ser preciso fazer manualmente.
 
-Caso o CNAB e Banco escolhidos possua um campo específico que seja preciso implementar considere fazer um PR no módulo **l10n_br_account_payment_order** aqui https://github.com/OCA/l10n-brazil/blob/14.0/l10n_br_account_payment_order/models/l10n_br_cnab_boleto_fields.py#L307 .
+Caso o CNAB e Banco escolhidos possua um campo específico que seja preciso implementar considere fazer um PR no módulo **l10n_br_account_payment_order** aqui https://github.com/OCA/l10n-brazil/blob/25.0/l10n_br_account_payment_order/models/l10n_br_cnab_boleto_fields.py#L307 .
 
 Configure as permissões de acesso dos usuários, as opções são CNAB **Usuário** e **Gerente**.
 
@@ -250,6 +250,6 @@ Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-rvalyi| |maintainer-mbcosta| 
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_account_payment_brcobranca>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_account_payment_brcobranca>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

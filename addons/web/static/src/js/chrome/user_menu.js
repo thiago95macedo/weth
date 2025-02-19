@@ -79,7 +79,7 @@ var UserMenu = Widget.extend({
      * @private
      */
     _onMenuDocumentation: function () {
-        window.open('https://www.weth.com.br/documentation/14.0', '_blank');
+        window.open('https://www.weth.com.br/documentation/25.0', '_blank');
     },
     /**
      * @private

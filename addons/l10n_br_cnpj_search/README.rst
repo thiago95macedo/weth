@@ -17,7 +17,7 @@ Brazilian Localization CNPJ Search
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_cnpj_search
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_cnpj_search
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_cnpj_search
@@ -34,17 +34,17 @@ Seguem abaixo os campos que podem ser consultados de ambas as APIs utilizadas pa
 ReceitaWS
 -------------------
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_cnpj_search/static/description/receita.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_cnpj_search/static/description/receita.png
    :alt: ReceitaWS campos parte 1
    :width: 80 %
    :align: center
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_cnpj_search/static/description/receita1.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_cnpj_search/static/description/receita1.png
    :alt: ReceitaWS campos parte 2
    :width: 80 %
    :align: center
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_cnpj_search/static/description/receita2.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_cnpj_search/static/description/receita2.png
    :alt: ReceitaWS campos parte 3
    :width: 80 %
    :align: center
@@ -52,12 +52,12 @@ ReceitaWS
 SERPRO
 ----------------------------------------------
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_cnpj_search/static/description/serpro.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_cnpj_search/static/description/serpro.png
    :alt: SERPRO
    :width: 80 %
    :align: center
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_cnpj_search/static/description/serpro1.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_cnpj_search/static/description/serpro1.png
    :alt: SERPRO
    :width: 80 %
    :align: center
@@ -119,6 +119,6 @@ OCA, or the WETH Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of WETH features and
 promote its widespread use.
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_cnpj_search>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_cnpj_search>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

@@ -15,7 +15,7 @@
         <field name="event_id" ref="event.event_0"/>
         <field name="event_ticket_id" ref="event.event_0_ticket_0"/>
         <field name="name">Tucker Carlson</field>
-        <field name="email">tuck@test.example.com</field>
+        <field name="email">tuck@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
 
@@ -31,7 +31,7 @@
     <record id="event_registration_1_2" model="event.registration">
         <field name="event_id" ref="event.event_1"/>
         <field name="name">Piers Morgan</field>
-        <field name="email">piersm@test.example.com</field>
+        <field name="email">piersm@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
     <record id="event_registration_1_3" model="event.registration">
@@ -45,7 +45,7 @@
     <record id="event_registration_1_5" model="event.registration">
         <field name="event_id" ref="event.event_1"/>
         <field name="name">Nigel Woodfire</field>
-        <field name="email">nigelw@test.example.com</field>
+        <field name="email">nigelw@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
 
@@ -64,7 +64,7 @@
         <field name="event_id" ref="event.event_2"/>
         <field name="event_ticket_id" ref="event.event_2_ticket_2"/>
         <field name="name">Piers Morgan</field>
-        <field name="email">piersm@test.example.com</field>
+        <field name="email">piersm@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
     <record id="event_registration_2_3" model="event.registration">
@@ -90,7 +90,7 @@
     <record id="event_registration_3_2" model="event.registration">
         <field name="event_id" ref="event.event_3"/>
         <field name="name">Piers Morgan</field>
-        <field name="email">piersm@test.example.com</field>
+        <field name="email">piersm@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
     <record id="event_registration_3_3" model="event.registration">
@@ -104,7 +104,7 @@
     <record id="event_registration_3_5" model="event.registration">
         <field name="event_id" ref="event.event_3"/>
         <field name="name">Nigel Woodfire</field>
-        <field name="email">nigelw@test.example.com</field>
+        <field name="email">nigelw@test.weth.com.br</field>
         <field name="partner_id" eval="False"/>
     </record>
 

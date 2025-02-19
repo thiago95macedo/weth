@@ -8,7 +8,7 @@
             <field name="name">Club Office Furnitures</field>
             <field name="contact_name">Jacques Dunagan</field>
             <field name="partner_name">Le Club SARL</field>
-            <field name="email_from">jdunagan@leclub.example.com</field>
+            <field name="email_from">jdunagan@leclub.weth.com.br</field>
             <field name="function">Training Manager</field>
             <field name="country_id" ref="base.fr"/>
             <field name="city">Paris</field>
@@ -30,7 +30,7 @@
             <field name="model">crm.lead</field>
             <field name="res_id" ref="crm_case_1"/>
             <field name="author_id" eval="False"/>
-            <field name="email_from">jdunagan@leclub.example.com</field>
+            <field name="email_from">jdunagan@leclub.weth.com.br</field>
             <field name="body"><![CDATA[<p>Hello,<br />
             I am Jacques from Le Club SARL. I am interested in attending a training organized by your company.<br />
             Can you send me the details ?</p>]]></field>
@@ -78,7 +78,7 @@
             <field name="name">Pricing for 25 desks</field>
             <field name="contact_name">John Miller</field>
             <field name="partner_name">The Kompany</field>
-            <field name="email_from">contact@thekompany.example.com</field>
+            <field name="email_from">contact@thekompany.weth.com.br</field>
             <field name="country_id" ref="base.us"/>
             <field name="city">New York</field>
             <field name="zip">10001</field>
@@ -101,7 +101,7 @@
             <field name="name">Campbell: Chairs</field>
             <field name="contact_name">Henry Campbell</field>
             <field name="partner_name">Burstein Applebee</field>
-            <field name="email_from">hmc@yahoo.example.com</field>
+            <field name="email_from">hmc@yahoo.weth.com.br</field>
             <field name="country_id" ref="base.uk"/>
             <field name="city">Manchester</field>
             <field name="zip">03101</field>
@@ -123,7 +123,7 @@
             <field name="name">Quotation for 50 Chairs</field>
             <field name="contact_name">Carrie Helle</field>
             <field name="partner_name">Stonage IT</field>
-            <field name="email_from">helle@stonageit.example.com</field>
+            <field name="email_from">helle@stonageit.weth.com.br</field>
             <field name="function">Purchase Manager</field>
             <field name="country_id" ref="base.us"/>
             <field name="city">Philadelphia</field>
@@ -145,7 +145,7 @@
             <field name="model">crm.lead</field>
             <field name="res_id" ref="crm_case_5"/>
             <field name="author_id" eval="False"/>
-            <field name="email_from">helle@stonageit.example.com</field>
+            <field name="email_from">helle@stonageit.weth.com.br</field>
             <field name="body"><![CDATA[<p>Hi,<br />
 Can you send me a quotation for 20 computers with speakers?<br />
 Regards,<br />
@@ -164,7 +164,7 @@ Contact: +1 813 494 5005</p>]]></field>
             <field name="name">Opensides: Need Info</field>
             <field name="contact_name">Tina Pinero</field>
             <field name="partner_name">Opensides</field>
-            <field name="email_from">tina@opensides.example.com</field>
+            <field name="email_from">tina@opensides.weth.com.br</field>
             <field name="function">Consultant</field>
             <field name="country_id" ref="base.it"/>
             <field name="city">Roma</field>
@@ -207,7 +207,7 @@ Contact: +1 813 494 5005</p>]]></field>
             <field name="name">Product Catalog</field>
             <field name="contact_name">Logan</field>
             <field name="partner_name">ESM Expert</field>
-            <field name="email_from">logan_expert@gmail.example.com</field>
+            <field name="email_from">logan_expert@gmail.weth.com.br</field>
             <field name="function">Sales</field>
             <field name="country_id" ref="base.uk"/>
             <field name="city">London</field>
@@ -226,7 +226,7 @@ Contact: +1 813 494 5005</p>]]></field>
             <field name="model">crm.lead</field>
             <field name="res_id" ref="crm_case_8"/>
             <field name="author_id" eval="False"/>
-            <field name="email_from">logan_expert@gmail.example.com</field>
+            <field name="email_from">logan_expert@gmail.weth.com.br</field>
             <field name="body"><![CDATA[<p>Hi,<br />
 Could you send me your product catalogue please ?<br />
 Regards,<br />
@@ -242,7 +242,7 @@ ESM Expert<br />]]></field>
             <field name="name">Reseller: Office furnitures</field>
             <field name="contact_name">Delisle Albert</field>
             <field name="partner_name">Marketing Business</field>
-            <field name="email_from">d.albert@marketing-business.example.com</field>
+            <field name="email_from">d.albert@marketing-business.weth.com.br</field>
             <field name="function">Sales</field>
             <field name="country_id" ref="base.uk"/>
             <field name="city">Oxford</field>
@@ -264,7 +264,7 @@ ESM Expert<br />]]></field>
             <field name="contact_name">Jose Garcia</field>
             <field name="partner_name">Solar IT</field>
             <field name="function">Medical illustrator</field>
-            <field name="email_from">jga@solar.example.com</field>
+            <field name="email_from">jga@solar.weth.com.br</field>
             <field name="country_id" ref="base.es"/>
             <field name="city">Madrid</field>
             <field name="zip">28001</field>
@@ -282,7 +282,7 @@ ESM Expert<br />]]></field>
             <field name="model">crm.lead</field>
             <field name="res_id" ref="crm_case_10"/>
             <field name="author_id" eval="False"/>
-            <field name="email_from">jga@solar.example.com</field>
+            <field name="email_from">jga@solar.weth.com.br</field>
             <field name="body"><![CDATA[<p>Hi,<br />
 I would like to know more about specification and cost of laptops of your company.<br />
 Thanks,<br />
@@ -319,7 +319,7 @@ Andrew</p>]]></field>
             <field name="name">Quotation for 100 Desks</field>
             <field name="contact_name">Bojing Hú</field>
             <field name="partner_name">Incom Corporation</field>
-            <field name="email_from">bhu.a100@ic.example.com</field>
+            <field name="email_from">bhu.a100@ic.weth.com.br</field>
             <field name="partner_id" ref="base.res_partner_1"/>
             <field name="country_id" ref="base.cn"/>
             <field name="city">Shenzhen</field>
@@ -347,7 +347,7 @@ Andrew</p>]]></field>
             <field name="probability">10.0</field>
             <field name="contact_name">Will McEncroe</field>
             <field name="partner_name">Rediff Mail</field>
-            <field name="email_from">willmac@rediffmail.example.com</field>
+            <field name="email_from">willmac@rediffmail.weth.com.br</field>
             <field name="country_id" ref="base.au"/>
             <field name="city">Melbourne</field>
             <field name="street">Kensington Road 189</field>
@@ -545,7 +545,7 @@ Andrew</p>]]></field>
             <field eval="35000" name="expected_revenue"/>
             <field eval="25.0" name="probability"/>
             <field name="contact_name">Leland Martinez</field>
-            <field name="email_from">info@deltapc.example.com</field>
+            <field name="email_from">info@deltapc.weth.com.br</field>
             <field name="partner_name">Delta PC</field>
             <field name="city">London</field>
             <field name="street">3661 Station Street</field>
@@ -593,7 +593,7 @@ Andrew</p>]]></field>
             <field name="probability">65.5</field>
             <field name="contact_name">Nhomar</field>
             <field name="partner_name">Vauxoo</field>
-            <field name="email_from">vauxoo@yourcompany.example.com</field>
+            <field name="email_from">vauxoo@weth.com.br</field>
             <field name="partner_id" ref="base.res_partner_12"/>
             <field name="country_id" ref="base.ve"/>
             <field name="city">Caracas</field>
@@ -809,7 +809,7 @@ Andrew</p>]]></field>
             <field name="name">Club Office More Desks</field>
             <field name="contact_name">Jacques Dunagan</field>
             <field name="partner_name">Le Club SARL</field>
-            <field name="email_from">jdunagan@leclub.example.com</field>
+            <field name="email_from">jdunagan@leclub.weth.com.br</field>
             <field name="function">Training Manager</field>
             <field name="country_id" ref="base.fr"/>
             <field name="city">Paris</field>
@@ -831,7 +831,7 @@ Andrew</p>]]></field>
             <field name="name">Acadia College Furnitures</field>
             <field name="contact_name">Gaston Rochon</field>
             <field name="partner_name">Acadia College</field>
-            <field name="email_from">GastonRochon@example.com</field>
+            <field name="email_from">GastonRochon@weth.com.br</field>
             <field name="function">Director</field>
             <field name="country_id" ref="base.fr"/>
             <field name="city">Brussels</field>

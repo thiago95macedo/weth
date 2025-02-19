@@ -188,12 +188,12 @@
     </record>
         <record id="slide_slide_demo_1_2_link_0" model="slide.slide.link">
             <field name="name">Energy Efficient Link 1</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_1_2"/>
         </record>
         <record id="slide_slide_demo_1_2_link_1" model="slide.slide.link">
             <field name="name">Energy Efficient Link 2</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_1_2"/>
         </record>
         <!--RESOURCE-->
@@ -265,12 +265,12 @@
     </record>
         <record id="slide_slide_demo_1_4_link_0" model="slide.slide.link">
             <field name="name">Know More Link 1</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_1_4"/>
         </record>
         <record id="slide_slide_demo_1_4_link_1" model="slide.slide.link">
             <field name="name">Know More Link 2</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_1_4"/>
         </record>
         <record id="slide_slide_demo_1_4_question_0" model="slide.question">
@@ -391,12 +391,12 @@
         <!-- LINKS -->
         <record id="slide_slide_demo_2_0_link_0" model="slide.slide.link">
             <field name="name">Trees Classification Link</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_2_0"/>
         </record>
         <record id="slide_slide_demo_2_0_link_1" model="slide.slide.link">
             <field name="name">Main types of trees Link</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_2_0"/>
         </record>
         <!--RESOURCE-->
@@ -632,12 +632,12 @@
     </record>
         <record id="slide_slide_demo_5_0_link_0" model="slide.slide.link">
             <field name="name">Example Link 1</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_5_0"/>
         </record>
         <record id="slide_slide_demo_5_0_link_1" model="slide.slide.link">
             <field name="name">Example Link 2</field>
-            <field name="link">http://www.example.com</field>
+            <field name="link">http://www.weth.com.br</field>
             <field name="slide_id" ref="slide_slide_demo_5_0"/>
         </record>
     <record id="slide_slide_demo_5_1" model="slide.slide">

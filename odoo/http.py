@@ -787,7 +787,7 @@ class HttpRequest(WebRequest):
 
 Odoo URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
-https://www.weth.com.br/documentation/14.0/developer/reference/http.html#csrf for
+https://www.weth.com.br/documentation/25.0/developer/reference/http.html#csrf for
 more details.
 
 * if this endpoint is accessed through WETH via py-QWeb form, embed a CSRF

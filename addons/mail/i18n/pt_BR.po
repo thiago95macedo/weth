@@ -6124,7 +6124,7 @@ msgid ""
 "<jobs@example.weth.com.br>"
 msgstr ""
 "O nome do alias de e-mail, por exemplo, 'empregos', se desejar receber "
-"e-mails enviados a <empregos@suaempresa.com.br>"
+"e-mails enviados a <empregos@weth.com.br>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_user_id

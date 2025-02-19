@@ -160,8 +160,8 @@ font-family:Calibri
 <div><hr id="stopSpelling">
 Date: Tue=2C 5 Jan 2016 10:24:48 +0100<br>
 Subject: Test from gmail<br>
-From: poilvache@example.com<br>
-To: tartelette@example.com grosbedon@example.com<br><br>
+From: poilvache@weth.com.br<br>
+To: tartelette@example.com grosbedon@weth.com.br<br><br>
 <div dir="ltr"><b><i>Test reply. The suite.</i></b>
 <br clear="all"><div><br>
 </div>-- <br><div class="ecxgmail_signature">
@@ -173,7 +173,7 @@ QUOTE_HOTMAIL_HTML_OUT = [
     u"""<div dir="ltr" data-o-mail-quote="1"><b data-o-mail-quote="1"><i data-o-mail-quote="1">Test reply. The suite.</i></b>"""]
 
 QUOTE_THUNDERBIRD_1 = u"""<div>On 11/08/2012 05:29 PM,
-      <a href="mailto:dummy@example.com">dummy@example.com</a> wrote:<br></div>
+      <a href="mailto:dummy@example.com">dummy@weth.com.br</a> wrote:<br></div>
     <blockquote>
       <div>I contact you about our meeting for tomorrow. Here is the
         schedule I propose:</div>
@@ -200,7 +200,7 @@ Raoul Grosbedonn&#233;e
 </pre>"""
 
 QUOTE_THUNDERBIRD_1_IN = [
-    u'<a href="mailto:dummy@example.com">dummy@example.com</a> ',
+    u'<a href="mailto:dummy@example.com">dummy@weth.com.br</a> ',
     u'<blockquote data-o-mail-quote-node="1" data-o-mail-quote="1">',
     u'Ok for me. I am replying directly below your mail, using Thunderbird, with a signature.']
 QUOTE_THUNDERBIRD_1_OUT = [u"""-- 
@@ -269,7 +269,7 @@ TEXT_2_OUT = [u"""
 
 # MISC
 
-GMAIL_1 = u"""Hello,<div><br></div><div>Ok for me. I am replying directly in gmail, without signature.</div><div><br></div><div>Kind regards,</div><div><br></div><div>Demo.<br><br><div>On Thu, Nov 8, 2012 at 5:29 PM,  <span>&lt;<a href="mailto:dummy@example.com">dummy@example.com</a>&gt;</span> wrote:<br><blockquote><div>I contact you about our meeting for tomorrow. Here is the schedule I propose:</div><div><ul><li>9 AM: brainstorming about our new amazing business app&lt;/span&gt;&lt;/li&gt;</li>
+GMAIL_1 = u"""Hello,<div><br></div><div>Ok for me. I am replying directly in gmail, without signature.</div><div><br></div><div>Kind regards,</div><div><br></div><div>Demo.<br><br><div>On Thu, Nov 8, 2012 at 5:29 PM,  <span>&lt;<a href="mailto:dummy@example.com">dummy@weth.com.br</a>&gt;</span> wrote:<br><blockquote><div>I contact you about our meeting for tomorrow. Here is the schedule I propose:</div><div><ul><li>9 AM: brainstorming about our new amazing business app&lt;/span&gt;&lt;/li&gt;</li>
 <li>9.45 AM: summary</li><li>10 AM: meeting with Fabien to present our app</li></ul></div><div>Is everything ok for you ?</div>
 <div><p>-- <br>Administrador</p></div>
 

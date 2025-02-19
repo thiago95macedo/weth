@@ -3,7 +3,7 @@
     <data noupdate="1">
         <!-- Event CRM Rule 0 -->
         <record id="event_lead_rule_0" model="event.lead.rule">
-            <field name="name">Rule on @example.com</field>
+            <field name="name">Rule on @weth.com.br</field>
             <field name="event_id" ref="event.event_5"/>
             <field name="event_registration_filter">[('email','ilike','@example.com')]</field>
             <field name="lead_user_id" ref="base.user_admin"/>
@@ -12,13 +12,13 @@
 
         <record id="event_registration_0_rule_0" model="event.registration">
             <field name="name">Barney Lonny</field>
-            <field name="email">barney.lonny@example.com</field>
+            <field name="email">barney.lonny@weth.com.br</field>
             <field name="phone">+1 202 555 0122</field>
             <field name="event_id" ref="event.event_5"/>
         </record>
         <record id="event_registration_1_rule_0" model="event.registration">
             <field name="name">Tom Harper</field>
-            <field name="email">tom.harper@example.com</field>
+            <field name="email">tom.harper@weth.com.br</field>
             <field name="phone">+1 202 555 0161</field>
             <field name="event_id" ref="event.event_5"/>
         </record>

@@ -108,10 +108,10 @@ class StockPicking(models.Model):
         """
         Adjust the partner, both for an invoice from picking with
         no related SO or PO,
-        https://github.com/OCA/account-invoicing/blob/14.0/
+        https://github.com/OCA/account-invoicing/blob/25.0/
         stock_picking_invoicing/models/stock_picking.py#L38
         and also in the case of a picking originating from a PO:
-        https://github.com/OCA/OCB/blob/14.0/addons/purchase/
+        https://github.com/OCA/OCB/blob/25.0/addons/purchase/
         models/purchase.py#L556
         """
         self.ensure_one()

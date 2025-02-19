@@ -17,7 +17,7 @@ Brazilian Localization Sale
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fl10n--brazil-lightgray.png?logo=github
-    :target: https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_sale
+    :target: https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_sale
     :alt: OCA/l10n-brazil
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
     :target: https://translation.odoo-community.org/projects/l10n-brazil-14-0/l10n-brazil-14-0-l10n_br_sale
@@ -54,14 +54,14 @@ Usage
 
 Após configurar a empresa, os dados contábeis e fiscais, ao criar um pedido de venda será, será possível visualizar os dados fiscais e contábeis:
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_sale/static/description/sale_order_1.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_sale/static/description/sale_order_1.png
     :alt: Pedido de Venda
     :width: 600 px
 
 
 Ao adicionar um produto ou serviço será exibido os detalhes dos impostos:
 
-.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/14.0/l10n_br_sale/static/description/sale_order_2.png
+.. figure:: https://raw.githubusercontent.com/OCA/l10n-brazil/25.0/l10n_br_sale/static/description/sale_order_2.png
     :alt: Adicionando um produto ou serviço no pedido de venda
     :width: 600 px
 
@@ -146,6 +146,6 @@ Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-renatonlima| 
 
-This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/14.0/l10n_br_sale>`_ project on GitHub.
+This module is part of the `OCA/l10n-brazil <https://github.com/OCA/l10n-brazil/tree/25.0/l10n_br_sale>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

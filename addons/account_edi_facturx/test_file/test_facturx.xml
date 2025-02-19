@@ -87,7 +87,7 @@ Four person modern office workstation</ram:Name>
                         <ram:CompleteNumber>+1 (650) 691-3277 </ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
-                        <ram:URIID schemeID="SMTP">info@yourcompany.example.com</ram:URIID>
+                        <ram:URIID schemeID="SMTP">info@weth.com.br</ram:URIID>
                     </ram:EmailURIUniversalCommunication>
                 </ram:DefinedTradeContact>
 
@@ -108,7 +108,7 @@ Four person modern office workstation</ram:Name>
                         <ram:CompleteNumber>(870)-931-0505</ram:CompleteNumber>
                     </ram:TelephoneUniversalCommunication>
                     <ram:EmailURIUniversalCommunication>
-                        <ram:URIID schemeID="SMTP">azure.Interior24@example.com</ram:URIID>
+                        <ram:URIID schemeID="SMTP">azure.Interior24@weth.com.br</ram:URIID>
                     </ram:EmailURIUniversalCommunication>
                 </ram:DefinedTradeContact>
 
