@@ -21,6 +21,9 @@ odoo/filestore
 # maintenance migration scripts
 odoo/addons/base/maintenance
 
+# Ignorar arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
 *.Identifier
 
 # generated for windows installer?
