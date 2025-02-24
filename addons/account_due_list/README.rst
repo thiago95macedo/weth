@@ -23,7 +23,7 @@ Payments Due list
     :target: https://translation.odoo-community.org/projects/account-payment-14-0/account-payment-14-0-account_due_list
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/account-payment&target_branch=14.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/account-payment&target_branch=25.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|

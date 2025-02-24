@@ -40,7 +40,7 @@ class IoTRestart(Thread):
 
     def run(self):
         time.sleep(self.delay)
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
 
 def access_point():
     return get_ip() == '10.11.12.1'
@@ -102,7 +102,7 @@ def check_git_branch():
             )
 
             if response.status == 200:
-                git = ['git', '--work-tree=/home/pi/odoo/', '--git-dir=/home/pi/odoo/.git']
+                git = ['git', '--work-tree=/home/pi/weth/', '--git-dir=/home/pi/weth/.git']
 
                 db_branch = json.loads(response.data)['result']['server_serie'].replace('~', '-')
                 if not subprocess.check_output(git + ['ls-remote', 'origin', db_branch]):
@@ -112,11 +112,11 @@ def check_git_branch():
 
                 if db_branch != local_branch:
                     subprocess.call(["sudo", "mount", "-o", "remount,rw", "/"])
-                    subprocess.check_call(["rm", "-rf", "/home/pi/odoo/addons/hw_drivers/iot_handlers/drivers/*"])
-                    subprocess.check_call(["rm", "-rf", "/home/pi/odoo/addons/hw_drivers/iot_handlers/interfaces/*"])
+                    subprocess.check_call(["rm", "-rf", "/home/pi/weth/addons/hw_drivers/iot_handlers/drivers/*"])
+                    subprocess.check_call(["rm", "-rf", "/home/pi/weth/addons/hw_drivers/iot_handlers/interfaces/*"])
                     subprocess.check_call(git + ['branch', '-m', db_branch])
                     subprocess.check_call(git + ['remote', 'set-branches', 'origin', db_branch])
-                    os.system('/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/posbox_update.sh')
+                    os.system('/home/pi/weth/addons/point_of_sale/tools/posbox/configuration/posbox_update.sh')
                     subprocess.call(["sudo", "mount", "-o", "remount,ro", "/"])
                     subprocess.call(["sudo", "mount", "-o", "remount,rw", "/root_bypass_ramdisks/etc/cups"])
 

@@ -14,13 +14,13 @@
 . /lib/lsb/init-functions
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
-DAEMON=/home/pi/odoo/odoo-bin
+DAEMON=/home/pi/weth/odoo-bin
 NAME=odoo
 DESC=odoo
-CONFIG=/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/odoo.conf
+CONFIG=/home/pi/weth/addons/point_of_sale/tools/posbox/configuration/odoo.conf
 LOGFILE=/var/log/odoo/odoo-server.log
 PIDFILE=/var/run/${NAME}.pid
-MODULES=$(ls /home/pi/odoo/addons/ -m -w0 | tr -d ' ')
+MODULES=$(ls /home/pi/weth/addons/ -m -w0 | tr -d ' ')
 USER=pi
 
 test -x $DAEMON || exit 0

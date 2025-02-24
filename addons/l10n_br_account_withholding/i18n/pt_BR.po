@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WETH Server 14.0\n"
+"Project-Id-Version: WETH Server 25.0\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2024-04-19 14:37+0000\n"
 "Last-Translator: Marcel Savegnago <marcel.savegnago@gmail.com>\n"

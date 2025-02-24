@@ -37,7 +37,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: WETH Server 14.0\n"
+"Project-Id-Version: WETH Server 25.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -914,11 +914,6 @@ msgid "Country"
 msgstr "País"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_lead_website
-msgid "Create Leads/Opportunities from your website's traffic"
-msgstr "Criar prospectos/oportunidades a partir do tráfego do seu site"
-
-#. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Create Opportunity"
 msgstr "Criar Oportunidade"
@@ -1271,15 +1266,6 @@ msgstr ""
 "endereços de e-mail"
 
 #. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_lead_enrich
-msgid ""
-"Enrich your leads automatically with company data based on their email "
-"address."
-msgstr ""
-"Enriqueça seus leads automaticamente com dados da empresa com base em seus "
-"endereços de e-mail."
-
-#. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__requirements
 msgid ""
 "Enter here the internal requirements for this stage (ex: Offer sent to "
@@ -1430,11 +1416,6 @@ msgstr "De %(source_name)s"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
 msgstr "Atividades Futuras"
-
-#. module: crm
-#: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_lead
-msgid "Generate new leads based on their country, industries, size, etc."
-msgstr "Gere novos leads com base em seu país, indústria, tamanho, etc."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form

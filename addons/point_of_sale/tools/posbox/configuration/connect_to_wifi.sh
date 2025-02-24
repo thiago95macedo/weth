@@ -67,7 +67,7 @@ function connect () {
 
 	if [ ${TIMEOUT_RETURN} -eq 124 ] && [ -z "${NO_AP}" ] ; then
 		logger -t posbox_connect_to_wifi "Failed to connect, forcing Posbox AP"
-		sudo /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
+		sudo /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/wireless_ap.sh "force" &
 	else
 		if [ ${TIMEOUT_RETURN} -ne 124 ] ; then
 			rm -f "${LOST_WIFI_FILE}"
@@ -83,7 +83,7 @@ function connect () {
 		fi
 
 		logger -t posbox_connect_to_wifi "Starting wifi keep alive script"
-		/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
+		/home/pi/weth/addons/point_of_sale/tools/posbox/configuration/keep_wifi_alive.sh &
 	fi
 }
 

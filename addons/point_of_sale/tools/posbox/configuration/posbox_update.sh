@@ -14,8 +14,8 @@ git fetch "${localremote}" "${localbranch}" --depth=1
 git reset "${localremote}"/"${localbranch}" --hard
 
 git clean -dfx
-cp -a /home/pi/odoo/addons/point_of_sale/tools/posbox/overwrite_after_init/home/pi/odoo/* /home/pi/odoo/
-rm -r /home/pi/odoo/addons/point_of_sale/tools/posbox/overwrite_after_init
+cp -a /home/pi/weth/addons/point_of_sale/tools/posbox/overwrite_after_init/home/pi/weth/* /home/pi/weth/
+rm -r /home/pi/weth/addons/point_of_sale/tools/posbox/overwrite_after_init
 
 sudo find / -type f -name "*.iotpatch" 2> /dev/null | while read iotpatch; do
     DIR=$(dirname "${iotpatch}")

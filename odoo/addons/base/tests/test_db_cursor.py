@@ -124,10 +124,10 @@ class TestTestCursor(common.TransactionCase):
             # The connections must be recycled/borrowed when the db_port is set
             # e.g
             # `connection.dsn`
-            # {'database': '14.0', 'port': 5432, 'sslmode': 'prefer'}
+            # {'database': '25.0', 'port': 5432, 'sslmode': 'prefer'}
             # must match
             # `cr._cnx.dsn`
-            # 'port=5432 sslmode=prefer dbname=14.0'
+            # 'port=5432 sslmode=prefer dbname=25.0'
             config['db_port'] = self.env.cr._cnx.info.port
 
         cursors = []

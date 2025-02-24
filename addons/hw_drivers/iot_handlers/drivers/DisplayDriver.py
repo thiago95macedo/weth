@@ -69,7 +69,7 @@ class DisplayDriver(Driver):
     def run(self):
         while self.device_identifier != 'distant_display' and not self._stopped.isSet():
             time.sleep(60)
-            if self.url != 'http://localhost:8069/point_of_sale/display/' + self.device_identifier:
+            if self.url != 'http://localhost:8095/point_of_sale/display/' + self.device_identifier:
                 # Refresh the page every minute
                 self.call_xdotools('F5')
 
@@ -78,7 +78,7 @@ class DisplayDriver(Driver):
         os.environ['XAUTHORITY'] = '/run/lightdm/pi/xauthority'
         firefox_env = os.environ.copy()
         firefox_env['HOME'] = '/tmp/' + self._x_screen
-        self.url = url or 'http://localhost:8069/point_of_sale/display/' + self.device_identifier
+        self.url = url or 'http://localhost:8095/point_of_sale/display/' + self.device_identifier
         new_window = subprocess.call(['xdotool', 'search', '--onlyvisible', '--screen', self._x_screen, '--class', 'Firefox'])
         subprocess.Popen(['firefox', self.url], env=firefox_env)
         if new_window:

@@ -23,7 +23,7 @@ class MassMailController(MassMailController):
 
     @route('/website_mass_mailing/subscribe', type='json', website=True, auth="public")
     def subscribe(self, list_id, email, **post):
-        # FIXME the 14.0 was released with this but without the google_recaptcha
+        # FIXME the 25.0 was released with this but without the google_recaptcha
         # module being added as a dependency of the website_mass_mailing module.
         # This is to be fixed in master of course but in stable, we'll have to
         # use this workaround.

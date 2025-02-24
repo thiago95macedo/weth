@@ -118,7 +118,7 @@ usermod -a -G lp pi
 usermod -a -G input lightdm
 mkdir -v /var/log/odoo
 chown pi:pi /var/log/odoo
-chown pi:pi -R /home/pi/odoo/
+chown pi:pi -R /home/pi/weth/
 
 # logrotate is very picky when it comes to file permissions
 chown -R root:root /etc/logrotate.d/
@@ -156,7 +156,7 @@ echo "disable_overscan=1" >> /boot/config.txt
 sed -i '/dtoverlay/d' /boot/config.txt
 
 # exclude /drivers folder from git info to be able to load specific drivers
-echo "addons/hw_drivers/iot_devices/" > /home/pi/odoo/.git/info/exclude
+echo "addons/hw_drivers/iot_devices/" > /home/pi/weth/.git/info/exclude
 
 # create dirs for ramdisks
 create_ramdisk_dir () {

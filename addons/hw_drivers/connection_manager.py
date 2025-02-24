@@ -59,7 +59,7 @@ class ConnectionManager(Thread):
         # Notify the DB, so that the kanban view already shows the IoT Box
         manager.send_alldevices()
         # Restart to checkout the git branch, get a certificate, load the IoT handlers...
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
 
     def _refresh_displays(self):
         """Refresh all displays to hide the pairing code"""

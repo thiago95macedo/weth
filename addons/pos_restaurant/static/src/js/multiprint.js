@@ -14,7 +14,7 @@ models.PosModel = models.PosModel.extend({
             url = window.location.protocol + '//' + url;
         }
         if(url.indexOf(':', url.indexOf('//') + 2) < 0 && window.location.protocol !== 'https:') {
-            url = url + ':8069';
+            url = url + ':8095';
         }
         return new Printer(url, this);
     },

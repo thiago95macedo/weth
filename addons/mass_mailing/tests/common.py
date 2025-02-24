@@ -218,7 +218,7 @@ class MassMailCase(MailCase, MockLinkTracker):
         email = self._find_sent_mail_wemail(trace.email)
         self.assertTrue(bool(email))
         for (_url_href, link_url, _dummy, label) in re.findall(tools.HTML_TAG_URL_REGEX, email['body']):
-            if label == click_label and '/r/' in link_url:  # shortened link, like 'http://localhost:8069/r/LBG/m/53'
+            if label == click_label and '/r/' in link_url:  # shortened link, like 'http://localhost:8095/r/LBG/m/53'
                 parsed_url = werkzeug.urls.url_parse(link_url)
                 path_items = parsed_url.path.split('/')
                 code, trace_id = path_items[2], int(path_items[4])

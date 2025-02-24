@@ -23,7 +23,7 @@ Web Responsive
     :target: https://translation.odoo-community.org/projects/web-14-0/web-14-0-web_responsive
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=14.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/web&target_branch=25.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|

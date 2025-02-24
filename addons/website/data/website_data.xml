@@ -243,7 +243,7 @@
         </record>
         <record id="action_website_edit" model="ir.actions.act_url">
             <!--
-                be aware, this record has been added just after the 14.0
+                be aware, this record has been added just after the 25.0
                 freeze and could be missing on first installed db.
             -->
             <field name="name">Website Edit Mode</field>

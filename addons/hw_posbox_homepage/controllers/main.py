@@ -49,7 +49,7 @@ class IoTboxHomepage(web.Home):
         self.updating = threading.Lock()
 
     def clean_partition(self):
-        subprocess.check_call(['sudo', 'bash', '-c', '. /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; cleanup'])
+        subprocess.check_call(['sudo', 'bash', '-c', '. /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; cleanup'])
 
     def get_six_terminal(self):
         terminal_id = helpers.read_file_first_line('odoo-six-payment-terminal.conf')
@@ -97,7 +97,7 @@ class IoTboxHomepage(web.Home):
         wifi = Path.home() / 'wifi_network.txt'
         remote_server = Path.home() / 'odoo-remote-server.conf'
         if (wifi.exists() == False or remote_server.exists() == False) and helpers.access_point():
-            return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8069/steps'>"
+            return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8095/steps'>"
         else:
             return homepage_template.render(self.get_homepage_data())
 
@@ -167,8 +167,8 @@ class IoTboxHomepage(web.Home):
     @http.route('/load_iot_handlers', type='http', auth='none', website=True)
     def load_iot_handlers(self):
         helpers.download_iot_handlers(False)
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
-        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8069/list_handlers'>"
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
+        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8095/list_handlers'>"
 
     @http.route('/list_credential', type='http', auth='none', website=True)
     def list_credential(self):
@@ -182,15 +182,15 @@ class IoTboxHomepage(web.Home):
     @http.route('/save_credential', type='http', auth='none', cors='*', csrf=False)
     def save_credential(self, db_uuid, enterprise_code):
         helpers.add_credential(db_uuid, enterprise_code)
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
-        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8069'>"
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
+        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8095'>"
 
     @http.route('/clear_credential', type='http', auth='none', cors='*', csrf=False)
     def clear_credential(self):
         helpers.unlink_file('odoo-db-uuid.conf')
         helpers.unlink_file('odoo-enterprise-code.conf')
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
-        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8069'>"
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
+        return "<meta http-equiv='refresh' content='20; url=http://" + helpers.get_ip() + ":8095'>"
 
     @http.route('/wifi', type='http', auth='none', website=True)
     def wifi(self):
@@ -220,7 +220,7 @@ class IoTboxHomepage(web.Home):
             }
         else:
             res_payload['server'] = {
-                'url': 'http://' + helpers.get_ip() + ':8069',
+                'url': 'http://' + helpers.get_ip() + ':8095',
                 'message': 'Redirect to IoT Box'
             }
 
@@ -229,12 +229,12 @@ class IoTboxHomepage(web.Home):
     @http.route('/wifi_clear', type='http', auth='none', cors='*', csrf=False)
     def clear_wifi_configuration(self):
         helpers.unlink_file('wifi_network.txt')
-        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8069'>"
+        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8095'>"
 
     @http.route('/server_clear', type='http', auth='none', cors='*', csrf=False)
     def clear_server_configuration(self):
         helpers.unlink_file('odoo-remote-server.conf')
-        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8069'>"
+        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8095'>"
 
     @http.route('/handlers_clear', type='http', auth='none', cors='*', csrf=False)
     def clear_handlers_list(self):
@@ -242,7 +242,7 @@ class IoTboxHomepage(web.Home):
             for file in os.listdir(get_resource_path('hw_drivers', 'iot_handlers', directory)):
                 if file != '__pycache__':
                     helpers.unlink_file(get_resource_path('hw_drivers', 'iot_handlers', directory, file))
-        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8069/list_handlers'>"
+        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8095/list_handlers'>"
 
     @http.route('/server_connect', type='http', auth='none', cors='*', csrf=False)
     def connect_to_server(self, token, iotname):
@@ -260,7 +260,7 @@ class IoTboxHomepage(web.Home):
             token = helpers.get_token()
         reboot = 'reboot'
         subprocess.check_call([get_resource_path('point_of_sale', 'tools/posbox/configuration/connect_to_server.sh'), url, iotname, token, reboot])
-        return 'http://' + helpers.get_ip() + ':8069'
+        return 'http://' + helpers.get_ip() + ':8095'
 
     @http.route('/steps', type='http', auth='none', cors='*', csrf=False)
     def step_by_step_configure_page(self):
@@ -299,7 +299,7 @@ class IoTboxHomepage(web.Home):
         """
         Establish a link with a customer box trough internet with a ssh tunnel
         1 - take a new auth_token on https://dashboard.ngrok.com/
-        2 - copy past this auth_token on the IoT Box : http://IoT_Box:8069/remote_connect
+        2 - copy past this auth_token on the IoT Box : http://IoT_Box:8095/remote_connect
         3 - check on ngrok the port and url to get access to the box
         4 - you can connect to the box with this command : ssh -p port -v pi@url
         """
@@ -327,18 +327,18 @@ class IoTboxHomepage(web.Home):
     @http.route('/six_payment_terminal_add', type='http', auth='none', cors='*', csrf=False)
     def add_six_payment_terminal(self, terminal_id):
         helpers.write_file('odoo-six-payment-terminal.conf', terminal_id)
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
-        return 'http://' + helpers.get_ip() + ':8069'
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
+        return 'http://' + helpers.get_ip() + ':8095'
 
     @http.route('/six_payment_terminal_clear', type='http', auth='none', cors='*', csrf=False)
     def clear_six_payment_terminal(self):
         helpers.unlink_file('odoo-six-payment-terminal.conf')
-        subprocess.check_call(["sudo", "service", "odoo", "restart"])
-        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8069'>"
+        subprocess.check_call(["sudo", "service", "weth", "restart"])
+        return "<meta http-equiv='refresh' content='0; url=http://" + helpers.get_ip() + ":8095'>"
 
     @http.route('/hw_proxy/upgrade', type='http', auth='none', )
     def upgrade(self):
-        commit = subprocess.check_output(["git", "--work-tree=/home/pi/odoo/", "--git-dir=/home/pi/odoo/.git", "log", "-1"]).decode('utf-8').replace("\n", "<br/>")
+        commit = subprocess.check_output(["git", "--work-tree=/home/pi/weth/", "--git-dir=/home/pi/weth/.git", "log", "-1"]).decode('utf-8').replace("\n", "<br/>")
         flashToVersion = helpers.check_image()
         actualVersion = helpers.get_version()
         if flashToVersion:
@@ -355,7 +355,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/hw_proxy/perform_upgrade', type='http', auth='none')
     def perform_upgrade(self):
         self.updating.acquire()
-        os.system('/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/posbox_update.sh')
+        os.system('/home/pi/weth/addons/point_of_sale/tools/posbox/configuration/posbox_update.sh')
         self.updating.release()
         return 'SUCCESS'
 
@@ -366,7 +366,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/hw_proxy/perform_flashing_create_partition', type='http', auth='none')
     def perform_flashing_create_partition(self):
         try:
-            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; create_partition']).decode().split('\n')[-2]
+            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; create_partition']).decode().split('\n')[-2]
             if response in ['Error_Card_Size', 'Error_Upgrade_Already_Started']:
                 raise Exception(response)
             return Response('success', status=200)
@@ -379,7 +379,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/hw_proxy/perform_flashing_download_raspios', type='http', auth='none')
     def perform_flashing_download_raspios(self):
         try:
-            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; download_raspios']).decode().split('\n')[-2]
+            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; download_raspios']).decode().split('\n')[-2]
             if response == 'Error_Raspios_Download':
                 raise Exception(response)
             return Response('success', status=200)
@@ -393,7 +393,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/hw_proxy/perform_flashing_copy_raspios', type='http', auth='none')
     def perform_flashing_copy_raspios(self):
         try:
-            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; copy_raspios']).decode().split('\n')[-2]
+            response = subprocess.check_output(['sudo', 'bash', '-c', '. /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/upgrade.sh; copy_raspios']).decode().split('\n')[-2]
             if response == 'Error_Iotbox_Download':
                 raise Exception(response)
             return Response('success', status=200)

@@ -9,7 +9,7 @@ var utils = require('web.utils');
 var publicWidget = require('web.public.widget');
 const session = require('web.session');
 
-// FIXME the 14.0 was released with this but without the google_recaptcha
+// FIXME the 25.0 was released with this but without the google_recaptcha
 // module being added as a dependency of the website_mass_mailing module. This
 // is to be fixed in master of course but in stable, we'll have to use a
 // workaround.

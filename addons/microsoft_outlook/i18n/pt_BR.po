@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: WETH Server 14.0+e\n"
+"Project-Id-Version: WETH Server 25.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-30 08:57+0000\n"
 "PO-Revision-Date: 2022-03-31 06:18+0000\n"

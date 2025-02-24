@@ -17,7 +17,7 @@ if [ -z "${WIRED_IP}" ] ; then
 
 	if [ -f "${WIFI_NETWORK_FILE}" ] && [ -z "${FORCE_HOST_AP}" ] ; then
 		logger -t posbox_wireless_ap "Loading persistently saved setting"
-		/home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh &
+		/home/pi/weth/addons/point_of_sale/tools/posbox/configuration/connect_to_wifi.sh &
 	else
 		logger -t posbox_wireless_ap "Starting AP"
 
@@ -40,7 +40,7 @@ if [ -z "${WIRED_IP}" ] ; then
 		service nginx stop
 		# We start nginx in another configuration than the default one with https
 		# as it needs to do redirect instead in case the IoT Box acts as an ap
-		nginx -c /home/pi/odoo/addons/point_of_sale/tools/posbox/configuration/nginx_ap.conf
+		nginx -c /home/pi/weth/addons/point_of_sale/tools/posbox/configuration/nginx_ap.conf
 
 		service odoo restart
 	fi
